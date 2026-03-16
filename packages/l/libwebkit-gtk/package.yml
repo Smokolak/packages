@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libwebkit-gtk
 version    : 2.50.6
-release    : 139
+release    : 140
 source     :
     - https://webkitgtk.org/releases/webkitgtk-2.50.6.tar.xz : 2b281abf8894ffc6172152e5660b75eeeedbe1cc43d6783d09dc79f7c865bb42
 homepage   : https://webkitgtk.org
@@ -68,6 +68,7 @@ builddeps  :
     - pkgconfig(libseccomp)
     - pkgconfig(libsecret-1)
     - pkgconfig(libsoup-3.0)
+    - pkgconfig(libtasn1)
     - pkgconfig(libwebp)
     - pkgconfig(libwoff2dec)
     - pkgconfig(libxslt)
@@ -138,9 +139,30 @@ build      : |
         env CCACHE_BASEDIR="${PWD}/${b}" %ninja_build -C ${b}
     done
 install    : |
+    function add_to_license_files() {
+        mkdir -p _license_files
+        cp -a "${1}" _license_files/$(echo "${1}" | sed -e 's!/!.!g')
+    }
+
+    add_to_license_files Source/JavaScriptCore/COPYING.LIB
+    add_to_license_files Source/ThirdParty/ANGLE/LICENSE
+    add_to_license_files Source/ThirdParty/ANGLE/src/third_party/libXNVCtrl/LICENSE
+    add_to_license_files Source/WebCore/LICENSE-APPLE
+    add_to_license_files Source/WebCore/LICENSE-LGPL-2
+    add_to_license_files Source/WebCore/LICENSE-LGPL-2.1
+    add_to_license_files Source/WebInspectorUI/UserInterface/External/CodeMirror/LICENSE
+    add_to_license_files Source/WebInspectorUI/UserInterface/External/Esprima/LICENSE
+    add_to_license_files Source/WebInspectorUI/UserInterface/External/three.js/LICENSE
+    add_to_license_files Source/WTF/icu/LICENSE
+    add_to_license_files Source/WTF/wtf/dtoa/COPYING
+    add_to_license_files Source/WTF/wtf/dtoa/LICENSE
+
     for b in gtk41 gtk6; do
         BUILDDIR=${b}
         %ninja_install -C ${b}
+
+        install -dm00755 ${installdir}/usr/share/licenses/libwebkit-${b}
+        cp _license_files/* ${installdir}/usr/share/licenses/libwebkit-${b}
     done
 patterns   :
     - ^libwebkit-gtk41 :
@@ -149,6 +171,7 @@ patterns   :
         - /usr/lib64/webkit2gtk-4.1/
         - /usr/lib64/webkitgtk/webkit2gtk-4.1/ # minibrowser and jsc are split out to later packages
         - /usr/libexec/webkit2gtk-4.1/
+        - /usr/share/licenses/libwebkit-gtk41/
         - /usr/share/locale/*/*/WebKitGTK-4.1.mo
     - ^libwebkit-gtk41-devel :
         - /usr/include/webkitgtk-4.1/
@@ -178,6 +201,7 @@ patterns   :
         - /usr/lib64/webkitgtk-6.0/
         - /usr/lib64/webkitgtk/webkitgtk-6.0/ # minibrowser and jsc are split out to later packages
         - /usr/libexec/webkitgtk-6.0/
+        - /usr/share/licenses/libwebkit-gtk6/
         - /usr/share/locale/*/*/WebKitGTK-6.0.mo
     - ^libwebkit-gtk6-devel :
         - /usr/include/webkitgtk-6.0/

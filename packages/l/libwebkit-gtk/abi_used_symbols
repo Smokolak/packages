@@ -1925,6 +1925,8 @@ libgstreamer-1.0.so.0:gst_pad_new_from_template
 libgstreamer-1.0.so.0:gst_pad_pause_task
 libgstreamer-1.0.so.0:gst_pad_peer_query
 libgstreamer-1.0.so.0:gst_pad_probe_info_get_event
+libgstreamer-1.0.so.0:gst_pad_probe_info_set_buffer
+libgstreamer-1.0.so.0:gst_pad_probe_info_set_event
 libgstreamer-1.0.so.0:gst_pad_push
 libgstreamer-1.0.so.0:gst_pad_push_event
 libgstreamer-1.0.so.0:gst_pad_query_caps
