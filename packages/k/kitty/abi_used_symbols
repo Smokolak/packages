@@ -18,6 +18,7 @@ UNKNOWN:fileno
 UNKNOWN:floor
 UNKNOWN:fmax
 UNKNOWN:fmaxf
+UNKNOWN:fmin
 UNKNOWN:fminf
 UNKNOWN:fopen64
 UNKNOWN:fork
@@ -40,7 +41,6 @@ UNKNOWN:lrint
 UNKNOWN:lseek64
 UNKNOWN:mkdir
 UNKNOWN:mkostemp64
-UNKNOWN:mmap
 UNKNOWN:mmap64
 UNKNOWN:modf
 UNKNOWN:munmap
@@ -57,12 +57,9 @@ UNKNOWN:pthread_self
 UNKNOWN:pwrite64
 UNKNOWN:readdir
 UNKNOWN:reallocarray
-UNKNOWN:recv
 UNKNOWN:regcomp
 UNKNOWN:regfree
-UNKNOWN:round
 UNKNOWN:roundf
-UNKNOWN:send
 UNKNOWN:setsid
 UNKNOWN:shutdown
 UNKNOWN:sigaction
@@ -71,7 +68,6 @@ UNKNOWN:sigprocmask
 UNKNOWN:sigqueue
 UNKNOWN:sin
 UNKNOWN:sincos
-UNKNOWN:snprintf
 UNKNOWN:sqrt
 UNKNOWN:stat
 UNKNOWN:stat64
@@ -79,7 +75,6 @@ UNKNOWN:stpcpy
 UNKNOWN:strdup
 UNKNOWN:strndup
 UNKNOWN:strnlen
-UNKNOWN:strtod_l
 UNKNOWN:strtok_r
 UNKNOWN:strtol
 UNKNOWN:strtoul
@@ -321,6 +316,7 @@ libc.so.6:realpath
 libc.so.6:recv
 libc.so.6:regexec
 libc.so.6:rewind
+libc.so.6:send
 libc.so.6:sendfile64
 libc.so.6:setenv
 libc.so.6:setlinebuf
@@ -353,6 +349,7 @@ libc.so.6:strrchr
 libc.so.6:strspn
 libc.so.6:strstr
 libc.so.6:strtod
+libc.so.6:strtod_l
 libc.so.6:strtok
 libc.so.6:strtok_r
 libc.so.6:strtol
@@ -546,7 +543,6 @@ liblcms2.so.2:cmsOpenProfileFromMem
 libm.so.6:exp
 libm.so.6:exp2f
 libm.so.6:fmaxf
-libm.so.6:fmin
 libm.so.6:fminf
 libm.so.6:fmod
 libm.so.6:hypot
@@ -554,7 +550,6 @@ libm.so.6:pow
 libm.so.6:powf
 libm.so.6:round
 libm.so.6:roundf
-libm.so.6:sqrt
 libpng16.so.16:png_create_info_struct
 libpng16.so.16:png_create_read_struct
 libpng16.so.16:png_create_write_struct
