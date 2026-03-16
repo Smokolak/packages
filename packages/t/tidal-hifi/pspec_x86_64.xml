@@ -129,6 +129,12 @@ A desktop client for Tidal streaming music service with high-fidelity audio supp
             <Path fileType="data">/usr/share/tidal-hifi/resources/app.asar.unpacked/node_modules/@parcel/watcher/src/windows/win_utils.hh</Path>
             <Path fileType="data">/usr/share/tidal-hifi/resources/app.asar.unpacked/node_modules/@parcel/watcher/wrapper.js</Path>
             <Path fileType="data">/usr/share/tidal-hifi/resources/themes/Blood.css</Path>
+            <Path fileType="data">/usr/share/tidal-hifi/resources/themes/Catppuccin.css</Path>
+            <Path fileType="data">/usr/share/tidal-hifi/resources/themes/Dracula.css</Path>
+            <Path fileType="data">/usr/share/tidal-hifi/resources/themes/Gruvbox.css</Path>
+            <Path fileType="data">/usr/share/tidal-hifi/resources/themes/NightOwl.css</Path>
+            <Path fileType="data">/usr/share/tidal-hifi/resources/themes/Nord.css</Path>
+            <Path fileType="data">/usr/share/tidal-hifi/resources/themes/Solarized Dark.css</Path>
             <Path fileType="data">/usr/share/tidal-hifi/resources/themes/Tokyo Night.css</Path>
             <Path fileType="data">/usr/share/tidal-hifi/snapshot_blob.bin</Path>
             <Path fileType="data">/usr/share/tidal-hifi/tidal-hifi</Path>
@@ -137,9 +143,9 @@ A desktop client for Tidal streaming music service with high-fidelity audio supp
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2026-02-28</Date>
-            <Version>6.2.0</Version>
+        <Update release="3">
+            <Date>2026-03-16</Date>
+            <Version>6.3.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Jared Cervantes</Name>
             <Email>jared@jaredcervantes.com</Email>

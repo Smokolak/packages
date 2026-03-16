@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : tidal-hifi
-version    : 6.2.0
-release    : 2
+version    : 6.3.0
+release    : 3
 source     :
-    - https://github.com/Mastermindzh/tidal-hifi/archive/refs/tags/6.2.0.tar.gz : 295a56705ed093a163e6c63fba89c572237601164e63d8df8d6704c4a6772958
+    - https://github.com/Mastermindzh/tidal-hifi/archive/refs/tags/6.3.0-Mavy.tar.gz : 79837b33b5d288b4ebeba24a1719940cc623fa99158ad115fcfac72908c68491
 homepage   : https://github.com/Mastermindzh/tidal-hifi
 license    : MIT
 component  : multimedia.audio

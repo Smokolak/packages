@@ -53,7 +53,6 @@ UNKNOWN:_ZTVSt14basic_ofstreamIcSt11char_traitsIcEE
 UNKNOWN:_ZTVSt15basic_streambufIcSt11char_traitsIcEE
 UNKNOWN:_ZTVSt9basic_iosIcSt11char_traitsIcEE
 UNKNOWN:closedir
-UNKNOWN:connect
 UNKNOWN:fdopendir
 UNKNOWN:fread
 UNKNOWN:fstatat
@@ -1022,6 +1021,7 @@ libglib-2.0.so.0:g_array_unref
 libglib-2.0.so.0:g_ascii_strcasecmp
 libglib-2.0.so.0:g_bytes_new
 libglib-2.0.so.0:g_bytes_new_take
+libglib-2.0.so.0:g_bytes_unref
 libglib-2.0.so.0:g_clear_error
 libglib-2.0.so.0:g_dgettext
 libglib-2.0.so.0:g_error_free
