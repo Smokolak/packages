@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-web
-version    : '49.2'
-release    : 78
+version    : '49.4'
+release    : 79
 source     :
-    - https://download.gnome.org/sources/epiphany/49/epiphany-49.2.tar.xz : b3ba3d68213e87f81f1733e85500c37b82b5938f9009e4fe89994963d5fb2b8e
+    - https://download.gnome.org/sources/epiphany/49/epiphany-49.4.tar.xz : d7326b08887f7e247dba86b4ed5333db338c2501d4b82160c46436d942633b7d
 homepage   : https://apps.gnome.org/Epiphany/
 license    : GPL-3.0-or-later
 summary    : Browse the web

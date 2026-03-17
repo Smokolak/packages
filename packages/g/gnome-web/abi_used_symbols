@@ -590,7 +590,6 @@ libgio-2.0.so.0:g_settings_get_int64
 libgio-2.0.so.0:g_settings_get_string
 libgio-2.0.so.0:g_settings_get_strv
 libgio-2.0.so.0:g_settings_get_uint
-libgio-2.0.so.0:g_settings_get_user_value
 libgio-2.0.so.0:g_settings_get_value
 libgio-2.0.so.0:g_settings_new
 libgio-2.0.so.0:g_settings_new_with_backend_and_path
@@ -934,7 +933,6 @@ libglib-2.0.so.0:g_sequence_new
 libglib-2.0.so.0:g_sequence_prepend
 libglib-2.0.so.0:g_sequence_remove
 libglib-2.0.so.0:g_sequence_search
-libglib-2.0.so.0:g_sequence_sort
 libglib-2.0.so.0:g_set_application_name
 libglib-2.0.so.0:g_set_error
 libglib-2.0.so.0:g_set_error_literal
@@ -1026,6 +1024,7 @@ libglib-2.0.so.0:g_timer_new
 libglib-2.0.so.0:g_timer_start
 libglib-2.0.so.0:g_ucs4_to_utf8
 libglib-2.0.so.0:g_unichar_isalnum
+libglib-2.0.so.0:g_unichar_isdigit
 libglib-2.0.so.0:g_unichar_ispunct
 libglib-2.0.so.0:g_unichar_isupper
 libglib-2.0.so.0:g_unichar_to_utf8

@@ -86,7 +86,6 @@ libephymain.so:accels_navigation_ltr
 libephymain.so:accels_navigation_ltr_rtl
 libephymain.so:accels_navigation_rtl
 libephymain.so:action_label
-libephymain.so:adblockers
 libephymain.so:adw_widget_compute_expand
 libephymain.so:adw_widget_get_request_mode
 libephymain.so:api_handlers
@@ -199,7 +198,6 @@ libephymain.so:ephy_bookmarks_manager_save_finish
 libephymain.so:ephy_bookmarks_manager_save_sync
 libephymain.so:ephy_bookmarks_manager_save_warn_on_error_cancellable
 libephymain.so:ephy_bookmarks_manager_save_warn_on_error_cb
-libephymain.so:ephy_bookmarks_manager_sort_bookmarks_order
 libephymain.so:ephy_bookmarks_manager_tag_exists
 libephymain.so:ephy_bookmarks_manager_tags_order_add_tag
 libephymain.so:ephy_bookmarks_manager_tags_order_add_tag_variant
