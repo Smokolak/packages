@@ -3,8 +3,8 @@
         <Name>opensnitch</Name>
         <Homepage>https://github.com/evilsocket/opensnitch</Homepage>
         <Packager>
-            <Name>Robert Gonzalez</Name>
-            <Email>uni.dos12@outlook.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>network.util</PartOf>
@@ -167,7 +167,7 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/opensnitch_ui-1.6.8-py3.12.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/sysusers.d/opensnitch.conf</Path>
             <Path fileType="library">/usr/lib/tmpfiles.d/opensnitch.conf</Path>
-            <Path fileType="library">/usr/lib64/systemd/system/multi-user.target.wants/opensnitchd.service</Path>
+            <Path fileType="library">/usr/lib64/systemd/system-preset/20-opensnitch.preset</Path>
             <Path fileType="library">/usr/lib64/systemd/system/opensnitchd.service</Path>
             <Path fileType="data">/usr/share/applications/opensnitch_ui.desktop</Path>
             <Path fileType="data">/usr/share/defaults/etc/opensnitchd/default-config.json</Path>
@@ -177,16 +177,17 @@
             <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/opensnitch-ui.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/opensnitch-ui.svg</Path>
             <Path fileType="data">/usr/share/kservices5/kcm_opensnitch.desktop</Path>
+            <Path fileType="data">/usr/share/licenses/opensnitch/LICENSE</Path>
             <Path fileType="data">/usr/share/metainfo/io.github.evilsocket.opensnitch.appdata.xml</Path>
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2025-08-24</Date>
+        <Update release="7">
+            <Date>2026-03-17</Date>
             <Version>1.6.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>Robert Gonzalez</Name>
-            <Email>uni.dos12@outlook.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
