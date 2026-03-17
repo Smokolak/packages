@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : tree
-version    : 2.3.1
-release    : 13
+version    : 2.3.2
+release    : 14
 source     :
-    - https://gitlab.com/OldManProgrammer/unix-tree/-/archive/2.3.1/unix-tree-2.3.1.tar.gz : ac3cda918492fc4dd7833745a9fd431fa976c35e682fd824656bfe21d8b51a69
+    - https://gitlab.com/OldManProgrammer/unix-tree/-/archive/2.3.2/unix-tree-2.3.2.tar.gz : 513a53cbc42ca1f4ea06af2bab1f5283524a3848266b1d162416f8033afc4985
 homepage   : https://gitlab.com/OldManProgrammer/unix-tree
 license    : GPL-2.0-or-later
 component  : system.utils
