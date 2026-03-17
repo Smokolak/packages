@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-pomodoro
 version    : 0.28.0
-release    : 21
+release    : 22
 source     :
-    - https://github.com/gnome-pomodoro/gnome-pomodoro/archive/refs/tags/0.28.0.tar.gz : 31c0ad477dc4f22e3c4fa284b51a415faa2e807f91aa580798b07f90973b7271
+    - https://github.com/gnome-pomodoro/gnome-pomodoro/archive/refs/tags/0.28.0.tar.gz : fd03df087fc7b2e9733067b775dba56fd838883dab0ae817bebfbef59a3f7296
 homepage   : https://gnomepomodoro.org/
 license    : GPL-3.0-or-later
 component  : office
@@ -31,3 +31,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING
