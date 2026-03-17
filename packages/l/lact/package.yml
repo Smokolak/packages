@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : lact
 version    : 0.8.4
-release    : 13
+release    : 14
 source     :
     - git|https://github.com/ilya-zlobintsev/LACT.git : v0.8.4
 homepage   : https://github.com/ilya-zlobintsev/LACT
@@ -31,9 +31,7 @@ build      : |
 install    : |
     %make_install PREFIX=/usr
 
-    # Start service by default
-    install -dm00755 $installdir/usr/lib/systemd/system/multi-user.target.wants
-    ln -sv ../lactd.service $installdir/usr/lib/systemd/system/multi-user.target.wants/lactd.service
+    install -Dm00644 -t ${installdir}/%libdir%/systemd/system-preset/ ${pkgfiles}/20-lact.preset
 
     # Allow amdgpu users to overclock their GPUs by default
     install -Dm00644 $pkgfiles/kernel-lact.cmdline $installdir/usr/lib64/kernel/cmdline.d/50_lact.conf
