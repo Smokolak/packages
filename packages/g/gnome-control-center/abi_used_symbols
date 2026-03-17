@@ -60,6 +60,7 @@ libadwaita-1.so.0:adw_alert_dialog_set_default_response
 libadwaita-1.so.0:adw_alert_dialog_set_response_appearance
 libadwaita-1.so.0:adw_application_get_type
 libadwaita-1.so.0:adw_application_window_get_type
+libadwaita-1.so.0:adw_application_window_get_visible_dialog
 libadwaita-1.so.0:adw_avatar_get_custom_image
 libadwaita-1.so.0:adw_avatar_get_size
 libadwaita-1.so.0:adw_avatar_new
@@ -174,6 +175,7 @@ libadwaita-1.so.0:adw_toggle_set_label
 libadwaita-1.so.0:adw_view_stack_page_set_visible
 libadwaita-1.so.0:adw_view_stack_set_visible_child_name
 libadwaita-1.so.0:adw_window_get_type
+libadwaita-1.so.0:adw_window_get_visible_dialog
 libadwaita-1.so.0:adw_window_title_set_subtitle
 libadwaita-1.so.0:adw_window_title_set_title
 libc.so.6:__assert_fail

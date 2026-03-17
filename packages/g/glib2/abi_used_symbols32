@@ -91,6 +91,8 @@ libc.so.6:fputc
 libc.so.6:fputs
 libc.so.6:fread
 libc.so.6:free
+libc.so.6:free_aligned_sized
+libc.so.6:free_sized
 libc.so.6:freeaddrinfo
 libc.so.6:freeifaddrs
 libc.so.6:freelocale

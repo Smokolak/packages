@@ -9,6 +9,7 @@ libc.so.6:clock_gettime
 libc.so.6:close
 libc.so.6:dl_iterate_phdr
 libc.so.6:dlsym
+libc.so.6:dup
 libc.so.6:exit
 libc.so.6:fcntl
 libc.so.6:free
@@ -156,6 +157,8 @@ libcairo.so.2:cairo_svg_surface_set_document_unit
 libcairo.so.2:cairo_tag_begin
 libcairo.so.2:cairo_tag_end
 libcairo.so.2:cairo_translate
+libcairo.so.2:cairo_version_string
+libfontconfig.so.1:FcGetVersion
 libgcc_s.so.1:_Unwind_Backtrace
 libgcc_s.so.1:_Unwind_DeleteException
 libgcc_s.so.1:_Unwind_GetDataRelBase
@@ -258,6 +261,7 @@ libgobject-2.0.so.0:g_value_set_flags
 libgobject-2.0.so.0:g_value_set_int
 libgobject-2.0.so.0:g_value_take_string
 libgobject-2.0.so.0:g_value_unset
+libharfbuzz.so.0:hb_version_string
 libm.so.6:acos
 libm.so.6:atan2
 libm.so.6:cos
@@ -315,6 +319,7 @@ libpango-1.0.so.0:pango_layout_new
 libpango-1.0.so.0:pango_layout_set_attributes
 libpango-1.0.so.0:pango_layout_set_auto_dir
 libpango-1.0.so.0:pango_layout_set_text
+libpango-1.0.so.0:pango_version_string
 libpangocairo-1.0.so.0:pango_cairo_context_set_font_options
 libpangocairo-1.0.so.0:pango_cairo_context_set_resolution
 libpangocairo-1.0.so.0:pango_cairo_font_map_get_default
