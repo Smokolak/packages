@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : wine
 version    : '11.4'
-release    : 204
+release    : 205
 source     :
     - https://dl.winehq.org/wine/source/11.x/wine-11.4.tar.xz : 1970a46381d3bc2c44d651d08336370e499eeb8b53dc93cbd1ce544f7115e598
 license    : LGPL-2.1-or-later
@@ -47,7 +47,7 @@ builddeps  :
     - mingw-w64-32bit
 rundeps    :
     - freetype2-32bit
-    - gstreamer-1.0-plugins-base-32bit
+    - gstreamer-plugins-base-32bit
     - harfbuzz-32bit
     - kerberos-32bit
     - libcap2-32bit
@@ -81,7 +81,7 @@ build      : |
     %make
 install    : |
     %make_install
-    %install_license AUTHORS COPYING.LIB LICENSE LICENSE.OLD MAINTAINERS
+    %install_license COPYING.LIB LICENSE LICENSE.OLD
 
     rm -f $installdir/usr/lib*/wine/*/*.a
 
