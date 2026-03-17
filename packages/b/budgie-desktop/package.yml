@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : budgie-desktop
 version    : 10.9.4
-release    : 281
+release    : 282
 source     :
     - https://github.com/BuddiesOfBudgie/budgie-desktop/releases/download/v10.9.4/budgie-desktop-v10.9.4.tar.xz : 0d1899ecad0051ef54f587b097add678ecb535b0de5e93e4fdfa23da6c557852
 homepage   : https://blog.buddiesofbudgie.org
@@ -55,6 +55,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSE LICENSE.*
 
     # Stateless XDG
     mv $installdir/etc/xdg/autostart/* $installdir/usr/share/xdg/autostart/
