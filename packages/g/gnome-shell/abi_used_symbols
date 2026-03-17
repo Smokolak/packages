@@ -1385,6 +1385,7 @@ libmutter-clutter-17.so.0:clutter_text_set_selection_color
 libmutter-clutter-17.so.0:clutter_text_set_text
 libmutter-clutter-17.so.0:clutter_texture_content_new_from_texture
 libmutter-clutter-17.so.0:clutter_threads_add_repaint_func
+libmutter-clutter-17.so.0:clutter_threads_remove_repaint_func
 libmutter-clutter-17.so.0:clutter_timeline_get_direction
 libmutter-clutter-17.so.0:clutter_timeline_get_elapsed_time
 libmutter-clutter-17.so.0:clutter_timeline_get_progress
