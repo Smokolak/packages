@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : krita
-version    : 5.2.14
-release    : 102
+version    : 5.2.16
+release    : 103
 source     :
-    - https://download.kde.org/stable/krita/5.2.14/krita-5.2.14.tar.gz : 556900726c2ff14e60f7bac1e8e9150100f2cd92669ca5dc74ac5851efac2887
+    - https://download.kde.org/stable/krita/5.2.16/krita-5.2.16.tar.gz : 3c2880a421f86dc9b58317db166b23a3bc6c64754f38c7deffe246fee1a13cb5
     - https://github.com/amyspark/gmic/releases/download/v3.2.4.1/gmic-3.2.4.1-patched.tar.xz#gmic-patched.tar.xz : 06659fe05f7735827a93d637de2267512efb28bb0d55ce573495fecb59172604
     # Vendored build deps. Should always be on the latest version
     - https://github.com/arximboldi/immer/archive/refs/tags/v0.8.1.tar.gz#immer.tar.gz : de8411c84830864604bb685dc8f2e3c0dbdc40b95b2f6726092f7dcc85e75209
@@ -30,6 +30,7 @@ builddeps  :
     - pkgconfig(fftw3)
     - pkgconfig(fribidi)
     - pkgconfig(gsl)
+    - pkgconfig(harfbuzz)
     - pkgconfig(kseexpr)
     - pkgconfig(libheif)
     - pkgconfig(libjxl)
