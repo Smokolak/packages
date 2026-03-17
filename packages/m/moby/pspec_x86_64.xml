@@ -3,8 +3,8 @@
         <Name>moby</Name>
         <Homepage>https://www.docker.com</Homepage>
         <Packager>
-            <Name>Reilly Brogan</Name>
-            <Email>solus@reillybrogan.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>virt</PartOf>
@@ -23,22 +23,21 @@
             <Path fileType="executable">/usr/bin/docker-init</Path>
             <Path fileType="executable">/usr/bin/docker-proxy</Path>
             <Path fileType="executable">/usr/bin/dockerd</Path>
-            <Path fileType="library">/usr/lib/systemd/system-preset/docker.preset</Path>
+            <Path fileType="library">/usr/lib/systemd/system-preset/20-docker.preset</Path>
             <Path fileType="library">/usr/lib64/systemd/system/docker.service</Path>
             <Path fileType="library">/usr/lib64/systemd/system/docker.socket</Path>
-            <Path fileType="library">/usr/lib64/systemd/system/sockets.target.wants/docker.socket</Path>
             <Path fileType="library">/usr/lib64/sysusers.d/docker.conf</Path>
             <Path fileType="library">/usr/lib64/udev/rules.d/80-docker.rules</Path>
-            <Path fileType="man">/usr/share/man/man8/dockerd.8</Path>
+            <Path fileType="man">/usr/share/man/man8/dockerd.8.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="26">
-            <Date>2025-04-11</Date>
+        <Update release="27">
+            <Date>2026-03-17</Date>
             <Version>28.0.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Reilly Brogan</Name>
-            <Email>solus@reillybrogan.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
