@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gajim
 version    : 2.4.4
-release    : 38
+release    : 39
 source     :
     - https://gajim.org/downloads/2.4/gajim-2.4.4.tar.gz : 80d6235f99170fd8cf0388234eb8133450e8629847ba8b907b2e02869ecf5268
 homepage   : https://gajim.org
@@ -17,9 +17,9 @@ builddeps  :
     - python-setuptools
     - python-wheel
 rundeps    :
-    - farstream                  # Audio/Video.
-    - gstreamer-1.0-plugin-libav # Audio/Video.
-    - gstreamer-1.0-plugins-ugly # Audio/Video.
+    - farstream              # Audio/Video.
+    - gstreamer-plugin-libav # Audio/Video.
+    - gstreamer-plugins-ugly # Audio/Video.
     - libgtksourceview5
     - python-css-parser
     - python-emoji
