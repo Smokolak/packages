@@ -3,8 +3,8 @@
         <Name>gnome-sushi</Name>
         <Homepage>https://gitlab.gnome.org/GNOME/sushi</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -25,6 +25,7 @@
             <Path fileType="library">/usr/lib64/sushi/girepository-1.0/Sushi-1.0.typelib</Path>
             <Path fileType="library">/usr/lib64/sushi/libsushi-1.0.so</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.gnome.NautilusPreviewer.service</Path>
+            <Path fileType="data">/usr/share/licenses/gnome-sushi/COPYING</Path>
             <Path fileType="localedata">/usr/share/locale/ab/LC_MESSAGES/sushi.mo</Path>
             <Path fileType="localedata">/usr/share/locale/af/LC_MESSAGES/sushi.mo</Path>
             <Path fileType="localedata">/usr/share/locale/an/LC_MESSAGES/sushi.mo</Path>
@@ -110,12 +111,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="20">
-            <Date>2024-04-05</Date>
+        <Update release="21">
+            <Date>2026-03-17</Date>
             <Version>46.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
