@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : just
-version    : 1.47.0
-release    : 47
+version    : 1.47.1
+release    : 48
 source     :
-    - https://github.com/casey/just/archive/refs/tags/1.47.0.tar.gz : 6b5d6f172c8f1c7babd0d76047143741b54b54d62e2abf4061863b24931461d5
+    - https://github.com/casey/just/archive/refs/tags/1.47.1.tar.gz : 2976e02f2dffd1ddc9cba57ef2fe75e8f4b97fde1657ee6fd145ab01efd789a7
 license    : CC0-1.0
 component  : programming.tools
 homepage   : https://github.com/casey/just/
