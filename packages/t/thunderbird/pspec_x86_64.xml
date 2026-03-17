@@ -3,8 +3,8 @@
         <Name>thunderbird</Name>
         <Homepage>https://www.thunderbird.net/</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <License>LGPL-2.1-or-later</License>
@@ -85,12 +85,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="250">
-            <Date>2026-03-12</Date>
+        <Update release="251">
+            <Date>2026-03-17</Date>
             <Version>148.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
