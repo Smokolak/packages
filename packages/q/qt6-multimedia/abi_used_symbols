@@ -1110,6 +1110,7 @@ libQt6Qml.so.6:_ZNK11QQmlPrivate18AOTCompiledContext23setReturnValueUndefinedEv
 libQt6Qml.so.6:_ZNK11QQmlPrivate18AOTCompiledContext24callObjectPropertyLookupEjP7QObjectPPvi
 libQt6Qml.so.6:_ZNK11QQmlPrivate18AOTCompiledContext28callQmlContextPropertyLookupEjPPvi
 libQt6Qml.so.6:_ZNK11QQmlPrivate18AOTCompiledContext28initCallObjectPropertyLookupEjP7QObjecti
+libQt6Qml.so.6:_ZNK11QQmlPrivate18AOTCompiledContext28initSetObjectLookupAsVariantEjP7QObject
 libQt6Qml.so.6:_ZNK11QQmlPrivate18AOTCompiledContext29loadScopeObjectPropertyLookupEjPv
 libQt6Qml.so.6:_ZNK11QQmlPrivate18AOTCompiledContext29setObjectImplicitDestructibleEP7QObject
 libQt6Qml.so.6:_ZNK11QQmlPrivate18AOTCompiledContext32initCallQmlContextPropertyLookupEji
@@ -1690,7 +1691,6 @@ libc.so.6:__memcpy_chk
 libc.so.6:__open_2
 libc.so.6:__read_chk
 libc.so.6:__stack_chk_fail
-libc.so.6:__vfprintf_chk
 libc.so.6:__vprintf_chk
 libc.so.6:__vsnprintf_chk
 libc.so.6:__vsprintf_chk
@@ -1720,7 +1720,6 @@ libc.so.6:shmctl
 libc.so.6:shmdt
 libc.so.6:shmget
 libc.so.6:srand
-libc.so.6:stderr
 libc.so.6:strcmp
 libc.so.6:strerror
 libc.so.6:strlen
