@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-web
 version    : '49.4'
-release    : 79
+release    : 80
 source     :
     - https://download.gnome.org/sources/epiphany/49/epiphany-49.4.tar.xz : d7326b08887f7e247dba86b4ed5333db338c2501d4b82160c46436d942633b7d
 homepage   : https://apps.gnome.org/Epiphany/
@@ -39,6 +39,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING
 replaces   :
     - epiphany
     - dbginfo : epiphany-dbginfo
