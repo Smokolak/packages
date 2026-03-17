@@ -3,8 +3,8 @@
         <Name>quodlibet</Name>
         <Homepage>https://quodlibet.readthedocs.io/</Homepage>
         <Packager>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -1451,12 +1451,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="29">
-            <Date>2026-01-22</Date>
+        <Update release="30">
+            <Date>2026-03-17</Date>
             <Version>4.7.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
