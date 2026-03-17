@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : shotwell
 version    : 0.32.14
-release    : 54
+release    : 55
 source     :
     - https://download.gnome.org/sources/shotwell/0.32/shotwell-0.32.14.tar.xz : 41b122f55d245a4b68d687085fd92398d25f0bbca5483a98b2b7932be4f289da
 license    : LGPL-2.1-or-later
@@ -31,3 +31,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING
