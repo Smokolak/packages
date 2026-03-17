@@ -3,8 +3,8 @@
         <Name>nvidia-vaapi-driver</Name>
         <Homepage>https://github.com/elFarto/nvidia-vaapi-driver</Homepage>
         <Packager>
-            <Name>Thomas Staudinger</Name>
-            <Email>Staudi.Kaos@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>xorg.display</PartOf>
@@ -21,18 +21,19 @@
         <PartOf>xorg.display</PartOf>
         <Files>
             <Path fileType="library">/usr/lib64/dri/nvidia_drv_video.so</Path>
+            <Path fileType="data">/usr/share/licenses/nvidia-vaapi-driver/COPYING</Path>
         </Files>
         <Conflicts>
             <Package>libva-vdpau-driver</Package>
         </Conflicts>
     </Package>
     <History>
-        <Update release="20">
-            <Date>2026-02-26</Date>
+        <Update release="21">
+            <Date>2026-03-17</Date>
             <Version>0.0.16</Version>
             <Comment>Packaging update</Comment>
-            <Name>Thomas Staudinger</Name>
-            <Email>Staudi.Kaos@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
