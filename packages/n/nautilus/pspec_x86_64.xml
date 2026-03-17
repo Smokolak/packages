@@ -3,8 +3,8 @@
         <Name>nautilus</Name>
         <Homepage>https://apps.gnome.org/Nautilus/</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -20,7 +20,7 @@
 </Description>
         <PartOf>desktop.gnome</PartOf>
         <RuntimeDependencies>
-            <Dependency release="104">nautilus-extension</Dependency>
+            <Dependency release="105">nautilus-extension</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/nautilus</Path>
@@ -36,6 +36,7 @@
             <Path fileType="data">/usr/share/gnome-shell/search-providers/org.gnome.Nautilus.search-provider.ini</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gnome.Nautilus.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/org.gnome.Nautilus-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/licenses/nautilus/LICENSE</Path>
             <Path fileType="localedata">/usr/share/locale/ab/LC_MESSAGES/nautilus.mo</Path>
             <Path fileType="localedata">/usr/share/locale/af/LC_MESSAGES/nautilus.mo</Path>
             <Path fileType="localedata">/usr/share/locale/am/LC_MESSAGES/nautilus.mo</Path>
@@ -185,7 +186,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="104">nautilus-extension</Dependency>
+            <Dependency releaseFrom="105">nautilus-extension</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/nautilus/libnautilus-extension/nautilus-column-provider.h</Path>
@@ -207,12 +208,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="104">
+        <Update release="105">
             <Date>2026-03-17</Date>
             <Version>49.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>

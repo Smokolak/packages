@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : nautilus
 version    : '49.5'
-release    : 104
+release    : 105
 source     :
     - https://download.gnome.org/sources/nautilus/49/nautilus-49.5.tar.xz : fa5655e73ee7953aecfe71fea67bfec0c67447e14e6df135aa3f80334386872c
 homepage   : https://apps.gnome.org/Nautilus/
@@ -57,6 +57,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSE
 
     # Man pages. Luckily they're already pre-built
     install -Dm00644 docs/*.1 -t $installdir/usr/share/man/man1
