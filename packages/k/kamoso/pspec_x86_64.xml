@@ -3,8 +3,8 @@
         <Name>kamoso</Name>
         <Homepage>https://apps.kde.org/kamoso</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.kde</PartOf>
@@ -31,6 +31,10 @@
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/burst.svgz</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/kamoso.svg</Path>
             <Path fileType="data">/usr/share/knotifications6/kamoso.notifyrc</Path>
+            <Path fileType="data">/usr/share/licenses/kamoso/GFDL-1.2-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kamoso/GPL-2.0-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kamoso/LGPL-2.1-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kamoso/LGPL-2.1-or-later.txt</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/kamoso.mo</Path>
             <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/kamoso.mo</Path>
             <Path fileType="localedata">/usr/share/locale/bs/LC_MESSAGES/kamoso.mo</Path>
@@ -86,12 +90,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="26">
-            <Date>2026-03-05</Date>
+        <Update release="27">
+            <Date>2026-03-17</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
