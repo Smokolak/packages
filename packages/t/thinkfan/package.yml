@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : thinkfan
 version    : 2.0.0
-release    : 1
+release    : 2
 source     :
     - https://github.com/vmatare/thinkfan/archive/refs/tags/2.0.0.tar.gz : 0fc94eb378dcba8c889e91f41dab3a8d6eebc7324a59a0704cc39aa66551987e
 homepage   : https://github.com/vmatare/thinkfan
@@ -21,11 +21,9 @@ install    : |
     %ninja_install
 
     # Correct libdir
-    mv $installdir/usr/lib $installdir/%libdir%
+    mv $installdir/usr/lib $installdir/usr/lib64
+
+    install -Dm00644 -t ${installdir}/%libdir%/systemd/system-preset/ ${pkgfiles}/20-thinkfan.preset
 
     # Remove non-stateless files
     rm -rf $installdir/etc
-
-    # Enable by default, users can disable now with systemctl mask tlp
-    install -Ddm 00755 $installdir/%libdir%/systemd/system/multi-user.target.wants
-    ln -sv ../thinkfan.service $installdir/%libdir%/systemd/system/multi-user.target.wants

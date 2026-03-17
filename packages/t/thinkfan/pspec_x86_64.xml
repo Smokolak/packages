@@ -3,8 +3,8 @@
         <Name>thinkfan</Name>
         <Homepage>https://github.com/vmatare/thinkfan</Homepage>
         <Packager>
-            <Name>Silke Hofstra</Name>
-            <Email>silke@slxh.eu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>system.utils</PartOf>
@@ -20,7 +20,7 @@
 </Description>
         <PartOf>system.utils</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/systemd/system/multi-user.target.wants/thinkfan.service</Path>
+            <Path fileType="library">/usr/lib64/systemd/system-preset/20-thinkfan.preset</Path>
             <Path fileType="library">/usr/lib64/systemd/system/thinkfan-sleep.service</Path>
             <Path fileType="library">/usr/lib64/systemd/system/thinkfan-wakeup.service</Path>
             <Path fileType="library">/usr/lib64/systemd/system/thinkfan.service</Path>
@@ -34,12 +34,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2026-03-12</Date>
+        <Update release="2">
+            <Date>2026-03-17</Date>
             <Version>2.0.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Silke Hofstra</Name>
-            <Email>silke@slxh.eu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
