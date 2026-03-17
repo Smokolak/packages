@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-online-accounts
-version    : 3.56.4
-release    : 67
+version    : 3.56.5
+release    : 68
 source     :
-    - https://download.gnome.org/sources/gnome-online-accounts/3.56/gnome-online-accounts-3.56.4.tar.xz : 2a831eadab45e38aae33e8229c3c944dfa1521de9c3140d3602a9277caa161b3
+    - https://download.gnome.org/sources/gnome-online-accounts/3.56/gnome-online-accounts-3.56.5.tar.xz : 23e03dcfa03950b60e9f892f7b729ee31deeb827c655df8f78b8bca5bc197734
 homepage   : https://gnome.pages.gitlab.gnome.org/gnome-online-accounts/
 license    :
     - CC-BY-SA-4.0 # Icons
