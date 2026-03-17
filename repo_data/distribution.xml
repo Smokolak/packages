@@ -3106,5 +3106,47 @@
 		<Package>glibd-devel</Package>
 		<Package>fcitx-mozc</Package>
 		<Package>bsdiff-devel</Package>
+		<Package>vocal</Package>
+		<Package>vocal-dbginfo</Package>
+		<Package>gstreamer-0.10</Package>
+		<Package>gstreamer-0.10-32bit</Package>
+		<Package>gstreamer-0.10-32bit-dbginfo</Package>
+		<Package>gstreamer-0.10-32bit-devel</Package>
+		<Package>gstreamer-0.10-devel</Package>
+		<Package>gstreamer-0.10-docs</Package>
+		<Package>gst-plugins-base</Package>
+		<Package>gst-plugins-base-32bit</Package>
+		<Package>gst-plugins-base-32bit-dbginfo</Package>
+		<Package>gst-plugins-base-32bit-devel</Package>
+		<Package>gst-plugins-base-devel</Package>
+		<Package>gst-plugins-base-docs</Package>
+		<Package>gstreamer-1.0</Package>
+		<Package>gstreamer-1.0-32bit</Package>
+		<Package>gstreamer-1.0-32bit-dbginfo</Package>
+		<Package>gstreamer-1.0-32bit-devel</Package>
+		<Package>gstreamer-1.0-dbginfo</Package>
+		<Package>gstreamer-1.0-devel</Package>
+		<Package>gstreamer-1.0-plugin-libav</Package>
+		<Package>gstreamer-1.0-plugin-opencv</Package>
+		<Package>gstreamer-1.0-plugin-opencv-devel</Package>
+		<Package>gstreamer-1.0-plugins-bad</Package>
+		<Package>gstreamer-1.0-plugins-bad-dbginfo</Package>
+		<Package>gstreamer-1.0-plugins-bad-devel</Package>
+		<Package>gstreamer-1.0-plugins-bad-extras</Package>
+		<Package>gstreamer-1.0-plugins-bad-libs</Package>
+		<Package>gstreamer-1.0-plugins-base</Package>
+		<Package>gstreamer-1.0-plugins-base-32bit</Package>
+		<Package>gstreamer-1.0-plugins-base-32bit-dbginfo</Package>
+		<Package>gstreamer-1.0-plugins-base-32bit-devel</Package>
+		<Package>gstreamer-1.0-plugins-base-dbginfo</Package>
+		<Package>gstreamer-1.0-plugins-base-devel</Package>
+		<Package>gstreamer-1.0-plugins-good</Package>
+		<Package>gstreamer-1.0-plugins-good-dbginfo</Package>
+		<Package>gstreamer-1.0-plugins-rs</Package>
+		<Package>gstreamer-1.0-plugins-rs-dbginfo</Package>
+		<Package>gstreamer-1.0-plugins-rs-devel</Package>
+		<Package>gstreamer-1.0-plugins-ugly</Package>
+		<Package>gstreamer-1.0-plugins-ugly-dbginfo</Package>
+		<Package>gstreamer-1.0-plugins-ugly-devel</Package>
 	</Obsoletes>
 </PISI>
