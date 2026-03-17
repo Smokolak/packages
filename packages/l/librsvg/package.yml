@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : librsvg
-version    : 2.61.3
-release    : 68
+version    : 2.61.4
+release    : 69
 source     :
-    - https://download.gnome.org/sources/librsvg/2.61/librsvg-2.61.1.tar.xz : bc1bbcd419120b098db28bea55335d9de2470d4e6a9f6ee97207b410fc15867d
+    - https://download.gnome.org/sources/librsvg/2.61/librsvg-2.61.4.tar.xz : fca0ea28d1f28f95c8407d2579f4702dac085e7c758644daca8b40d1e072ca0c
 homepage   : https://gitlab.gnome.org/GNOME/librsvg
 license    :
     - LGPL-2.1-or-later
