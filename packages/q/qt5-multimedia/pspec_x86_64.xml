@@ -3,8 +3,8 @@
         <Name>qt5-multimedia</Name>
         <Homepage>https://www.qt.io</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GFDL-1.3-or-later</License>
         <License>GPL-3.0-or-later</License>
@@ -59,7 +59,7 @@
 </Description>
         <PartOf>programming.library</PartOf>
         <RuntimeDependencies>
-            <Dependency release="45">qt5-multimedia</Dependency>
+            <Dependency release="46">qt5-multimedia</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/qt5/examples/multimedia/audiodecoder/audiodecoder</Path>
@@ -524,7 +524,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="45">qt5-multimedia</Dependency>
+            <Dependency release="46">qt5-multimedia</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/QtMultimedia/5.15.18/QtMultimedia/private/qabstractvideobuffer_p.h</Path>
@@ -840,12 +840,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="45">
-            <Date>2025-11-04</Date>
+        <Update release="46">
+            <Date>2026-03-17</Date>
             <Version>5.15.18</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
