@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mozc
 version    : 3.33.6089.102
-release    : 12
+release    : 13
 source     :
     - git|https://github.com/fcitx/mozc.git : e99761585263feec635b26e0dea1025ae12b25b7
 homepage   : https://github.com/google/mozc
@@ -37,6 +37,8 @@ rundeps    :
         - ibus
         - mozc
 setup      : |
+    %patch -p1 -i ${pkgfiles}/mozc-3.33.6089.102-fix-server-crash.patch
+
     cd src
 
     # List the licenses of all bundled libraries
