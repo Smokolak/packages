@@ -466,6 +466,59 @@
             <Path fileType="doc">/usr/share/help/bg/orca/preferences_text_attributes.page</Path>
             <Path fileType="doc">/usr/share/help/bg/orca/preferences_voice.page</Path>
             <Path fileType="doc">/usr/share/help/bg/orca/preferences_web.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_bookmarks.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_braille.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_chat.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_controlling_orca.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_debugging.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_find.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_flat_review.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_live_regions.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_mouse.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_profiles.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_reading.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_speech_settings.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_structural_navigation.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_table.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_time_date_notifications.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/commands_where_am_i.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/figures/orca-logo.svg</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_bookmarks.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_documents.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_flat_review.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_forms.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_key_bindings.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_keyboard_layout.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_learn_modes.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_live_regions.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_mouse_review.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_notifications.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_orca_find.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_profiles.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_setting_up_orca.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_structural_navigation.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_tables.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_text_attributes.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_the_orca_modifier.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_toggling_caps_lock.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/howto_whereami.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/index.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/introduction.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_braille.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_chat.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_general.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_introduction.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_key_bindings.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_key_echo.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_pronunciation.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_speech.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_spellcheck.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_table_navigation.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_text_attributes.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_voice.page</Path>
+            <Path fileType="doc">/usr/share/help/ca/orca/preferences_web.page</Path>
             <Path fileType="doc">/usr/share/help/cs/orca/commands.page</Path>
             <Path fileType="doc">/usr/share/help/cs/orca/commands_bookmarks.page</Path>
             <Path fileType="doc">/usr/share/help/cs/orca/commands_braille.page</Path>
@@ -1049,6 +1102,59 @@
             <Path fileType="doc">/usr/share/help/id/orca/preferences_text_attributes.page</Path>
             <Path fileType="doc">/usr/share/help/id/orca/preferences_voice.page</Path>
             <Path fileType="doc">/usr/share/help/id/orca/preferences_web.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_bookmarks.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_braille.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_chat.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_controlling_orca.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_debugging.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_find.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_flat_review.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_live_regions.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_mouse.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_profiles.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_reading.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_speech_settings.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_structural_navigation.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_table.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_time_date_notifications.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/commands_where_am_i.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/figures/orca-logo.svg</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_bookmarks.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_documents.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_flat_review.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_forms.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_key_bindings.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_keyboard_layout.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_learn_modes.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_live_regions.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_mouse_review.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_notifications.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_orca_find.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_profiles.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_setting_up_orca.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_structural_navigation.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_tables.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_text_attributes.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_the_orca_modifier.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_toggling_caps_lock.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/howto_whereami.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/index.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/introduction.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_braille.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_chat.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_general.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_introduction.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_key_bindings.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_key_echo.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_pronunciation.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_speech.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_spellcheck.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_table_navigation.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_text_attributes.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_voice.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/orca/preferences_web.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/orca/commands.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/orca/commands_bookmarks.page</Path>
             <Path fileType="doc">/usr/share/help/pt_BR/orca/commands_braille.page</Path>
@@ -1410,9 +1516,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="39">
-            <Date>2025-11-26</Date>
-            <Version>49.5</Version>
+        <Update release="40">
+            <Date>2026-03-17</Date>
+            <Version>49.6</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>

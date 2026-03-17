@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : orca
-version    : '49.5'
-release    : 39
+version    : '49.6'
+release    : 40
 source     :
-    - https://download.gnome.org/sources/orca/49/orca-49.5.tar.xz : 53df41558319e97c1e84ad604989957a02b5d0ff531419190f0587ea6b256034
+    - https://download.gnome.org/sources/orca/49/orca-49.6.tar.xz : 0e1792b3da8dac8e6c66cbc927e9735a1cd1537e62abadefdcd14c99bf8b461f
 homepage   : https://gitlab.gnome.org/GNOME/orca
 license    : LGPL-2.1-or-later
 component  : desktop.gnome
