@@ -54,6 +54,7 @@ libgvfscommon.so:g_mount_spec_copy
 libgvfscommon.so:g_mount_spec_equal
 libgvfscommon.so:g_mount_spec_from_dbus
 libgvfscommon.so:g_mount_spec_get
+libgvfscommon.so:g_mount_spec_get_is_valid
 libgvfscommon.so:g_mount_spec_get_type
 libgvfscommon.so:g_mount_spec_get_unique_for
 libgvfscommon.so:g_mount_spec_hash
