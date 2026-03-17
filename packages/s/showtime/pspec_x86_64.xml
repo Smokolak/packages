@@ -3,8 +3,8 @@
         <Name>showtime</Name>
         <Homepage>https://apps.gnome.org/Showtime/</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.video</PartOf>
@@ -36,6 +36,7 @@
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.Showtime.gschema.xml</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/org.gnome.Showtime.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/org.gnome.Showtime-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/licenses/showtime/COPYING</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/showtime.mo</Path>
             <Path fileType="localedata">/usr/share/locale/be/LC_MESSAGES/showtime.mo</Path>
             <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/showtime.mo</Path>
@@ -90,12 +91,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2025-11-26</Date>
+        <Update release="7">
+            <Date>2026-03-17</Date>
             <Version>49.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
