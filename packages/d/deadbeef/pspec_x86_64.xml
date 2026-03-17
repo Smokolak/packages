@@ -161,6 +161,7 @@
             <Path fileType="library">/usr/lib64/deadbeef/medialib.so</Path>
             <Path fileType="library">/usr/lib64/deadbeef/mms.so</Path>
             <Path fileType="library">/usr/lib64/deadbeef/mp3.so</Path>
+            <Path fileType="library">/usr/lib64/deadbeef/mpris.so</Path>
             <Path fileType="library">/usr/lib64/deadbeef/musepack.so</Path>
             <Path fileType="library">/usr/lib64/deadbeef/notify.so</Path>
             <Path fileType="library">/usr/lib64/deadbeef/nullout.so</Path>
@@ -269,7 +270,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="54">deadbeef</Dependency>
+            <Dependency release="55">deadbeef</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/deadbeef/artwork.h</Path>
@@ -280,9 +281,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="54">
-            <Date>2026-03-10</Date>
-            <Version>1.10.1</Version>
+        <Update release="55">
+            <Date>2026-03-17</Date>
+            <Version>1.10.2</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>

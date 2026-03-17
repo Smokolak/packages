@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : deadbeef
-version    : 1.10.1
-release    : 54
+version    : 1.10.2
+release    : 55
 source     :
-    - git|https://github.com/DeaDBeeF-Player/deadbeef.git : 1.10.1
+    - git|https://github.com/DeaDBeeF-Player/deadbeef.git : 1.10.2
 license    :
     - GPL-2.0-only
     - LGPL-2.1-only
