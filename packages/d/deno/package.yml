@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : deno
-version    : 2.7.5
-release    : 41
+version    : 2.7.6
+release    : 42
 source     :
-    - https://github.com/denoland/deno/archive/refs/tags/v2.7.5.tar.gz : f748168782002997adb61b02754082b36903663f1832c590c9828d163c42fc49
+    - https://github.com/denoland/deno/archive/refs/tags/v2.7.6.tar.gz : d0b6b64651db6604f938c005cebcc8159f4b643ee07fd883a873b06729a6dd8a
 homepage   : https://deno.com/
 license    : MIT
 component  : programming.tools
@@ -19,6 +19,7 @@ build      : |
     %cargo_build
 install    : |
     %cargo_install
+    %install_license LICENSE.md
 
     # Generate completions
     install -dm00644 $installdir/usr/share/bash-completion/completions
