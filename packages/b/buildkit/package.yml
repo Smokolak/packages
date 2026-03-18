@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : buildkit
 version    : 0.18.2
-release    : 7
+release    : 8
 source     :
     - https://github.com/moby/buildkit/archive/refs/tags/v0.18.2.tar.gz : dd23faf8bca378a96404f11ad570b47d25f281f0b223b922601bd1b26d2aa4ec
 homepage   : https://github.com/moby/buildkit
@@ -46,8 +46,7 @@ install    : |
 
     # Systemd socket activation
     install -vDm00644 -t "$installdir/usr/lib/systemd/system" examples/systemd/system/buildkit.*
-    install -vdm00755 $installdir/usr/lib/systemd/system/sockets.target.wants
-    ln -svf ../buildkit.socket $installdir/usr/lib/systemd/system/sockets.target.wants/
+    install -vDm00644 -t ${installdir}/%libdir%/systemd/system-preset/ ${pkgfiles}/20-buildkit.preset
 
     # buildkit group (allows users to connect without root)
     install -vDm00644 $pkgfiles/buildkit.sysusers $installdir/usr/lib/sysusers.d/buildkit.conf
