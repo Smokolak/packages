@@ -1,12 +1,13 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kmenuedit
-version    : 6.6.2
-release    : 133
+version    : 6.6.3
+release    : 134
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/kmenuedit-6.6.2.tar.xz : 7079e3c82e2c078816095cadc63db521c3d9c3771907cf8da62068e3674e0768
+    - https://download.kde.org/stable/plasma/6.6.3/kmenuedit-6.6.3.tar.xz : 6030a52204a546423ffac803659a87dced3650dc121d6798caeffb3143c3dc43
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
-    - GFDL-1.2-only
+    - CC0-1.0
+    - GPL-2.0-only
     - GPL-2.0-or-later
 component  : desktop.kde.core
 summary    : KDE Plasma menu editor
@@ -30,3 +31,5 @@ build      : |
 install    : |
     %ninja_install
     rm -rf $installdir/usr/share/doc
+
+    %install_license LICENSES/*
