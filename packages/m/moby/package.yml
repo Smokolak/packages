@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : moby
 version    : 28.0.4
-release    : 26
+release    : 27
 source     :
     - https://github.com/moby/moby/archive/v28.0.4.tar.gz : 4b347a2b83221952cab93197f6e9bc7ffe54dd4bd0a9644c176aecde551721ca
 license    : Apache-2.0
@@ -54,14 +54,10 @@ install    : |
     install -Dm00644 $pkgfiles/docker.service -t $installdir/%libdir%/systemd/system/
     install -Dm00644 contrib/init/systemd/docker.socket -t $installdir/%libdir%/systemd/system/
 
-    install -Dm644 $pkgfiles/docker.preset $installdir/usr/lib/systemd/system-preset/docker.preset
+    install -Dm644 $pkgfiles/docker.preset $installdir/usr/lib/systemd/system-preset/20-docker.preset
 
     # udev rules
     install -Dm00644 contrib/udev/80-docker.rules -t $installdir/%libdir%/udev/rules.d
-
-    # Enable socket activation by default
-    install -Ddm00755 $installdir/%libdir%/systemd/system/sockets.target.wants
-    ln -sv ../docker.socket $installdir/%libdir%/systemd/system/sockets.target.wants/docker.socket
 
     # Add the docker group
     install -Dm00644 $pkgfiles/docker.sysusers $installdir/%libdir%/sysusers.d/docker.conf
