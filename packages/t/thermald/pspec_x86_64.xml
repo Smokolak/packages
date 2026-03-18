@@ -3,8 +3,8 @@
         <Name>thermald</Name>
         <Homepage>https://github.com/intel/thermal_daemon</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>system.utils</PartOf>
@@ -21,23 +21,24 @@
         <PartOf>system.utils</PartOf>
         <Files>
             <Path fileType="config">/etc/thermald/thermal-cpu-cdev-order.xml</Path>
-            <Path fileType="library">/usr/lib/systemd/system/thermald.service</Path>
+            <Path fileType="library">/usr/lib64/systemd/system-preset/20-thermald.preset</Path>
             <Path fileType="library">/usr/lib64/systemd/system/dbus-org.freedesktop.thermald.service</Path>
-            <Path fileType="library">/usr/lib64/systemd/system/multi-user.target.wants/thermald.service</Path>
+            <Path fileType="library">/usr/lib64/systemd/system/thermald.service</Path>
             <Path fileType="executable">/usr/sbin/thermald</Path>
             <Path fileType="data">/usr/share/dbus-1/system-services/org.freedesktop.thermald.service</Path>
             <Path fileType="data">/usr/share/dbus-1/system.d/org.freedesktop.thermald.conf</Path>
+            <Path fileType="data">/usr/share/licenses/thermald/COPYING</Path>
             <Path fileType="man">/usr/share/man/man5/thermal-conf.xml.5.zst</Path>
             <Path fileType="man">/usr/share/man/man8/thermald.8.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="19">
-            <Date>2026-02-26</Date>
+        <Update release="20">
+            <Date>2026-03-18</Date>
             <Version>2.5.11</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
