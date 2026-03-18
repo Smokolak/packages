@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : dunst
-version    : 1.13.1
-release    : 19
+version    : 1.13.2
+release    : 20
 source     :
-    - https://github.com/dunst-project/dunst/archive/refs/tags/v1.13.1.tar.gz : a578e5c2cdb546187355c710f1aa84c472e6e23828e692fe1cb0ebb9635b11a6
+    - https://github.com/dunst-project/dunst/archive/refs/tags/v1.13.2.tar.gz : c68645cecef4a45840cd67c19a18a3a21ecae6b331e9864c2b745c31aee5fc85
 license    : BSD-3-Clause
 homepage   : https://dunst-project.org
 component  : desktop.i3
