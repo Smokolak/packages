@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : darkly
-version    : 0.5.30
-release    : 13
+version    : 0.5.36
+release    : 14
 source     :
-    - https://github.com/Bali10050/Darkly/archive/refs/tags/v0.5.30.tar.gz : 4527949decb0b4715ef24a44e327f9a6189d7d0221a26fe634c5fab01530ed6a
+    - https://github.com/Bali10050/Darkly/archive/refs/tags/v0.5.36.tar.gz : 7cc54dd4b94fa71f52d0836605966b73196497b68b9ac3f2f0b80c2c26d7d8d0
 homepage   : https://github.com/Bali10050/Darkly
 license    : GPL-2.0-or-later
 component  : desktop.theme

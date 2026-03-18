@@ -71,6 +71,7 @@ libKF5ConfigWidgets.so.5:_ZNK12KColorScheme10backgroundENS_14BackgroundRoleE
 libKF5ConfigWidgets.so.5:_ZNK12KColorScheme10foregroundENS_14ForegroundRoleE
 libKF5ConfigWidgets.so.5:_ZNK14KStatefulBrush5brushERK8QPalette
 libKF5ConfigWidgets.so.5:_ZTI8KCModule
+libKF5GuiAddons.so.5:_ZN11KColorUtils13overlayColorsERK6QColorS2_N8QPainter15CompositionModeE
 libKF5GuiAddons.so.5:_ZN11KColorUtils3mixERK6QColorS2_d
 libKF5GuiAddons.so.5:_ZN11KColorUtils7lightenERK6QColordd
 libKF5IconThemes.so.5:_ZN11KIconLoader12resetPaletteEv
@@ -212,6 +213,11 @@ libQt5Core.so.5:_ZN18QRegularExpressionC1ERK7QString6QFlagsINS_13PatternOptionEE
 libQt5Core.so.5:_ZN18QRegularExpressionD1Ev
 libQt5Core.so.5:_ZN2Qt4endlER11QTextStream
 libQt5Core.so.5:_ZN5QSize9transposeEv
+libQt5Core.so.5:_ZN6QTimer11setIntervalEi
+libQt5Core.so.5:_ZN6QTimer16staticMetaObjectE
+libQt5Core.so.5:_ZN6QTimer5startEv
+libQt5Core.so.5:_ZN6QTimer7timeoutENS_14QPrivateSignalE
+libQt5Core.so.5:_ZN6QTimerC1EP7QObject
 libQt5Core.so.5:_ZN7QObject10childEventEP11QChildEvent
 libQt5Core.so.5:_ZN7QObject10disconnectEPKS_PKcS1_S3_
 libQt5Core.so.5:_ZN7QObject10startTimerEiN2Qt9TimerTypeE
@@ -372,6 +378,7 @@ libQt5Gui.so.5:_ZN6QImageD1Ev
 libQt5Gui.so.5:_ZN7QCursor3posEv
 libQt5Gui.so.5:_ZN7QCursorC1EN2Qt11CursorShapeE
 libQt5Gui.so.5:_ZN7QCursorD1Ev
+libQt5Gui.so.5:_ZN7QPixmap16fromImageInPlaceER6QImage6QFlagsIN2Qt19ImageConversionFlagEE
 libQt5Gui.so.5:_ZN7QPixmap19setDevicePixelRatioEd
 libQt5Gui.so.5:_ZN7QPixmap4fillERK6QColor
 libQt5Gui.so.5:_ZN7QPixmap9fromImageERK6QImage6QFlagsIN2Qt19ImageConversionFlagEE
@@ -425,6 +432,7 @@ libQt5Gui.so.5:_ZN8QPainter8fillRectERK5QRectRK6QColor
 libQt5Gui.so.5:_ZN8QPainter8setBrushEN2Qt10BrushStyleE
 libQt5Gui.so.5:_ZN8QPainter8setBrushERK6QBrush
 libQt5Gui.so.5:_ZN8QPainter9drawImageERK6QRectFRK6QImageS2_6QFlagsIN2Qt19ImageConversionFlagEE
+libQt5Gui.so.5:_ZN8QPainter9drawImageERK7QPointFRK6QImage
 libQt5Gui.so.5:_ZN8QPainter9drawLinesEPK5QLinei
 libQt5Gui.so.5:_ZN8QPainter9drawLinesEPK6QLineFi
 libQt5Gui.so.5:_ZN8QPainter9drawRectsEPK5QRecti
@@ -506,6 +514,7 @@ libQt5Widgets.so.5:_ZN11QMainWindow16staticMetaObjectE
 libQt5Widgets.so.5:_ZN11QPushButton16staticMetaObjectE
 libQt5Widgets.so.5:_ZN11QToolButton16staticMetaObjectE
 libQt5Widgets.so.5:_ZN11QVBoxLayout16staticMetaObjectE
+libQt5Widgets.so.5:_ZN12QApplication10allWidgetsEv
 libQt5Widgets.so.5:_ZN12QApplication13startDragTimeEv
 libQt5Widgets.so.5:_ZN12QApplication15topLevelWidgetsEv
 libQt5Widgets.so.5:_ZN12QApplication17startDragDistanceEv
@@ -526,6 +535,7 @@ libQt5Widgets.so.5:_ZN12QStylePlugin11qt_metacastEPKc
 libQt5Widgets.so.5:_ZN12QStylePlugin16staticMetaObjectE
 libQt5Widgets.so.5:_ZN12QStylePluginC2EP7QObject
 libQt5Widgets.so.5:_ZN12QStylePluginD2Ev
+libQt5Widgets.so.5:_ZN13QGraphicsItem17setGraphicsEffectEP15QGraphicsEffect
 libQt5Widgets.so.5:_ZN13QGraphicsView16staticMetaObjectE
 libQt5Widgets.so.5:_ZN13QItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex
 libQt5Widgets.so.5:_ZN13QItemDelegate11eventFilterEP7QObjectP6QEvent
@@ -535,8 +545,14 @@ libQt5Widgets.so.5:_ZN13QItemDelegateC2EP7QObject
 libQt5Widgets.so.5:_ZN13QItemDelegateD2Ev
 libQt5Widgets.so.5:_ZN13QMdiSubWindow16staticMetaObjectE
 libQt5Widgets.so.5:_ZN13QWidgetAction16staticMetaObjectE
+libQt5Widgets.so.5:_ZN14QGraphicsScene6renderEP8QPainterRK6QRectFS4_N2Qt15AspectRatioModeE
+libQt5Widgets.so.5:_ZN14QGraphicsScene7addItemEP13QGraphicsItem
+libQt5Widgets.so.5:_ZN14QGraphicsSceneC1EP7QObject
+libQt5Widgets.so.5:_ZN14QGraphicsSceneD1Ev
 libQt5Widgets.so.5:_ZN14QStackedWidget16staticMetaObjectE
 libQt5Widgets.so.5:_ZN15QAbstractButton16staticMetaObjectE
+libQt5Widgets.so.5:_ZN15QAbstractSlider15actionTriggeredEi
+libQt5Widgets.so.5:_ZN15QAbstractSlider16staticMetaObjectE
 libQt5Widgets.so.5:_ZN15QSplitterHandle16staticMetaObjectE
 libQt5Widgets.so.5:_ZN16QAbstractSpinBox16staticMetaObjectE
 libQt5Widgets.so.5:_ZN16QDialogButtonBox16staticMetaObjectE
@@ -545,9 +561,15 @@ libQt5Widgets.so.5:_ZN17QAbstractItemView16staticMetaObjectE
 libQt5Widgets.so.5:_ZN18QCommandLinkButton16staticMetaObjectE
 libQt5Widgets.so.5:_ZN18QStyleOptionButtonC1Ev
 libQt5Widgets.so.5:_ZN19QAbstractScrollArea16staticMetaObjectE
+libQt5Widgets.so.5:_ZN19QGraphicsBlurEffect13setBlurRadiusEd
+libQt5Widgets.so.5:_ZN19QGraphicsBlurEffectC1EP7QObject
+libQt5Widgets.so.5:_ZN19QGraphicsBlurEffectD1Ev
+libQt5Widgets.so.5:_ZN19QGraphicsPixmapItemC1ERK7QPixmapP13QGraphicsItem
+libQt5Widgets.so.5:_ZN19QGraphicsPixmapItemD1Ev
 libQt5Widgets.so.5:_ZN19QStyleOptionComplexC2Eii
 libQt5Widgets.so.5:_ZN20QStyleOptionGroupBoxC1Ev
 libQt5Widgets.so.5:_ZN21QAbstractItemDelegate9helpEventEP10QHelpEventP17QAbstractItemViewRK20QStyleOptionViewItemRK11QModelIndex
+libQt5Widgets.so.5:_ZN21QStyleOptionFocusRectC1Ev
 libQt5Widgets.so.5:_ZN22QStyleOptionToolButtonC1Ev
 libQt5Widgets.so.5:_ZN5QDial16staticMetaObjectE
 libQt5Widgets.so.5:_ZN5QMenu16staticMetaObjectE
@@ -587,6 +609,7 @@ libQt5Widgets.so.5:_ZN7QWidget14dragEnterEventEP15QDragEnterEvent
 libQt5Widgets.so.5:_ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent
 libQt5Widgets.so.5:_ZN7QWidget14mouseMoveEventEP11QMouseEvent
 libQt5Widgets.so.5:_ZN7QWidget14setFocusPolicyEN2Qt11FocusPolicyE
+libQt5Widgets.so.5:_ZN7QWidget14updateGeometryEv
 libQt5Widgets.so.5:_ZN7QWidget15keyReleaseEventEP9QKeyEvent
 libQt5Widgets.so.5:_ZN7QWidget15mousePressEventEP11QMouseEvent
 libQt5Widgets.so.5:_ZN7QWidget16contextMenuEventEP17QContextMenuEvent
@@ -874,7 +897,13 @@ libQt6Core.so.6:_ZN23QRegularExpressionMatchD1Ev
 libQt6Core.so.6:_ZN2Qt4endlER11QTextStream
 libQt6Core.so.6:_ZN5QSize9transposeEv
 libQt6Core.so.6:_ZN6QDebugD1Ev
+libQt6Core.so.6:_ZN6QTimer11setIntervalEi
+libQt6Core.so.6:_ZN6QTimer13setSingleShotEb
 libQt6Core.so.6:_ZN6QTimer14singleShotImplENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEEN2Qt9TimerTypeEPK7QObjectPN9QtPrivate15QSlotObjectBaseE
+libQt6Core.so.6:_ZN6QTimer16staticMetaObjectE
+libQt6Core.so.6:_ZN6QTimer5startEv
+libQt6Core.so.6:_ZN6QTimer7timeoutENS_14QPrivateSignalE
+libQt6Core.so.6:_ZN6QTimerC1EP7QObject
 libQt6Core.so.6:_ZN7QLocaleC1ENS_8LanguageENS_7CountryE
 libQt6Core.so.6:_ZN7QLocaleD1Ev
 libQt6Core.so.6:_ZN7QObject10childEventEP11QChildEvent
@@ -970,6 +999,7 @@ libQt6Core.so.6:_ZNK5QRect10intersectsERKS_
 libQt6Core.so.6:_ZNK5QRect8containsERK6QPointb
 libQt6Core.so.6:_ZNK5QRectanERKS_
 libQt6Core.so.6:_ZNK6QRectF10intersectsERKS_
+libQt6Core.so.6:_ZNK6QTimer8isActiveEv
 libQt6Core.so.6:_ZNK7QObject10metaObjectEv
 libQt6Core.so.6:_ZNK7QObject10objectNameEv
 libQt6Core.so.6:_ZNK7QObject8propertyEPKc
@@ -1072,6 +1102,7 @@ libQt6Gui.so.6:_ZN6QImageD1Ev
 libQt6Gui.so.6:_ZN7QCursor3posEv
 libQt6Gui.so.6:_ZN7QCursorC1EN2Qt11CursorShapeE
 libQt6Gui.so.6:_ZN7QCursorD1Ev
+libQt6Gui.so.6:_ZN7QPixmap16fromImageInPlaceER6QImage6QFlagsIN2Qt19ImageConversionFlagEE
 libQt6Gui.so.6:_ZN7QPixmap19setDevicePixelRatioEd
 libQt6Gui.so.6:_ZN7QPixmap4fillERK6QColor
 libQt6Gui.so.6:_ZN7QPixmap9fromImageERK6QImage6QFlagsIN2Qt19ImageConversionFlagEE
@@ -1130,6 +1161,7 @@ libQt6Gui.so.6:_ZN8QPainter8setBrushE6QColor
 libQt6Gui.so.6:_ZN8QPainter8setBrushEN2Qt10BrushStyleE
 libQt6Gui.so.6:_ZN8QPainter8setBrushERK6QBrush
 libQt6Gui.so.6:_ZN8QPainter9drawImageERK6QRectFRK6QImageS2_6QFlagsIN2Qt19ImageConversionFlagEE
+libQt6Gui.so.6:_ZN8QPainter9drawImageERK7QPointFRK6QImage
 libQt6Gui.so.6:_ZN8QPainter9drawLinesEPK5QLinei
 libQt6Gui.so.6:_ZN8QPainter9drawLinesEPK6QLineFi
 libQt6Gui.so.6:_ZN8QPainter9drawRectsEPK5QRecti
@@ -1157,6 +1189,7 @@ libQt6Gui.so.6:_ZNK12QPainterPath11intersectedERKS_
 libQt6Gui.so.6:_ZNK12QPainterPath13toFillPolygonERK10QTransform
 libQt6Gui.so.6:_ZNK13QFontMetricsF12boundingRectERK7QString
 libQt6Gui.so.6:_ZNK15QGuiApplication16devicePixelRatioEv
+libQt6Gui.so.6:_ZNK4QPen5colorEv
 libQt6Gui.so.6:_ZNK5QIcon10actualSizeERK5QSizeNS_4ModeENS_5StateE
 libQt6Gui.so.6:_ZNK5QIcon5paintEP8QPainterRK5QRect6QFlagsIN2Qt13AlignmentFlagEENS_4ModeENS_5StateE
 libQt6Gui.so.6:_ZNK5QIcon6isNullEv
@@ -1252,6 +1285,7 @@ libQt6Widgets.so.6:_ZN11QToolButton16staticMetaObjectE
 libQt6Widgets.so.6:_ZN11QVBoxLayout16staticMetaObjectE
 libQt6Widgets.so.6:_ZN11QVBoxLayoutC1EP7QWidget
 libQt6Widgets.so.6:_ZN11QVBoxLayoutC1Ev
+libQt6Widgets.so.6:_ZN12QApplication10allWidgetsEv
 libQt6Widgets.so.6:_ZN12QApplication13startDragTimeEv
 libQt6Widgets.so.6:_ZN12QApplication15topLevelWidgetsEv
 libQt6Widgets.so.6:_ZN12QApplication17startDragDistanceEv
@@ -1276,6 +1310,7 @@ libQt6Widgets.so.6:_ZN12QStylePlugin11qt_metacastEPKc
 libQt6Widgets.so.6:_ZN12QStylePlugin16staticMetaObjectE
 libQt6Widgets.so.6:_ZN12QStylePluginC2EP7QObject
 libQt6Widgets.so.6:_ZN12QStylePluginD2Ev
+libQt6Widgets.so.6:_ZN13QGraphicsItem17setGraphicsEffectEP15QGraphicsEffect
 libQt6Widgets.so.6:_ZN13QGraphicsView16staticMetaObjectE
 libQt6Widgets.so.6:_ZN13QItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex
 libQt6Widgets.so.6:_ZN13QItemDelegate11eventFilterEP7QObjectP6QEvent
@@ -1285,6 +1320,10 @@ libQt6Widgets.so.6:_ZN13QItemDelegateC2EP7QObject
 libQt6Widgets.so.6:_ZN13QItemDelegateD2Ev
 libQt6Widgets.so.6:_ZN13QMdiSubWindow16staticMetaObjectE
 libQt6Widgets.so.6:_ZN13QWidgetAction16staticMetaObjectE
+libQt6Widgets.so.6:_ZN14QGraphicsScene6renderEP8QPainterRK6QRectFS4_N2Qt15AspectRatioModeE
+libQt6Widgets.so.6:_ZN14QGraphicsScene7addItemEP13QGraphicsItem
+libQt6Widgets.so.6:_ZN14QGraphicsSceneC1EP7QObject
+libQt6Widgets.so.6:_ZN14QGraphicsSceneD1Ev
 libQt6Widgets.so.6:_ZN14QStackedWidget16staticMetaObjectE
 libQt6Widgets.so.6:_ZN15QAbstractButton10setCheckedEb
 libQt6Widgets.so.6:_ZN15QAbstractButton16staticMetaObjectE
@@ -1294,14 +1333,12 @@ libQt6Widgets.so.6:_ZN15QAbstractButton7setTextERK7QString
 libQt6Widgets.so.6:_ZN15QAbstractButton7toggledEb
 libQt6Widgets.so.6:_ZN15QAbstractSlider10setMaximumEi
 libQt6Widgets.so.6:_ZN15QAbstractSlider10setMinimumEi
-libQt6Widgets.so.6:_ZN15QAbstractSlider11setPageStepEi
 libQt6Widgets.so.6:_ZN15QAbstractSlider12valueChangedEi
 libQt6Widgets.so.6:_ZN15QAbstractSlider13setSingleStepEi
 libQt6Widgets.so.6:_ZN15QAbstractSlider14setOrientationEN2Qt11OrientationE
+libQt6Widgets.so.6:_ZN15QAbstractSlider15actionTriggeredEi
 libQt6Widgets.so.6:_ZN15QAbstractSlider16staticMetaObjectE
 libQt6Widgets.so.6:_ZN15QAbstractSlider17setSliderPositionEi
-libQt6Widgets.so.6:_ZN15QAbstractSlider19setInvertedControlsEb
-libQt6Widgets.so.6:_ZN15QAbstractSlider21setInvertedAppearanceEb
 libQt6Widgets.so.6:_ZN15QAbstractSlider8setValueEi
 libQt6Widgets.so.6:_ZN15QSplitterHandle16staticMetaObjectE
 libQt6Widgets.so.6:_ZN16QAbstractSpinBox12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE
@@ -1319,9 +1356,15 @@ libQt6Widgets.so.6:_ZN17QAbstractItemView9activatedERK11QModelIndex
 libQt6Widgets.so.6:_ZN18QCommandLinkButton16staticMetaObjectE
 libQt6Widgets.so.6:_ZN18QStyleOptionButtonC1Ev
 libQt6Widgets.so.6:_ZN19QAbstractScrollArea16staticMetaObjectE
+libQt6Widgets.so.6:_ZN19QGraphicsBlurEffect13setBlurRadiusEd
+libQt6Widgets.so.6:_ZN19QGraphicsBlurEffectC1EP7QObject
+libQt6Widgets.so.6:_ZN19QGraphicsBlurEffectD1Ev
+libQt6Widgets.so.6:_ZN19QGraphicsPixmapItemC1ERK7QPixmapP13QGraphicsItem
+libQt6Widgets.so.6:_ZN19QGraphicsPixmapItemD1Ev
 libQt6Widgets.so.6:_ZN19QStyleOptionComplexC2Eii
 libQt6Widgets.so.6:_ZN20QStyleOptionGroupBoxC1Ev
 libQt6Widgets.so.6:_ZN21QAbstractItemDelegate9helpEventEP10QHelpEventP17QAbstractItemViewRK20QStyleOptionViewItemRK11QModelIndex
+libQt6Widgets.so.6:_ZN21QStyleOptionFocusRectC1Ev
 libQt6Widgets.so.6:_ZN22QStyleOptionToolButtonC1Ev
 libQt6Widgets.so.6:_ZN5QDial16staticMetaObjectE
 libQt6Widgets.so.6:_ZN5QMenu16staticMetaObjectE
@@ -1400,6 +1443,7 @@ libQt6Widgets.so.6:_ZN7QWidget14setFocusPolicyEN2Qt11FocusPolicyE
 libQt6Widgets.so.6:_ZN7QWidget14setMaximumSizeEii
 libQt6Widgets.so.6:_ZN7QWidget14setMinimumSizeEii
 libQt6Widgets.so.6:_ZN7QWidget14setWindowTitleERK7QString
+libQt6Widgets.so.6:_ZN7QWidget14updateGeometryEv
 libQt6Widgets.so.6:_ZN7QWidget15keyReleaseEventEP9QKeyEvent
 libQt6Widgets.so.6:_ZN7QWidget15mousePressEventEP11QMouseEvent
 libQt6Widgets.so.6:_ZN7QWidget16contextMenuEventEP17QContextMenuEvent
@@ -1739,6 +1783,7 @@ libkdecorations3.so.6:_ZNK12KDecoration315DecoratedWindow19providesContextHelpEv
 libkdecorations3.so.6:_ZNK12KDecoration315DecoratedWindow21isMaximizedVerticallyEv
 libkdecorations3.so.6:_ZNK12KDecoration315DecoratedWindow23isMaximizedHorizontallyEv
 libkdecorations3.so.6:_ZNK12KDecoration315DecoratedWindow4iconEv
+libkdecorations3.so.6:_ZNK12KDecoration315DecoratedWindow4sizeEv
 libkdecorations3.so.6:_ZNK12KDecoration315DecoratedWindow5colorENS_10ColorGroupENS_9ColorRoleE
 libkdecorations3.so.6:_ZNK12KDecoration315DecoratedWindow5scaleEv
 libkdecorations3.so.6:_ZNK12KDecoration315DecoratedWindow5widthEv
