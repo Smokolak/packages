@@ -1,13 +1,25 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kdeplasma-addons
-version    : 6.6.2
-release    : 145
+version    : 6.6.3
+release    : 146
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/kdeplasma-addons-6.6.2.tar.xz : 04a63fb8fa0e164408cc7377cfbdafd68fd24f99b2488696ec85f1c03f886930
+    - https://download.kde.org/stable/plasma/6.6.3/kdeplasma-addons-6.6.3.tar.xz : e9c99ea5283d708fe06257f277313fdfa19bccfaf81482a28a50fce0bfff2947
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CC0-1.0
+    - GPL-2.0-only
     - GPL-2.0-or-later
+    - GPL-3.0-only
+    - GPL-3.0-or-later
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
     - LGPL-2.1-only
+    - LGPL-2.1-or-later
+    - LGPL-3.0-only
+    - LGPL-3.0-or-later
+    - MIT
 component  : desktop.kde.core
 summary    : Addons for KDE Plasma
 description: |
@@ -55,3 +67,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
