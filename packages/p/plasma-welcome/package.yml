@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-welcome
-version    : 6.6.2
-release    : 31
+version    : 6.6.3
+release    : 32
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/plasma-welcome-6.6.2.tar.xz : 53dde644a54788713ccf33c1e8162645d863db5213e44022aed7f3915057f2e8
+    - https://download.kde.org/stable/plasma/6.6.3/plasma-welcome-6.6.3.tar.xz : 7b85b3e9b8b04d2c46f80b2b5117ba7c3b853f963c7eba2862a5394790b4bcd3
 homepage   : https://invent.kde.org/plasma/plasma-welcome
 license    :
-    - BSD-3-Clause
+    - BSD-2-Clause
+    - CC-BY-SA-4.0
+    - CC0-1.0
+    - GPL-2.0-only
     - GPL-2.0-or-later
+    - GPL-3.0-only
 component  : desktop.kde
 summary    : Plasma Welcome
 description: |
@@ -44,5 +48,6 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
 
     rm -v $installdir/usr/lib64/libplasma-welcome-publicplugin.a
