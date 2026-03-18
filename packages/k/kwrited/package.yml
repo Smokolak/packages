@@ -1,11 +1,13 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kwrited
-version    : 6.6.2
-release    : 132
+version    : 6.6.3
+release    : 133
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/kwrited-6.6.2.tar.xz : 4be13e36b6858208835e21bda3d7f704d992187fec4c63c21c1a6fe2782de11b
+    - https://download.kde.org/stable/plasma/6.6.3/kwrited-6.6.3.tar.xz : 7d254573de29330bd47cb332de97a824e0ea23bcabc516cc917ba16823a40c80
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
-license    : GPL-2.0-or-later
+license    :
+    - CC0-1.0
+    - GPL-2.0-or-later
 component  : desktop.kde.core
 summary    : KDE daemon listening for wall and write messages
 description: |
@@ -26,3 +28,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
