@@ -45,6 +45,7 @@ libKF6CoreAddons.so.6:_ZN14KPluginFactoryC2Ev
 libKF6CoreAddons.so.6:_ZN14KPluginFactoryD2Ev
 libKF6CoreAddons.so.6:_ZN8KSandbox8isInsideEv
 libKF6CoreAddons.so.6:_ZTI14KPluginFactory
+libKF6Crash.so.6:_ZN6KCrash10initializeEv
 libKF6I18n.so.6:_Z5ki18nPKc
 libKF6I18n.so.6:_ZN16KLocalizedString20setApplicationDomainERK10QByteArray
 libKF6I18n.so.6:_ZN16KLocalizedStringD1Ev
@@ -261,7 +262,7 @@ libQt6Gui.so.6:_ZNK7QWindow13surfaceHandleEv
 libQt6Gui.so.6:_ZNK7QWindow6formatEv
 libQt6Gui.so.6:_ZNK7QWindow6handleEv
 libQt6Gui.so.6:_ZNK7QWindow8geometryEv
-libQt6Gui.so.6:_ZNK7QWindow9isVisibleEv
+libQt6Gui.so.6:_ZNK7QWindow9isExposedEv
 libQt6Gui.so.6:_ZNK9QKeyEvent9modifiersEv
 libQt6Gui.so.6:_ZTI15QPlatformWindow
 libQt6Gui.so.6:_ZThn16_NK7QWindow11surfaceTypeEv
