@@ -626,11 +626,9 @@ libc.so.6:mkdtemp
 libc.so.6:mkostemp64
 libc.so.6:mkstemp64
 libc.so.6:mktime
-libc.so.6:mlock
 libc.so.6:mmap64
 libc.so.6:mprotect
 libc.so.6:mremap
-libc.so.6:munlock
 libc.so.6:munmap
 libc.so.6:nanosleep
 libc.so.6:newlocale
@@ -916,6 +914,7 @@ libdbus-1.so.3:dbus_error_init
 libdbus-1.so.3:dbus_error_is_set
 libdbus-1.so.3:dbus_free
 libdbus-1.so.3:dbus_get_version
+libdbus-1.so.3:dbus_message_demarshal
 libdbus-1.so.3:dbus_message_get_destination
 libdbus-1.so.3:dbus_message_get_error_name
 libdbus-1.so.3:dbus_message_get_interface
@@ -939,6 +938,7 @@ libdbus-1.so.3:dbus_message_iter_init_append
 libdbus-1.so.3:dbus_message_iter_next
 libdbus-1.so.3:dbus_message_iter_open_container
 libdbus-1.so.3:dbus_message_iter_recurse
+libdbus-1.so.3:dbus_message_marshal
 libdbus-1.so.3:dbus_message_new
 libdbus-1.so.3:dbus_message_new_error
 libdbus-1.so.3:dbus_message_new_method_return
@@ -1278,7 +1278,6 @@ libm.so.6:log
 libm.so.6:log10
 libm.so.6:log10f
 libm.so.6:log1p
-libm.so.6:log1pf
 libm.so.6:log2
 libm.so.6:log2f
 libm.so.6:logf
