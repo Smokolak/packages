@@ -1,15 +1,16 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : ksystemstats
-version    : 6.6.2
-release    : 69
+version    : 6.6.3
+release    : 70
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/ksystemstats-6.6.2.tar.xz : cec107edeee7a715a358fb801f89b34b0f8e5422a5dd1bd9938551bf2f8eda33
+    - https://download.kde.org/stable/plasma/6.6.3/ksystemstats-6.6.3.tar.xz : d700d628ac0371c9f3730ca11d7bd528ab234a10078e8ce3d77fff47cf8e8bac
 homepage   : https://invent.kde.org/plasma/ksystemstats
 license    :
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CC0-1.0
     - GPL-2.0-only
-    - GPL-2.0-or-later
     - GPL-3.0-only
-    - LGPL-2.1-only
 component  : programming.library
 summary    : A plugin based system monitoring daemon
 description: |
@@ -33,3 +34,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
