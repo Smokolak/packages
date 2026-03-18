@@ -1,14 +1,24 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-workspace
-version    : 6.6.2
-release    : 203
+version    : 6.6.3
+release    : 204
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/plasma-workspace-6.6.2.tar.xz : 26302234542ae2c8286727895997c8e22652e90e92febb60e3ce975194e0cacd
+    - https://download.kde.org/stable/plasma/6.6.3/plasma-workspace-6.6.3.tar.xz : 18001465a01ee29292a3c37e62205106ee9f79f18aaa42ae9654d160abf11790
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
-    - GFDL-1.2
-    - GPL-2.0
-    - LGPL-2.1
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CC0-1.0
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-only
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-2.1-or-later
+    - LGPL-3.0-only
+    - LGPL-3.0-or-later
+    - MIT
 component  :
     - desktop.kde.core
     - ^plasma-x11 : desktop.kde
@@ -138,6 +148,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
     rm -rfv $installdir/usr/share/doc
 
     # SDDM should use a Wayland session with Kwin when we have plasma-workspace installed
