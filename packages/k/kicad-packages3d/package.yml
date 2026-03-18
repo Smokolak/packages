@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kicad-packages3d
-version    : 9.0.7
-release    : 18
+version    : 9.0.8
+release    : 19
 source     :
-    - https://gitlab.com/kicad/libraries/kicad-packages3D/-/archive/9.0.7/kicad-packages3D-9.0.7.tar.gz : 35822d59739f72ae9b2ab55d7b63cfe43941112b8e753105e65502c1457c604c
+    - https://gitlab.com/kicad/libraries/kicad-packages3D/-/archive/9.0.8/kicad-packages3D-9.0.8.tar.gz : 227a807c0ef6d041350e23ae7e1680eb460f9177245e918fb07a32dff1bd51fa
 homepage   : https://www.kicad.org/
 license    : CC-BY-SA-4.0
 component  : office.scientific
