@@ -6,7 +6,12 @@
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
         </Packager>
-        <License>LGPL-2.0-or-later</License>
+        <License>BSD-3-Clause</License>
+        <License>CC0-1.0</License>
+        <License>GPL-2.0-only</License>
+        <License>GPL-3.0-only</License>
+        <License>LGPL-2.1-only</License>
+        <License>LGPL-3.0-only</License>
         <Summary xml:lang="en">Helpers for scheduling the dark-light cycle</Summary>
         <Description xml:lang="en">Helpers for scheduling the dark-light cycle
 </Description>
@@ -21,9 +26,18 @@
             <Path fileType="library">/usr/lib/systemd/user/plasma-knighttimed.service</Path>
             <Path fileType="library">/usr/lib64/kf6/knighttimed</Path>
             <Path fileType="library">/usr/lib64/libKNightTime.so.0</Path>
-            <Path fileType="library">/usr/lib64/libKNightTime.so.6.6.2</Path>
+            <Path fileType="library">/usr/lib64/libKNightTime.so.6.6.3</Path>
             <Path fileType="data">/usr/share/applications/org.kde.knighttimed.desktop</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.kde.NightTime.service</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/BSD-3-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/CC0-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/GPL-2.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/GPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/LGPL-2.1-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/LGPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/LicenseRef-KDE-Accepted-GPL.txt</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/LicenseRef-KDE-Accepted-LGPL.txt</Path>
+            <Path fileType="data">/usr/share/licenses/knighttime/MIT.txt</Path>
             <Path fileType="data">/usr/share/qlogging-categories6/knighttime.categories</Path>
         </Files>
     </Package>
@@ -34,7 +48,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="9">knighttime</Dependency>
+            <Dependency release="10">knighttime</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KNightTime/KDarkLightSchedule</Path>
@@ -51,9 +65,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2026-03-03</Date>
-            <Version>6.6.2</Version>
+        <Update release="10">
+            <Date>2026-03-18</Date>
+            <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
