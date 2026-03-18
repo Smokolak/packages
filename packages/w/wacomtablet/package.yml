@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : wacomtablet
-version    : 6.6.2
-release    : 55
+version    : 6.6.3
+release    : 56
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/wacomtablet-6.6.2.tar.xz : ee5009d4c46787f32454db4ff7b149f9ee5c31a5502db95f78b890dc1fa10d7a
+    - https://download.kde.org/stable/plasma/6.6.3/wacomtablet-6.6.3.tar.xz : 74e9c6dafa85258c99323dd5338653a899037b333f5ac91c0df4c42340ea7ab3
 homepage   : https://invent.kde.org/system/wacomtablet
 license    : GPL-2.0-or-later
 component  : desktop.kde
@@ -42,6 +42,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING
 check      : |
     pushd solusBuildDir
     # dbus test fails (solbuild doesn't support dbus yet)

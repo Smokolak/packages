@@ -1,11 +1,18 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xdg-desktop-portal-kde
-version    : 6.6.2
-release    : 125
+version    : 6.6.3
+release    : 126
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/xdg-desktop-portal-kde-6.6.2.tar.xz : 626f35baa5e54d242742da61b2428a7d71c2a52d45a03524c8e1001ea37b97ca
+    - https://download.kde.org/stable/plasma/6.6.3/xdg-desktop-portal-kde-6.6.3.tar.xz : d9b5c39596b4039e517c8a04bb6c2faae7f7c4d99855756fdafb9417fe3ffbfd
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
-license    : LGPL-2.1-or-later
+license    :
+    - BSD-2-Clause
+    - CC0-1.0
+    - GPL-2.0-or-later
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-3.0-only
+    - MIT
 component  : desktop.kde
 summary    : Qt/KDE for xdg-desktop-portal
 description: |
@@ -44,3 +51,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

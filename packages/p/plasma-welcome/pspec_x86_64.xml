@@ -6,8 +6,12 @@
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
         </Packager>
-        <License>BSD-3-Clause</License>
+        <License>BSD-2-Clause</License>
+        <License>CC-BY-SA-4.0</License>
+        <License>CC0-1.0</License>
+        <License>GPL-2.0-only</License>
         <License>GPL-2.0-or-later</License>
+        <License>GPL-3.0-only</License>
         <PartOf>desktop.kde</PartOf>
         <Summary xml:lang="en">Plasma Welcome</Summary>
         <Description xml:lang="en">A Friendly onboarding wizard for Plasma.
@@ -32,6 +36,13 @@
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/welcome/plasma-welcome-public.qmltypes</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/welcome/qmldir</Path>
             <Path fileType="data">/usr/share/applications/org.kde.plasma-welcome.desktop</Path>
+            <Path fileType="data">/usr/share/licenses/plasma-welcome/BSD-2-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/plasma-welcome/CC-BY-SA-4.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/plasma-welcome/CC0-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/plasma-welcome/GPL-2.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/plasma-welcome/GPL-2.0-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/plasma-welcome/GPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/plasma-welcome/LicenseRef-KDE-Accepted-GPL.txt</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/plasma-welcome.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/plasma-welcome.mo</Path>
             <Path fileType="localedata">/usr/share/locale/az/LC_MESSAGES/plasma-welcome.mo</Path>
@@ -84,9 +95,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="31">
-            <Date>2026-03-03</Date>
-            <Version>6.6.2</Version>
+        <Update release="32">
+            <Date>2026-03-18</Date>
+            <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>

@@ -6,7 +6,13 @@
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
         </Packager>
-        <License>LGPL-2.1-or-later</License>
+        <License>BSD-2-Clause</License>
+        <License>CC0-1.0</License>
+        <License>GPL-2.0-or-later</License>
+        <License>LGPL-2.0-or-later</License>
+        <License>LGPL-2.1-only</License>
+        <License>LGPL-3.0-only</License>
+        <License>MIT</License>
         <PartOf>desktop.kde</PartOf>
         <Summary xml:lang="en">Qt/KDE for xdg-desktop-portal</Summary>
         <Description xml:lang="en">A backend implementation for xdg-desktop-portal that is using Qt/KDE.
@@ -25,6 +31,14 @@
             <Path fileType="data">/usr/share/applications/org.freedesktop.impl.portal.desktop.kde.desktop</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.kde.service</Path>
             <Path fileType="data">/usr/share/knotifications6/xdg-desktop-portal-kde.notifyrc</Path>
+            <Path fileType="data">/usr/share/licenses/xdg-desktop-portal-kde/BSD-2-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xdg-desktop-portal-kde/CC0-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xdg-desktop-portal-kde/GPL-2.0-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xdg-desktop-portal-kde/LGPL-2.0-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xdg-desktop-portal-kde/LGPL-2.1-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xdg-desktop-portal-kde/LGPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xdg-desktop-portal-kde/LicenseRef-KDE-Accepted-LGPL.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xdg-desktop-portal-kde/MIT.txt</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/xdg-desktop-portal-kde.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/xdg-desktop-portal-kde.mo</Path>
             <Path fileType="localedata">/usr/share/locale/az/LC_MESSAGES/xdg-desktop-portal-kde.mo</Path>
@@ -84,9 +98,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="125">
-            <Date>2026-03-03</Date>
-            <Version>6.6.2</Version>
+        <Update release="126">
+            <Date>2026-03-17</Date>
+            <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>

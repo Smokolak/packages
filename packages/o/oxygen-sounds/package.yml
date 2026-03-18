@@ -1,13 +1,15 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : oxygen-sounds
-version    : 6.6.2
-release    : 42
+version    : 6.6.3
+release    : 43
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/oxygen-sounds-6.6.2.tar.xz : 19c2883574a0347e1fed7626a7706e8dd2ed1a6932728a66106706fa9ad90cc8
+    - https://download.kde.org/stable/plasma/6.6.3/oxygen-sounds-6.6.3.tar.xz : c53b95557e318f78b26ee5bde1152781f61dfc1a441336dfa32ce8de5aee5be4
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
-    - GPL-2.0-or-later
-    - LGPL-2.1-only
+    - BSD-2-Clause
+    - CC0-1.0
+    - CC-BY-3.0
+    - LGPL-3.0-or-later
 component  : desktop.theme
 summary    : The Oxygen Sound Theme
 description: The Oxygen Sound Theme
@@ -20,3 +22,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

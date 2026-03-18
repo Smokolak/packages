@@ -7,8 +7,8 @@
             <Email>harvey@getsol.us</Email>
         </Packager>
         <License>BSD-2-Clause</License>
-        <License>CC-BY-SA-4.0</License>
         <License>CC0-1.0</License>
+        <License>CC-BY-SA-4.0</License>
         <PartOf>desktop</PartOf>
         <Summary xml:lang="en">Ocean Sound Theme for Plasma</Summary>
         <Description xml:lang="en">Ocean Sound Theme for Plasma
@@ -22,6 +22,9 @@
 </Description>
         <PartOf>desktop</PartOf>
         <Files>
+            <Path fileType="data">/usr/share/licenses/ocean-sound-theme/BSD-2-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/ocean-sound-theme/CC-BY-SA-4.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/ocean-sound-theme/CC0-1.0.txt</Path>
             <Path fileType="data">/usr/share/sounds/ocean/index.theme</Path>
             <Path fileType="data">/usr/share/sounds/ocean/index.theme.license</Path>
             <Path fileType="data">/usr/share/sounds/ocean/stereo/alarm-clock-elapsed.oga</Path>
@@ -101,9 +104,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="43">
-            <Date>2026-03-03</Date>
-            <Version>6.6.2</Version>
+        <Update release="44">
+            <Date>2026-03-17</Date>
+            <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>

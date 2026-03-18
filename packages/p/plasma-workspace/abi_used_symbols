@@ -3991,7 +3991,6 @@ libQt6Gui.so.6:_ZN6QImage16staticMetaObjectE
 libQt6Gui.so.6:_ZN6QImage19setDevicePixelRatioEd
 libQt6Gui.so.6:_ZN6QImage4bitsEv
 libQt6Gui.so.6:_ZN6QImage4fillEN2Qt11GlobalColorE
-libQt6Gui.so.6:_ZN6QImage4fillERK6QColor
 libQt6Gui.so.6:_ZN6QImage8fromDataE14QByteArrayViewPKc
 libQt6Gui.so.6:_ZN6QImage8scanLineEi
 libQt6Gui.so.6:_ZN6QImage8setColorEij
@@ -4148,7 +4147,6 @@ libQt6Gui.so.6:_ZN8QPainter8fillRectERK6QRectFRK6QColor
 libQt6Gui.so.6:_ZN8QPainter8setBrushE6QColor
 libQt6Gui.so.6:_ZN8QPainter8setBrushEN2Qt10BrushStyleE
 libQt6Gui.so.6:_ZN8QPainter9drawImageERK6QRectFRK6QImageS2_6QFlagsIN2Qt19ImageConversionFlagEE
-libQt6Gui.so.6:_ZN8QPainter9drawImageERK7QPointFRK6QImage
 libQt6Gui.so.6:_ZN8QPainter9drawLinesEPK5QLinei
 libQt6Gui.so.6:_ZN8QPainter9drawLinesEPK6QLineFi
 libQt6Gui.so.6:_ZN8QPainter9translateERK7QPointF
@@ -4274,7 +4272,6 @@ libQt6Gui.so.6:_ZNK6QImage11sizeInBytesEv
 libQt6Gui.so.6:_ZNK6QImage11transformedERK10QTransformN2Qt18TransformationModeE
 libQt6Gui.so.6:_ZNK6QImage13scaledToWidthEiN2Qt18TransformationModeE
 libQt6Gui.so.6:_ZNK6QImage14scaledToHeightEiN2Qt18TransformationModeE
-libQt6Gui.so.6:_ZNK6QImage16devicePixelRatioEv
 libQt6Gui.so.6:_ZNK6QImage19createHeuristicMaskEb
 libQt6Gui.so.6:_ZNK6QImage21deviceIndependentSizeEv
 libQt6Gui.so.6:_ZNK6QImage22convertToFormat_helperENS_6FormatE6QFlagsIN2Qt19ImageConversionFlagEE
@@ -4320,7 +4317,6 @@ libQt6Gui.so.6:_ZNK7QScreen12manufacturerEv
 libQt6Gui.so.6:_ZNK7QScreen13availableSizeEv
 libQt6Gui.so.6:_ZNK7QScreen16devicePixelRatioEv
 libQt6Gui.so.6:_ZNK7QScreen17availableGeometryEv
-libQt6Gui.so.6:_ZNK7QScreen18logicalDotsPerInchEv
 libQt6Gui.so.6:_ZNK7QScreen24availableVirtualGeometryEv
 libQt6Gui.so.6:_ZNK7QScreen4nameEv
 libQt6Gui.so.6:_ZNK7QScreen4sizeEv
@@ -4353,6 +4349,7 @@ libQt6Gui.so.6:_ZNK8QPalette5brushENS_10ColorGroupENS_9ColorRoleE
 libQt6Gui.so.6:_ZNK8QPalettecv8QVariantEv
 libQt6Gui.so.6:_ZNK8QPaletteeqERKS_
 libQt6Gui.so.6:_ZNK9QFontInfo10fixedPitchEv
+libQt6Gui.so.6:_ZNK9QFontInfo9pixelSizeEv
 libQt6Gui.so.6:_ZNK9QKeyEvent7matchesEN12QKeySequence11StandardKeyE
 libQt6Gui.so.6:_ZNK9QKeyEvent9modifiersEv
 libQt6Gui.so.6:_ZNK9QPolygonF13containsPointERK7QPointFN2Qt8FillRuleE
@@ -4771,6 +4768,7 @@ libQt6Quick.so.6:_ZNK10QQuickItem12mapFromSceneERK7QPointF
 libQt6Quick.so.6:_ZNK10QQuickItem13implicitWidthEv
 libQt6Quick.so.6:_ZNK10QQuickItem14hasActiveFocusEv
 libQt6Quick.so.6:_ZNK10QQuickItem14implicitHeightEv
+libQt6Quick.so.6:_ZNK10QQuickItem14mapRectToSceneERK6QRectF
 libQt6Quick.so.6:_ZNK10QQuickItem15textureProviderEv
 libQt6Quick.so.6:_ZNK10QQuickItem16inputMethodQueryEN2Qt16InputMethodQueryE
 libQt6Quick.so.6:_ZNK10QQuickItem17isTextureProviderEv
@@ -5584,6 +5582,7 @@ libQt6Widgets.so.6:_ZThn16_NK7QWidget11paintEngineEv
 libQt6Widgets.so.6:_ZThn16_NK7QWidget13sharedPainterEv
 libQt6Widgets.so.6:_ZThn16_NK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE
 libQt6Widgets.so.6:_ZThn16_NK7QWidget7devTypeEv
+libQt6Widgets.so.6:_Zls6QDebugPK7QWidget
 libQt6Xml.so.6:_ZN11QDomElement12setAttributeERK7QStringS2_
 libQt6Xml.so.6:_ZN11QDomElementC1ERKS_
 libQt6Xml.so.6:_ZN11QDomElementaSERKS_
@@ -5857,7 +5856,6 @@ libicuuc.so.78:u_errorName_78
 libm.so.6:ceil
 libm.so.6:floor
 libm.so.6:fmod
-libm.so.6:lround
 libm.so.6:pow
 libm.so.6:round
 libpackagekitqt6.so.1:_ZN10PackageKit6Daemon6globalEv

@@ -1,11 +1,24 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : powerdevil
-version    : 6.6.2
-release    : 146
+version    : 6.6.3
+release    : 147
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/powerdevil-6.6.2.tar.xz : 6d0858a84f783c311447f487078969f9b6500973391212eaff4e6cc0fec99ca0
+    - https://download.kde.org/stable/plasma/6.6.3/powerdevil-6.6.3.tar.xz : 73e9b85dbf9791fcf22c01d67b3cf024e23fea170476f09ff8fd91b4034480e9
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
-license    : GPL-2.0-or-later
+license    :
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CC0-1.0
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-only
+    - GPL-3.0-or-later
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-2.1-or-later
+    - LGPL-3.0-only
+    - MIT
 component  : desktop.kde.core
 summary    : Manages the power settings of KDE Plasma
 description: |
@@ -52,4 +65,5 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
     rm -rfv $installdir/usr/share/doc

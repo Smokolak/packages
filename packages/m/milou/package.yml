@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : milou
-version    : 6.6.2
-release    : 135
+version    : 6.6.3
+release    : 136
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/milou-6.6.2.tar.xz : 748f25a728d01fb7f6bcc875fac3a441498f592b33ab9bcb2572ec973a109818
+    - https://download.kde.org/stable/plasma/6.6.3/milou-6.6.3.tar.xz : 909834cd7c62de83255a97090c685903ed6245b50be9c15d299703d9b822f9fd
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
+    - CC0-1.0
+    - GPL-2.0-only
     - GPL-2.0-or-later
+    - GPL-3.0-only
     - LGPL-2.1-only
+    - LGPL-3.0-only
 component  : desktop.kde.core
 summary    : A dedicated search application built on top of Baloo
 description: |
@@ -31,3 +35,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

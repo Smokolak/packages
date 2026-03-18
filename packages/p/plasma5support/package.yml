@@ -1,11 +1,12 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma5support
-version    : 6.6.2
-release    : 45
+version    : 6.6.3
+release    : 46
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/plasma5support-6.6.2.tar.xz : 36fe9cfa9744e132b465e86254c64de21d6b540774eb1e4c8b3e2554c4a2ff9e
+    - https://download.kde.org/stable/plasma/6.6.3/plasma5support-6.6.3.tar.xz : 7f764826ef8967990eb42da3636bbfdd29c85e3928eeb917b8d8fed4b77f730c
 homepage   : https://invent.kde.org/plasma/plasma5support
 license    :
+    - CC0-1.0
     - GPL-2.0-or-later
     - LGPL-2.0-or-later
 component  : desktop.libraries
@@ -40,3 +41,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

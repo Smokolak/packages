@@ -369,6 +369,7 @@ libQt6Core.so.6:_ZNK10QByteArray5splitEc
 libQt6Core.so.6:_ZNK10QByteArray5toIntEPbi
 libQt6Core.so.6:_ZNK10QByteArray6toUIntEPbi
 libQt6Core.so.6:_ZNK10QByteArray8toDoubleEPb
+libQt6Core.so.6:_ZNK11QFileDevice5atEndEv
 libQt6Core.so.6:_ZNK11QMetaObject2trEPKcS1_i
 libQt6Core.so.6:_ZNK11QMetaObject4castEPK7QObject
 libQt6Core.so.6:_ZNK11QMetaObject9classNameEv

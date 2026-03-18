@@ -265,7 +265,9 @@ libKF6Runner.so.6:_ZNK7KRunner14AbstractRunner6configEv
 libKF6Runner.so.6:_ZNK7KRunner14AbstractRunner8metadataEv
 libKF6Runner.so.6:_ZNK7KRunner6Action2idEv
 libKF6Runner.so.6:_ZTIN7KRunner14AbstractRunnerE
+libKF6Service.so.6:_ZN8KService20serviceByDesktopNameERK7QString
 libKF6Service.so.6:_ZNK12KSycocaEntry9entryPathEv
+libKF6Service.so.6:_ZNK8KService8propertyI7QStringEET_RKS1_
 libKF6SonnetCore.so.6:_ZN6Sonnet7Speller11setLanguageERK7QString
 libKF6SonnetCore.so.6:_ZN6Sonnet7SpellerC1ERK7QString
 libKF6SonnetCore.so.6:_ZN6Sonnet7SpellerD1Ev

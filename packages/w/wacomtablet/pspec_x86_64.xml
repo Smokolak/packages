@@ -58,6 +58,7 @@
             <Path fileType="doc">/usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.cache.bz2</Path>
             <Path fileType="doc">/usr/share/doc/HTML/zh_CN/kcontrol/wacomtablet/index.docbook</Path>
             <Path fileType="data">/usr/share/knotifications6/wacomtablet.notifyrc</Path>
+            <Path fileType="data">/usr/share/licenses/wacomtablet/COPYING</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/wacomtablet.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/plasma_applet_org.kde.plasma.wacomtablet.mo</Path>
@@ -188,9 +189,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="55">
-            <Date>2026-03-03</Date>
-            <Version>6.6.2</Version>
+        <Update release="56">
+            <Date>2026-03-18</Date>
+            <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>

@@ -7,7 +7,12 @@
             <Email>harvey@getsol.us</Email>
         </Packager>
         <License>BSD-3-Clause</License>
+        <License>CC0-1.0</License>
         <License>LGPL-2.1-only</License>
+        <License>LGPL-2.1-or-later</License>
+        <License>LGPL-3.0-only</License>
+        <License>MIT</License>
+        <License>MIT-CMU</License>
         <PartOf>programming.library</PartOf>
         <Summary xml:lang="en">Qt-style API to interact with wayland</Summary>
         <Description xml:lang="en">KWayland is a Qt-style API to interact with the wayland-client and wayland-server API.
@@ -22,7 +27,15 @@
         <PartOf>programming.library</PartOf>
         <Files>
             <Path fileType="library">/usr/lib64/libKWaylandClient.so.6</Path>
-            <Path fileType="library">/usr/lib64/libKWaylandClient.so.6.6.2</Path>
+            <Path fileType="library">/usr/lib64/libKWaylandClient.so.6.6.3</Path>
+            <Path fileType="data">/usr/share/licenses/kwayland/BSD-3-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kwayland/CC0-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kwayland/LGPL-2.1-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kwayland/LGPL-2.1-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kwayland/LGPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kwayland/LicenseRef-KDE-Accepted-LGPL.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kwayland/MIT-CMU.txt</Path>
+            <Path fileType="data">/usr/share/licenses/kwayland/MIT.txt</Path>
             <Path fileType="data">/usr/share/qlogging-categories6/kwayland.categories</Path>
             <Path fileType="data">/usr/share/qlogging-categories6/kwayland.renamecategories</Path>
         </Files>
@@ -34,7 +47,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="119">kwayland</Dependency>
+            <Dependency release="120">kwayland</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KWayland/KWayland/Client/appmenu.h</Path>
@@ -91,9 +104,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="119">
-            <Date>2026-03-03</Date>
-            <Version>6.6.2</Version>
+        <Update release="120">
+            <Date>2026-03-17</Date>
+            <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>

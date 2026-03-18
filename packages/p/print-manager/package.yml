@@ -1,11 +1,16 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : print-manager
-version    : 6.6.2
-release    : 122
+version    : 6.6.3
+release    : 123
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/print-manager-6.6.2.tar.xz : f064e0339717f1eaabe2a5dbde3d1665c32c1f3accb8dcf1134e09cf50e90248
+    - https://download.kde.org/stable/plasma/6.6.3/print-manager-6.6.3.tar.xz : 686fcff428c2be57114d14c3e74129f3e35e4c457cbcad37219515473c5b621b
 homepage   : https://kde.org/
-license    : GPL-2.0-or-later
+license    :
+    - BSD-3-Clause
+    - GPL-2.0-or-later
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-3.0-only
 component  : desktop.kde.core
 summary    : Tool for managing print jobs and printers
 description: |
@@ -31,3 +36,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

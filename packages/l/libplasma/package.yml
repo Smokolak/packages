@@ -1,16 +1,20 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libplasma
-version    : 6.6.2
-release    : 45
+version    : 6.6.3
+release    : 46
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/libplasma-6.6.2.tar.xz : 5e6b889bce201acf7d46bbff1970e6f84a711f44b207fe103aaf37a244da994b
+    - https://download.kde.org/stable/plasma/6.6.3/libplasma-6.6.3.tar.xz : 815ca99f55e68727ffed90b2d0a176f6240a2256454b1089a5a7f266a5a3775c
 homepage   : https://kde.org/plasma-desktop/
 license    :
     - BSD-3-Clause
+    - CC0-1.0
+    - GPL-2.0-only
     - GPL-2.0-or-later
+    - GPL-3.0-only
     - LGPL-2.0-or-later
     - LGPL-2.1-only
     - LGPL-2.1-or-later
+    - LGPL-3.0-only
 component  : desktop.library
 summary    : Plasma library and runtime components
 description: |
@@ -50,3 +54,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

@@ -1,11 +1,19 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-systemmonitor
-version    : 6.6.2
-release    : 75
+version    : 6.6.3
+release    : 76
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/plasma-systemmonitor-6.6.2.tar.xz : ed92e64a8f0c5797a7db14fb28e7cb92d2e73f72888ad34e419a777e90603632
+    - https://download.kde.org/stable/plasma/6.6.3/plasma-systemmonitor-6.6.3.tar.xz : 411bd919fa926bc6d7b44645f546bd48b0b82ae1f3fe97999a0568abd7019c85
 homepage   : https://kde.org/plasma-desktop
-license    : GPL-3.0-only
+license    :
+    - BSD-3-Clause
+    - CC0-1.0
+    - GPL-2.0-only
+    - GPL-3.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-3.0-only
+    - LGPL-3.0-or-later
 component  : desktop.kde.core
 summary    : New version of KSysGuard built on top of the new KStats daemon and using QML for its UI
 description: |
@@ -38,3 +46,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

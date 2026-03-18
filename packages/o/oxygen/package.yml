@@ -1,13 +1,21 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : oxygen
-version    : 6.6.2
-release    : 131
+version    : 6.6.3
+release    : 132
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/oxygen-6.6.2.tar.xz : 35b0360b1802573c4e633ff00d28604a05ce4a2cbeb47d489de3903b4dde61bd
+    - https://download.kde.org/stable/plasma/6.6.3/oxygen-6.6.3.tar.xz : 2b62011740f28db8975ce37ed733f514e8180ffe4840f81276bd9f9914d7079c
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
+    - CC0-1.0
+    - GPL-2.0-only
     - GPL-2.0-or-later
+    - GPL-3.0-only
+    - GPL-3.0-or-later
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
     - LGPL-2.1-only
+    - LGPL-3.0-only
+    - MIT
 component  :
     - desktop.theme
 summary    :
@@ -60,3 +68,5 @@ install    : |
     %ninja_install -C qt5-build
 
     %ninja_install -C qt6-build
+
+    %install_license LICENSES/*
