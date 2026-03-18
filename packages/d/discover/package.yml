@@ -1,11 +1,19 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : discover
-version    : 6.6.2
-release    : 52
+version    : 6.6.3
+release    : 53
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/discover-6.6.2.tar.xz : 1510f5389ee705de2584a8b0fa51a9bc9fd986f597724ec7e4e2caf15ae8c0b4
+    - https://download.kde.org/stable/plasma/6.6.3/discover-6.6.3.tar.xz : 5d37916377d2c62ae630745c0160e5004c96b2bd4d45fc6cee7134b5249e62dd
 homepage   : https://apps.kde.org/discover/
-license    : GPL-2.0-or-later
+license    :
+    - BSD-3-Clause
+    - CC0-1.0
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-3.0-only
 component  : desktop.kde
 summary    : Discover helps you find and install applications, games, and tools.
 description: |
@@ -53,6 +61,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
 
     # Remove docs
     rm -rfv $installdir/usr/share/doc
