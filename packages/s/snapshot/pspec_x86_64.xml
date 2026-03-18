@@ -3,8 +3,8 @@
         <Name>snapshot</Name>
         <Homepage>https://apps.gnome.org/Snapshot/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Muhammad Alfi Syahrin</Name>
+            <Email>malfisya.dev@hotmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -87,12 +87,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2026-03-17</Date>
+        <Update release="11">
+            <Date>2026-03-18</Date>
             <Version>49.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Muhammad Alfi Syahrin</Name>
+            <Email>malfisya.dev@hotmail.com</Email>
         </Update>
     </History>
 </PISI>
