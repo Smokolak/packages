@@ -6,7 +6,11 @@
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
         </Packager>
+        <License>BSD-3-Clause</License>
         <License>GPL-2.0-or-later</License>
+        <License>LGPL-2.0-or-later</License>
+        <License>LGPL-2.1-only</License>
+        <License>LGPL-3.0-only</License>
         <PartOf>desktop.kde.core</PartOf>
         <Summary xml:lang="en">Tool for managing print jobs and printers</Summary>
         <Description xml:lang="en">Tool for managing print jobs and printers on the KDE Plasma desktop.
@@ -34,6 +38,12 @@
             <Path fileType="data">/usr/share/applications/org.kde.ConfigurePrinter.desktop</Path>
             <Path fileType="data">/usr/share/applications/org.kde.PrintQueue.desktop</Path>
             <Path fileType="data">/usr/share/knotifications6/printmanager.notifyrc</Path>
+            <Path fileType="data">/usr/share/licenses/print-manager/BSD-3-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/print-manager/GPL-2.0-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/print-manager/LGPL-2.0-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/print-manager/LGPL-2.1-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/print-manager/LGPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/print-manager/LicenseRef-KDE-Accepted-LGPL.txt</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/kcm_printer_manager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/plasma_applet_org.kde.plasma.printmanager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/print-manager.mo</Path>
@@ -208,9 +218,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="122">
-            <Date>2026-03-03</Date>
-            <Version>6.6.2</Version>
+        <Update release="123">
+            <Date>2026-03-18</Date>
+            <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
