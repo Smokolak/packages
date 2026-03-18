@@ -3,8 +3,8 @@
         <Name>gnome-shell</Name>
         <Homepage>https://gitlab.gnome.org/GNOME/gnome-shell</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -193,12 +193,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="135">
+        <Update release="136">
             <Date>2026-03-17</Date>
             <Version>49.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>

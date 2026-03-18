@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : soundconverter
 version    : 4.1.1
-release    : 18
+release    : 19
 source     :
-    - https://github.com/kassoulet/soundconverter/archive/refs/tags/4.1.1.tar.gz : 8ac117e8e7668179b5dd88eb761976221cee63995d87d68b89b0059d5597a02a
+    - https://github.com/kassoulet/soundconverter/archive/refs/tags/4.1.1.tar.gz : 3905e27d0732795f4b9e0aae0e640b96598b8d78c3e33841048c911a5365d2ce
 homepage   : https://soundconverter.org/
 license    : GPL-3.0-or-later
 component  : multimedia.audio
@@ -14,10 +14,10 @@ builddeps  :
     - python-distutils-extra
 rundeps    :
     - gconf
-    - gstreamer-1.0-plugin-libav
-    - gstreamer-1.0-plugins-bad
-    - gstreamer-1.0-plugins-good
-    - gstreamer-1.0-plugins-ugly
+    - gstreamer-plugin-libav
+    - gstreamer-plugins-bad
+    - gstreamer-plugins-good
+    - gstreamer-plugins-ugly
     - python-gobject
     - python-setuptools
 build      : |

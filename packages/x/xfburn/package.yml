@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xfburn
 version    : 0.8.0
-release    : 4
+release    : 5
 source     :
     - https://archive.xfce.org/src/apps/xfburn/0.8/xfburn-0.8.0.tar.bz2 : 13a301aebcef27de18f63f8ca10b43bc42f9c1b9865dff1bfb3e97cfd95dd989
 homepage   : https://docs.xfce.org/apps/xfburn/start
@@ -23,7 +23,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
-    %install_license AUTHORS COPYING
+    %install_license COPYING
 
     # Fix for appstream-builder
     install -Dm00644 $installdir/usr/share/icons/hicolor/scalable/stock/media/stock_xfburn.svg \

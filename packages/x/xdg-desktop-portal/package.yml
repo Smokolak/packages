@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xdg-desktop-portal
 version    : 1.20.3
-release    : 32
+release    : 33
 source     :
     - https://github.com/flatpak/xdg-desktop-portal/releases/download/1.20.3/xdg-desktop-portal-1.20.3.tar.xz : 4bfb164937f59107eb1a3cc21abaa948d903c76f3b99fac210cea38ce1da9edc
 homepage   : https://github.com/flatpak/xdg-desktop-portal
@@ -28,3 +28,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING

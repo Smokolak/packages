@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : pipewire
 version    : 1.6.2
-release    : 114
+release    : 115
 source     :
     - https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/1.6.2/pipewire-1.6.2.tar.gz : 2014c187fccdd6d245585be4eda7dabd781dcddd921604c40ab015bba6cb042d
 homepage   : https://pipewire.org/

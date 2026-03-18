@@ -73,7 +73,6 @@
             <Path fileType="data">/usr/share/gtk-4.0/emoji/zh.gresource</Path>
             <Path fileType="data">/usr/share/gtk-4.0/gtk4builder.rng</Path>
             <Path fileType="data">/usr/share/gtk-4.0/valgrind/gtk.supp</Path>
-            <Path fileType="data">/usr/share/licenses/libgtk-4/AUTHORS</Path>
             <Path fileType="data">/usr/share/licenses/libgtk-4/COPYING</Path>
             <Path fileType="localedata">/usr/share/locale/ab/LC_MESSAGES/gtk40.mo</Path>
             <Path fileType="localedata">/usr/share/locale/af/LC_MESSAGES/gtk40.mo</Path>
@@ -200,7 +199,7 @@
         <Description xml:lang="en">Demonstrations of major GTK4 features.</Description>
         <PartOf>desktop.gtk</PartOf>
         <RuntimeDependencies>
-            <Dependency release="55">libgtk-4</Dependency>
+            <Dependency release="56">libgtk-4</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/gtk4-demo</Path>
@@ -235,7 +234,7 @@
         <Description xml:lang="en">libgtk-4 contains the libraries used for creating graphical user interfaces and applications.</Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="55">libgtk-4</Dependency>
+            <Dependency release="56">libgtk-4</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h</Path>
@@ -647,8 +646,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="55">
-            <Date>2026-02-02</Date>
+        <Update release="56">
+            <Date>2026-03-16</Date>
             <Version>4.20.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>

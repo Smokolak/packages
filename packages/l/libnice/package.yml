@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libnice
 version    : 0.1.22
-release    : 7
+release    : 8
 source     :
     - https://gitlab.freedesktop.org/libnice/libnice/-/archive/0.1.22/libnice-0.1.22.tar.gz : 3048b847fd89f43474c1a77257c875a85e4d85c879d12743f3ce2947125eb8de
 license    :
@@ -25,3 +25,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING COPYING.*

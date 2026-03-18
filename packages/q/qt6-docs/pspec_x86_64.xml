@@ -3,8 +3,8 @@
         <Name>qt6-docs</Name>
         <Homepage>https://www.qt.io</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GFDL-1.3-or-later</License>
         <License>GPL-3.0-or-later</License>
@@ -3265,15 +3265,53 @@
             <Path fileType="doc">/usr/share/doc/qt6/qtxml/xml-processing.html</Path>
             <Path fileType="doc">/usr/share/doc/qt6/qtxml/xml-streaming.html</Path>
             <Path fileType="doc">/usr/share/doc/qt6/qtxml/xml-tools.html</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/AFL-2.1.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Apache-2.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/BSD-2-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/BSD-3-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/BSD-4-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/BSL-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Bitstream-Vera.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/CC0-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/FTL.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/GFDL-1.3-no-invariants-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/GPL-2.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/GPL-2.0-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/GPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/HPND.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/IJG.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/IPL-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Imlib2.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/LGPL-2.1-or-later.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/LGPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Libpng.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/LicenseRef-ICC-License.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/LicenseRef-Lcs-Telegraphics.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/LicenseRef-Qt-Commercial.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/LicenseRef-SHA1-Public-Domain.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Linux-syscall-note.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/MIT-Khronos-old.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/MIT-open-group.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/MIT.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/MPL-2.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Qt-GPL-exception-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/SPL-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Unicode-3.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/X11.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Xerox.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/Zlib.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/blessing.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-docs/libpng-2.0.txt</Path>
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2026-01-30</Date>
+        <Update release="17">
+            <Date>2026-03-17</Date>
             <Version>6.10.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>

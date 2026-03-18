@@ -20,7 +20,7 @@
 </Description>
         <PartOf>desktop.wayland</PartOf>
         <RuntimeDependencies>
-            <Dependency release="34">weston-libs</Dependency>
+            <Dependency release="35">weston-libs</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/wcap-decode</Path>
@@ -43,6 +43,7 @@
             <Path fileType="library">/usr/lib64/weston/weston-ivi-shell-user-interface</Path>
             <Path fileType="library">/usr/lib64/weston/weston-keyboard</Path>
             <Path fileType="library">/usr/lib64/weston/weston-simple-im</Path>
+            <Path fileType="data">/usr/share/licenses/weston/COPYING</Path>
             <Path fileType="man">/usr/share/man/man1/weston-debug.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/weston.1.zst</Path>
             <Path fileType="man">/usr/share/man/man5/weston.ini.5.zst</Path>
@@ -118,7 +119,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="34">weston</Dependency>
+            <Dependency release="35">weston</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/libweston-14/libweston/backend-drm.h</Path>
@@ -181,15 +182,15 @@
 </Description>
         <PartOf>desktop.wayland</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="34">weston</Dependency>
+            <Dependency releaseFrom="35">weston</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/share/wayland-sessions/weston.desktop</Path>
         </Files>
     </Package>
     <History>
-        <Update release="34">
-            <Date>2025-12-04</Date>
+        <Update release="35">
+            <Date>2026-03-17</Date>
             <Version>14.0.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>

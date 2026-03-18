@@ -3,8 +3,8 @@
         <Name>qt6-multimedia</Name>
         <Homepage>https://www.qt.io</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GFDL-1.3-or-later</License>
         <License>GPL-2.0-or-later</License>
@@ -42,6 +42,17 @@
             <Path fileType="library">/usr/lib64/qt6/qml/QtQuick3D/SpatialAudio/libquick3dspatialaudioplugin.so</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/QtQuick3D/SpatialAudio/plugins.qmltypes</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/QtQuick3D/SpatialAudio/qmldir</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/Apache-2.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/BSD-3-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/GFDL-1.3-no-invariants-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/GPL-2.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/GPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/LGPL-3.0-only.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/LicenseRef-Qt-Commercial.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/MIT-0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/MIT.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/MPL-2.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/qt6-multimedia/Qt-GPL-exception-1.0.txt</Path>
         </Files>
     </Package>
     <Package>
@@ -51,7 +62,7 @@
 </Description>
         <PartOf>programming.library</PartOf>
         <RuntimeDependencies>
-            <Dependency release="22">qt6-multimedia</Dependency>
+            <Dependency release="23">qt6-multimedia</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/qt6/examples/multimedia/audiodevices/audiodevices</Path>
@@ -81,7 +92,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="22">qt6-multimedia</Dependency>
+            <Dependency release="23">qt6-multimedia</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/qt6/QtFFmpegMediaPluginImpl/6.10.2/QtFFmpegMediaPluginImpl/private/ffmpeg_pch.h</Path>
@@ -638,12 +649,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="22">
-            <Date>2026-01-30</Date>
+        <Update release="23">
+            <Date>2026-03-17</Date>
             <Version>6.10.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : shortwave
 version    : 5.1.0
-release    : 4
+release    : 5
 source     :
     - https://gitlab.gnome.org/World/Shortwave/-/archive/5.1.0/Shortwave-5.1.0.tar.bz2 : 94eac8bf5dfe1aa4075c96a9fb78fcc05fc7e8ad47539732999090c1567b38da
 homepage   : https://gitlab.gnome.org/World/Shortwave
@@ -30,4 +30,4 @@ install    : |
     %install_license COPYING.md
 replaces   :
     - gradio
-    - dbginfo: gradio-dbginfo
+    - dbginfo : gradio-dbginfo

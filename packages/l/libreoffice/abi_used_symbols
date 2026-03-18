@@ -2527,6 +2527,7 @@ libglib-2.0.so.0:g_error_free
 libglib-2.0.so.0:g_file_test
 libglib-2.0.so.0:g_filename_to_uri
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_charset
 libglib-2.0.so.0:g_get_current_time
 libglib-2.0.so.0:g_get_prgname

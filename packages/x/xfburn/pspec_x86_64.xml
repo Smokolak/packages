@@ -68,7 +68,6 @@
             <Path fileType="data">/usr/share/icons/hicolor/scalable/stock/media/stock_xfburn-import-session.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/stock/media/stock_xfburn-new-data-composition.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/stock/media/stock_xfburn.svg</Path>
-            <Path fileType="data">/usr/share/licenses/xfburn/AUTHORS</Path>
             <Path fileType="data">/usr/share/licenses/xfburn/COPYING</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/xfburn.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/xfburn.mo</Path>
@@ -136,8 +135,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2026-01-24</Date>
+        <Update release="5">
+            <Date>2026-03-17</Date>
             <Version>0.8.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>

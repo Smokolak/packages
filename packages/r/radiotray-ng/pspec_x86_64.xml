@@ -3,8 +3,8 @@
         <Name>radiotray-ng</Name>
         <Homepage>https://github.com/ebruck/radiotray-ng</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -40,6 +40,7 @@
             <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/apps/24/radiotray-ng-on.svg</Path>
             <Path fileType="data">/usr/share/icons/ubuntu-mono-light/apps/24/radiotray-ng-off.svg</Path>
             <Path fileType="data">/usr/share/icons/ubuntu-mono-light/apps/24/radiotray-ng-on.svg</Path>
+            <Path fileType="data">/usr/share/licenses/radiotray-ng/COPYING</Path>
             <Path fileType="data">/usr/share/metainfo/radiotray-ng.appdata.xml</Path>
             <Path fileType="data">/usr/share/radiotray-ng/bookmarks.json</Path>
             <Path fileType="data">/usr/share/radiotray-ng/radiotray-ng.png</Path>
@@ -47,12 +48,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="36">
-            <Date>2026-02-28</Date>
+        <Update release="37">
+            <Date>2026-03-17</Date>
             <Version>0.2.9</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>

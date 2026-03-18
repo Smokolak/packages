@@ -3,8 +3,8 @@
         <Name>orca</Name>
         <Homepage>https://gitlab.gnome.org/GNOME/orca</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>LGPL-2.1-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -1427,6 +1427,7 @@
             <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/orca.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/orca.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/orca-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/licenses/orca/COPYING</Path>
             <Path fileType="localedata">/usr/share/locale/ab/LC_MESSAGES/orca.mo</Path>
             <Path fileType="localedata">/usr/share/locale/an/LC_MESSAGES/orca.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/orca.mo</Path>
@@ -1516,12 +1517,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="40">
+        <Update release="41">
             <Date>2026-03-17</Date>
             <Version>49.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>

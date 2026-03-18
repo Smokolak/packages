@@ -3,8 +3,8 @@
         <Name>soundconverter</Name>
         <Homepage>https://soundconverter.org/</Homepage>
         <Packager>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -137,12 +137,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2025-11-27</Date>
+        <Update release="19">
+            <Date>2026-03-17</Date>
             <Version>4.1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>

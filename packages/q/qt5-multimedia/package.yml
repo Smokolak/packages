@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qt5-multimedia
 version    : 5.15.18
-release    : 45
+release    : 46
 source     :
     - git|https://invent.kde.org/qt/qt/qtmultimedia.git : ff83d119c75cd8406f73ccc08958fe36747e7390
 homepage   : https://www.qt.io
