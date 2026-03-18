@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : keyd
 version    : 2.6.0
-release    : 3
+release    : 4
 source     :
     - https://github.com/rvaiya/keyd/archive/refs/tags/v2.6.0.tar.gz : 697089681915b89d9e98caf93d870dbd4abce768af8a647d54650a6a90744e26
 homepage   : https://github.com/rvaiya/keyd
@@ -16,13 +16,14 @@ build      : |
     %make
 install    : |
     %make_install PREFIX=/usr SOCKET_PATH=/run/keyd.socket
+
     sed -e "s#@PREFIX@#%PREFIX%#" -e 's#multi-user.target#systemd-udev.service#' keyd.service.in > keyd.service
     install -Dm00644 keyd.service -t $installdir/usr/lib/systemd/system/
 
     install -Dm00644 $pkgfiles/keyd.sysusers  $installdir/%libdir%/sysusers.d/keyd.conf
-    # Start service by default
-    install -dm00755 $installdir/usr/lib/systemd/system/multi-user.target.wants
-    ln -sv ../keyd.service $installdir/usr/lib/systemd/system/multi-user.target.wants/keyd.service
+
+    install -Dm00644 -t ${installdir}/%libdir%/systemd/system-preset/ ${pkgfiles}/20-keyd.preset
+
     rm -rv $installdir/etc/
 
     %install_license LICENSE
