@@ -1,13 +1,19 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-nm
-version    : 6.6.2
-release    : 142
+version    : 6.6.3
+release    : 143
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/plasma-nm-6.6.2.tar.xz : a25836f1e159b85fbcc877284ae4bf30974a02bbb194f56441f3355c7e6abc6f
+    - https://download.kde.org/stable/plasma/6.6.3/plasma-nm-6.6.3.tar.xz : 802374c9d9827d227c3f5f44cfb4c7a7e3fe06a5944dbad29f8604fc4e2a9497
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
+    - BSD-3-Clause
+    - CC0-1.0
     - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-only
+    - LGPL-2.0-or-later
     - LGPL-2.1-only
+    - LGPL-3.0-only
 component  : desktop.kde.core
 summary    : Plasma applet for managing network connections
 description: |
