@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kactivitymanagerd
-version    : 6.6.2
-release    : 133
+version    : 6.6.3
+release    : 134
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/kactivitymanagerd-6.6.2.tar.xz : 1535defb7a1f187e36dfc40168ea6e89eb06a6e01e7bcee06175049dd9559178
+    - https://download.kde.org/stable/plasma/6.6.3/kactivitymanagerd-6.6.3.tar.xz : 858bea71cc64bb2922ef06d5c125b5addaea2d8c095bf3dc8875a25f5b8c3341
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
+    - CC0-1.0
+    - GPL-2.0-only
     - GPL-2.0-or-later
-    - GPL-3.0-or-later
+    - GPL-3.0-only
+    - LGPL-2.1-only
+    - LGPL-3.0-only
 component  : desktop.kde.core
 summary    : Core components for the KDE Activity concept
 description: |
@@ -29,3 +33,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
