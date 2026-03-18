@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : breeze-gtk-theme
-version    : 6.6.2
-release    : 140
+version    : 6.6.3
+release    : 141
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/breeze-gtk-6.6.2.tar.xz : d9cbedf73507bc0e4ea7e96f2aba632dd8368ec608fcd1009f6781c9485cf7cc
+    - https://download.kde.org/stable/plasma/6.6.3/breeze-gtk-6.6.3.tar.xz : 32e2e5947d5d26c1ae2020feca79302d2eea54bce655a6596dd34df5656e5e8d
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - BSD-3-Clause
-    - LGPL-2.1-only
+    - CC0-1.0
 component  : desktop.theme
 summary    : A GTK Theme Built to Match KDE's Breeze
 description: |
@@ -28,3 +28,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
