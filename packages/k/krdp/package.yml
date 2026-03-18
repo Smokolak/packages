@@ -1,11 +1,18 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : krdp
-version    : 6.6.2
-release    : 36
+version    : 6.6.3
+release    : 37
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/krdp-6.6.2.tar.xz : 95b9ed58693e4bc5b4a9d991ac1af1bc6d184a7257974440ff810279e5421a2c
+    - https://download.kde.org/stable/plasma/6.6.3/krdp-6.6.3.tar.xz : ae030e0ae4ed7a617392e6ad50cd99626fa6e402ee3fcaefec327adbfb37f630
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
-license    : LGPL-2.1-or-later
+license    :
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CC0-1.0
+    - GPL-2.0-or-later
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-3.0-only
 component  : desktop.kde
 summary    : Library and examples for creating an RDP server
 description: |-
@@ -37,3 +44,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
