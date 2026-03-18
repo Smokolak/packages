@@ -1,13 +1,23 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kwin-x11
-version    : 6.6.2
-release    : 19
+version    : 6.6.3
+release    : 20
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/kwin-x11-6.6.2.tar.xz : 754d9933f64c2020ec6228ca944914a1f1ef9adef5e55a99426cb3c14944f077
+    - https://download.kde.org/stable/plasma/6.6.3/kwin-x11-6.6.3.tar.xz : a29fc80038fa4608cd1c9ca56734e874b0ba6ae66a6494a079e7f738ff36cc53
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
-    - GFDL-1.2-only
+    - BSD-3-Clause
+    - CC0-1.0
     - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-only
+    - GPL-3.0-or-later
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-2.1-or-later
+    - LGPL-3.0-only
+    - MIT
 component  : desktop.kde
 summary    : An easy to use, but flexible, X Window Manager
 description: |-
@@ -75,6 +85,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
 
     # https://invent.kde.org/plasma/kwin/-/commit/e6d217960e4fee82785da98c336aa7407e21e62d
     setcap 'CAP_SYS_NICE=+ep' $installdir/usr/bin/kwin_x11
