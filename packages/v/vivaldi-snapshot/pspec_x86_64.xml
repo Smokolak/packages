@@ -475,7 +475,7 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/adblocker_resources/redirectable_resources.json</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-common-bundle.js</Path>
-            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-dec937ec1773692bda418e6e22068123.js</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-a7781f3c10b561dc8988e0b2137f5924.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle-mailreader-worker.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/components/mail/mail.html</Path>
@@ -1102,6 +1102,7 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/sd_thumbnails/sd_youtube.png</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/search_duckduckgo.svg</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/search_ecosia.svg</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/search_kagi.svg</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/search_qwant.svg</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/search_startpage.svg</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/share-confetti.gif</Path>
@@ -1340,9 +1341,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="561">
+        <Update release="562">
             <Date>2026-03-18</Date>
-            <Version>7.9.3970.31</Version>
+            <Version>7.9.3970.37</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
