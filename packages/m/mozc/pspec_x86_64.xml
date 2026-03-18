@@ -40,7 +40,7 @@
 </Description>
         <PartOf>desktop.core</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="12">mozc</Dependency>
+            <Dependency releaseFrom="13">mozc</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib/fcitx5/fcitx5-mozc.so</Path>
@@ -91,7 +91,7 @@
 </Description>
         <PartOf>desktop.core</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="12">mozc</Dependency>
+            <Dependency releaseFrom="13">mozc</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib/ibus-mozc/ibus-engine-mozc</Path>
@@ -110,8 +110,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="12">
-            <Date>2026-03-11</Date>
+        <Update release="13">
+            <Date>2026-03-17</Date>
             <Version>3.33.6089.102</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>
