@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : svtplay-dl
-version    : '4.173'
-release    : 38
+version    : '4.179'
+release    : 39
 source     :
-    - https://github.com/spaam/svtplay-dl/archive/refs/tags/4.173.tar.gz : f685fbdb48eedf858cbd69ea3f4532dc0c1d64f99df5ec63dc834b7c9efad149
+    - https://github.com/spaam/svtplay-dl/archive/refs/tags/4.179.tar.gz : 7b99d5a528735d0bbb6b7211afad29f60e7fbd39541ab3e305e63ec52a541f4e
 homepage   : https://svtplay-dl.se/
 license    : MIT
 component  : network.download
