@@ -3,8 +3,8 @@
         <Name>yubikey-manager</Name>
         <Homepage>https://developers.yubico.com/yubikey-manager/</Homepage>
         <Packager>
-            <Name>Matthias Homann</Name>
-            <Email>palto@mailbox.org</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <PartOf>security</PartOf>
@@ -211,7 +211,7 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/yubikit/securitydomain.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/yubikit/support.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/yubikit/yubiotp.py</Path>
-            <Path fileType="library">/usr/lib64/systemd/system/sockets.target.wants/pcscd.socket</Path>
+            <Path fileType="library">/usr/lib64/systemd/service-preset/20-yubikey-manager.preset</Path>
             <Path fileType="data">/usr/share/bash-completion/completions/ykman.bash</Path>
             <Path fileType="data">/usr/share/licenses/yubikey-manager/COPYING</Path>
             <Path fileType="man">/usr/share/man/man1/ykman.1.zst</Path>
@@ -219,12 +219,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="46">
-            <Date>2025-11-03</Date>
+        <Update release="47">
+            <Date>2026-03-18</Date>
             <Version>5.8.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Matthias Homann</Name>
-            <Email>palto@mailbox.org</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
