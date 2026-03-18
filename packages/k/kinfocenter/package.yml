@@ -1,14 +1,20 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kinfocenter
-version    : 6.6.2
-release    : 143
+version    : 6.6.3
+release    : 144
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/kinfocenter-6.6.2.tar.xz : 2903f356fbf0477c3d1a6cf4431eaaecd534aac057831a7fe47d9c7554fef0ff
+    - https://download.kde.org/stable/plasma/6.6.3/kinfocenter-6.6.3.tar.xz : 610c473bdf55497105a28e5cea67401446d83d1bd1b97ed56c4e07be7da0c813
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
-    - GFDL-1.2-only
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CC0-1.0
+    - FSFAP
+    - GPL-2.0-only
     - GPL-2.0-or-later
+    - GPL-3.0-only
     - LGPL-2.1-or-later
+    - LGPL-3.0-only
 component  : desktop.kde.core
 summary    : KDE Info Center
 description: |
@@ -58,6 +64,8 @@ install    : |
     rm -rf $installdir/usr/share/doc
     # Fix appstream processing
     install -Dm00644 $workdir/logo.png $installdir/usr/share/icons/hicolor/128x128/apps/hwinfo.png
+
+    %install_license LICENSES/*
 patterns   :
     - main :
         - /usr/lib64/libKInfoCenterInternal.so
