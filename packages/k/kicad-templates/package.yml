@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kicad-templates
-version    : 9.0.7
-release    : 18
+version    : 9.0.8
+release    : 19
 source     :
-    - https://gitlab.com/kicad/libraries/kicad-templates/-/archive/9.0.7/kicad-templates-9.0.7.tar.gz : f9ecb4c65da3f9e55742828748870a99e0935718dac85ab7afea0a49727f5070
+    - https://gitlab.com/kicad/libraries/kicad-templates/-/archive/9.0.8/kicad-templates-9.0.8.tar.gz : fcebfbfa3a3036ce69f340f64ec5a63ff033522e880a0dd6ff60ef9109e85fb5
 homepage   : https://www.kicad.org/
 license    : CC-BY-SA-4.0
 component  : office.scientific

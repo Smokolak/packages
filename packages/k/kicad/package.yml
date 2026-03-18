@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kicad
-version    : 9.0.7
-release    : 47
+version    : 9.0.8
+release    : 48
 source     :
-    - https://github.com/KiCad/kicad-source-mirror/archive/refs/tags/9.0.7.tar.gz : 042eea5424d4c7c4ab3a64d923b9316bf7c7b2faf5492fbfc4647f1b74c942b0
+    - https://github.com/KiCad/kicad-source-mirror/archive/refs/tags/9.0.8.tar.gz : db91ab68d5f014dc4baf4d6249e395495d5e4480182baaf5c06cf9e9b248a18d
 homepage   : https://www.kicad.org/
 license    : GPL-3.0-or-later
 component  : office.scientific
