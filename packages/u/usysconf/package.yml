@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : usysconf
-version    : 0.5.10
-release    : 46
+version    : 0.5.11
+release    : 47
 source     :
-    - https://github.com/getsolus/usysconf/releases/download/v0.5.10/usysconf-v0.5.10.tar.xz : 6aa26187f7a900ff519cca59278cde3a84f7876205c51f8ac6654fe688e0d87a
+    - https://github.com/getsolus/usysconf/releases/download/v0.5.11/usysconf-v0.5.11.tar.xz : 52e9b4b851181282295b96232479985634e8e2eedf03bd0daba8668c79fca39f
 homepage   : https://github.com/getsolus/usysconf/
 license    : GPL-2.0-only
 component  : system.base
