@@ -1,13 +1,23 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kwin
-version    : 6.6.2
-release    : 180
+version    : 6.6.3
+release    : 181
 source     :
-    - https://download.kde.org/stable/plasma/6.6.2/kwin-6.6.2.tar.xz : 89db742659f0c96140ba39b4053ade7e1c20660e7eb82c18b5a68c16f93356e8
+    - https://download.kde.org/stable/plasma/6.6.3/kwin-6.6.3.tar.xz : 61a2e0f0b1a34f38b37f8a4ac7f7712c975ec763ff4e24ebb05ec1187e458e0f
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
-    - GFDL-1.2-only
+    - BSD-3-Clause
+    - CC0-1.0
     - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-only
+    - GPL-3.0-or-later
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-2.1-or-later
+    - LGPL-3.0-only
+    - MIT
 component  : desktop.kde.core
 summary    : KDE window manager
 description: |-
@@ -79,6 +89,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
 
     # https://invent.kde.org/plasma/kwin/-/commit/e6d217960e4fee82785da98c336aa7407e21e62d
     setcap 'CAP_SYS_NICE=+ep' $installdir/usr/bin/kwin_wayland
