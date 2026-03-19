@@ -3,8 +3,8 @@
         <Name>tzdata</Name>
         <Homepage>https://www.iana.org/time-zones</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Public-Domain</License>
         <PartOf>system.base</PartOf>
@@ -20,6 +20,7 @@
 </Description>
         <PartOf>system.base</PartOf>
         <Files>
+            <Path fileType="data">/usr/share/licenses/tzdata/LICENSE</Path>
             <Path fileType="data">/usr/share/zoneinfo/Africa/Abidjan</Path>
             <Path fileType="data">/usr/share/zoneinfo/Africa/Accra</Path>
             <Path fileType="data">/usr/share/zoneinfo/Africa/Addis_Ababa</Path>
@@ -1822,12 +1823,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="30">
-            <Date>2025-10-23</Date>
-            <Version>2025b</Version>
+        <Update release="31">
+            <Date>2026-03-19</Date>
+            <Version>2026a</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
