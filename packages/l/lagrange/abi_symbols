@@ -1,4 +1,3 @@
-lagrange:call_once
 lagrange:cnd_broadcast
 lagrange:cnd_destroy
 lagrange:cnd_init
