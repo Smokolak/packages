@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : deno
-version    : 2.7.6
-release    : 42
+version    : 2.7.7
+release    : 43
 source     :
-    - https://github.com/denoland/deno/archive/refs/tags/v2.7.6.tar.gz : d0b6b64651db6604f938c005cebcc8159f4b643ee07fd883a873b06729a6dd8a
+    - https://github.com/denoland/deno/archive/refs/tags/v2.7.7.tar.gz : 2d2a0207bd6e0bb2020d5e0b4ab8e191c98e2fce8ff0bffd1877b640cec63234
 homepage   : https://deno.com/
 license    : MIT
 component  : programming.tools
