@@ -4312,5 +4312,8 @@
 		<Package>gstreamer-1.0-plugins-ugly-dbginfo</Package>
 		<Package>gstreamer-1.0-plugins-ugly-devel</Package>
 
+		<!-- Renamed -->
+		<Package>network-manager-devel</Package>
+
 	</Obsoletes>
 </PISI>
