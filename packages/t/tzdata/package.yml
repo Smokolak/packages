@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : tzdata
-version    : 2025b
-release    : 30
+version    : 2026a
+release    : 31
 source     :
-    - https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz : 11810413345fc7805017e27ea9fa4885fd74cd61b2911711ad038f5d28d71474
-    - https://data.iana.org/time-zones/releases/tzcode2025b.tar.gz : 05f8fedb3525ee70d49c87d3fae78a8a0dbae4fe87aa565c65cda9948ae135ec
+    - https://data.iana.org/time-zones/releases/tzdata2026a.tar.gz : 77b541725937bb53bd92bd484c0b43bec8545e2d3431ee01f04ef8f2203ba2b7
+    - https://data.iana.org/time-zones/releases/tzcode2026a.tar.gz : f80a17a2eddd2b54041f9c98d75b0aa8038b016d7c5de72892a146d9938740e1
 homepage   : https://www.iana.org/time-zones
 license    : Public-Domain
 component  : system.base
@@ -16,6 +16,8 @@ setup      : |
 build      : |
     make tzdata.zi
 install    : |
+    %install_license LICENSE
+    
     tz="africa antarctica asia australasia backward etcetera europe factory northamerica southamerica"
 
     zic -y ./yearistype -d $installdir/usr/share/zoneinfo -L /dev/null $tz
