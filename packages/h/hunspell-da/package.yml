@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : hunspell-da
-version    : 2.8.194
-release    : 4
+version    : 2.8.232
+release    : 5
 source     :
-    - https://stavekontrolden.dk/dictionaries/da_DK/da_DK-2.8.194.oxt : 061d7a4414c9a2c503432a47e7bd732707ba925867508a84e95550636b9acb95
+    - https://stavekontrolden.dk/dictionaries/da_DK/da_DK-2.8.232.oxt : 08bea9b2a46286eaf99c91acea9755ef884bd1703eeeaeec80dcb38dccfdae9b
 homepage   : https://www.stavekontrolden.dk/
 license    :
     - GPL-2.0-or-later
@@ -15,6 +15,6 @@ summary    : Danish hunspell dictionary
 description: |
     Danish dictionary from Stavekontrolden / Danske ordbog til stavekontrol fra Stavekontrolden.
 setup      : |
-    unzip $sources/da_DK-2.8.194.oxt
+    unzip $sources/da_DK-2.8.232.oxt
 install    : |
     install -Dm00644 da_DK.{aff,dic} -t $installdir/usr/share/hunspell
