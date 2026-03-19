@@ -730,6 +730,7 @@
             <Path fileType="library">/usr/lib64/security/pam_systemd_loadkey.so</Path>
             <Path fileType="library">/usr/lib64/systemd/libsystemd-core-257.so</Path>
             <Path fileType="library">/usr/lib64/systemd/libsystemd-shared-257.so</Path>
+            <Path fileType="library">/usr/lib64/systemd/system-preset/60-systemd.preset</Path>
             <Path fileType="library">/usr/lib64/systemd/system-preset/99-default.preset</Path>
             <Path fileType="library">/usr/lib64/systemd/user-preset/99-default.preset</Path>
             <Path fileType="library">/usr/lib64/udev/udevd</Path>
@@ -1328,7 +1329,7 @@
 </Description>
         <PartOf>emul32</PartOf>
         <RuntimeDependencies>
-            <Dependency release="185">systemd</Dependency>
+            <Dependency release="186">systemd</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/libnss_myhostname.so.2</Path>
@@ -1351,8 +1352,8 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="185">systemd-devel</Dependency>
-            <Dependency release="185">systemd-32bit</Dependency>
+            <Dependency release="186">systemd-devel</Dependency>
+            <Dependency release="186">systemd-32bit</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/lib32/pkgconfig/libsystemd.pc</Path>
@@ -1366,7 +1367,7 @@
 </Description>
         <PartOf>system.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="185">systemd</Dependency>
+            <Dependency release="186">systemd</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/libudev.h</Path>
@@ -2186,8 +2187,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="185">
-            <Date>2026-03-15</Date>
+        <Update release="186">
+            <Date>2026-03-19</Date>
             <Version>257.10</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>
