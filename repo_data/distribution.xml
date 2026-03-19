@@ -3148,5 +3148,6 @@
 		<Package>gstreamer-1.0-plugins-ugly</Package>
 		<Package>gstreamer-1.0-plugins-ugly-dbginfo</Package>
 		<Package>gstreamer-1.0-plugins-ugly-devel</Package>
+		<Package>network-manager-devel</Package>
 	</Obsoletes>
 </PISI>
