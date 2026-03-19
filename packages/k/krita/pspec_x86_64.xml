@@ -1182,9 +1182,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="102">
-            <Date>2026-01-09</Date>
-            <Version>5.2.14</Version>
+        <Update release="103">
+            <Date>2026-03-17</Date>
+            <Version>5.2.16</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
