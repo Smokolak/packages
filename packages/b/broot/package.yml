@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : broot
-version    : 1.55.0
-release    : 31
+version    : 1.56.1
+release    : 32
 source     :
-    - https://github.com/Canop/broot/archive/refs/tags/v1.55.0.tar.gz : 3049d055f37bfdc3b2057a3e2186cfdb58b596e1586b6b129698b350a80cfda3
+    - https://github.com/Canop/broot/archive/refs/tags/v1.56.1.tar.gz : 0d29cd855b7a0de5de3d3c191ff43ed9d447f7097c6ca40abc0686d539a9923c
 homepage   : https://dystroy.org/broot/
 license    : MIT
 component  : system.utils
@@ -31,3 +31,5 @@ install    : |
 
     # Install font
     install -Dm00644 resources/icons/vscode/vscode.ttf $installdir/usr/share/fonts/truetype/vscode.ttf
+check     : |
+    %cargo_test
