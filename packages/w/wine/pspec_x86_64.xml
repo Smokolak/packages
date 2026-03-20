@@ -3,8 +3,8 @@
         <Name>wine</Name>
         <Homepage>https://www.winehq.org/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Gavin Zhao</Name>
+            <Email>me@gzgz.dev</Email>
         </Packager>
         <License>LGPL-2.1-or-later</License>
         <PartOf>virt</PartOf>
@@ -299,6 +299,9 @@
             <Path fileType="library">/usr/lib/wine/i386-windows/icinfo.exe</Path>
             <Path fileType="library">/usr/lib/wine/i386-windows/icmp.dll</Path>
             <Path fileType="library">/usr/lib/wine/i386-windows/icmui.dll</Path>
+            <Path fileType="library">/usr/lib/wine/i386-windows/icu.dll</Path>
+            <Path fileType="library">/usr/lib/wine/i386-windows/icuin.dll</Path>
+            <Path fileType="library">/usr/lib/wine/i386-windows/icuuc.dll</Path>
             <Path fileType="library">/usr/lib/wine/i386-windows/ieframe.dll</Path>
             <Path fileType="library">/usr/lib/wine/i386-windows/ieproxy.dll</Path>
             <Path fileType="library">/usr/lib/wine/i386-windows/iertutil.dll</Path>
@@ -1150,6 +1153,9 @@
             <Path fileType="library">/usr/lib/wine/x86_64-windows/icinfo.exe</Path>
             <Path fileType="library">/usr/lib/wine/x86_64-windows/icmp.dll</Path>
             <Path fileType="library">/usr/lib/wine/x86_64-windows/icmui.dll</Path>
+            <Path fileType="library">/usr/lib/wine/x86_64-windows/icu.dll</Path>
+            <Path fileType="library">/usr/lib/wine/x86_64-windows/icuin.dll</Path>
+            <Path fileType="library">/usr/lib/wine/x86_64-windows/icuuc.dll</Path>
             <Path fileType="library">/usr/lib/wine/x86_64-windows/ieframe.dll</Path>
             <Path fileType="library">/usr/lib/wine/x86_64-windows/ieproxy.dll</Path>
             <Path fileType="library">/usr/lib/wine/x86_64-windows/iertutil.dll</Path>
@@ -1837,6 +1843,7 @@
             <Path fileType="data">/usr/share/wine/nls/c_936.nls</Path>
             <Path fileType="data">/usr/share/wine/nls/c_949.nls</Path>
             <Path fileType="data">/usr/share/wine/nls/c_950.nls</Path>
+            <Path fileType="data">/usr/share/wine/nls/icudtl.dat</Path>
             <Path fileType="data">/usr/share/wine/nls/l_intl.nls</Path>
             <Path fileType="data">/usr/share/wine/nls/locale.nls</Path>
             <Path fileType="data">/usr/share/wine/nls/normidna.nls</Path>
@@ -1865,7 +1872,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="205">wine</Dependency>
+            <Dependency release="206">wine</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/wine/debug.h</Path>
@@ -1876,8 +1883,50 @@
             <Path fileType="header">/usr/include/wine/itss.idl</Path>
             <Path fileType="header">/usr/include/wine/mfinternal.h</Path>
             <Path fileType="header">/usr/include/wine/mfinternal.idl</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__bit_reference</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__config</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__debug</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__errc</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__functional_03</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__functional_base</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__functional_base_03</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__hash_table</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__locale</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__mutex_base</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__node_handle</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__split_buffer</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__sso_allocator</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__std_stream</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__string</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__threading_support</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__tree</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__tuple</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/__undef_macros</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/algorithm</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/any</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/array</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/assert.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/atomic</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/bit</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/bitset</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cassert</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/ccomplex</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cctype</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cerrno</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cfenv</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cfloat</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/charconv</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/chrono</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cinttypes</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/ciso646</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/climits</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/clocale</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cmath</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/codecvt</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/compare</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/complex</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/complex.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/condition_variable</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/conio.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/corecrt.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/corecrt_io.h</Path>
@@ -1895,54 +1944,142 @@
             <Path fileType="header">/usr/include/wine/msvcrt/corecrt_wtime.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/crtdbg.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/crtdefs.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/csetjmp</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/csignal</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cstdarg</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cstdbool</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cstddef</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cstdint</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cstdio</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cstdlib</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cstring</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/ctgmath</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/ctime</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/ctype.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cwchar</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/cwctype</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/deque</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/direct.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/dirent.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/dos.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/eh.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/errno.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/exception</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/__config</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/__memory</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/algorithm</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/coroutine</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/deque</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/filesystem</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/forward_list</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/functional</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/iterator</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/list</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/map</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/memory_resource</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/propagate_const</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/regex</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/set</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/simd</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/string</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/type_traits</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/unordered_map</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/unordered_set</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/utility</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/experimental/vector</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/fcntl.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/fenv.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/filesystem</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/float.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/forward_list</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/fpieee.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/fstream</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/functional</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/future</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/initializer_list</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/intrin.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/inttypes.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/io.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/iomanip</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/ios</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/iosfwd</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/iostream</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/istream</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/iterator</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/limits</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/limits.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/list</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/locale</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/locale.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/malloc.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/map</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/math.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/mbctype.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/mbstring.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/memory</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/memory.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/mutex</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/new</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/new.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/numeric</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/optional</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/ostream</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/process.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/queue</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/random</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/ratio</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/regex</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/scoped_allocator</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/search.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/set</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/setjmp.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/share.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/shared_mutex</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/signal.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/span</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/sstream</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/stack</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/stdarg.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/stdbool.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/stddef.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/stdexcept</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/stdint.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/stdio.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/stdlib.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/streambuf</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/string</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/string.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/string_view</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/strstream</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/sys/locking.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/sys/stat.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/sys/timeb.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/sys/types.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/sys/unistd.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/sys/utime.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/system_error</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/thread</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/time.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/tuple</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/type_traits</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/typeindex</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/typeinfo</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/uchar.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/unistd.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/unordered_map</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/unordered_set</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/utility</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/vadefs.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/valarray</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/variant</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/vcruntime_exception.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/vcruntime_new.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/vcruntime_typeinfo.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/vector</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/version</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/wchar.h</Path>
             <Path fileType="header">/usr/include/wine/msvcrt/wctype.h</Path>
+            <Path fileType="header">/usr/include/wine/msvcrt/xlocinfo</Path>
             <Path fileType="header">/usr/include/wine/svcctl.h</Path>
             <Path fileType="header">/usr/include/wine/svcctl.idl</Path>
             <Path fileType="header">/usr/include/wine/unixlib.h</Path>
@@ -3295,12 +3432,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="205">
-            <Date>2026-03-17</Date>
-            <Version>11.4</Version>
+        <Update release="206">
+            <Date>2026-03-24</Date>
+            <Version>11.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Gavin Zhao</Name>
+            <Email>me@gzgz.dev</Email>
         </Update>
     </History>
 </PISI>

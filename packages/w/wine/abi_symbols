@@ -766,6 +766,7 @@ win32u.so:NtUserSetThreadDesktop
 win32u.so:NtUserSetTimer
 win32u.so:NtUserSetWinEventHook
 win32u.so:NtUserSetWindowContextHelpId
+win32u.so:NtUserSetWindowFNID
 win32u.so:NtUserSetWindowLong
 win32u.so:NtUserSetWindowLongPtr
 win32u.so:NtUserSetWindowPlacement
