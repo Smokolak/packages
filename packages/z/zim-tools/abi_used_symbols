@@ -235,7 +235,7 @@ libzim.so.9:_ZN3zim13printVersionsERSo
 libzim.so.9:_ZN3zim14SearchIteratorD1Ev
 libzim.so.9:_ZN3zim14SearchIteratorppEv
 libzim.so.9:_ZN3zim4BlobC1Ev
-libzim.so.9:_ZN3zim5EntryC1ESt10shared_ptrINS_8FileImplEEj
+libzim.so.9:_ZN3zim5EntryC1ESt10shared_ptrIKNS_8FileImplEEj
 libzim.so.9:_ZN3zim5Query8setQueryERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 libzim.so.9:_ZN3zim5QueryC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 libzim.so.9:_ZN3zim6SearchD1Ev
