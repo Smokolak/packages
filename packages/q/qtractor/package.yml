@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qtractor
-version    : 1.5.11
-release    : 47
+version    : 1.5.12
+release    : 48
 source     :
-    - https://sourceforge.net/projects/qtractor/files/qtractor/1.5.11/qtractor-1.5.11.tar.gz : c1712c32e49c625f97e5b35d7677f0765269594b5e9ef37241f023f716435cd8
+    - https://sourceforge.net/projects/qtractor/files/qtractor/1.5.12/qtractor-1.5.12.tar.gz : f543bb2ec29afb0feadf739ff45fdee58f73ebb7f358f96f2f282a48aee6a783
 homepage   : https://qtractor.org/
 license    : GPL-2.0-or-later
 component  : multimedia.audio
