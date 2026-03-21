@@ -39,6 +39,7 @@ libc.so.6:freelocale
 libc.so.6:fstat64
 libc.so.6:fwrite
 libc.so.6:getenv
+libc.so.6:geteuid
 libc.so.6:getopt_long
 libc.so.6:index
 libc.so.6:ioctl
@@ -221,6 +222,7 @@ libwacom.so.9:libwacom_new_from_usbid
 libwacom.so.9:libwacom_stylus_get_axes
 libwacom.so.9:libwacom_stylus_get_eraser_type
 libwacom.so.9:libwacom_stylus_get_for_id
+libwacom.so.9:libwacom_stylus_get_name
 libwacom.so.9:libwacom_stylus_get_num_buttons
 libwacom.so.9:libwacom_stylus_get_type
 libwacom.so.9:libwacom_stylus_has_eraser

@@ -58,8 +58,9 @@
             <Path fileType="data">/usr/share/libinput/30-vendor-cypress.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-elantech.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-glorious.quirks</Path>
+            <Path fileType="data">/usr/share/libinput/30-vendor-goodix.quirks</Path>
+            <Path fileType="data">/usr/share/libinput/30-vendor-hantick.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-huion.quirks</Path>
-            <Path fileType="data">/usr/share/libinput/30-vendor-ibm.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-ite.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-kensington.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-logitech.quirks</Path>
@@ -67,18 +68,16 @@
             <Path fileType="data">/usr/share/libinput/30-vendor-microsoft.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-nulea.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-oracle.quirks</Path>
+            <Path fileType="data">/usr/share/libinput/30-vendor-pixart.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-qemu.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-razer.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-synaptics.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-trust.quirks</Path>
-            <Path fileType="data">/usr/share/libinput/30-vendor-uniwill.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-vmware.quirks</Path>
             <Path fileType="data">/usr/share/libinput/30-vendor-wacom.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-acer.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-apple.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-asus.quirks</Path>
-            <Path fileType="data">/usr/share/libinput/50-system-chicony.quirks</Path>
-            <Path fileType="data">/usr/share/libinput/50-system-chuwi.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-cyborg.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-dell.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-framework.quirks</Path>
@@ -97,9 +96,7 @@
             <Path fileType="data">/usr/share/libinput/50-system-sony.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-starlabs.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-system76.quirks</Path>
-            <Path fileType="data">/usr/share/libinput/50-system-tongfang.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-toshiba.quirks</Path>
-            <Path fileType="data">/usr/share/libinput/50-system-vaio.quirks</Path>
             <Path fileType="man">/usr/share/man/man1/libinput-analyze-buttons.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/libinput-analyze-per-slot-delta.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/libinput-analyze-recording.1.zst</Path>
@@ -133,7 +130,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="52">libinput</Dependency>
+            <Dependency release="53">libinput</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/libinput.h</Path>
@@ -142,9 +139,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="52">
-            <Date>2025-10-22</Date>
-            <Version>1.29.2</Version>
+        <Update release="53">
+            <Date>2026-03-21</Date>
+            <Version>1.31.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>
