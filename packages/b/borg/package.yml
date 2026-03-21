@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : borg
-version    : 1.4.3
-release    : 48
+version    : 1.4.4
+release    : 49
 source     :
-    - https://github.com/borgbackup/borg/releases/download/1.4.3/borgbackup-1.4.3.tar.gz : 79bbfa745d1901d685973584bd2d16a350686ddd176f6a2244490fb01996441f
+    - https://github.com/borgbackup/borg/releases/download/1.4.4/borgbackup-1.4.4.tar.gz : 2716bc124a24908efcac9436df31b716d1f0bbd828ad39b18f73bfdd772a651a
 homepage   : https://www.borgbackup.org/
 license    : BSD-3-Clause
 component  : system.utils

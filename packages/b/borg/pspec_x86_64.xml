@@ -214,9 +214,9 @@ The authenticated encryption technique makes it suitable for backups to not full
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex.cpython-312-pytest-8.3.5.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex.cpython-312.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex_stress.cpython-312-pytest-8.3.5.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex_stress.cpython-312.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex_stress.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex_pytest.cpython-312-pytest-8.3.5.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex_pytest.cpython-312.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/hashindex_pytest.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/helpers.cpython-312-pytest-8.3.5.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/helpers.cpython-312.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/__pycache__/helpers.cpython-312.pyc</Path>
@@ -283,7 +283,7 @@ The authenticated encryption technique makes it suitable for backups to not full
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/efficient_collection_queue.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/file_integrity.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/hashindex.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/hashindex_stress.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/hashindex_pytest.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/helpers.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/issue_8535.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/testsuite/item.py</Path>
@@ -304,13 +304,13 @@ The authenticated encryption technique makes it suitable for backups to not full
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/upgrader.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/version.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/borg/xattr.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.3.dist-info/METADATA</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.3.dist-info/RECORD</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.3.dist-info/WHEEL</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.3.dist-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.3.dist-info/licenses/AUTHORS</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.3.dist-info/licenses/LICENSE</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.3.dist-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.4.dist-info/METADATA</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.4.dist-info/RECORD</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.4.dist-info/WHEEL</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.4.dist-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.4.dist-info/licenses/AUTHORS</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.4.dist-info/licenses/LICENSE</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/borgbackup-1.4.4.dist-info/top_level.txt</Path>
             <Path fileType="data">/usr/share/bash-completion/completions/borg</Path>
             <Path fileType="data">/usr/share/fish/completions/borg.fish</Path>
             <Path fileType="man">/usr/share/man/man1/borg-benchmark-crud.1.zst</Path>
@@ -353,9 +353,9 @@ The authenticated encryption technique makes it suitable for backups to not full
         </Files>
     </Package>
     <History>
-        <Update release="48">
-            <Date>2025-12-06</Date>
-            <Version>1.4.3</Version>
+        <Update release="49">
+            <Date>2026-03-21</Date>
+            <Version>1.4.4</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
