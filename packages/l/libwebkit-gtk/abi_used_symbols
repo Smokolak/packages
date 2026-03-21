@@ -31,7 +31,6 @@ libc.so.6:__ctype_b_loc
 libc.so.6:__cxa_atexit
 libc.so.6:__errno_location
 libc.so.6:__getcwd_chk
-libc.so.6:__getdelim
 libc.so.6:__inet_pton_chk
 libc.so.6:__isoc23_fscanf
 libc.so.6:__isoc23_sscanf
@@ -59,10 +58,12 @@ libc.so.6:__vsnprintf_chk
 libc.so.6:_exit
 libc.so.6:_setjmp
 libc.so.6:abort
+libc.so.6:accept
 libc.so.6:access
 libc.so.6:aligned_alloc
 libc.so.6:backtrace
 libc.so.6:backtrace_symbols
+libc.so.6:bind
 libc.so.6:bind_textdomain_codeset
 libc.so.6:bindtextdomain
 libc.so.6:calloc
@@ -83,7 +84,6 @@ libc.so.6:exit
 libc.so.6:fclose
 libc.so.6:fcntl
 libc.so.6:fcntl64
-libc.so.6:fdopen
 libc.so.6:feof
 libc.so.6:ferror
 libc.so.6:fflush
@@ -119,6 +119,7 @@ libc.so.6:ioctl
 libc.so.6:isspace
 libc.so.6:isxdigit
 libc.so.6:kill
+libc.so.6:listen
 libc.so.6:localtime
 libc.so.6:localtime_r
 libc.so.6:lseek
@@ -191,6 +192,7 @@ libc.so.6:read
 libc.so.6:readdir
 libc.so.6:realloc
 libc.so.6:realpath
+libc.so.6:recv
 libc.so.6:recvmsg
 libc.so.6:regcomp
 libc.so.6:regexec
@@ -204,7 +206,6 @@ libc.so.6:sem_init
 libc.so.6:sem_post
 libc.so.6:sem_wait
 libc.so.6:send
-libc.so.6:sendmsg
 libc.so.6:setbuf
 libc.so.6:setlocale
 libc.so.6:setrlimit
@@ -219,6 +220,7 @@ libc.so.6:sigemptyset
 libc.so.6:sigfillset
 libc.so.6:sigsuspend
 libc.so.6:sleep
+libc.so.6:socket
 libc.so.6:socketpair
 libc.so.6:stat
 libc.so.6:statvfs
@@ -248,11 +250,12 @@ libc.so.6:sysconf
 libc.so.6:sysinfo
 libc.so.6:time
 libc.so.6:timegm
+libc.so.6:timerfd_create
+libc.so.6:timerfd_settime
 libc.so.6:tolower
 libc.so.6:uname
 libc.so.6:ungetc
 libc.so.6:unlink
-libc.so.6:unsetenv
 libc.so.6:uselocale
 libc.so.6:usleep
 libc.so.6:write
@@ -300,8 +303,10 @@ libcairo.so.2:cairo_surface_write_to_png_stream
 libcairo.so.2:cairo_transform
 libcairo.so.2:cairo_translate
 libdrm.so.2:drmError
+libdrm.so.2:drmFreeDevice
 libdrm.so.2:drmFreeDevices
 libdrm.so.2:drmFreeVersion
+libdrm.so.2:drmGetDevice2
 libdrm.so.2:drmGetDevices2
 libdrm.so.2:drmGetFormatModifierName
 libdrm.so.2:drmGetFormatModifierVendor
@@ -607,9 +612,11 @@ libgbm.so.1:gbm_device_get_fd
 libgcc_s.so.1:__divdc3
 libgcc_s.so.1:__divti3
 libgcc_s.so.1:__fixdfti
+libgcc_s.so.1:__floattidf
 libgcc_s.so.1:__modti3
 libgcc_s.so.1:__muldc3
 libgcc_s.so.1:__udivti3
+libgcc_s.so.1:__umodti3
 libgcrypt.so.20:_gcry_mpi_get_const
 libgcrypt.so.20:gcry_check_version
 libgcrypt.so.20:gcry_cipher_authenticate
@@ -813,8 +820,10 @@ libgio-2.0.so.0:g_cancellable_cancel
 libgio-2.0.so.0:g_cancellable_is_cancelled
 libgio-2.0.so.0:g_cancellable_new
 libgio-2.0.so.0:g_content_type_guess
+libgio-2.0.so.0:g_credentials_get_unix_pid
 libgio-2.0.so.0:g_dbus_address_get_for_bus_sync
 libgio-2.0.so.0:g_dbus_connection_call
+libgio-2.0.so.0:g_dbus_connection_close_sync
 libgio-2.0.so.0:g_dbus_connection_emit_signal
 libgio-2.0.so.0:g_dbus_connection_get_type
 libgio-2.0.so.0:g_dbus_connection_get_unique_name
@@ -897,6 +906,7 @@ libgio-2.0.so.0:g_file_replace_contents_async
 libgio-2.0.so.0:g_file_replace_contents_finish
 libgio-2.0.so.0:g_file_set_attribute_string
 libgio-2.0.so.0:g_file_set_attributes_async
+libgio-2.0.so.0:g_icon_get_type
 libgio-2.0.so.0:g_icon_serialize
 libgio-2.0.so.0:g_inet_address_get_family
 libgio-2.0.so.0:g_inet_address_get_native_size
@@ -908,6 +918,7 @@ libgio-2.0.so.0:g_inet_socket_address_get_port
 libgio-2.0.so.0:g_inet_socket_address_get_type
 libgio-2.0.so.0:g_inet_socket_address_new
 libgio-2.0.so.0:g_inet_socket_address_new_from_string
+libgio-2.0.so.0:g_initable_get_type
 libgio-2.0.so.0:g_initable_init
 libgio-2.0.so.0:g_initable_new
 libgio-2.0.so.0:g_input_stream_close
@@ -922,6 +933,7 @@ libgio-2.0.so.0:g_io_error_quark
 libgio-2.0.so.0:g_io_stream_get_output_stream
 libgio-2.0.so.0:g_list_model_get_item
 libgio-2.0.so.0:g_list_model_get_n_items
+libgio-2.0.so.0:g_loadable_icon_get_type
 libgio-2.0.so.0:g_memory_input_stream_add_data
 libgio-2.0.so.0:g_memory_input_stream_new
 libgio-2.0.so.0:g_memory_input_stream_new_from_bytes
@@ -985,7 +997,6 @@ libgio-2.0.so.0:g_settings_schema_source_lookup
 libgio-2.0.so.0:g_settings_schema_unref
 libgio-2.0.so.0:g_simple_action_group_new
 libgio-2.0.so.0:g_simple_action_new
-libgio-2.0.so.0:g_simple_action_new_stateful
 libgio-2.0.so.0:g_simple_action_set_enabled
 libgio-2.0.so.0:g_simple_action_set_state
 libgio-2.0.so.0:g_simple_proxy_resolver_new
@@ -1007,12 +1018,15 @@ libgio-2.0.so.0:g_socket_listener_add_address
 libgio-2.0.so.0:g_socket_new
 libgio-2.0.so.0:g_socket_new_from_fd
 libgio-2.0.so.0:g_socket_receive
+libgio-2.0.so.0:g_socket_receive_message
 libgio-2.0.so.0:g_socket_send
+libgio-2.0.so.0:g_socket_send_message
 libgio-2.0.so.0:g_socket_service_new
 libgio-2.0.so.0:g_socket_set_blocking
 libgio-2.0.so.0:g_static_resource_fini
 libgio-2.0.so.0:g_static_resource_init
 libgio-2.0.so.0:g_subprocess_force_exit
+libgio-2.0.so.0:g_subprocess_get_identifier
 libgio-2.0.so.0:g_subprocess_launcher_new
 libgio-2.0.so.0:g_subprocess_launcher_setenv
 libgio-2.0.so.0:g_subprocess_launcher_spawnv
@@ -1057,11 +1071,18 @@ libgio-2.0.so.0:g_tls_error_quark
 libgio-2.0.so.0:g_tls_password_get_description
 libgio-2.0.so.0:g_tls_password_get_flags
 libgio-2.0.so.0:g_tls_password_set_value
+libgio-2.0.so.0:g_unix_connection_get_type
+libgio-2.0.so.0:g_unix_connection_receive_credentials
+libgio-2.0.so.0:g_unix_connection_send_credentials
 libgio-2.0.so.0:g_unix_fd_list_append
 libgio-2.0.so.0:g_unix_fd_list_get
 libgio-2.0.so.0:g_unix_fd_list_get_length
 libgio-2.0.so.0:g_unix_fd_list_get_type
 libgio-2.0.so.0:g_unix_fd_list_new
+libgio-2.0.so.0:g_unix_fd_list_new_from_array
+libgio-2.0.so.0:g_unix_fd_message_get_type
+libgio-2.0.so.0:g_unix_fd_message_new_with_fd_list
+libgio-2.0.so.0:g_unix_fd_message_steal_fds
 libgio-2.0.so.0:g_unix_input_stream_new
 libglib-2.0.so.0:g_array_append_vals
 libglib-2.0.so.0:g_array_new
@@ -1108,6 +1129,7 @@ libglib-2.0.so.0:g_date_time_new_now_local
 libglib-2.0.so.0:g_date_time_to_unix
 libglib-2.0.so.0:g_date_time_unref
 libglib-2.0.so.0:g_dgettext
+libglib-2.0.so.0:g_dir_make_tmp
 libglib-2.0.so.0:g_direct_equal
 libglib-2.0.so.0:g_direct_hash
 libglib-2.0.so.0:g_dpgettext
@@ -1183,20 +1205,24 @@ libglib-2.0.so.0:g_list_remove
 libglib-2.0.so.0:g_list_reverse
 libglib-2.0.so.0:g_list_sort
 libglib-2.0.so.0:g_log
+libglib-2.0.so.0:g_main_context_check
 libglib-2.0.so.0:g_main_context_default
+libglib-2.0.so.0:g_main_context_dispatch
+libglib-2.0.so.0:g_main_context_get_poll_func
 libglib-2.0.so.0:g_main_context_get_thread_default
 libglib-2.0.so.0:g_main_context_iteration
 libglib-2.0.so.0:g_main_context_new
 libglib-2.0.so.0:g_main_context_pending
 libglib-2.0.so.0:g_main_context_pop_thread_default
+libglib-2.0.so.0:g_main_context_prepare
 libglib-2.0.so.0:g_main_context_push_thread_default
+libglib-2.0.so.0:g_main_context_query
 libglib-2.0.so.0:g_main_context_ref
 libglib-2.0.so.0:g_main_context_unref
 libglib-2.0.so.0:g_main_current_source
 libglib-2.0.so.0:g_main_loop_is_running
 libglib-2.0.so.0:g_main_loop_new
 libglib-2.0.so.0:g_main_loop_quit
-libglib-2.0.so.0:g_main_loop_ref
 libglib-2.0.so.0:g_main_loop_run
 libglib-2.0.so.0:g_main_loop_unref
 libglib-2.0.so.0:g_malloc
@@ -1249,7 +1275,6 @@ libglib-2.0.so.0:g_rec_mutex_unlock
 libglib-2.0.so.0:g_return_if_fail_warning
 libglib-2.0.so.0:g_set_error
 libglib-2.0.so.0:g_set_error_literal
-libglib-2.0.so.0:g_setenv
 libglib-2.0.so.0:g_shell_unquote
 libglib-2.0.so.0:g_slist_delete_link
 libglib-2.0.so.0:g_slist_free
@@ -1337,6 +1362,7 @@ libglib-2.0.so.0:g_variant_builder_open
 libglib-2.0.so.0:g_variant_builder_ref
 libglib-2.0.so.0:g_variant_builder_unref
 libglib-2.0.so.0:g_variant_byteswap
+libglib-2.0.so.0:g_variant_equal
 libglib-2.0.so.0:g_variant_get
 libglib-2.0.so.0:g_variant_get_boolean
 libglib-2.0.so.0:g_variant_get_bytestring
@@ -1350,6 +1376,7 @@ libglib-2.0.so.0:g_variant_get_int64
 libglib-2.0.so.0:g_variant_get_size
 libglib-2.0.so.0:g_variant_get_string
 libglib-2.0.so.0:g_variant_get_strv
+libglib-2.0.so.0:g_variant_get_type
 libglib-2.0.so.0:g_variant_get_type_string
 libglib-2.0.so.0:g_variant_get_uint16
 libglib-2.0.so.0:g_variant_get_uint32
@@ -1381,6 +1408,7 @@ libglib-2.0.so.0:g_variant_new_uint32
 libglib-2.0.so.0:g_variant_new_uint64
 libglib-2.0.so.0:g_variant_parse
 libglib-2.0.so.0:g_variant_print
+libglib-2.0.so.0:g_variant_ref
 libglib-2.0.so.0:g_variant_ref_sink
 libglib-2.0.so.0:g_variant_type_checked_
 libglib-2.0.so.0:g_variant_type_equal
@@ -1423,6 +1451,7 @@ libgobject-2.0.so.0:g_object_class_find_property
 libgobject-2.0.so.0:g_object_class_install_properties
 libgobject-2.0.so.0:g_object_class_install_property
 libgobject-2.0.so.0:g_object_class_list_properties
+libgobject-2.0.so.0:g_object_class_override_property
 libgobject-2.0.so.0:g_object_freeze_notify
 libgobject-2.0.so.0:g_object_get
 libgobject-2.0.so.0:g_object_get_data
@@ -1431,6 +1460,7 @@ libgobject-2.0.so.0:g_object_get_qdata
 libgobject-2.0.so.0:g_object_is_floating
 libgobject-2.0.so.0:g_object_new
 libgobject-2.0.so.0:g_object_new_valist
+libgobject-2.0.so.0:g_object_notify
 libgobject-2.0.so.0:g_object_notify_by_pspec
 libgobject-2.0.so.0:g_object_ref
 libgobject-2.0.so.0:g_object_ref_sink
@@ -1509,7 +1539,6 @@ libgobject-2.0.so.0:g_value_get_boxed
 libgobject-2.0.so.0:g_value_get_double
 libgobject-2.0.so.0:g_value_get_enum
 libgobject-2.0.so.0:g_value_get_flags
-libgobject-2.0.so.0:g_value_get_float
 libgobject-2.0.so.0:g_value_get_int
 libgobject-2.0.so.0:g_value_get_int64
 libgobject-2.0.so.0:g_value_get_long
@@ -1546,6 +1575,7 @@ libgobject-2.0.so.0:g_value_set_variant
 libgobject-2.0.so.0:g_value_take_boxed
 libgobject-2.0.so.0:g_value_take_object
 libgobject-2.0.so.0:g_value_take_string
+libgobject-2.0.so.0:g_value_take_variant
 libgobject-2.0.so.0:g_value_transform
 libgobject-2.0.so.0:g_value_unset
 libgobject-2.0.so.0:g_weak_ref_clear
@@ -1564,6 +1594,7 @@ libgstapp-1.0.so.0:gst_app_sink_set_emit_signals
 libgstapp-1.0.so.0:gst_app_sink_try_pull_preroll
 libgstapp-1.0.so.0:gst_app_sink_try_pull_sample
 libgstapp-1.0.so.0:gst_app_src_end_of_stream
+libgstapp-1.0.so.0:gst_app_src_get_type
 libgstapp-1.0.so.0:gst_app_src_push_buffer
 libgstapp-1.0.so.0:gst_app_src_push_sample
 libgstapp-1.0.so.0:gst_app_src_set_callbacks
@@ -1575,12 +1606,14 @@ libgstaudio-1.0.so.0:gst_audio_channel_positions_to_mask
 libgstaudio-1.0.so.0:gst_audio_format_info_fill_silence
 libgstaudio-1.0.so.0:gst_audio_format_to_string
 libgstaudio-1.0.so.0:gst_audio_info_copy
+libgstaudio-1.0.so.0:gst_audio_info_free
 libgstaudio-1.0.so.0:gst_audio_info_from_caps
 libgstaudio-1.0.so.0:gst_audio_info_init
 libgstaudio-1.0.so.0:gst_audio_info_set_format
 libgstaudio-1.0.so.0:gst_audio_info_to_caps
 libgstaudio-1.0.so.0:gst_buffer_add_audio_level_meta
 libgstaudio-1.0.so.0:gst_buffer_add_audio_meta
+libgstaudio-1.0.so.0:gst_buffer_get_audio_level_meta
 libgstaudio-1.0.so.0:gst_stream_volume_get_type
 libgstaudio-1.0.so.0:gst_stream_volume_get_volume
 libgstaudio-1.0.so.0:gst_stream_volume_set_volume
@@ -1641,6 +1674,7 @@ libgstpbutils-1.0.so.0:gst_encoding_video_profile_new
 libgstpbutils-1.0.so.0:gst_pb_utils_get_codec_description
 libgstpbutils-1.0.so.0:gst_plugins_base_version
 libgstpbutils-1.0.so.0:gst_plugins_base_version_string
+libgstreamer-1.0.so.0:GST_CAT_DEFAULT
 libgstreamer-1.0.so.0:_gst_bitmask_type
 libgstreamer-1.0.so.0:_gst_buffer_type
 libgstreamer-1.0.so.0:_gst_caps_features_memory_system_memory
@@ -1707,6 +1741,7 @@ libgstreamer-1.0.so.0:gst_bus_add_signal_watch_full
 libgstreamer-1.0.so.0:gst_bus_add_watch
 libgstreamer-1.0.so.0:gst_bus_disable_sync_message_emission
 libgstreamer-1.0.so.0:gst_bus_enable_sync_message_emission
+libgstreamer-1.0.so.0:gst_bus_poll
 libgstreamer-1.0.so.0:gst_bus_post
 libgstreamer-1.0.so.0:gst_bus_remove_signal_watch
 libgstreamer-1.0.so.0:gst_bus_remove_watch
@@ -1741,6 +1776,8 @@ libgstreamer-1.0.so.0:gst_caps_set_features_simple
 libgstreamer-1.0.so.0:gst_caps_set_simple
 libgstreamer-1.0.so.0:gst_caps_set_value
 libgstreamer-1.0.so.0:gst_caps_to_string
+libgstreamer-1.0.so.0:gst_check_version
+libgstreamer-1.0.so.0:gst_clock_get_time
 libgstreamer-1.0.so.0:gst_context_get_context_type
 libgstreamer-1.0.so.0:gst_context_get_structure
 libgstreamer-1.0.so.0:gst_context_has_context_type
@@ -1750,6 +1787,7 @@ libgstreamer-1.0.so.0:gst_core_error_quark
 libgstreamer-1.0.so.0:gst_custom_meta_get_structure
 libgstreamer-1.0.so.0:gst_debug_bin_to_dot_file_with_ts
 libgstreamer-1.0.so.0:gst_debug_log
+libgstreamer-1.0.so.0:gst_debug_log_id
 libgstreamer-1.0.so.0:gst_deinit
 libgstreamer-1.0.so.0:gst_device_create_element
 libgstreamer-1.0.so.0:gst_device_get_caps
@@ -1765,12 +1803,14 @@ libgstreamer-1.0.so.0:gst_device_monitor_start
 libgstreamer-1.0.so.0:gst_device_monitor_stop
 libgstreamer-1.0.so.0:gst_device_provider_class_set_static_metadata
 libgstreamer-1.0.so.0:gst_device_provider_device_changed
+libgstreamer-1.0.so.0:gst_device_provider_factory_find
 libgstreamer-1.0.so.0:gst_device_provider_factory_get_by_name
 libgstreamer-1.0.so.0:gst_device_provider_get_devices
 libgstreamer-1.0.so.0:gst_device_provider_get_type
 libgstreamer-1.0.so.0:gst_device_provider_register
 libgstreamer-1.0.so.0:gst_device_provider_start
 libgstreamer-1.0.so.0:gst_device_provider_stop
+libgstreamer-1.0.so.0:gst_device_reconfigure_element
 libgstreamer-1.0.so.0:gst_element_add_pad
 libgstreamer-1.0.so.0:gst_element_call_async
 libgstreamer-1.0.so.0:gst_element_class_add_pad_template
@@ -1924,6 +1964,7 @@ libgstreamer-1.0.so.0:gst_pad_new_from_static_template
 libgstreamer-1.0.so.0:gst_pad_new_from_template
 libgstreamer-1.0.so.0:gst_pad_pause_task
 libgstreamer-1.0.so.0:gst_pad_peer_query
+libgstreamer-1.0.so.0:gst_pad_probe_info_get_buffer
 libgstreamer-1.0.so.0:gst_pad_probe_info_get_event
 libgstreamer-1.0.so.0:gst_pad_probe_info_set_buffer
 libgstreamer-1.0.so.0:gst_pad_probe_info_set_event
@@ -2019,16 +2060,17 @@ libgstreamer-1.0.so.0:gst_structure_free
 libgstreamer-1.0.so.0:gst_structure_from_string
 libgstreamer-1.0.so.0:gst_structure_get
 libgstreamer-1.0.so.0:gst_structure_get_boolean
+libgstreamer-1.0.so.0:gst_structure_get_double
 libgstreamer-1.0.so.0:gst_structure_get_fraction
 libgstreamer-1.0.so.0:gst_structure_get_int
 libgstreamer-1.0.so.0:gst_structure_get_name
-libgstreamer-1.0.so.0:gst_structure_get_string
 libgstreamer-1.0.so.0:gst_structure_get_uint
 libgstreamer-1.0.so.0:gst_structure_get_uint64
 libgstreamer-1.0.so.0:gst_structure_get_value
 libgstreamer-1.0.so.0:gst_structure_has_field
 libgstreamer-1.0.so.0:gst_structure_has_field_typed
 libgstreamer-1.0.so.0:gst_structure_has_name
+libgstreamer-1.0.so.0:gst_structure_id_str_set_value
 libgstreamer-1.0.so.0:gst_structure_new
 libgstreamer-1.0.so.0:gst_structure_new_empty
 libgstreamer-1.0.so.0:gst_structure_remove_field
@@ -2041,6 +2083,7 @@ libgstreamer-1.0.so.0:gst_tag_list_get_string
 libgstreamer-1.0.so.0:gst_tag_list_get_uint
 libgstreamer-1.0.so.0:gst_tag_list_insert
 libgstreamer-1.0.so.0:gst_tag_list_merge
+libgstreamer-1.0.so.0:gst_tag_list_new
 libgstreamer-1.0.so.0:gst_tag_list_new_empty
 libgstreamer-1.0.so.0:gst_task_join
 libgstreamer-1.0.so.0:gst_task_new
@@ -2079,12 +2122,12 @@ libgstreamer-1.0.so.0:gst_value_list_get_size
 libgstreamer-1.0.so.0:gst_value_list_get_value
 libgstreamer-1.0.so.0:gst_value_serialize
 libgstreamer-1.0.so.0:gst_value_set_structure
-libgstreamer-1.0.so.0:gst_version
 libgstreamer-1.0.so.0:gst_version_string
 libgsttag-1.0.so.0:gst_tag_get_language_code_iso_639_1
 libgstvideo-1.0.so.0:gst_buffer_add_video_meta
 libgstvideo-1.0.so.0:gst_buffer_add_video_meta_full
 libgstvideo-1.0.so.0:gst_buffer_get_video_meta
+libgstvideo-1.0.so.0:gst_video_alignment_reset
 libgstvideo-1.0.so.0:gst_video_calculate_display_ratio
 libgstvideo-1.0.so.0:gst_video_colorimetry_matches
 libgstvideo-1.0.so.0:gst_video_colorimetry_to_string
@@ -2101,6 +2144,7 @@ libgstvideo-1.0.so.0:gst_video_frame_map
 libgstvideo-1.0.so.0:gst_video_frame_unmap
 libgstvideo-1.0.so.0:gst_video_gl_texture_upload_meta_api_get_type
 libgstvideo-1.0.so.0:gst_video_gl_texture_upload_meta_upload
+libgstvideo-1.0.so.0:gst_video_info_align_full
 libgstvideo-1.0.so.0:gst_video_info_dma_drm_from_caps
 libgstvideo-1.0.so.0:gst_video_info_dma_drm_to_video_info
 libgstvideo-1.0.so.0:gst_video_info_from_caps
@@ -2652,6 +2696,7 @@ libgtk-4.so.1:gdk_content_formats_get_mime_types
 libgtk-4.so.1:gdk_content_provider_new_for_bytes
 libgtk-4.so.1:gdk_content_provider_new_typed
 libgtk-4.so.1:gdk_content_provider_new_union
+libgtk-4.so.1:gdk_cursor_get_name
 libgtk-4.so.1:gdk_cursor_new_from_texture
 libgtk-4.so.1:gdk_device_get_caps_lock_state
 libgtk-4.so.1:gdk_device_get_modifier_state
@@ -2711,6 +2756,7 @@ libgtk-4.so.1:gdk_texture_get_type
 libgtk-4.so.1:gdk_texture_get_width
 libgtk-4.so.1:gdk_texture_save_to_png_bytes
 libgtk-4.so.1:gdk_toplevel_get_state
+libgtk-4.so.1:gdk_toplevel_get_type
 libgtk-4.so.1:gdk_wayland_display_get_egl_display
 libgtk-4.so.1:gdk_wayland_surface_get_wl_surface
 libgtk-4.so.1:gdk_x11_display_get_egl_display
@@ -3172,6 +3218,7 @@ libm.so.6:ldexp
 libm.so.6:ldexpf
 libm.so.6:ldexpl
 libm.so.6:llround
+libm.so.6:llroundf
 libm.so.6:log
 libm.so.6:log10
 libm.so.6:log10f
@@ -3222,6 +3269,7 @@ libpango-1.0.so.0:pango_font_description_from_string
 libpango-1.0.so.0:pango_font_description_get_family
 libpango-1.0.so.0:pango_font_description_get_size
 libpango-1.0.so.0:pango_font_description_get_size_is_absolute
+libpango-1.0.so.0:pango_font_description_get_weight
 libpng16.so.16:png_create_info_struct
 libpng16.so.16:png_create_read_struct
 libpng16.so.16:png_create_write_struct
@@ -3473,7 +3521,7 @@ libsqlite3.so.0:sqlite3_bind_text
 libsqlite3.so.0:sqlite3_busy_timeout
 libsqlite3.so.0:sqlite3_changes
 libsqlite3.so.0:sqlite3_clear_bindings
-libsqlite3.so.0:sqlite3_close_v2
+libsqlite3.so.0:sqlite3_close
 libsqlite3.so.0:sqlite3_column_blob
 libsqlite3.so.0:sqlite3_column_bytes
 libsqlite3.so.0:sqlite3_column_double
@@ -3593,6 +3641,7 @@ libstdc++.so.6:_ZNSt6thread20hardware_concurrencyEv
 libstdc++.so.6:_ZNSt6thread4joinEv
 libstdc++.so.6:_ZNSt6thread6_StateD2Ev
 libstdc++.so.6:_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEONS_12basic_stringIcS2_S3_EE
+libstdc++.so.6:_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm
 libstdc++.so.6:_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEC2ERKNS_12basic_stringIcS2_S3_EESt13_Ios_Openmode
 libstdc++.so.6:_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1Ev
 libstdc++.so.6:_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
@@ -3691,8 +3740,6 @@ libwebpmux.so.3:WebPMuxDelete
 libwebpmux.so.3:WebPMuxSetChunk
 libwebpmux.so.3:WebPMuxSetImage
 libwebpmux.so.3:WebPNewInternal
-libwoff2dec.so.1.0.2:_ZN5woff217ConvertWOFF2ToTTFEPKhmPNS_8WOFF2OutE
-libwoff2dec.so.1.0.2:_ZN5woff221ComputeWOFF2FinalSizeEPKhm
 libxml2.so.2:__xmlGenericError
 libxml2.so.2:__xmlGenericErrorContext
 libxml2.so.2:__xmlStructuredError
@@ -3708,7 +3755,6 @@ libxml2.so.2:xmlCtxtGetLastError
 libxml2.so.2:xmlCtxtReadMemory
 libxml2.so.2:xmlCtxtUseOptions
 libxml2.so.2:xmlDictFree
-libxml2.so.2:xmlDictLookup
 libxml2.so.2:xmlDictReference
 libxml2.so.2:xmlFree
 libxml2.so.2:xmlFreeDoc
@@ -3778,4 +3824,3 @@ libz.so.1:deflateSetHeader
 libz.so.1:inflate
 libz.so.1:inflateEnd
 libz.so.1:inflateInit2_
-libz.so.1:uncompress
