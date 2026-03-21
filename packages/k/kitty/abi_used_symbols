@@ -654,6 +654,7 @@ libpython3.12.so.1.0:PyLong_AsSize_t
 libpython3.12.so.1.0:PyLong_AsSsize_t
 libpython3.12.so.1.0:PyLong_AsUnsignedLong
 libpython3.12.so.1.0:PyLong_AsUnsignedLongLong
+libpython3.12.so.1.0:PyLong_AsUnsignedLongMask
 libpython3.12.so.1.0:PyLong_AsVoidPtr
 libpython3.12.so.1.0:PyLong_FromLong
 libpython3.12.so.1.0:PyLong_FromLongLong

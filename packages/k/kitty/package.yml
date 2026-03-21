@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kitty
-version    : 0.46.1
-release    : 92
+version    : 0.46.2
+release    : 93
 source     :
-    - https://github.com/kovidgoyal/kitty/releases/download/v0.46.1/kitty-0.46.1.tar.xz : 26cf4bae55038ea1aa26d990dd0ff70ba9841098939230c7925ba5c9419afd98
+    - https://github.com/kovidgoyal/kitty/releases/download/v0.46.2/kitty-0.46.2.tar.xz : e8ea44b13a1c70032a35128a8c4c8c29c90a7cfbe0ad4f6aa2927a057d10f83e
     - https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/NerdFontsSymbolsOnly.tar.xz : 7f8c090da3b0eaa7108646bf34cbbb6ed13d5358a72460522108b06c7ecd716a
 homepage   : https://sw.kovidgoyal.net/kitty/
 license    :
