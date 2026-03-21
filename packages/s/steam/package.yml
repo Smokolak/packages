@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : steam
 version    : 1.0.0.85
-release    : 104
+release    : 105
 source     :
     - https://repo.steampowered.com/steam/pool/steam/s/steam/steam_1.0.0.85.tar.gz : 7f2d374a2fb413ced5b8125151456219d918a255872b4bb77016cbccf38bb7f1
 homepage   : https://store.steampowered.com
@@ -32,7 +32,7 @@ rundeps    :
     - glew110-32bit
     - gnome-themes-extra-32bit
     - gperftools-32bit
-    - gst-plugins-base-32bit
+    - gstreamer-plugins-base-32bit
     - gtk2-engine-murrine-32bit
     - hidapi-32bit
     - intel-tbb-32bit
