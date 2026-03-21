@@ -459,6 +459,7 @@ libglib-2.0.so.0:g_filename_from_utf8
 libglib-2.0.so.0:g_filename_to_utf8
 libglib-2.0.so.0:g_fprintf
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_current_dir
 libglib-2.0.so.0:g_get_monotonic_time
 libglib-2.0.so.0:g_get_system_data_dirs
@@ -1132,6 +1133,7 @@ libmozjs-140.so:_ZN2js2gc19NewMemoryInfoObjectEP9JSContext
 libmozjs-140.so:_ZN2js2gc29PerformIncrementalReadBarrierEN2JS9GCCellPtrE
 libmozjs-140.so:_ZN2js7RunJobsEP9JSContext
 libmozjs-140.so:_ZN2js8DumpHeapEP9JSContextP8_IO_FILENS_24DumpHeapNurseryBehaviourEPFmPKvE
+libmozjs-140.so:_ZN7mozilla6detail23InvalidArrayIndex_CRASHEmm
 libmozjs-140.so:_ZNK2js13StringPrinter6lengthEv
 libmozjs-140.so:_ZNK2js15TempAllocPolicy19reportAllocOverflowEv
 libmozjs-140.so:abort
