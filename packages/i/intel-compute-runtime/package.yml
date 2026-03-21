@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : intel-compute-runtime
-version    : 23.30.26918.9
-release    : 11
+version    : 26.09.37435.1
+release    : 12
 source     :
-    - git|https://github.com/intel/compute-runtime.git : 23.30.26918.9
+    - git|https://github.com/intel/compute-runtime.git : 317eeef929c3d9409b6fa415bde454718be91567
 license    : MIT
 component  : programming.tools
 homepage   : https://github.com/intel/compute-runtime/
@@ -20,6 +20,7 @@ builddeps  :
     - pkgconfig(libze_loader)
     - igsc-devel
 rundeps    :
+    - intel-compute-runtime-legacy
     - intel-graphics-compiler
 libsplit   : false
 clang      : true
@@ -30,8 +31,9 @@ setup      : |
         -DSKIP_UNIT_TESTS=ON \
         -DSUPPORT_DG1=ON \
         -DOCL_ICD_VENDORDIR=/usr/share/OpenCL/vendors \
-        -DNEO_SKIP_UNIT_TESTS=1 \
+        -DNEO_SKIP_UNIT_TESTS=1
 build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSE.md
