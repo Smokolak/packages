@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : lagrange
-version    : 1.20.1
-release    : 28
+version    : 1.20.2
+release    : 29
 source     :
-    - https://github.com/skyjake/lagrange/releases/download/v1.20.1/lagrange-1.20.1.tar.gz : cd5f37f0db5790d9e02bd15b251998d28e8520985fcfc3b6dc54e3c975cdb970
+    - https://github.com/skyjake/lagrange/releases/download/v1.20.2/lagrange-1.20.2.tar.gz : a1660e5a5b9e3149c53a4f544e5ac195c28f512fddbb61c8be135ac05ea65d12
 homepage   : https://gmi.skyjake.fi/lagrange/
 license    : BSD-2-Clause
 component  : network.clients
@@ -20,9 +20,6 @@ builddeps  :
 rundeps    :
     - mpg123
 setup      : |
-    pushd $workdir/lib/the_Foundation
-    %patch -p1 -i $pkgfiles/fix-build-for-glibc-2.43.patch
-    popd
     %cmake_ninja -DTFDN_ENABLE_SSE41=No
 build      : |
     %ninja_build
