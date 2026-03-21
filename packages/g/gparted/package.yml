@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gparted
-version    : 1.8.0
-release    : 31
+version    : 1.8.1
+release    : 32
 source     :
-    - https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.0/gparted-1.8.0.tar.gz : f584ed4be7fd09c2cf6a784778a8540970d985f0ac8e5a7bd0628528a3ab5609
+    - https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz : 67388ac405f9fe92a40636cb03b0e1e0bb6403ad89ccc174b2ff190ef6f32349
 homepage   : https://gparted.org/
 license    : GPL-2.0-or-later
 component  : desktop.gnome

@@ -914,9 +914,7 @@ libstdc++.so.6:_ZTVSt14basic_ifstreamIcSt11char_traitsIcEE
 libstdc++.so.6:_ZTVSt14basic_ofstreamIcSt11char_traitsIcEE
 libstdc++.so.6:_ZTVSt15basic_streambufIcSt11char_traitsIcEE
 libstdc++.so.6:_ZTVSt9basic_iosIcSt11char_traitsIcEE
-libstdc++.so.6:_ZdaPv
 libstdc++.so.6:_ZdlPvm
-libstdc++.so.6:_Znam
 libstdc++.so.6:_Znwm
 libstdc++.so.6:__cxa_allocate_exception
 libstdc++.so.6:__cxa_begin_catch
