@@ -23,8 +23,9 @@
             <Path fileType="executable">/usr/bin/keyd</Path>
             <Path fileType="executable">/usr/bin/keyd-application-mapper</Path>
             <Path fileType="library">/usr/lib/systemd/system/keyd.service</Path>
-            <Path fileType="library">/usr/lib64/systemd/system-preset/20-keyd.preset</Path>
-            <Path fileType="library">/usr/lib64/sysusers.d/keyd.conf</Path>
+            <Path fileType="library">/usr/lib/sysusers.d/keyd.conf</Path>
+            <Path fileType="library">/usr/lib64/systemd/system-preset/60-keyd.preset</Path>
+            <Path fileType="library">/usr/lib64/tmpfiles.d/keyd.conf</Path>
             <Path fileType="doc">/usr/share/doc/keyd/CHANGELOG.md</Path>
             <Path fileType="doc">/usr/share/doc/keyd/DESIGN.md</Path>
             <Path fileType="doc">/usr/share/doc/keyd/README.md</Path>
@@ -154,8 +155,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2026-03-17</Date>
+        <Update release="5">
+            <Date>2026-03-22</Date>
             <Version>2.6.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>
