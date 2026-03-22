@@ -27,7 +27,7 @@ libdraco.so.8
 libexiv2.so.28
 libexpat.so.1
 libgcc_s.so.1
-libgdal.so.37
+libgdal.so.38
 libgeos_c.so.1
 libgsl.so.25
 libhdf5.so.310
@@ -43,7 +43,7 @@ libqscintilla2_qt5.so.15
 libqt5keychain.so.1
 libqwt.so.6.2
 libspatialindex.so.6
-libspatialite.so.7
+libspatialite.so.8
 libsqlite3.so.0
 libstdc++.so.6
 libxml2.so.2
