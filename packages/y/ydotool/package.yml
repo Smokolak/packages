@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : ydotool
 version    : 1.0.4
-release    : 1
+release    : 2
 source     :
     - https://github.com/ReimuNotMoe/ydotool/archive/refs/tags/v1.0.4.tar.gz : ba075a43aa6ead51940e892ecffa4d0b8b40c241e4e2bc4bd9bd26b61fde23bd
 homepage   : https://github.com/ReimuNotMoe/ydotool
@@ -23,4 +23,9 @@ build      : |
 install    : |
     %ninja_install
     %install_license LICENSE
+
+    # udev rule so ydotoold can use /dev/uinput when permitted by group membership
     install -Dm00644 $pkgfiles/80-uinput.rules $installdir/%libdir%/udev/rules.d/80-uinput.rules
+
+    # Default-enabled user preset for ydotool.service (override with systemctl --user mask)
+    install -Dm00644 -t ${installdir}/%libdir%/systemd/user-preset/ ${pkgfiles}/20-ydotool.preset

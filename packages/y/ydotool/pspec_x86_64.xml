@@ -27,6 +27,7 @@ useful for automation on Wayland, text consoles, and other environments without 
             <Path fileType="executable">/usr/bin/ydotool</Path>
             <Path fileType="executable">/usr/bin/ydotoold</Path>
             <Path fileType="library">/usr/lib/systemd/user/ydotool.service</Path>
+            <Path fileType="library">/usr/lib64/systemd/user-preset/20-ydotool.preset</Path>
             <Path fileType="library">/usr/lib64/udev/rules.d/80-uinput.rules</Path>
             <Path fileType="data">/usr/share/licenses/ydotool/LICENSE</Path>
             <Path fileType="man">/usr/share/man/man1/ydotool.1.zst</Path>
@@ -34,8 +35,8 @@ useful for automation on Wayland, text consoles, and other environments without 
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2026-01-11</Date>
+        <Update release="2">
+            <Date>2026-03-22</Date>
             <Version>1.0.4</Version>
             <Comment>Packaging update</Comment>
             <Name>Jared Cervantes</Name>
