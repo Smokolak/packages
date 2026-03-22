@@ -7289,7 +7289,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="127">qgis</Dependency>
+            <Dependency release="128">qgis</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/qgis/Bezier3D.h</Path>
@@ -9848,7 +9848,7 @@
         </Conflicts>
     </Package>
     <History>
-        <Update release="127">
+        <Update release="128">
             <Date>2026-03-22</Date>
             <Version>3.44.7</Version>
             <Comment>Packaging update</Comment>
