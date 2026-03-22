@@ -341,6 +341,7 @@ libQt5Widgets.so.5:_ZN10QTabWidget10setTabTextEiRK7QString
 libQt5Widgets.so.5:_ZN10QTabWidget15setCurrentIndexEi
 libQt5Widgets.so.5:_ZN10QTabWidget6addTabEP7QWidgetRK7QString
 libQt5Widgets.so.5:_ZN10QTabWidgetC1EP7QWidget
+libQt5Widgets.so.5:_ZN10QTableView23resizeColumnsToContentsEv
 libQt5Widgets.so.5:_ZN11QFileDialog10selectFileERK7QString
 libQt5Widgets.so.5:_ZN11QFileDialog11setFileModeENS_8FileModeE
 libQt5Widgets.so.5:_ZN11QFileDialog12setDirectoryERK7QString
@@ -506,6 +507,7 @@ libQt5Widgets.so.5:_ZN7QAction12setWhatsThisERK7QString
 libQt5Widgets.so.5:_ZN7QAction16staticMetaObjectE
 libQt5Widgets.so.5:_ZN7QAction20setIconVisibleInMenuEb
 libQt5Widgets.so.5:_ZN7QAction7setDataERK8QVariant
+libQt5Widgets.so.5:_ZN7QAction7setIconERK5QIcon
 libQt5Widgets.so.5:_ZN7QAction7setTextERK7QString
 libQt5Widgets.so.5:_ZN7QAction7toggledEb
 libQt5Widgets.so.5:_ZN7QAction9triggeredEb
@@ -520,6 +522,7 @@ libQt5Widgets.so.5:_ZN7QDialog11resizeEventEP12QResizeEvent
 libQt5Widgets.so.5:_ZN7QDialog13keyPressEventEP9QKeyEvent
 libQt5Widgets.so.5:_ZN7QDialog16contextMenuEventEP17QContextMenuEvent
 libQt5Widgets.so.5:_ZN7QDialog16staticMetaObjectE
+libQt5Widgets.so.5:_ZN7QDialog18setSizeGripEnabledEb
 libQt5Widgets.so.5:_ZN7QDialog4doneEi
 libQt5Widgets.so.5:_ZN7QDialog4execEv
 libQt5Widgets.so.5:_ZN7QDialog4openEv
