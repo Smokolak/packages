@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : drumstick
 version    : 2.11.0
-release    : 17
+release    : 18
 source     :
     - https://sourceforge.net/projects/drumstick/files/2.11.0/drumstick-2.11.0.tar.gz : 48db17417355a8294dbfa8d10955343f9b8816eb079d6cc9c1fa217579eec8b5
 homepage   : https://drumstick.sourceforge.io
@@ -11,9 +11,11 @@ summary    : Drumstick is a set of MIDI libraries using C++/Qt5 idioms and style
 description: |
     Drumstick is a set C++ MIDI libraries using Qt5 objects, idioms and style. It contains a C++ wrapper around the ALSA library sequencer interface; ALSA sequencer provides software support for MIDI technology on Linux. A complementary library provides classes for SMF (Standard MIDI files: .MID/.KAR), Cakewalk (.WRK), and Overture (.OVE) file formats processing. A multiplatform realtime MIDI I/O library is also provided since release 1.0.
 builddeps  :
-    - pkgconfig(Qt5DBus)
-    - pkgconfig(Qt5Svg)
-    - pkgconfig(Qt5UiTools)
+    - pkgconfig(Qt6Core)
+    - pkgconfig(Qt6Core5Compat)
+    - pkgconfig(Qt6DBus)
+    - pkgconfig(Qt6Svg)
+    - pkgconfig(Qt6UiTools)
     - pkgconfig(alsa)
     - pkgconfig(fluidsynth)
     - pkgconfig(libcgraph)
@@ -22,7 +24,7 @@ builddeps  :
     - docbook-xml
     - doxygen
 setup      : |
-    %cmake_ninja -DUSE_DBUS=ON -DUSE_QT5=ON
+    %cmake_ninja -DUSE_DBUS=ON
 build      : |
     %ninja_build
 install    : |
