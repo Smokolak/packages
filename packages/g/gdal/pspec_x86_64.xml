@@ -3,8 +3,8 @@
         <Name>gdal</Name>
         <Homepage>https://www.gdal.org/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming</PartOf>
@@ -86,13 +86,13 @@
             <Path fileType="executable">/usr/bin/rgb2pct</Path>
             <Path fileType="executable">/usr/bin/rgb2pct.py</Path>
             <Path fileType="executable">/usr/bin/sozip</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.11.4-py3.12.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.11.4-py3.12.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.11.4-py3.12.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.11.4-py3.12.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.11.4-py3.12.egg-info/not-zip-safe</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.11.4-py3.12.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.11.4-py3.12.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.12.3-py3.12.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.12.3-py3.12.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.12.3-py3.12.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.12.3-py3.12.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.12.3-py3.12.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.12.3-py3.12.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/GDAL-3.12.3-py3.12.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo/__pycache__/__init__.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo/__pycache__/gdal.cpython-312.pyc</Path>
@@ -198,18 +198,14 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gcps2ogr.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gcps2vec.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gcps2wld.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal2grd.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_auth.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_cp.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_create_pdf.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_ls.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_lut.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_minmax_location.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_mkdir.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_remove_towgs84.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_rm.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_rmdir.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdal_vrtmerge.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdalbuildvrtofvrt.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdalchksum.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdalcopyproj.cpython-312.pyc</Path>
@@ -220,7 +216,6 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/gdallocationinfo.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/get_soundg.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/histrep.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/hsv_merge.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/jpeg_in_tiff_extract.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/load2odbc.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/__pycache__/loslas2ntv2.cpython-312.pyc</Path>
@@ -257,18 +252,14 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gcps2ogr.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gcps2vec.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gcps2wld.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal2grd.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_auth.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_cp.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_create_pdf.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_ls.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_lut.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_minmax_location.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_mkdir.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_remove_towgs84.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_rm.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_rmdir.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdal_vrtmerge.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdalbuildvrtofvrt.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdalchksum.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdalcopyproj.py</Path>
@@ -279,7 +270,6 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/gdallocationinfo.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/get_soundg.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/histrep.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/hsv_merge.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/jpeg_in_tiff_extract.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/load2odbc.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/loslas2ntv2.py</Path>
@@ -304,8 +294,8 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/vec_tr_spat.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/osgeo_utils/samples/wcs_virtds_params.py</Path>
             <Path fileType="library">/usr/lib64/gdalplugins/drivers.ini</Path>
-            <Path fileType="library">/usr/lib64/libgdal.so.37</Path>
-            <Path fileType="library">/usr/lib64/libgdal.so.37.3.11.4</Path>
+            <Path fileType="library">/usr/lib64/libgdal.so.38</Path>
+            <Path fileType="library">/usr/lib64/libgdal.so.38.3.12.3</Path>
             <Path fileType="data">/usr/share/bash-completion/completions/gdal</Path>
             <Path fileType="data">/usr/share/bash-completion/completions/gdal-config</Path>
             <Path fileType="data">/usr/share/bash-completion/completions/gdal2tiles.py</Path>
@@ -386,6 +376,7 @@
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_0_2.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_0_20.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_0_21.csv</Path>
+            <Path fileType="data">/usr/share/gdal/grib2_table_4_2_0_22.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_0_3.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_0_4.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_0_5.csv</Path>
@@ -403,11 +394,13 @@
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_20_0.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_20_1.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_20_2.csv</Path>
+            <Path fileType="data">/usr/share/gdal/grib2_table_4_2_20_3.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_2_0.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_2_3.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_2_4.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_2_5.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_2_6.csv</Path>
+            <Path fileType="data">/usr/share/gdal/grib2_table_4_2_2_7.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_3_0.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_3_1.csv</Path>
             <Path fileType="data">/usr/share/gdal/grib2_table_4_2_3_2.csv</Path>
@@ -503,16 +496,28 @@
             <Path fileType="data">/usr/share/gdal/vdv452.xml</Path>
             <Path fileType="data">/usr/share/gdal/vdv452.xsd</Path>
             <Path fileType="data">/usr/share/gdal/vicar.json</Path>
+            <Path fileType="data">/usr/share/licenses/gdal/LICENSE.TXT</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-config.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-convert.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-dataset-copy.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-dataset-delete.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-dataset-identify.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-dataset-rename.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-dataset.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-info.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-mdim-convert.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-mdim-info.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-mdim-mosaic.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-mdim.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-pipeline.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-as-features.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-aspect.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-calc.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-clean-collar.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-clip.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-color-blend.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-color-map.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-compare.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-contour.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-convert.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-create.1.zst</Path>
@@ -523,14 +528,20 @@
             <Path fileType="man">/usr/share/man/man1/gdal-raster-index.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-info.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-mosaic.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-neighbors.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-nodata-to-alpha.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-overview-add.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-overview-delete.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-overview-refresh.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-pansharpen.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-pipeline.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-pixel-info.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-polygonize.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-proximity.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-reclassify.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-reproject.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-resize.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-rgb-to-palette.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-roughness.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-scale.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-select.1.zst</Path>
@@ -542,28 +553,37 @@
             <Path fileType="man">/usr/share/man/man1/gdal-raster-tpi.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-tri.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-unscale.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-update.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster-viewshed.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-raster-zonal-stats.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-raster.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-buffer.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-check-coverage.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-check-geometry.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-clean-coverage.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-clip.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-concat.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-convert.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-edit.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-explode-collections.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-filter.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector-geom-buffer.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector-geom-explode-collections.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector-geom-make-valid.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector-geom-segmentize.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector-geom-set-type.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector-geom-simplify.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector-geom-swap-xy.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector-geom.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-grid.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-index.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-info.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-layer-algebra.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-make-point.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-make-valid.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-partition.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-pipeline.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-rasterize.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-segmentize.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-select.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-set-field-type.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-set-geom-type.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-simplify.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector-sql.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/gdal-vector-swap-xy.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vector.1.zst</Path>
-            <Path fileType="man">/usr/share/man/man1/gdal-vector_concat.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vsi-copy.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vsi-delete.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/gdal-vsi-list.1.zst</Path>
@@ -624,7 +644,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="53">gdal</Dependency>
+            <Dependency release="54">gdal</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/cpl_atomic_ops.h</Path>
@@ -658,22 +678,46 @@
             <Path fileType="header">/usr/include/gdal_adbc.h</Path>
             <Path fileType="header">/usr/include/gdal_alg.h</Path>
             <Path fileType="header">/usr/include/gdal_alg_priv.h</Path>
+            <Path fileType="header">/usr/include/gdal_asyncreader.h</Path>
+            <Path fileType="header">/usr/include/gdal_colortable.h</Path>
+            <Path fileType="header">/usr/include/gdal_computedrasterband.h</Path>
+            <Path fileType="header">/usr/include/gdal_cpp_functions.h</Path>
             <Path fileType="header">/usr/include/gdal_csv.h</Path>
+            <Path fileType="header">/usr/include/gdal_dataset.h</Path>
+            <Path fileType="header">/usr/include/gdal_defaultoverviews.h</Path>
+            <Path fileType="header">/usr/include/gdal_driver.h</Path>
+            <Path fileType="header">/usr/include/gdal_drivermanager.h</Path>
             <Path fileType="header">/usr/include/gdal_frmts.h</Path>
             <Path fileType="header">/usr/include/gdal_fwd.h</Path>
+            <Path fileType="header">/usr/include/gdal_gcp.h</Path>
+            <Path fileType="header">/usr/include/gdal_geotransform.h</Path>
+            <Path fileType="header">/usr/include/gdal_majorobject.h</Path>
+            <Path fileType="header">/usr/include/gdal_maskbands.h</Path>
             <Path fileType="header">/usr/include/gdal_mdreader.h</Path>
             <Path fileType="header">/usr/include/gdal_minmax_element.hpp</Path>
+            <Path fileType="header">/usr/include/gdal_multidim.h</Path>
+            <Path fileType="header">/usr/include/gdal_multidim_cpp.h</Path>
+            <Path fileType="header">/usr/include/gdal_multidomainmetadata.h</Path>
+            <Path fileType="header">/usr/include/gdal_openinfo.h</Path>
             <Path fileType="header">/usr/include/gdal_pam.h</Path>
+            <Path fileType="header">/usr/include/gdal_pam_multidim.h</Path>
             <Path fileType="header">/usr/include/gdal_priv.h</Path>
             <Path fileType="header">/usr/include/gdal_priv_templates.hpp</Path>
             <Path fileType="header">/usr/include/gdal_proxy.h</Path>
+            <Path fileType="header">/usr/include/gdal_raster_cpp.h</Path>
+            <Path fileType="header">/usr/include/gdal_rasterband.h</Path>
+            <Path fileType="header">/usr/include/gdal_rasterblock.h</Path>
             <Path fileType="header">/usr/include/gdal_rat.h</Path>
+            <Path fileType="header">/usr/include/gdal_relationship.h</Path>
             <Path fileType="header">/usr/include/gdal_simplesurf.h</Path>
             <Path fileType="header">/usr/include/gdal_typetraits.h</Path>
             <Path fileType="header">/usr/include/gdal_utils.h</Path>
+            <Path fileType="header">/usr/include/gdal_vector_cpp.h</Path>
             <Path fileType="header">/usr/include/gdal_version.h</Path>
             <Path fileType="header">/usr/include/gdal_vrt.h</Path>
             <Path fileType="header">/usr/include/gdalalgorithm.h</Path>
+            <Path fileType="header">/usr/include/gdalalgorithm_c.h</Path>
+            <Path fileType="header">/usr/include/gdalalgorithm_cpp.h</Path>
             <Path fileType="header">/usr/include/gdalcachedpixelaccessor.h</Path>
             <Path fileType="header">/usr/include/gdalgeorefpamdataset.h</Path>
             <Path fileType="header">/usr/include/gdalgrid.h</Path>
@@ -712,12 +756,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="53">
-            <Date>2025-10-14</Date>
-            <Version>3.11.4</Version>
+        <Update release="54">
+            <Date>2026-03-22</Date>
+            <Version>3.12.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
