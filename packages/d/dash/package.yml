@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : dash
-version    : 0.5.13.1
-release    : 17
+version    : 0.5.13.2
+release    : 18
 source     :
-    - https://git.kernel.org/pub/scm/utils/dash/dash.git/snapshot/dash-0.5.13.1.tar.gz : 62a551ed06c31ad09933be0a20478832640d5cc3ce430d0fc7c52a1097129df1
+    - https://git.kernel.org/pub/scm/utils/dash/dash.git/snapshot/dash-0.5.13.2.tar.gz : ce88391bd79c71d9e182b005e69ebb11829e61ed6953276a086dad43701ac594
 homepage   : https://git.kernel.org/pub/scm/utils/dash/dash.git/
 license    : GPL-3.0-or-later
 component  : system.utils
