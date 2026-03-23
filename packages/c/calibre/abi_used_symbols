@@ -1227,10 +1227,10 @@ libstdc++.so.6:__cxa_pure_virtual
 libstdc++.so.6:__cxa_rethrow
 libstdc++.so.6:__cxa_throw
 libstdc++.so.6:__gxx_personality_v0
-libstemmer.so.2:sb_stemmer_delete
-libstemmer.so.2:sb_stemmer_length
-libstemmer.so.2:sb_stemmer_new
-libstemmer.so.2:sb_stemmer_stem
+libstemmer.so.0:sb_stemmer_delete
+libstemmer.so.0:sb_stemmer_length
+libstemmer.so.0:sb_stemmer_new
+libstemmer.so.0:sb_stemmer_stem
 libswresample.so.5:swr_alloc_set_opts2
 libswresample.so.5:swr_convert
 libswresample.so.5:swr_free
