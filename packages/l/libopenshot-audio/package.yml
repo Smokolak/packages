@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libopenshot-audio
-version    : 0.5.0
-release    : 17
+version    : 0.6.0
+release    : 18
 source     :
-    - https://github.com/OpenShot/libopenshot-audio/archive/refs/tags/v0.5.0.tar.gz : 4bf0edd975996622bcc0615191e6daf79391119b5fb4920156c693c05d1ae3dc
+    - https://github.com/OpenShot/libopenshot-audio/archive/refs/tags/v0.6.0.tar.gz : f4df0429db6efc8441817da23d2536fbfb198c723309698cd2de4cb0533afc26
 homepage   : https://github.com/openshot/libopenshot-audio
 license    : GPL-3.0-or-later
 component  : multimedia.library

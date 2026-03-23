@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : openshot-qt
-version    : 3.4.0
-release    : 25
+version    : 3.5.0
+release    : 26
 source     :
-    - https://github.com/OpenShot/openshot-qt/archive/refs/tags/v3.4.0.tar.gz : 36707669447b83f1373291549a5630fd2139a3ccb863ed9c37e1fb4194c47c44
+    - https://github.com/OpenShot/openshot-qt/archive/refs/tags/v3.5.0.tar.gz : 6157c3c2336b38ee0ec7f4d3f164c0442f9c749402fb14884c154e6b0931cf5f
 homepage   : https://www.openshot.org/
 license    : GPL-3.0-or-later
 component  : multimedia.video

@@ -22,11 +22,11 @@
         <Files>
             <Path fileType="executable">/usr/bin/openshot-qt</Path>
             <Path fileType="library">/usr/lib/mime/packages/openshot-qt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.4.0-py3.12.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.4.0-py3.12.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.4.0-py3.12.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.4.0-py3.12.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.4.0-py3.12.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.5.0-py3.12.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.5.0-py3.12.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.5.0-py3.12.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.5.0-py3.12.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt-3.5.0-py3.12.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/__pycache__/__init__.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/__pycache__/launch.cpython-312.pyc</Path>
@@ -115,10 +115,14 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/assets.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/clip_utils.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/clipboard.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/comfy_client.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/comfy_templates.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/conversion.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/convert_framerate.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/effect_init.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/exceptions.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/generation_queue.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/generation_service.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/image_types.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/info.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/json_data.cpython-312.pyc</Path>
@@ -135,10 +139,12 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/sentry.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/settings.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/style_tools.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/tabstops.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/thumbnail.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/time_parts.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/timeline.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/title_bar.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/ui_trace_recorder.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/ui_util.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/updates.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/__pycache__/version.cpython-312.pyc</Path>
@@ -147,6 +153,8 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/assets.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/clip_utils.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/clipboard.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/comfy_client.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/comfy_templates.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/conversion.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/convert_framerate.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/effect_init.py</Path>
@@ -157,6 +165,8 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/exporters/__pycache__/final_cut_pro.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/exporters/edl.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/exporters/final_cut_pro.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/generation_queue.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/generation_service.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/image_types.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/importers/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/importers/__pycache__/__init__.cpython-312.pyc</Path>
@@ -205,10 +215,12 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/sentry.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/settings.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/style_tools.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/tabstops.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/thumbnail.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/time_parts.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/timeline.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/title_bar.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/ui_trace_recorder.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/ui_util.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/updates.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/classes/version.py</Path>
@@ -266,6 +278,24 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/colors/vibrant_&amp;_colorful/valentine_pop.cube</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/colors/vibrant_&amp;_colorful/warm_pop.cube</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/colors/vibrant_&amp;_colorful/warm_to_cool.cube</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/image-blur-anything-sam2.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/image-highlight-anything-sam2.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/image-mask-anything-sam2.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/img2img-basic.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/img2video-svd.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/txt2audio-stable-open.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/txt2img-basic.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/txt2music-ace-step.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/txt2video-svd.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/upscale-realesrgan-x4.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/video-blur-anything-sam2.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/video-frame-interpolation-rife2x.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/video-highlight-anything-sam2.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/video-mask-anything-sam2.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/video-segment-scenes-transnet.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/video-upscale-gan.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/video-whisper-srt.json</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/comfyui/video2video-basic.json</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/effects/icons/analogtape.png</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/effects/icons/analogtape@2x.png</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/effects/icons/bars.png</Path>
@@ -5163,6 +5193,7 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/language/OpenShot_ku.qm</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/language/OpenShot_ky.qm</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/language/OpenShot_la.qm</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/language/OpenShot_lo.qm</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/language/OpenShot_lt.qm</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/language/OpenShot_lv.qm</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/language/OpenShot_mk.qm</Path>
@@ -5251,6 +5282,7 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/presets/format_mp4_x264.xml</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/presets/format_mp4_x264_dx.xml</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/presets/format_mp4_x264_hw.xml</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/presets/format_mp4_x264_lossless.xml</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/presets/format_mp4_x264_nv.xml</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/presets/format_mp4_x264_qsv.xml</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/presets/format_mp4_x264_vtb.xml</Path>
@@ -5826,8 +5858,16 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/settings/_default.settings</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/__pycache__/__init__.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/__pycache__/query_tests.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/query_tests.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/__pycache__/test_json_data.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/__pycache__/test_main_window.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/__pycache__/test_project_data.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/__pycache__/test_query.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/__pycache__/test_timeline_helpers.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/test_json_data.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/test_main_window.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/test_project_data.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/test_query.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/tests/test_timeline_helpers.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/__pycache__/__init__.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/__pycache__/base.cpython-312.pyc</Path>
@@ -5836,6 +5876,20 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/__pycache__/__init__.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/__pycache__/theme.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-captions.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-create-audio.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-create-image.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-create-music.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-create-video.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-restyle.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-scenes.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-smooth.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-action-upscale.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-category-create.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-track-point-negative.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-track-point-positive.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-track-rect-negative.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/ai-track-rect-positive.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/dock-close.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/dock-float.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/dock-move.svg</Path>
@@ -5853,10 +5907,12 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-add-track.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-center-playhead.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-export.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-generate-sparkle.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-import-files.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-media-forward.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-media-pause.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-media-play.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-media-repeat.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-media-rewind.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-media-skip-back.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/cosmic/images/tool-media-skip-forward.svg</Path>
@@ -5890,13 +5946,29 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/__pycache__/__init__.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/__pycache__/theme.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/ai-track-point-negative.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/ai-track-point-positive.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/ai-track-rect-negative.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/ai-track-rect-positive.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/dock-close.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/dock-float.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/dock-move.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/humanity-dark-track-keyframe-panel-show-disabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/humanity-dark-track-keyframe-panel-show-enabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/humanity-dark-track-locked-disabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/humanity-dark-track-locked-enabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/humanity-dark-track-unlocked-disabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/humanity-dark-track-unlocked-enabled.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/keyframe-bezier.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/keyframe-constant.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/keyframe-linear.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/keyframe-panel-add.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/retro-track-keyframe-panel-show-disabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/retro-track-keyframe-panel-show-enabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/retro-track-locked-disabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/retro-track-locked-enabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/retro-track-unlocked-disabled.svg</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/retro-track-unlocked-enabled.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/track-add-above-disabled.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/track-add-above-enabled.svg</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/themes/humanity/images/track-add-below-disabled.svg</Path>
@@ -6432,6 +6504,7 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/__pycache__/export.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/__pycache__/export_clips.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/__pycache__/file_properties.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/__pycache__/generate.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/__pycache__/main_window.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/__pycache__/preferences.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/__pycache__/preview_thread.cpython-312.pyc</Path>
@@ -6450,6 +6523,7 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/export.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/export_clips.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/file_properties.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/generate.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/main_window.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/models/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/models/__pycache__/__init__.cpython-312.pyc</Path>
@@ -6504,6 +6578,7 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__pycache__/__init__.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__pycache__/add_to_timeline_treeview.cpython-312.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__pycache__/ai_tools_menu.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__pycache__/blender_listview.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__pycache__/changelog_treeview.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__pycache__/credits_treeview.cpython-312.pyc</Path>
@@ -6525,6 +6600,7 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__pycache__/tutorial.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/__pycache__/zoom_slider.cpython-312.pyc</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/add_to_timeline_treeview.py</Path>
+            <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/ai_tools_menu.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/blender_listview.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/changelog_treeview.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/openshot_qt/windows/views/credits_treeview.py</Path>
@@ -6634,9 +6710,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="25">
-            <Date>2026-02-17</Date>
-            <Version>3.4.0</Version>
+        <Update release="26">
+            <Date>2026-03-23</Date>
+            <Version>3.5.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Muhammad Alfi Syahrin</Name>
             <Email>malfisya.dev@hotmail.com</Email>
