@@ -225,10 +225,10 @@ libgobject-2.0.so.0:g_value_set_string
 liblzma.so.5:lzma_auto_decoder
 liblzma.so.5:lzma_code
 liblzma.so.5:lzma_end
-libstemmer.so.2:sb_stemmer_delete
-libstemmer.so.2:sb_stemmer_length
-libstemmer.so.2:sb_stemmer_new
-libstemmer.so.2:sb_stemmer_stem
+libstemmer.so.0:sb_stemmer_delete
+libstemmer.so.0:sb_stemmer_length
+libstemmer.so.0:sb_stemmer_new
+libstemmer.so.0:sb_stemmer_stem
 libzstd.so.1:ZSTD_createDStream
 libzstd.so.1:ZSTD_decompressStream
 libzstd.so.1:ZSTD_freeDStream
