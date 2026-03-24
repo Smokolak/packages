@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libxmlb
 version    : 0.3.25
-release    : 12
+release    : 13
 source     :
     - https://github.com/hughsie/libxmlb/archive/refs/tags/0.3.25.tar.gz : 1b4c42ea390d3c5358764645667f92bde3e82e5b777c0415f6c4eec21273dbdf
 homepage   : https://github.com/hughsie/libxmlb

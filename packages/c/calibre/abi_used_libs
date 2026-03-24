@@ -18,7 +18,7 @@ libmtp.so.9
 libpodofo.so.2
 libpython3.12.so.1.0
 libstdc++.so.6
-libstemmer.so.2
+libstemmer.so.0
 libswresample.so.5
 libuchardet.so.0
 libusb-1.0.so.0
