@@ -25,9 +25,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="51">
-            <Date>2026-02-04</Date>
-            <Version>7.2.4</Version>
+        <Update release="52">
+            <Date>2026-03-24</Date>
+            <Version>7.2.5</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>

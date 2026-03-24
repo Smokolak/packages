@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : unrar
-version    : 7.2.4
-release    : 51
+version    : 7.2.5
+release    : 52
 source     :
-    - https://www.rarlab.com/rar/unrarsrc-7.2.4.tar.gz : b02e571a33af7711cd803080500370dc1d28eea82b2032480819d27462ad8b31
+    - https://www.rarlab.com/rar/unrarsrc-7.2.5.tar.gz : 3d7b402ce7b9825af32a5f593379269e742c883d9d276527be19d0e9f6a114f9
 homepage   : https://www.rarlab.com
 license    : Distributable
 component  : system.utils
