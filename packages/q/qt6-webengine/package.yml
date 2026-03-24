@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qt6-webengine
 version    : 6.10.2
-release    : 62
+release    : 63
 source     :
     - https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtwebengine-everywhere-src-6.10.2.tar.xz : 856eddf292a69a88618567deea67711b4ec720e69bcb575ed7bb539c9023961e
 
@@ -9,7 +9,7 @@ source     :
 ### To update this run the ./update-chromium.py script
 # Don't edit anything between the BEGIN_UPSTREAMS and END_UPSTREAMS tags
 ##@@BEGIN_UPSTREAMS
-    - git|https://invent.kde.org/qt/qt/qtwebengine-chromium.git : 9565cddeaf6832a77188d58eb456dc3fdcaa2467
+    - git|https://invent.kde.org/qt/qt/qtwebengine-chromium.git : 4b07159f5503f73d17b0ac09fd8f354b3c8c9a28
 ##@@END_UPSTREAMS
 license    :
     - GFDL-1.3-or-later
