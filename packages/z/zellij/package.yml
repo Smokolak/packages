@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : zellij
 version    : 0.44.0
-release    : 15
+release    : 16
 source     :
     - https://github.com/zellij-org/zellij/archive/refs/tags/v0.44.0.tar.gz : be413dc49d7bff1be6502a1998664b015b77ad55636d72e0497cfc66d4a4cdf6
 homepage   : https://zellij.dev
@@ -18,7 +18,7 @@ setup      : |
     %cargo_fetch --target "x86_64-unknown-linux-gnu"
 build      : |
     # Set features manually to avoid some vendored deps
-    %cargo_build --no-default-features --features plugins_from_target
+    %cargo_build --no-default-features --features "plugins_from_target web_server_capability"
 
     # Build completions
     ./target/release/zellij setup --generate-completion bash > target/zellij.bash
