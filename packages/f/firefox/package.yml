@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : firefox
-version    : 148.0.2
-release    : 392
+version    : '149.0'
+release    : 393
 source     :
-    - https://ftp.mozilla.org/pub/firefox/releases/148.0.2/source/firefox-148.0.2.source.tar.xz : a6cb8e4d5e596cd52475bab9b4d399240f10c4211718b9d72ca6b2e9c9244e90
+    - https://ftp.mozilla.org/pub/firefox/releases/149.0/source/firefox-149.0.source.tar.xz : b861fdee999d9b6404e1e865d6f707c41b4bded1b5ea62affc176288c1484b8a
 homepage   : https://www.mozilla.org/firefox/
 license    :
     - GPL-2.0-or-later
@@ -64,8 +64,8 @@ environment: |
 setup      : |
     %patch -p1 -i $pkgfiles/0001-Fix-Firefox-Thunderbird-envvar-conflicts.patch
     %patch -p1 -i $pkgfiles/0001-Allow-installing-addons-from-user-scope.patch
-    %patch -p1 -i $pkgfiles/ftbfs-gcc-15.2.1.patch
-    %patch -p1 -i $pkgfiles/ftbfs-gcc-15.2.1-2.patch
+    %patch -p1 -i $pkgfiles/0002-Patch-glsl-optimizer-to-build-with-glibc-2.43.patch
+    %patch -p1 -i $pkgfiles/0003-Bug-2016618-Fix-Linux-sandbox-build-breakage-on-glib.patch
 
     # v144.0.2 would not build with python-zstandard v0.25.0
     # Fix not needed since we had to remove MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system

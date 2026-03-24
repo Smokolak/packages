@@ -1804,6 +1804,7 @@ libicui18n.so.78:ucol_getSortKey_78
 libicui18n.so.78:ucol_open_78
 libicui18n.so.78:ucol_setAttribute_78
 libicui18n.so.78:ucol_setStrength_78
+libicui18n.so.78:ucol_strcollUTF8_78
 libicui18n.so.78:ucol_strcoll_78
 libicui18n.so.78:udat_close_78
 libicui18n.so.78:udat_formatForFields_78
