@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : freerdp
-version    : 3.23.0
-release    : 48
+version    : 3.24.2
+release    : 49
 source     :
-    - https://pub.freerdp.com/releases/freerdp-3.23.0.tar.gz : 929273003f35b0b4f211e48d5abed4ebcef99da94784a50b6dc85cd0b7e257b1
+    - https://pub.freerdp.com/releases/freerdp-3.24.2.tar.xz : 653b273f2a428b8a31be1e157815b2c9ec552a4c376ff3ec28b311c8a74e99b3
 homepage   : https://www.freerdp.com/
 license    : Apache-2.0
 component  : network.util
