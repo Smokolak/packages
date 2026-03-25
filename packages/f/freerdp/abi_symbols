@@ -1,4 +1,3 @@
-libfreerdp-client3.so.3:add_device
 libfreerdp-client3.so.3:channel_client_create_handler
 libfreerdp-client3.so.3:client_auto_reconnect
 libfreerdp-client3.so.3:client_auto_reconnect_ex
@@ -27,7 +26,6 @@ libfreerdp-client3.so.3:cliprdr_file_context_set_locally_available
 libfreerdp-client3.so.3:cliprdr_file_context_uninit
 libfreerdp-client3.so.3:cliprdr_file_context_update_client_data
 libfreerdp-client3.so.3:cliprdr_file_context_update_server_data
-libfreerdp-client3.so.3:del_device
 libfreerdp-client3.so.3:freerdp_channels_addin_list_free
 libfreerdp-client3.so.3:freerdp_channels_client_find_static_entry
 libfreerdp-client3.so.3:freerdp_channels_list_addins
@@ -103,16 +101,6 @@ libfreerdp-client3.so.3:freerdp_set_connection_type
 libfreerdp-client3.so.3:freerdp_smartcard_list
 libfreerdp-client3.so.3:mappedGeometryRef
 libfreerdp-client3.so.3:mappedGeometryUnref
-libfreerdp-client3.so.3:msusb_msconfig_dump
-libfreerdp-client3.so.3:msusb_msconfig_free
-libfreerdp-client3.so.3:msusb_msconfig_new
-libfreerdp-client3.so.3:msusb_msconfig_read
-libfreerdp-client3.so.3:msusb_msconfig_write
-libfreerdp-client3.so.3:msusb_msinterface_free
-libfreerdp-client3.so.3:msusb_msinterface_read
-libfreerdp-client3.so.3:msusb_msinterface_replace
-libfreerdp-client3.so.3:msusb_msinterface_write
-libfreerdp-client3.so.3:msusb_mspipes_replace
 libfreerdp-client3.so.3:rail_handshake_ex_flags_to_string
 libfreerdp-client3.so.3:rdpgfx_client_context_free
 libfreerdp-server-proxy3.so.3:StaticChannelContext_free
@@ -631,6 +619,7 @@ libfreerdp3.so.3:freerdp_get_error_info_category
 libfreerdp3.so.3:freerdp_get_error_info_name
 libfreerdp3.so.3:freerdp_get_error_info_string
 libfreerdp3.so.3:freerdp_get_event_handles
+libfreerdp3.so.3:freerdp_get_gateway_usage_method
 libfreerdp3.so.3:freerdp_get_io_callback_context
 libfreerdp3.so.3:freerdp_get_io_callbacks
 libfreerdp3.so.3:freerdp_get_keyboard_default_layout_for_locale
@@ -673,6 +662,8 @@ libfreerdp3.so.3:freerdp_image_fill
 libfreerdp3.so.3:freerdp_image_fill_ex
 libfreerdp3.so.3:freerdp_image_scale
 libfreerdp3.so.3:freerdp_input_keyboard_flags_string
+libfreerdp3.so.3:freerdp_input_keypress_flags_string
+libfreerdp3.so.3:freerdp_input_mouse_flags_string
 libfreerdp3.so.3:freerdp_input_send_extended_mouse_event
 libfreerdp3.so.3:freerdp_input_send_focus_in_event
 libfreerdp3.so.3:freerdp_input_send_keyboard_event
@@ -833,6 +824,12 @@ libfreerdp3.so.3:freerdp_utils_aad_get_wellknown_custom_string
 libfreerdp3.so.3:freerdp_utils_aad_get_wellknown_object
 libfreerdp3.so.3:freerdp_utils_aad_get_wellknown_string
 libfreerdp3.so.3:freerdp_utils_aad_wellknwon_value_name
+libfreerdp3.so.3:freerdp_video_available
+libfreerdp3.so.3:freerdp_video_context_free
+libfreerdp3.so.3:freerdp_video_context_new
+libfreerdp3.so.3:freerdp_video_context_reconfigure
+libfreerdp3.so.3:freerdp_video_conversion_supported
+libfreerdp3.so.3:freerdp_video_sample_convert
 libfreerdp3.so.3:freerdp_write_four_byte_float
 libfreerdp3.so.3:freerdp_write_four_byte_signed_integer
 libfreerdp3.so.3:gdi_BitBlt
@@ -1081,6 +1078,7 @@ libfreerdp3.so.3:smartcard_call_cancel_context
 libfreerdp3.so.3:smartcard_call_context_add
 libfreerdp3.so.3:smartcard_call_context_free
 libfreerdp3.so.3:smartcard_call_context_new
+libfreerdp3.so.3:smartcard_call_context_new_with_context
 libfreerdp3.so.3:smartcard_call_context_signal_stop
 libfreerdp3.so.3:smartcard_call_get_context
 libfreerdp3.so.3:smartcard_call_is_configured
@@ -2422,6 +2420,7 @@ libwinpr3.so.3:WinPrAsn1EncStreamSize
 libwinpr3.so.3:WinPrAsn1EncToStream
 libwinpr3.so.3:WinPrAsn1EncUtcTime
 libwinpr3.so.3:WinPrAsn1Encoder_Free
+libwinpr3.so.3:WinPrAsn1Encoder_FreeNoNull
 libwinpr3.so.3:WinPrAsn1Encoder_New
 libwinpr3.so.3:WinPrAsn1Encoder_Reset
 libwinpr3.so.3:WinPrAsn1FreeOID
@@ -2620,6 +2619,7 @@ libwinpr3.so.3:winpr_aligned_offset_recalloc
 libwinpr3.so.3:winpr_aligned_realloc
 libwinpr3.so.3:winpr_aligned_recalloc
 libwinpr3.so.3:winpr_asprintf
+libwinpr3.so.3:winpr_atexit
 libwinpr3.so.3:winpr_backtrace
 libwinpr3.so.3:winpr_backtrace_free
 libwinpr3.so.3:winpr_backtrace_symbols
