@@ -155,8 +155,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2026-03-22</Date>
+        <Update release="6">
+            <Date>2026-03-25</Date>
             <Version>2.6.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>
