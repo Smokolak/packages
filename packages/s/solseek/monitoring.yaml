@@ -1,5 +1,5 @@
 releases:
-  id: ~
+  id: 388217
   rss: https://github.com/clintre/solseek/tags.atom
  # No known CPE, checked 2025-10-25
 security:
