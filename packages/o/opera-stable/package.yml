@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : opera-stable
-version    : 129.0.5823.15
-release    : 381
+version    : 129.0.5823.22
+release    : 382
 source     :
-    - https://ftp.opera.com/pub/opera/desktop/129.0.5823.15/linux/opera-stable_129.0.5823.15_amd64.deb : 0c4c57663887ab2be9ab81a418398f6455c7d28932745ecd6dd1f7aaa4d093ff
+    - https://ftp.opera.com/pub/opera/desktop/129.0.5823.22/linux/opera-stable_129.0.5823.22_amd64.deb : bd06379b30917786c5eba04e70b0dc90398936ffd85c9550b1ad6528b690e015
 license    : Distributable
 homepage   : https://www.opera.com
 extract    : false
