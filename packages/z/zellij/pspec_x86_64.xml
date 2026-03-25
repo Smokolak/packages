@@ -3,8 +3,8 @@
         <Name>zellij</Name>
         <Homepage>https://zellij.dev</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>system.utils</PartOf>
@@ -32,12 +32,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="15">
-            <Date>2026-03-23</Date>
+        <Update release="16">
+            <Date>2026-03-24</Date>
             <Version>0.44.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
