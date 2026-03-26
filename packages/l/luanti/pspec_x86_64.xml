@@ -3,8 +3,8 @@
         <Name>luanti</Name>
         <Homepage>https://www.luanti.org/</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>Apache-2.0</License>
         <License>CC-BY-SA-3.0</License>
@@ -436,12 +436,12 @@ Minetest is designed to be simple, stable, and portable. It is lightweight enoug
         </Replaces>
     </Package>
     <History>
-        <Update release="38">
-            <Date>2026-02-28</Date>
+        <Update release="39">
+            <Date>2026-03-26</Date>
             <Version>5.15.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
