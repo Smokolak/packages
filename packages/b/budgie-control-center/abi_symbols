@@ -1349,6 +1349,7 @@ budgie-control-center:gvc_channel_map_new
 budgie-control-center:gvc_channel_map_new_from_pa_channel_map
 budgie-control-center:gvc_channel_map_volume_changed
 budgie-control-center:gvc_headset_port_choice_get_type
+budgie-control-center:gvc_mixer_card_add_port
 budgie-control-center:gvc_mixer_card_change_profile
 budgie-control-center:gvc_mixer_card_get_gicon
 budgie-control-center:gvc_mixer_card_get_icon_name
@@ -1362,6 +1363,7 @@ budgie-control-center:gvc_mixer_card_get_profiles
 budgie-control-center:gvc_mixer_card_get_type
 budgie-control-center:gvc_mixer_card_new
 budgie-control-center:gvc_mixer_card_profile_compare
+budgie-control-center:gvc_mixer_card_remove_port
 budgie-control-center:gvc_mixer_card_set_icon_name
 budgie-control-center:gvc_mixer_card_set_name
 budgie-control-center:gvc_mixer_card_set_ports
