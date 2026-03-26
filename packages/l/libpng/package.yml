@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libpng
-version    : 1.6.55
-release    : 34
+version    : 1.6.56
+release    : 35
 source     :
-    - https://sourceforge.net/projects/libpng/files/libpng16/1.6.55/libpng-1.6.55.tar.gz : 4b0abab6d219e95690ebe4db7fc9aa95f4006c83baaa022373c0c8442271283d
+    - https://sourceforge.net/projects/libpng/files/libpng16/1.6.56/libpng-1.6.56.tar.gz : 8f91e941a07fb1069ebb3855278f82a849e6af14ca05821e14ec3d5348697ea5
 homepage   : https://www.libpng.org/pub/png/
 license    : Libpng
 component  : multimedia.library
