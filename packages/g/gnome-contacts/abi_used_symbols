@@ -469,6 +469,7 @@ libglib-2.0.so.0:g_file_error_quark
 libglib-2.0.so.0:g_file_get_contents
 libglib-2.0.so.0:g_file_set_contents
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_application_name
 libglib-2.0.so.0:g_get_system_data_dirs
 libglib-2.0.so.0:g_get_user_config_dir
