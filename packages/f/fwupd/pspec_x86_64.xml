@@ -140,7 +140,7 @@ Additional information is available at the website: https://fwupd.org/
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="41">fwupd</Dependency>
+            <Dependency release="42">fwupd</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/fwupd-3/fwupd.h</Path>
@@ -4914,7 +4914,7 @@ Additional information is available at the website: https://fwupd.org/
 Additional information is available at the website: https://fwupd.org/
 </Description>
         <RuntimeDependencies>
-            <Dependency release="41">fwupd</Dependency>
+            <Dependency release="42">fwupd</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/fwupd/installed-tests/fwupd/acpi-dmar-self-test</Path>
@@ -5365,7 +5365,7 @@ Additional information is available at the website: https://fwupd.org/
         </Files>
     </Package>
     <History>
-        <Update release="41">
+        <Update release="42">
             <Date>2026-03-26</Date>
             <Version>2.1.1</Version>
             <Comment>Packaging update</Comment>
