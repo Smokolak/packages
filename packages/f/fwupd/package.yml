@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : fwupd
-version    : 2.0.20
-release    : 40
+version    : 2.1.1
+release    : 41
 source     :
-    - https://github.com/fwupd/fwupd/archive/refs/tags/2.0.20.tar.gz : d1bb9b84031954f0c57a6caed93a21f0a3c1e05fb677a103ec0a79ba28fc3cea
+    - https://github.com/fwupd/fwupd/archive/refs/tags/2.1.1.tar.gz : 1bb6e7bef9a5e2ed4ba847a6e38b7d6ee87ad7255c8c4f090aef34b611b5626b
 homepage   : https://fwupd.org/
 license    : LGPL-2.1-or-later
 component  : system.utils
