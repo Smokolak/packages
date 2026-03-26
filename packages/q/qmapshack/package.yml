@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qmapshack
 version    : 1.19.0
-release    : 20
+release    : 21
 source     :
     - https://github.com/Maproom/qmapshack/archive/refs/tags/V_1.19.0.tar.gz : b2dcdcc7ef66e80cfd6e0be9d8ee493e72f3c1bfffcc9f592d2fc4d4995847a6
 homepage   : https://github.com/Maproom/qmapshack
