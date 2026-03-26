@@ -20,10 +20,10 @@
 </Description>
         <PartOf>programming.library</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/libspatialindex.so.6</Path>
-            <Path fileType="library">/usr/lib/libspatialindex.so.6.1.1</Path>
-            <Path fileType="library">/usr/lib/libspatialindex_c.so.6</Path>
-            <Path fileType="library">/usr/lib/libspatialindex_c.so.6.1.1</Path>
+            <Path fileType="library">/usr/lib64/libspatialindex.so.8</Path>
+            <Path fileType="library">/usr/lib64/libspatialindex.so.8.0.0</Path>
+            <Path fileType="library">/usr/lib64/libspatialindex_c.so.8</Path>
+            <Path fileType="library">/usr/lib64/libspatialindex_c.so.8.0.0</Path>
             <Path fileType="data">/usr/share/licenses/libspatialindex/COPYING</Path>
         </Files>
     </Package>
@@ -34,9 +34,10 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="4">libspatialindex</Dependency>
+            <Dependency release="5">libspatialindex</Dependency>
         </RuntimeDependencies>
         <Files>
+            <Path fileType="header">/usr/include/spatialindex/Ball.h</Path>
             <Path fileType="header">/usr/include/spatialindex/LineSegment.h</Path>
             <Path fileType="header">/usr/include/spatialindex/MVRTree.h</Path>
             <Path fileType="header">/usr/include/spatialindex/MovingPoint.h</Path>
@@ -67,14 +68,19 @@
             <Path fileType="header">/usr/include/spatialindex/tools/PoolPointer.h</Path>
             <Path fileType="header">/usr/include/spatialindex/tools/Tools.h</Path>
             <Path fileType="header">/usr/include/spatialindex/tools/rand48.h</Path>
-            <Path fileType="library">/usr/lib/libspatialindex.so</Path>
-            <Path fileType="library">/usr/lib/libspatialindex_c.so</Path>
+            <Path fileType="library">/usr/lib64/cmake/libspatialindex/libspatialindexConfig.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/libspatialindex/libspatialindexConfigVersion.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/libspatialindex/libspatialindexTargets-relwithdebinfo.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/libspatialindex/libspatialindexTargets.cmake</Path>
+            <Path fileType="library">/usr/lib64/libspatialindex.so</Path>
+            <Path fileType="library">/usr/lib64/libspatialindex_c.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/libspatialindex.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2026-03-25</Date>
-            <Version>1.9.3</Version>
+        <Update release="5">
+            <Date>2026-03-27</Date>
+            <Version>2.1.0</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
