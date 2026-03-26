@@ -1,15 +1,18 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
-name       : intel-compute-runtime
-version    : 26.09.37435.1
-release    : 12
+# This package is on the 24.35 branch,
+# See https://github.com/intel/compute-runtime/blob/master/LEGACY_PLATFORMS.md
+name       : intel-compute-runtime-legacy
+version    : 24.35.30872.45
+release    : 1
 source     :
-    - git|https://github.com/intel/compute-runtime.git : 317eeef929c3d9409b6fa415bde454718be91567
+    - git|https://github.com/intel/compute-runtime.git : 6c940d1663613ee170a53e6187dceeb01f6e2031
 license    : MIT
 component  : programming.tools
 homepage   : https://github.com/intel/compute-runtime/
-summary    : Intel® Graphics Compute Runtime for oneAPI Level Zero and OpenCL™ Driver
+summary    : Intel® Graphics Compute Runtime for legacy platforms
 description: |
     The Intel(R) Graphics Compute Runtime for oneAPI Level Zero and OpenCL(TM) Driver is an open source project providing compute API support (Level Zero, OpenCL) for Intel graphics hardware architectures (HD Graphics, Xe).
+    This package supports Broadwell, Skylake, Kaby Lake, Coffee Lake, Apollo Lake, Gemini Lake, Ice Lake and Elkhart Lake.
 replaces   :
     - beignet
 builddeps  :
@@ -20,7 +23,6 @@ builddeps  :
     - pkgconfig(libze_loader)
     - igsc-devel
 rundeps    :
-    - intel-compute-runtime-legacy
     - intel-graphics-compiler
 libsplit   : false
 clang      : true
@@ -31,7 +33,9 @@ setup      : |
         -DSKIP_UNIT_TESTS=ON \
         -DSUPPORT_DG1=ON \
         -DOCL_ICD_VENDORDIR=/usr/share/OpenCL/vendors \
-        -DNEO_SKIP_UNIT_TESTS=1
+        -DNEO_SKIP_UNIT_TESTS=1 \
+        -DNEO_LEGACY_PLATFORMS_SUPPORT=1 \
+        -DNEO_CURRENT_PLATFORMS_SUPPORT=0
 build      : |
     %ninja_build
 install    : |
