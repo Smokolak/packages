@@ -3,8 +3,8 @@
         <Name>zellij</Name>
         <Homepage>https://zellij.dev</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>system.utils</PartOf>
@@ -24,7 +24,7 @@
             <Path fileType="data">/usr/share/applications/zellij.desktop</Path>
             <Path fileType="data">/usr/share/bash-completion/completions/zellij</Path>
             <Path fileType="data">/usr/share/fish/vendor_completions.d/zellij.fish</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/zellij.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/zellij.svg</Path>
             <Path fileType="data">/usr/share/licenses/zellij/LICENSE.md</Path>
             <Path fileType="man">/usr/share/man/man1/zellij.1.zst</Path>
             <Path fileType="data">/usr/share/metainfo/dev.zellij.Zellij.metainfo.xml</Path>
@@ -32,12 +32,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2026-03-24</Date>
+        <Update release="17">
+            <Date>2026-03-27</Date>
             <Version>0.44.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Update>
     </History>
 </PISI>
