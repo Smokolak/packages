@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : pdal
-version    : 2.9.2
-release    : 11
+version    : 2.10.0
+release    : 12
 source     :
-    - https://github.com/PDAL/PDAL/archive/refs/tags/2.9.2.tar.gz : a93f9e5d56814fd9c46a0f48de6c0f65b00ce09984c9f3293774a9c78e094266
+    - https://github.com/PDAL/PDAL/archive/refs/tags/2.10.0.tar.gz : bb34493571e23b3cb31790ecbf855d8771a477da8b78acd16ae976ccd4ac2197
 homepage   : https://pdal.io/en/stable/
 license    : BSD-2-Clause
 component  : programming.library
@@ -51,5 +51,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSE.txt
+    rm $installdir/usr/lib64/libE57Format.a
 check      : |
     %ninja_check || :

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qgis
 version    : 3.44.7
-release    : 128
+release    : 129
 source     :
     - https://github.com/qgis/QGIS/archive/refs/tags/final-3_44_7.tar.gz : a05f7479a99e664b2b0a701e895f2f9e6e5c761b2831ffd6d94510eece7ad54d
 homepage   : https://qgis.org/
@@ -40,7 +40,7 @@ builddeps  :
     - pkgconfig(rttopo)
     - pkgconfig(spatialite)
     - laz-perf-devel
-    - libspatialindex-devel
+    #- libspatialindex-devel
     - pyqt-builder
     - python-qscintilla
     - python-setuptools
@@ -65,7 +65,8 @@ setup      : |
         -DWITH_CUSTOM_WIDGETS=TRUE \
         -DWITH_PDAL=TRUE \
         -DWITH_QTWEBKIT=FALSE \
-        -DWITH_3D=TRUE
+        -DWITH_3D=TRUE \
+        -DWITH_INTERNAL_SPATIALINDEX=TRUE # Too new for gqis https://github.com/libspatialindex/libspatialindex/issues/276
 build      : |
     %ninja_build
 install    : |

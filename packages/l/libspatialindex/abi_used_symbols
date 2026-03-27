@@ -10,6 +10,7 @@ libc.so.6:__stack_chk_fail
 libc.so.6:drand48
 libc.so.6:erand48
 libc.so.6:free
+libc.so.6:getenv
 libc.so.6:jrand48
 libc.so.6:malloc
 libc.so.6:memcmp
@@ -30,6 +31,7 @@ libm.so.6:atan
 libm.so.6:log
 libm.so.6:pow
 libm.so.6:sqrt
+libm.so.6:tgamma
 libstdc++.so.6:_ZNKSt5ctypeIcE13_M_widen_initEv
 libstdc++.so.6:_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv
 libstdc++.so.6:_ZNSdD2Ev
