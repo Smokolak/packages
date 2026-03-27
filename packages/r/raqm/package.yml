@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : raqm
 version    : 0.7.1
-release    : 1
+release    : 2
 source     :
     - https://github.com/HOST-Oman/libraqm/releases/download/v0.7.1/raqm-0.7.1.tar.gz : 86488cf0b8ac736943fa748bd812000db63cc5ab6ad69c942e68e5187f4b9828
 license    : MIT
@@ -17,9 +17,10 @@ builddeps  :
     - pkgconfig32(fribidi)
     - pkgconfig32(harfbuzz)
 setup      : |
-    %configure --disable-static
+    %configure_no_runstatedir --disable-static
 build      : |
     %make
 install    : |
     %make_install
     rm -r $installdir/usr/share
+    %install_license COPYING
