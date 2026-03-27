@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : nodejs-20
-version    : 20.20.0
-release    : 9
+version    : 20.20.2
+release    : 10
 source     :
-    - https://github.com/nodejs/node/archive/refs/tags/v20.20.0.tar.gz : 09044f285e12d9c6323f21a9ae0c39a0e4863ebd0b5beea8e6e895e2eb820704
+    - https://github.com/nodejs/node/archive/refs/tags/v20.20.2.tar.gz : d95677dd27eb1cd94342c082b3c96ad67270ffa688193086441b1161277dd9f5
 homepage   : https://nodejs.org/en
 license    : MIT
 component  : programming
