@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : tigervnc
-version    : 1.16.0
-release    : 28
+version    : 1.16.2
+release    : 29
 source     :
-    - https://github.com/TigerVNC/tigervnc/archive/refs/tags/v1.16.0.tar.gz : 10512fc0254ae3bde41c19d18c15f7ebd8cd476261afe0611c41965d635d46e8
+    - https://github.com/TigerVNC/tigervnc/archive/refs/tags/v1.16.2.tar.gz : b107c0c8b8a962594281690366c24186e95c2ea4a169acbc0076aa62ed01f467
     - https://www.x.org/releases/individual/xserver/xorg-server-21.1.21.tar.xz : c0cbe5545b3f645bae6024b830d1d1154a956350683a4e52b2fff5b0fa1ab519
 homepage   : https://tigervnc.org/
 license    :
