@@ -23,7 +23,7 @@ It currently provides bidirectional text support (using FriBiDi), shaping (using
         <PartOf>multimedia.library</PartOf>
         <Files>
             <Path fileType="library">/usr/lib64/libraqm.so.0</Path>
-            <Path fileType="library">/usr/lib64/libraqm.so.0.700.1</Path>
+            <Path fileType="library">/usr/lib64/libraqm.so.0.10.4</Path>
             <Path fileType="data">/usr/share/licenses/raqm/COPYING</Path>
         </Files>
     </Package>
@@ -35,11 +35,11 @@ It currently provides bidirectional text support (using FriBiDi), shaping (using
 </Description>
         <PartOf>emul32</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">raqm</Dependency>
+            <Dependency release="3">raqm</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/libraqm.so.0</Path>
-            <Path fileType="library">/usr/lib32/libraqm.so.0.700.1</Path>
+            <Path fileType="library">/usr/lib32/libraqm.so.0.10.4</Path>
         </Files>
     </Package>
     <Package>
@@ -50,8 +50,8 @@ It currently provides bidirectional text support (using FriBiDi), shaping (using
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">raqm-devel</Dependency>
-            <Dependency release="2">raqm-32bit</Dependency>
+            <Dependency release="3">raqm-32bit</Dependency>
+            <Dependency release="3">raqm-devel</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/libraqm.so</Path>
@@ -66,7 +66,7 @@ It currently provides bidirectional text support (using FriBiDi), shaping (using
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">raqm</Dependency>
+            <Dependency release="3">raqm</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/raqm-version.h</Path>
@@ -76,9 +76,9 @@ It currently provides bidirectional text support (using FriBiDi), shaping (using
         </Files>
     </Package>
     <History>
-        <Update release="2">
+        <Update release="3">
             <Date>2026-03-27</Date>
-            <Version>0.7.1</Version>
+            <Version>0.10.4</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
