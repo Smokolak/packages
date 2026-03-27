@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : cemu
 version    : '2.6'
-release    : 18
+release    : 19
 source     :
     - git|https://github.com/cemu-project/Cemu : v2.6
 homepage   : https://cemu.info/
@@ -19,6 +19,7 @@ builddeps  :
     - pkgconfig(glu)
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libcrypto)
+    - pkgconfig(libcubeb)
     - pkgconfig(libcurl)
     - pkgconfig(libpng)
     - pkgconfig(libusb-1.0)
@@ -27,7 +28,6 @@ builddeps  :
     - pkgconfig(pugixml)
     - pkgconfig(sdl2)
     - pkgconfig(wayland-protocols)
-    - cubeb-devel
     - glslang-devel
     - hidapi-devel
     - libboost-devel
