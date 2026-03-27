@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : nodejs-22
-version    : 22.22.0
-release    : 10
+version    : 22.22.2
+release    : 11
 source     :
-    - https://github.com/nodejs/node/archive/refs/tags/v22.22.0.tar.gz : b7f40aadbf71df0d78a2239f593e4f14bf2f129fd9c5643f024c68ec1b48a854
+    - https://github.com/nodejs/node/archive/refs/tags/v22.22.2.tar.gz : 1c0be257d2e47ca90c040ead3277b4899ec2294e71ec3f184734dae64dcf3bb4
 homepage   : https://nodejs.org/en
 license    : MIT
 component  : programming
