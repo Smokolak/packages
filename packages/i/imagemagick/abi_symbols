@@ -1,10 +1,4 @@
-Magick.so:__bss_start
-Magick.so:_edata
-Magick.so:_end
 Magick.so:boot_Image__Magick
-Q16HDRI.so:__bss_start
-Q16HDRI.so:_edata
-Q16HDRI.so:_end
 Q16HDRI.so:boot_Image__Magick__Q16HDRI
 libMagick++-7.Q16HDRI.so.5:_ZN6Magick10ErrorCacheC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 libMagick++-7.Q16HDRI.so.5:_ZN6Magick10ErrorCacheC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS_9ExceptionE
@@ -2607,9 +2601,6 @@ libMagick++-7.Q16HDRI.so.5:_ZNK6Magick9trimImageclERNS_5ImageE
 libMagick++-7.Q16HDRI.so.5:_ZNK6Magick9typeImageclERNS_5ImageE
 libMagick++-7.Q16HDRI.so.5:_ZNK6Magick9waveImageclERNS_5ImageE
 libMagick++-7.Q16HDRI.so.5:_ZNK6Magick9zoomImageclERNS_5ImageE
-libMagick++-7.Q16HDRI.so.5:__bss_start
-libMagick++-7.Q16HDRI.so.5:_edata
-libMagick++-7.Q16HDRI.so.5:_end
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_DDS_CompressClusterFit
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_CannyEdgeImage
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_ExecuteRPN
@@ -3891,9 +3882,6 @@ libMagickCore-7.Q16HDRI.so.10:XMLTreeInfoToXML
 libMagickCore-7.Q16HDRI.so.10:XRemoteCommand
 libMagickCore-7.Q16HDRI.so.10:XRetainWindowColors
 libMagickCore-7.Q16HDRI.so.10:ZLIBEncodeImage
-libMagickCore-7.Q16HDRI.so.10:__bss_start
-libMagickCore-7.Q16HDRI.so.10:_edata
-libMagickCore-7.Q16HDRI.so.10:_end
 libMagickCore-7.Q16HDRI.so.10:analyzeImage
 libMagickCore-7.Q16HDRI.so.10:process_message
 libMagickCore-7.Q16HDRI.so.10:sRGB_info
@@ -4547,9 +4535,3 @@ libMagickWand-7.Q16HDRI.so.10:StreamImageCommand
 libMagickWand-7.Q16HDRI.so.10:TransferWandViewIterator
 libMagickWand-7.Q16HDRI.so.10:UpdateWandViewIterator
 libMagickWand-7.Q16HDRI.so.10:VERS_10.0
-libMagickWand-7.Q16HDRI.so.10:__bss_start
-libMagickWand-7.Q16HDRI.so.10:_edata
-libMagickWand-7.Q16HDRI.so.10:_end
-magick:__bss_start
-magick:_edata
-magick:_end
