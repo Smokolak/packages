@@ -37,7 +37,6 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/PrivacySandboxAttestationsPreloaded/privacy-sandbox-attestations.dat</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/chrome_crashpad_handler</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/cron/vivaldi-snapshot</Path>
-            <Path fileType="data">/usr/share/vivaldi-snapshot/icudtl.dat</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/libEGL.so</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/libGLESv2.so</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/libffmpeg.so.7.1</Path>
@@ -475,7 +474,7 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/adblocker_resources/redirectable_resources.json</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-common-bundle.js</Path>
-            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-c5e7f96c3539fce397833f111d86fa56.js</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-f8c72b130b8f7e57fc17fe117fae9ede.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle-mailreader-worker.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/components/mail/mail.html</Path>
@@ -1341,9 +1340,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="563">
-            <Date>2026-03-24</Date>
-            <Version>7.10.3989.3</Version>
+        <Update release="564">
+            <Date>2026-03-27</Date>
+            <Version>7.10.3992.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
