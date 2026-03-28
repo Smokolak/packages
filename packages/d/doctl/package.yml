@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : doctl
-version    : 1.152.0
-release    : 31
+version    : 1.153.0
+release    : 32
 source     :
-    - https://github.com/digitalocean/doctl/archive/refs/tags/v1.152.0.tar.gz : c400ff8f8f3cb28e620e53caf2d1b41445334a375d0b6b679d37a715e587fe52
+    - https://github.com/digitalocean/doctl/archive/refs/tags/v1.153.0.tar.gz : 096b9ecb024bf471ef9292eda2e04db211bf2102f4d150fa0ccb8a168d2b7def
 homepage   : https://github.com/digitalocean/doctl/
 license    : Apache-2.0
 component  : network.clients
