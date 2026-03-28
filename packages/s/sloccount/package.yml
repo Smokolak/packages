@@ -16,3 +16,4 @@ install    : |
     install -dm00644 $installdir/usr/bin
     %make_install PREFIX=$installdir/usr
     rm -rf $installdir/usr/share/doc
+    %install_license COPYING
