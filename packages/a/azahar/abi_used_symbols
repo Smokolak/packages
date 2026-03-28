@@ -174,6 +174,7 @@ libQt6Core.so.6:_ZN11QJsonObjectD1Ev
 libQt6Core.so.6:_ZN11QMetaObject10ConnectionD1Ev
 libQt6Core.so.6:_ZN11QMetaObject14normalizedTypeEPKc
 libQt6Core.so.6:_ZN11QMetaObject16invokeMethodImplEP7QObjectPKcN2Qt14ConnectionTypeExPKPKvPKS3_PKPKN9QtPrivate18QMetaTypeInterfaceE
+libQt6Core.so.6:_ZN11QMetaObject16invokeMethodImplEP7QObjectPN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeExPKPKvPKPKcPKPKNS2_18QMetaTypeInterfaceE
 libQt6Core.so.6:_ZN11QMetaObject18connectSlotsByNameEP7QObject
 libQt6Core.so.6:_ZN11QMetaObject8activateEP7QObjectPKS_iPPv
 libQt6Core.so.6:_ZN11QTextStream7readAllEv
@@ -210,6 +211,7 @@ libQt6Core.so.6:_ZN16QCoreApplication17installTranslatorEP11QTranslator
 libQt6Core.so.6:_ZN16QCoreApplication18setApplicationNameERK7QString
 libQt6Core.so.6:_ZN16QCoreApplication19setOrganizationNameERK7QString
 libQt6Core.so.6:_ZN16QCoreApplication21setOrganizationDomainERK7QString
+libQt6Core.so.6:_ZN16QCoreApplication4quitEv
 libQt6Core.so.6:_ZN16QCoreApplication4selfE
 libQt6Core.so.6:_ZN16QCoreApplication9argumentsEv
 libQt6Core.so.6:_ZN16QCoreApplication9translateEPKcS1_S1_i
@@ -424,7 +426,6 @@ libQt6Core.so.6:_ZN7QThread16staticMetaObjectE
 libQt6Core.so.6:_ZN7QThread18yieldCurrentThreadEv
 libQt6Core.so.6:_ZN7QThread4waitE14QDeadlineTimer
 libQt6Core.so.6:_ZN7QThread5eventEP6QEvent
-libQt6Core.so.6:_ZN7QThread5sleepEm
 libQt6Core.so.6:_ZN7QThread5startENS_8PriorityE
 libQt6Core.so.6:_ZN7QThreadC2EP7QObject
 libQt6Core.so.6:_ZN7QThreadD2Ev
@@ -658,7 +659,6 @@ libQt6Core.so.6:_ZTI7QObject
 libQt6Core.so.6:_ZTI7QThread
 libQt6Core.so.6:_ZTI9QRunnable
 libQt6Core.so.6:_ZTV20QFutureInterfaceBase
-libQt6Core.so.6:_ZTVN9QRunnable16QGenericRunnableE
 libQt6Core.so.6:qt_resourceFeatureZstd
 libQt6Core.so.6:qt_version_tag
 libQt6DBus.so.6:_Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant
@@ -1349,6 +1349,7 @@ libQt6Widgets.so.6:_ZN7QWidget5eventEP6QEvent
 libQt6Widgets.so.6:_ZN7QWidget5raiseEv
 libQt6Widgets.so.6:_ZN7QWidget6resizeERK5QSize
 libQt6Widgets.so.6:_ZN7QWidget6updateEv
+libQt6Widgets.so.6:_ZN7QWidget7repaintEv
 libQt6Widgets.so.6:_ZN7QWidget7setFontERK5QFont
 libQt6Widgets.so.6:_ZN7QWidget8setFocusEN2Qt11FocusReasonE
 libQt6Widgets.so.6:_ZN7QWidget9addActionEP7QAction
@@ -1377,6 +1378,7 @@ libQt6Widgets.so.6:_ZN8QSpinBox8setRangeEii
 libQt6Widgets.so.6:_ZN8QSpinBox8setValueEi
 libQt6Widgets.so.6:_ZN8QSpinBox9setSuffixERK7QString
 libQt6Widgets.so.6:_ZN8QSpinBoxC1EP7QWidget
+libQt6Widgets.so.6:_ZN9QCheckBox12stateChangedEi
 libQt6Widgets.so.6:_ZN9QCheckBox16staticMetaObjectE
 libQt6Widgets.so.6:_ZN9QCheckBox17checkStateChangedEN2Qt10CheckStateE
 libQt6Widgets.so.6:_ZN9QCheckBoxC1EP7QWidget
@@ -1394,6 +1396,7 @@ libQt6Widgets.so.6:_ZN9QComboBox19currentIndexChangedEi
 libQt6Widgets.so.6:_ZN9QComboBox5clearEv
 libQt6Widgets.so.6:_ZN9QComboBox9activatedEi
 libQt6Widgets.so.6:_ZN9QComboBoxC1EP7QWidget
+libQt6Widgets.so.6:_ZN9QGroupBox10setCheckedEb
 libQt6Widgets.so.6:_ZN9QGroupBox12setCheckableEb
 libQt6Widgets.so.6:_ZN9QGroupBox7setFlatEb
 libQt6Widgets.so.6:_ZN9QGroupBox8setTitleERK7QString
@@ -1718,6 +1721,7 @@ libc.so.6:exit
 libc.so.6:fclose
 libc.so.6:fcntl
 libc.so.6:fcntl64
+libc.so.6:fdopen
 libc.so.6:feof
 libc.so.6:ferror
 libc.so.6:fflush
