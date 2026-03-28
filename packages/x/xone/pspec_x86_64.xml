@@ -3,8 +3,8 @@
         <Name>xone</Name>
         <Homepage>https://github.com/dlundqvist/xone</Homepage>
         <Packager>
-            <Name>Marcus Mellor</Name>
-            <Email>infinitymdm@gmail.com</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>kernel.drivers</PartOf>
@@ -20,29 +20,29 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="105">xone-common</Dependency>
+            <Dependency releaseFrom="106">xone-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_dongle.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_chatpad.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_gamepad.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_headset.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_madcatz_glam.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_madcatz_strat.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_pdp_jaguar.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_wired.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xpad-noone.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_dongle.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_chatpad.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_gamepad.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_headset.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_madcatz_glam.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_madcatz_strat.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_gip_pdp_jaguar.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xone_wired.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/drivers/input/joystick/xpad-noone.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_dongle.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_chatpad.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_gamepad.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_headset.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_madcatz_glam.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_madcatz_strat.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_pdp_jaguar.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_wired.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xpad-noone.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_dongle.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_chatpad.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_gamepad.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_headset.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_madcatz_glam.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_madcatz_strat.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_gip_pdp_jaguar.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xone_wired.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/drivers/input/joystick/xpad-noone.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -63,29 +63,29 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="105">xone-common</Dependency>
+            <Dependency releaseFrom="106">xone-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_dongle.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_chatpad.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_gamepad.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_headset.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_madcatz_glam.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_madcatz_strat.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_pdp_jaguar.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_wired.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/drivers/input/joystick/xpad-noone.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_dongle.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_chatpad.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_gamepad.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_headset.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_madcatz_glam.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_madcatz_strat.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_gip_pdp_jaguar.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xone_wired.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/drivers/input/joystick/xpad-noone.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_dongle.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_chatpad.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_gamepad.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_headset.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_madcatz_glam.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_madcatz_strat.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_pdp_jaguar.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_wired.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/drivers/input/joystick/xpad-noone.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_dongle.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_chatpad.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_gamepad.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_headset.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_madcatz_glam.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_madcatz_strat.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_gip_pdp_jaguar.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xone_wired.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/drivers/input/joystick/xpad-noone.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -99,12 +99,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="105">
-            <Date>2026-03-18</Date>
+        <Update release="106">
+            <Date>2026-03-28</Date>
             <Version>0.5.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>Marcus Mellor</Name>
-            <Email>infinitymdm@gmail.com</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
