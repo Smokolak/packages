@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : fish
-version    : 4.5.0
-release    : 45
+version    : 4.6.0
+release    : 46
 homepage   : https://fishshell.com
 source     :
-    - https://github.com/fish-shell/fish-shell/releases/download/4.5.0/fish-4.5.0.tar.xz : 89151f8cf14b634e080226fe696f9ce7d4d153c77629996ca4431c80482c64ed
+    - https://github.com/fish-shell/fish-shell/releases/download/4.6.0/fish-4.6.0.tar.xz : fc9165f733a0e28a3dba11c9b1a286bc88a853f152a6694cd993512a2f1761aa
 license    :
     # Files have different licenses
     # Licenses like MIT, BSD etc. are related to deps, not fish itself

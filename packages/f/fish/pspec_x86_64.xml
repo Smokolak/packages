@@ -4,7 +4,7 @@
         <Homepage>https://fishshell.com</Homepage>
         <Packager>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <License>GPL-2.0-or-later</License>
@@ -1061,6 +1061,7 @@
             <Path fileType="data">/usr/share/fish/completions/test.fish</Path>
             <Path fileType="data">/usr/share/fish/completions/tex-fmt.fish</Path>
             <Path fileType="data">/usr/share/fish/completions/tex.fish</Path>
+            <Path fileType="data">/usr/share/fish/completions/tflint.fish</Path>
             <Path fileType="data">/usr/share/fish/completions/tig.fish</Path>
             <Path fileType="data">/usr/share/fish/completions/time.fish</Path>
             <Path fileType="data">/usr/share/fish/completions/timedatectl.fish</Path>
@@ -1710,19 +1711,19 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="45">fish</Dependency>
+            <Dependency release="46">fish</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/share/pkgconfig/fish.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="45">
-            <Date>2026-02-17</Date>
-            <Version>4.5.0</Version>
+        <Update release="46">
+            <Date>2026-03-28</Date>
+            <Version>4.6.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
