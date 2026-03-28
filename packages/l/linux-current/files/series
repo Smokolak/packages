@@ -53,10 +53,11 @@ patches/hardware/surface/0032-include-mfd-tps68470-Add-masks-for-LEDA-and-LEDB.p
 patches/hardware/surface/0033-leds-tps68470-Add-LED-control-for-tps68470.patch
 patches/hardware/surface/0034-media-i2c-dw9719-fix-probe-error-on-surface-go-2.patch
 patches/hardware/surface/0035-Add-camera-support-for-Surface-Pro-9.patch
-patches/hardware/surface/0036-ACPI-Add-quirk-for-Surface-Laptop-4-AMD-missing-irq-.patch
-patches/hardware/surface/0037-ACPI-Add-AMD-13-Surface-Laptop-4-model-to-irq-7-over.patch
-patches/hardware/surface/0038-acpi-allow-usage-of-acpi_tad-on-HW-reduced-platforms.patch
-patches/hardware/surface/0039-HID-Add-hid-surface-driver-to-filter-BTN_0-FN-key.patch
-patches/hardware/surface/0040-hid-multitouch-Prevent-mode-set-on-Surface-Laptop-St.patch
+patches/hardware/surface/0036-media-ipu-bridge-Add-front-camera-rotation-quirks-fo.patch
+patches/hardware/surface/0037-ACPI-Add-quirk-for-Surface-Laptop-4-AMD-missing-irq-.patch
+patches/hardware/surface/0038-ACPI-Add-AMD-13-Surface-Laptop-4-model-to-irq-7-over.patch
+patches/hardware/surface/0039-acpi-allow-usage-of-acpi_tad-on-HW-reduced-platforms.patch
+patches/hardware/surface/0040-HID-Add-hid-surface-driver-to-filter-BTN_0-FN-key.patch
+patches/hardware/surface/0041-hid-multitouch-Prevent-mode-set-on-Surface-Laptop-St.patch
 patches/performance/0001-futex-Add-entry-point-for-FUTEX_WAIT_MULTIPLE-opcode.patch
 patches/performance/0001-Add-kernel-arg-to-enable-amdgpu-overdrive.patch
