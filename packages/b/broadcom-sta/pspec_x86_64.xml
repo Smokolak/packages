@@ -20,11 +20,11 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="442">broadcom-sta-common</Dependency>
+            <Dependency releaseFrom="443">broadcom-sta-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.12.74-280.lts/kernel/drivers/net/wireless/wl.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.12.74-280.lts/kernel/drivers/net/wireless/wl.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-281.lts/kernel/drivers/net/wireless/wl.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/kernel/drivers/net/wireless/wl.ko.zst</Path>
             <Path fileType="data">/usr/share/metainfo/broadcom-sta-lts.metainfo.xml</Path>
         </Files>
     </Package>
@@ -45,11 +45,11 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="442">broadcom-sta-common</Dependency>
+            <Dependency releaseFrom="443">broadcom-sta-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.13-330.current/kernel/drivers/net/wireless/wl.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.13-330.current/kernel/drivers/net/wireless/wl.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-331.current/kernel/drivers/net/wireless/wl.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/kernel/drivers/net/wireless/wl.ko.zst</Path>
             <Path fileType="data">/usr/share/metainfo/broadcom-sta-current.metainfo.xml</Path>
         </Files>
     </Package>
@@ -64,8 +64,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="442">
-            <Date>2026-02-21</Date>
+        <Update release="443">
+            <Date>2026-03-28</Date>
             <Version>6.30.223.271</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
