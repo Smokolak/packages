@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : pdal
-version    : 2.10.0
-release    : 12
+version    : 2.10.1
+release    : 13
 source     :
-    - https://github.com/PDAL/PDAL/archive/refs/tags/2.10.0.tar.gz : bb34493571e23b3cb31790ecbf855d8771a477da8b78acd16ae976ccd4ac2197
+    - https://github.com/PDAL/PDAL/archive/refs/tags/2.10.1.tar.gz : 957e9f1755ac82441f99fe077b519c50ccf32f134e2e621f99a318daf1146a5d
 homepage   : https://pdal.io/en/stable/
 license    : BSD-2-Clause
 component  : programming.library
