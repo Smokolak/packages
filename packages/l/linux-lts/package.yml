@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : linux-lts
-version    : 6.12.74
-release    : 280
+version    : 6.18.20
+release    : 281
 source     :
-    - https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.74.tar.xz : 3b56eeb1dc9a437f189ca56b823be3769994f59a4ea0895b08ec0d20acaca13e
+    - https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.20.tar.xz : 837a5abd98e46078a0ae1400e2daad89ece45cc3209037b09c2265dab2393553
 license    : GPL-2.0-only
 component  :
     - kernel.image
