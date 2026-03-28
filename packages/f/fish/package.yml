@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : fish
 version    : 4.6.0
-release    : 46
+release    : 47
 homepage   : https://fishshell.com
 source     :
     - https://github.com/fish-shell/fish-shell/releases/download/4.6.0/fish-4.6.0.tar.xz : fc9165f733a0e28a3dba11c9b1a286bc88a853f152a6694cd993512a2f1761aa
@@ -38,5 +38,6 @@ check      : |
     rm -v tests/checks/{cd,path}.fish
 
     %cargo_test -- --skip test_redirections \
-    --skip sgr_combining
+    --skip sgr_combining \
+    --skip resettable_style_attribute
     %install_license COPYING

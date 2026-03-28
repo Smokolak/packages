@@ -3,8 +3,8 @@
         <Name>fish</Name>
         <Homepage>https://fishshell.com</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <License>GPL-2.0-or-later</License>
@@ -1711,19 +1711,19 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="46">fish</Dependency>
+            <Dependency release="47">fish</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/share/pkgconfig/fish.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="46">
+        <Update release="47">
             <Date>2026-03-28</Date>
             <Version>4.6.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
