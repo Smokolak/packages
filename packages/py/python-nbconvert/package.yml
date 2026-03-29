@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : python-nbconvert
-version    : 7.16.6
-release    : 20
+version    : 7.17.0
+release    : 21
 source     :
-    - https://files.pythonhosted.org/packages/source/n/nbconvert/nbconvert-7.16.6.tar.gz : 576a7e37c6480da7b8465eefa66c17844243816ce1ccc372633c6b71c3c0f582
+    - https://files.pythonhosted.org/packages/source/n/nbconvert/nbconvert-7.17.0.tar.gz : 1b2696f1b5be12309f6c7d707c24af604b87dfaf6d950794c7b07acab96dda78
 homepage   : https://github.com/jupyter/nbconvert
 license    : BSD-3-Clause
 component  : programming.python
