@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mpc-qt
-version    : '25.07'
-release    : 12
+version    : '26.01'
+release    : 13
 source     :
-    - https://github.com/mpc-qt/mpc-qt/archive/refs/tags/v25.07.tar.gz : 8103eb0eda77021a7c0d9708a4586676f7c33328705afda91da096a1b54a520a
+    - https://github.com/mpc-qt/mpc-qt/archive/refs/tags/v26.01.tar.gz : e9c3c258358d7221e5c246ec0cc4711a1a874bc650ecc7cad9a8021cbaaa419b
 homepage   : https://mpc-qt.github.io
 license    : GPL-2.0-or-later
 component  : multimedia.video
@@ -21,3 +21,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSE
