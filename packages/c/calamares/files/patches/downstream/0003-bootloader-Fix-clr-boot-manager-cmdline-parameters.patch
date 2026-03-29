@@ -1,7 +1,7 @@
-From 659403f283b030a7d4af6c2822efe84f5d35b2ac Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Silke Hofstra <silke@slxh.eu>
 Date: Wed, 5 Jun 2024 18:43:24 +0200
-Subject: [PATCH] bootloader: Fix clr-boot-manager cmdline parameters
+Subject: [PATCH 3/4] bootloader: Fix clr-boot-manager cmdline parameters
 
 CBM detects most kernel parameters automatically.
 Only set the parameters not detected by CBM: `resume` and `rd.luks.uuid` for the swap partition.
@@ -12,7 +12,7 @@ Co-authored-by: Evan Maddock <maddock.evan@vivaldi.net>
  1 file changed, 37 insertions(+), 9 deletions(-)
 
 diff --git a/src/modules/bootloader/main.py b/src/modules/bootloader/main.py
-index 0a9e96598..5cbca1902 100644
+index 268632203..b76084c5c 100644
 --- a/src/modules/bootloader/main.py
 +++ b/src/modules/bootloader/main.py
 @@ -507,6 +507,36 @@ def get_kernels(installation_root_path):
@@ -77,6 +77,3 @@ index 0a9e96598..5cbca1902 100644
  
      check_target_env_call(["clr-boot-manager", "update"])
  
--- 
-2.45.1
-
