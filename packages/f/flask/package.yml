@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : flask
 version    : 3.1.3
-release    : 17
+release    : 18
 source     :
     - https://github.com/pallets/flask/archive/3.1.3.tar.gz : 36a6183d453925f09bc37b2a8bffdb1eb1b5f18eae384c037c179b07aac88477
 homepage   : https://palletsprojects.com/p/flask/
@@ -34,4 +34,5 @@ build      : |
 install    : |
     %python3_install
 check      : |
-    %python3_test pytest
+    # https://github.com/pallets/flask/issues/5961
+    %python3_test pytest -k 'not test_environ_for_valid_idna_completes'
