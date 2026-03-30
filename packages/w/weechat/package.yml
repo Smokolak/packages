@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : weechat
-version    : 4.8.2
-release    : 101
+version    : 4.9.0
+release    : 102
 source     :
-    - https://github.com/weechat/weechat/archive/refs/tags/v4.8.2.tar.gz : 16f61a75db8f2d661bb1ceaea5d82d7fffb6a0e20db95f49130fe965007110b1
+    - https://github.com/weechat/weechat/archive/refs/tags/v4.9.0.tar.gz : 337fc24c0a4c00aa2c47262f123014b23d55c5cf02785ecfdf204f96ccef5c65
 homepage   : https://weechat.org
 license    : GPL-3.0-or-later
 summary    : WeeChat is a fast, light and extensible chat client.
