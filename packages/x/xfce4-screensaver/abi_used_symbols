@@ -16,7 +16,6 @@ libXss.so.1:XScreenSaverSelectInput
 libXss.so.1:XScreenSaverSuspend
 libc.so.6:__errno_location
 libc.so.6:__fprintf_chk
-libc.so.6:__isoc99_fscanf
 libc.so.6:__isoc99_sscanf
 libc.so.6:__libc_start_main
 libc.so.6:__printf_chk
@@ -56,10 +55,8 @@ libc.so.6:memcpy
 libc.so.6:memmove
 libc.so.6:memset
 libc.so.6:mktime
-libc.so.6:pclose
 libc.so.6:perror
 libc.so.6:pipe
-libc.so.6:popen
 libc.so.6:puts
 libc.so.6:raise
 libc.so.6:setgid
@@ -77,9 +74,11 @@ libc.so.6:strcmp
 libc.so.6:strftime
 libc.so.6:strlen
 libc.so.6:strncmp
+libc.so.6:strnlen
 libc.so.6:strstr
 libc.so.6:strtol
 libc.so.6:strtoul
+libc.so.6:system
 libc.so.6:time
 libc.so.6:uname
 libc.so.6:waitpid
@@ -205,6 +204,7 @@ libgdk-3.so.0:gdk_seat_get_keyboard
 libgdk-3.so.0:gdk_seat_get_pointer
 libgdk-3.so.0:gdk_seat_grab
 libgdk-3.so.0:gdk_seat_ungrab
+libgdk-3.so.0:gdk_visual_get_best
 libgdk-3.so.0:gdk_window_add_filter
 libgdk-3.so.0:gdk_window_focus
 libgdk-3.so.0:gdk_window_get_display
@@ -432,6 +432,7 @@ libglib-2.0.so.0:g_strndup
 libglib-2.0.so.0:g_strnfill
 libglib-2.0.so.0:g_strrstr
 libglib-2.0.so.0:g_strsplit
+libglib-2.0.so.0:g_strstr_len
 libglib-2.0.so.0:g_strtod
 libglib-2.0.so.0:g_strv_length
 libglib-2.0.so.0:g_thread_join
@@ -449,7 +450,6 @@ libglib-2.0.so.0:g_utf8_collate
 libglib-2.0.so.0:g_utf8_get_char
 libglib-2.0.so.0:g_utf8_skip
 libglib-2.0.so.0:g_utf8_strlen
-libglib-2.0.so.0:g_utf8_substring
 libglib-2.0.so.0:g_utf8_validate
 libglib-2.0.so.0:g_variant_get
 libglib-2.0.so.0:g_variant_get_child
@@ -517,6 +517,7 @@ libgtk-3.so.0:gtk_clipboard_set_text
 libgtk-3.so.0:gtk_container_add
 libgtk-3.so.0:gtk_container_remove
 libgtk-3.so.0:gtk_container_set_border_width
+libgtk-3.so.0:gtk_css_provider_load_from_data
 libgtk-3.so.0:gtk_css_provider_load_from_resource
 libgtk-3.so.0:gtk_css_provider_new
 libgtk-3.so.0:gtk_dialog_run
@@ -570,6 +571,7 @@ libgtk-3.so.0:gtk_socket_new
 libgtk-3.so.0:gtk_spin_button_get_value
 libgtk-3.so.0:gtk_spin_button_set_value
 libgtk-3.so.0:gtk_style_context_add_class
+libgtk-3.so.0:gtk_style_context_add_provider
 libgtk-3.so.0:gtk_style_context_add_provider_for_screen
 libgtk-3.so.0:gtk_style_context_get_background_color
 libgtk-3.so.0:gtk_style_context_get_state
@@ -653,8 +655,8 @@ libgtk-3.so.0:gtk_widget_show
 libgtk-3.so.0:gtk_widget_show_all
 libgtk-3.so.0:gtk_window_fullscreen
 libgtk-3.so.0:gtk_window_get_modal
+libgtk-3.so.0:gtk_window_get_size
 libgtk-3.so.0:gtk_window_get_type
-libgtk-3.so.0:gtk_window_move
 libgtk-3.so.0:gtk_window_new
 libgtk-3.so.0:gtk_window_parse_geometry
 libgtk-3.so.0:gtk_window_present
