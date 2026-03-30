@@ -3,8 +3,8 @@
         <Name>moc</Name>
         <Homepage>https://moc.daper.net</Homepage>
         <Packager>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -53,12 +53,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="22">
-            <Date>2026-01-12</Date>
+        <Update release="23">
+            <Date>2026-03-30</Date>
             <Version>2.5.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
