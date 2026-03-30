@@ -3989,6 +3989,7 @@ typing.so:typing_bar_item_typing
 typing.so:typing_buffer_closing_signal_cb
 typing.so:typing_config_change_enabled
 typing.so:typing_config_change_item_max_length
+typing.so:typing_config_change_item_text
 typing.so:typing_config_file
 typing.so:typing_config_free
 typing.so:typing_config_init
@@ -3999,6 +4000,7 @@ typing.so:typing_config_look_enabled_nicks
 typing.so:typing_config_look_enabled_self
 typing.so:typing_config_look_input_min_chars
 typing.so:typing_config_look_item_max_length
+typing.so:typing_config_look_item_text
 typing.so:typing_config_read
 typing.so:typing_config_reload
 typing.so:typing_config_section_look
