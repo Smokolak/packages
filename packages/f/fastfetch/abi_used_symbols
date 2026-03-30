@@ -26,6 +26,7 @@ libc.so.6:__vsnprintf_chk
 libc.so.6:__xpg_basename
 libc.so.6:access
 libc.so.6:bind
+libc.so.6:c16rtomb
 libc.so.6:calloc
 libc.so.6:clock_gettime
 libc.so.6:close
@@ -115,7 +116,6 @@ libc.so.6:qsort
 libc.so.6:read
 libc.so.6:readdir64
 libc.so.6:readlink
-libc.so.6:readlinkat
 libc.so.6:realloc
 libc.so.6:realpath
 libc.so.6:recv
@@ -128,6 +128,7 @@ libc.so.6:setmntent
 libc.so.6:setsockopt
 libc.so.6:setutxent
 libc.so.6:setvbuf
+libc.so.6:shutdown
 libc.so.6:sigaction
 libc.so.6:sigaddset
 libc.so.6:sigemptyset
