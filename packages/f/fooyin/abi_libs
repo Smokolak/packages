@@ -1,4 +1,6 @@
 fyplugin_alsa.so
+fyplugin_discord.so
+fyplugin_equaliser.so
 fyplugin_fileops.so
 fyplugin_filters.so
 fyplugin_lyrics.so
