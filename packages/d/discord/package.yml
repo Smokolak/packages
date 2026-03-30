@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : discord
-version    : 0.0.130
-release    : 152
+version    : 0.0.131
+release    : 153
 source     :
-    - https://dl.discordapp.net/apps/linux/0.0.130/discord-0.0.130.tar.gz : 14c20cfc258f93729caa9f22220fa0c620a98c3d83364edd481aa7081bf39f9c
+    - https://dl.discordapp.net/apps/linux/0.0.131/discord-0.0.131.tar.gz : 47df31fb26157acad6ea262bfd8584fe2fca65210b430cbc0991a21002e5cfbc
 license    : Distributable
 component  : network.im
 homepage   : https://discord.com/
