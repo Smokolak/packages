@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : uv
-version    : 0.10.10
-release    : 12
+version    : 0.11.2
+release    : 13
 source     :
-    - https://github.com/astral-sh/uv/archive/refs/tags/0.10.10.tar.gz : ba4082c92c97e0cc5ac0bc48a2783bc5026c8a14a768ecfb5f7012223a5e90ac
+    - https://github.com/astral-sh/uv/archive/refs/tags/0.11.2.tar.gz : 12f5f6ce0c4e1e80424329098786dd33195df1c342c926f499f8599d1d2ec694
 homepage   : https://docs.astral.sh/uv
 license    :
     - Apache-2.0
