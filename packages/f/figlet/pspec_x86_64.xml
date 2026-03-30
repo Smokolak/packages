@@ -81,6 +81,7 @@
             <Path fileType="data">/usr/share/figlet/ushebrew.flc</Path>
             <Path fileType="data">/usr/share/figlet/uskata.flc</Path>
             <Path fileType="data">/usr/share/figlet/utf8.flc</Path>
+            <Path fileType="data">/usr/share/licenses/figlet/LICENSE</Path>
             <Path fileType="man">/usr/share/man/man6/chkfont.6.zst</Path>
             <Path fileType="man">/usr/share/man/man6/figlet.6.zst</Path>
             <Path fileType="man">/usr/share/man/man6/figlist.6.zst</Path>
@@ -88,8 +89,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2025-11-02</Date>
+        <Update release="4">
+            <Date>2026-03-28</Date>
             <Version>2.2.5</Version>
             <Comment>Packaging update</Comment>
             <Name>Jared Cervantes</Name>
