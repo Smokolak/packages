@@ -4318,5 +4318,8 @@
 		<!-- Renamed -->
 		<Package>network-manager-devel</Package>
 
+		<Package>libxfce4util-docs</Package>
+		<Package>xfce4-panel-docs</Package>
+
 	</Obsoletes>
 </PISI>

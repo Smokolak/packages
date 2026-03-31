@@ -23,9 +23,7 @@ libX11.so.6:XVisualIDFromVisual
 libXext.so.6:XShapeCombineRectangles
 libatk-1.0.so.0:atk_object_set_description
 libatk-1.0.so.0:atk_object_set_name
-libc.so.6:__isoc23_sscanf
-libc.so.6:__isoc23_strtol
-libc.so.6:__isoc23_strtoul
+libc.so.6:__isoc99_sscanf
 libc.so.6:__libc_start_main
 libc.so.6:__snprintf_chk
 libc.so.6:__stack_chk_fail
@@ -45,6 +43,8 @@ libc.so.6:strlen
 libc.so.6:strncmp
 libc.so.6:strrchr
 libc.so.6:strstr
+libc.so.6:strtol
+libc.so.6:strtoul
 libcairo.so.2:cairo_arc
 libcairo.so.2:cairo_close_path
 libcairo.so.2:cairo_fill
@@ -473,6 +473,7 @@ libglib-2.0.so.0:g_quark_to_string
 libglib-2.0.so.0:g_quark_try_string
 libglib-2.0.so.0:g_random_int_range
 libglib-2.0.so.0:g_return_if_fail_warning
+libglib-2.0.so.0:g_set_application_name
 libglib-2.0.so.0:g_set_error
 libglib-2.0.so.0:g_set_error_literal
 libglib-2.0.so.0:g_setenv
@@ -1171,8 +1172,6 @@ libgtk-layer-shell.so.0:gtk_layer_set_keyboard_mode
 libgtk-layer-shell.so.0:gtk_layer_set_layer
 libgtk-layer-shell.so.0:gtk_layer_set_margin
 libgtk-layer-shell.so.0:gtk_layer_set_monitor
-libm.so.6:ceil
-libm.so.6:floor
 libm.so.6:round
 libm.so.6:sincos
 libpango-1.0.so.0:pango_attr_font_desc_new

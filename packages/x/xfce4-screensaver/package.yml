@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xfce4-screensaver
-version    : 4.20.1
-release    : 4
+version    : 4.20.2
+release    : 5
 source     :
-    - https://archive.xfce.org/src/apps/xfce4-screensaver/4.20/xfce4-screensaver-4.20.1.tar.xz : a94ce9ca3f56db183f1cbc60ba4accd91575b02a6d20b1876ad19131982f2243
+    - https://archive.xfce.org/src/apps/xfce4-screensaver/4.20/xfce4-screensaver-4.20.2.tar.xz : 5032f60a31df5e50a80512e301b595be5ea6a6bd762cdd95cacc24cbd29a01d7
 license    : GPL-2.0-or-later
 component  : desktop.xfce
 homepage   : https://docs.xfce.org/apps/screensaver/start
@@ -24,7 +24,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
-    %install_license AUTHORS COPYING COPYING.*
+    %install_license COPYING COPYING.*
 
     # We're a stateless distro, ma
     install -dm0755 $installdir/usr/share/defaults/etc/
