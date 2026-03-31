@@ -3253,6 +3253,7 @@ libQt6Quick.so.6:_ZN17QQuickPaintedItem9setMipmapEb
 libQt6Quick.so.6:_ZN18QQuickRenderTargetC1ERKS_
 libQt6Quick.so.6:_ZN18QQuickRenderTargetC1Ev
 libQt6Quick.so.6:_ZN18QQuickRenderTargetD1Ev
+libQt6Quick.so.6:_ZN19QQuickRenderControl15renderWindowForEP12QQuickWindowP6QPoint
 libQt6Quick.so.6:_ZN19QQuickWindowPrivate11polishItemsEv
 libQt6Quick.so.6:_ZN19QQuickWindowPrivate14syncSceneGraphEv
 libQt6Quick.so.6:_ZN19QQuickWindowPrivate16renderSceneGraphEv
