@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gdu
-version    : 5.34.2
-release    : 3
+version    : 5.35
+release    : 4
 source     :
-    - https://github.com/dundee/gdu/releases/download/v5.34.2/gdu-5.34.2.tgz: 36eb7b815188c3c3bc05d04ed7dd0c14340bbad3485c2e423e92c9a2f92680b0
+    - https://github.com/dundee/gdu/releases/download/v5.35.0/gdu-5.35.0.tgz: 5e1e836a96721c777bea56cb305b1fe01086fa89ef51349bae4e43ebb57d8191
 homepage   : https://github.com/dundee/gdu
 license    : MIT
 component  : system.utils
