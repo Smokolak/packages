@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : python-cryptography
-version    : 46.0.5
-release    : 34
+version    : 46.0.6
+release    : 35
 source     :
-    - https://github.com/pyca/cryptography/archive/refs/tags/46.0.5.tar.gz : 7571f0e09a6d6eb22168993f94d35867b4dcbd0d34224e0eb7b392b905b3f12f
+    - https://github.com/pyca/cryptography/archive/refs/tags/46.0.6.tar.gz : 234935d92ba2320836036c281163ea64837455dd7e0aaa0f034e574ccc7b4c64
 homepage   : https://cryptography.io
 license    : Apache-2.0
 component  : programming.python
@@ -41,6 +41,8 @@ environment: |
     CARGO_PROFILE_RELEASE_LTO="off"; export CARGO_PROFILE_RELEASE_LTO;
     CARGO_PROFILE_RELEASE_STRIP="none"; export CARGO_PROFILE_RELEASE_STRIP;
 setup      : |
+    %patch -p1 -i ${pkgfiles}/fix-installing-stray-files.patch
+
     %cargo_fetch
 build      : |
     %python3_setup --skip-dependency-check
