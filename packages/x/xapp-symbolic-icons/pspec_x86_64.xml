@@ -6,8 +6,13 @@
             <Name>Evan Maddock</Name>
             <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
+        <License>BSD-3-Clause</License>
+        <License>CC-BY-4.0</License>
+        <License>CC-BY-SA-4.0</License>
+        <License>CC0-1.0</License>
         <License>GPL-2.0-or-later</License>
         <License>LGPL-2.0-or-later</License>
+        <License>MIT</License>
         <PartOf>desktop.theme</PartOf>
         <Summary xml:lang="en">A set of symbolic icons for Gtk applications and projects</Summary>
         <Description xml:lang="en">A set of symbolic icons which replaces the GNOME-specific Adwaita set.
@@ -36,6 +41,7 @@
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-administration-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-development-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-education-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-electronics-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-engineering-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-games-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-graphics-symbolic.svg</Path>
@@ -48,6 +54,7 @@
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-system-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-utilities-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-webapps-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-applications-wine-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-appointment-missed-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-appointment-new-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-appointment-soon-symbolic.svg</Path>
@@ -80,6 +87,7 @@
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-battery-level-10-charging-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-battery-level-10-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-battery-level-100-charged-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-battery-level-100-charging-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-battery-level-100-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-battery-level-20-charging-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-battery-level-20-symbolic.svg</Path>
@@ -449,10 +457,15 @@
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-hotspot-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-no-route-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-offline-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-excellent-secure-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-excellent-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-good-secure-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-good-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-none-secure-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-none-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-ok-secure-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-ok-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-weak-secure-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-signal-weak-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-wireless-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-network-workgroup-symbolic.svg</Path>
@@ -666,15 +679,18 @@
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-zoom-in-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-zoom-original-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/xsi-zoom-out-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/licenses/xapp-symbolic-icons/COPYING</Path>
-            <Path fileType="data">/usr/share/licenses/xapp-symbolic-icons/COPYING.LESSER</Path>
+            <Path fileType="data">/usr/share/licenses/xapp-symbolic-icons/CC-BY-SA-4.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xapp-symbolic-icons/CC0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xapp-symbolic-icons/LGPL-3.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/xapp-symbolic-icons/LICENSE</Path>
+            <Path fileType="data">/usr/share/licenses/xapp-symbolic-icons/MIT.txt</Path>
             <Path fileType="data">/usr/share/xapp/xsi-adwaita-symbolic.info</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2025-12-13</Date>
-            <Version>1.0.6</Version>
+        <Update release="3">
+            <Date>2026-03-31</Date>
+            <Version>1.0.9</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>
             <Email>maddock.evan@vivaldi.net</Email>
