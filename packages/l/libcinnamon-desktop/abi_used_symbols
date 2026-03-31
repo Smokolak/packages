@@ -297,6 +297,7 @@ libglib-2.0.so.0:g_filename_from_uri
 libglib-2.0.so.0:g_filename_to_uri
 libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_application_name
 libglib-2.0.so.0:g_get_current_time
 libglib-2.0.so.0:g_get_home_dir
@@ -315,6 +316,7 @@ libglib-2.0.so.0:g_hash_table_get_keys
 libglib-2.0.so.0:g_hash_table_insert
 libglib-2.0.so.0:g_hash_table_iter_init
 libglib-2.0.so.0:g_hash_table_iter_next
+libglib-2.0.so.0:g_hash_table_iter_steal
 libglib-2.0.so.0:g_hash_table_lookup
 libglib-2.0.so.0:g_hash_table_lookup_extended
 libglib-2.0.so.0:g_hash_table_new
