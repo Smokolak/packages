@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : lrzip
 version    : '0.651'
-release    : 6
+release    : 7
 source     :
     - https://github.com/ckolivas/lrzip/archive/refs/tags/v0.651.tar.gz : f4c84de778a059123040681fd47c17565fcc4fec0ccc68fcf32d97fad16cd892
 homepage   : https://github.com/ckolivas/lrzip
@@ -20,3 +20,4 @@ build      : |
     %make
 install    : |
     %make_install
+    %install_license COPYING
