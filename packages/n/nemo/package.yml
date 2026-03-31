@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : nemo
-version    : 6.6.1
-release    : 17
+version    : 6.6.4
+release    : 18
 source     :
-    - https://github.com/linuxmint/nemo/archive/refs/tags/6.6.1.tar.gz : 2a9ba7a7e81cc0d5f69dfe170e7f0f50e80941b9dca0ec602cceebe5437650d3
+    - https://github.com/linuxmint/nemo/archive/refs/tags/6.6.4.tar.gz : 258807feb2e7bac523707d6b3daf2d9439e7135123cbe795183d5aaa6fd691ed
 homepage   : https://github.com/linuxmint/nemo
 license    :
     - GPL-2.0-or-later
@@ -25,6 +25,7 @@ builddeps  :
 rundeps    :
     - cinnamon-translations
     - gvfs-goa
+    - xapp-symbolic-icons
 setup      : |
     %patch -p1 -i $pkgfiles/0001-Allow-changing-the-background-on-Budgie-Desktop.patch
 

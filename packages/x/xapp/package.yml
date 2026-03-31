@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xapp
-version    : 3.2.1
-release    : 15
+version    : 3.2.2
+release    : 16
 source     :
-    - https://github.com/linuxmint/xapp/archive/refs/tags/3.2.1.tar.gz : 213b6790e00b90f63f90cf6ce189efb5948a23b67330e3aa81fadb4ef822a6ef
+    - https://github.com/linuxmint/xapp/archive/refs/tags/3.2.2.tar.gz : d0ea664053e6f35cc556e060b161905004f03d0695473772d2fb8a37cf445591
 homepage   : https://github.com/linuxmint/xapp
 license    : LGPL-3.0-or-later
 component  : desktop.library

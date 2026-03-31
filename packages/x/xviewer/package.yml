@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xviewer
-version    : 3.4.15
-release    : 7
+version    : 3.4.16
+release    : 8
 source     :
-    - https://github.com/linuxmint/xviewer/archive/refs/tags/3.4.15.tar.gz : 9ceb0bfae2bd835f74b2181ae354a639b3984638beb6cd05ad7c6bfe38ef22cb
+    - https://github.com/linuxmint/xviewer/archive/refs/tags/3.4.16.tar.gz : 41323bd88c032ce158ce1970f945aa7b6c7fc11fcc211bdfd54ea9d8701d9866
 homepage   : https://github.com/linuxmint/xviewer
 license    : GPL-2.0-or-later
 component  : desktop

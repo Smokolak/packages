@@ -1,13 +1,18 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xapp-symbolic-icons
-version    : 1.0.6
-release    : 2
+version    : 1.0.9
+release    : 3
 source     :
-    - https://github.com/xapp-project/xapp-symbolic-icons/archive/refs/tags/1.0.6.tar.gz : e2e08a639b0bc5b6027578f38a8de925e42f8a07cdf18d595124718eba93aa5f
+    - https://github.com/xapp-project/xapp-symbolic-icons/archive/refs/tags/1.0.9.tar.gz : 0ebb603eaa34f34d44bc419119595c91785caf0e29a2ad2adaa7fea9cc2e6ebb
 homepage   : https://github.com/xapp-project/xapp-symbolic-icons
 license    :
+    - BSD-3-Clause
+    - CC-BY-4.0
+    - CC-BY-SA-4.0
+    - CC0-1.0
     - GPL-2.0-or-later
     - LGPL-2.0-or-later
+    - MIT
 component  : desktop.theme
 summary    : A set of symbolic icons for Gtk applications and projects
 description: |
@@ -18,4 +23,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
-    %install_license COPYING COPYING.LESSER
+    %install_license LICENSE LICENSES/*

@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : pix
-version    : 3.4.9
-release    : 8
+version    : 3.4.10
+release    : 9
 source     :
-    - https://github.com/linuxmint/pix/archive/refs/tags/3.4.9.tar.gz : 73f8e0aadeac17ffae2b70470d4645b6030cfbd4e981f654b15483f361a41905
+    - https://github.com/linuxmint/pix/archive/refs/tags/3.4.10.tar.gz : d765e779ee6e7d8220fe556c010c181ae69be059d53192d628f5bec5fdc9082b
 homepage   : https://github.com/linuxmint/pix
 license    : GPL-2.0-or-later
 component  : multimedia.graphics
