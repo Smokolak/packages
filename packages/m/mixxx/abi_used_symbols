@@ -3596,7 +3596,7 @@ libgcc_s.so.1:_Unwind_Resume
 libgcc_s.so.1:__popcountdi2
 libgobject-2.0.so.0:g_object_get
 libgobject-2.0.so.0:g_object_unref
-libid3tag.so.0.16.2:id3_tag_query
+libid3tag.so.0:id3_tag_query
 liblilv-0.so.0:lilv_instance_free
 liblilv-0.so.0:lilv_new_uri
 liblilv-0.so.0:lilv_node_as_float

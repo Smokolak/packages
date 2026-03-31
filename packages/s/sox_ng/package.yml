@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : sox_ng
-version    : 14.7.0.4
-release    : 31
+version    : 14.7.1.1
+release    : 32
 source     :
-    - https://codeberg.org/sox_ng/sox_ng/releases/download/sox_ng-14.7.0.4/sox_ng-14.7.0.4.tar.gz : 399740e1a16b9eea1285c80c3dbd0c5e2abcf3953327447cc90baa1abea8bbe2
+    - https://codeberg.org/sox_ng/sox_ng/releases/download/sox_ng-14.7.1.1/sox_ng-14.7.1.1.tar.gz : 88720ce6c7701cb2c4e55f5437d6a5a2b2670a628240b0aeea63597a20ee92a0
 homepage   : https://codeberg.org/sox_ng/sox_ng
 license    :
     - GPL-2.0-only

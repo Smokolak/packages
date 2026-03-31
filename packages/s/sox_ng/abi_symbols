@@ -277,6 +277,7 @@ libsox_ng.so.3:lsx_parsesamples
 libsox_ng.so.3:lsx_phaser_effect_fn
 libsox_ng.so.3:lsx_pitch_effect_fn
 libsox_ng.so.3:lsx_plot_fir
+libsox_ng.so.3:lsx_popen
 libsox_ng.so.3:lsx_power_spectrum
 libsox_ng.so.3:lsx_power_spectrum_f
 libsox_ng.so.3:lsx_prc_format_fn

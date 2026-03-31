@@ -3,8 +3,8 @@
         <Name>kwave</Name>
         <Homepage>https://kde.org/applications/multimedia/org.kde.kwave</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -114,12 +114,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="70">
-            <Date>2026-03-05</Date>
+        <Update release="71">
+            <Date>2026-03-30</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>

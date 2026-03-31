@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kwave
 version    : 25.12.3
-release    : 70
+release    : 71
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/kwave-25.12.3.tar.xz : d58fe7dceaceaa18206816558f6b640667073966f237fba14abd177bbdcd9dcd
 homepage   : https://kde.org/applications/multimedia/org.kde.kwave
