@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : brewtarget
-version    : 5.0.3
-release    : 32
+version    : 5.0.4
+release    : 33
 source     :
-    - git|https://github.com/Brewtarget/brewtarget.git : v5.0.3
+    - git|https://github.com/Brewtarget/brewtarget.git : v5.0.4
 homepage   : https://github.com/Brewtarget/brewtarget
 license    :
     - BSD-2-Clause
