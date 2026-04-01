@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : linux-firmware
-version    : '20260221'
-release    : 102
+version    : '20260309'
+release    : 103
 source     :
-    - git|https://gitlab.com/kernel-firmware/linux-firmware.git : 599764611a8ac213c6aa6dad17c941c2f46b53cb
+    - git|https://gitlab.com/kernel-firmware/linux-firmware.git : c822cbbb14ce5b8ee1f27346220640ac350bbf34
 license    :
     - GPL-2.0-or-later
     - Distributable
@@ -81,9 +81,8 @@ install    : |
     popd
 
     # Stick docs in
-    install -dDm00755 $installdir/usr/share/doc/${package}
-    install -m00644 LICENSE* $installdir/usr/share/doc/${package}/.
-    install -m00644 LICENCE* $installdir/usr/share/doc/${package}/.
+    %install_license LICENSE*
+    %install_license LICENCE*
 patterns   :
     - amdgpu :
         - /lib64/firmware/amdgpu
@@ -92,9 +91,9 @@ patterns   :
         - /usr/lib64/firmware/amdgpu
         - /usr/lib64/firmware/amdnpu
         - /usr/lib64/firmware/radeon
-        - /usr/share/doc/linux-firmware/LICENSE.amdgpu
-        - /usr/share/doc/linux-firmware/LICENSE.amdnpu
-        - /usr/share/doc/linux-firmware/LICENSE.radeon
+        - /usr/share/licenses/linux-firmware/LICENSE.amdgpu
+        - /usr/share/licenses/linux-firmware/LICENSE.amdnpu
+        - /usr/share/licenses/linux-firmware/LICENSE.radeon
     - intel-graphics :
         - /lib64/firmware/i915
         - /lib64/firmware/intel/ipu
@@ -106,14 +105,14 @@ patterns   :
         - /usr/lib64/firmware/intel/irci_*
         - /usr/lib64/firmware/intel/vsc
         - /usr/lib64/firmware/xe
-        - /usr/share/doc/linux-firmware/LICENSE.i915
+        - /usr/share/licenses/linux-firmware/LICENSE.i915
     - libertas : # Fedora has this additionally split into a mrvlprestera firmware package, maybe we want that?
         - /lib64/firmware/libertas
         - /lib64/firmware/mrvl
         - /usr/lib64/firmware/libertas
         - /usr/lib64/firmware/mrvl
-        - /usr/share/doc/linux-firmware/LICENCE.Marvell
-        - /usr/share/doc/linux-firmware/LICENCE.OLPC
+        - /usr/share/licenses/linux-firmware/LICENCE.Marvell
+        - /usr/share/licenses/linux-firmware/LICENCE.OLPC
     - mlxsw-spectrum :
         - /lib64/firmware/mellanox
         - /usr/lib64/firmware/mellanox
@@ -124,10 +123,10 @@ patterns   :
         - /usr/lib64/firmware/nvidia/ad*/gsp
         - /usr/lib64/firmware/nvidia/ga*/gsp
         - /usr/lib64/firmware/nvidia/tu*/gsp
-        - /usr/share/doc/linux-firmware/LICENCE.nvidia
+        - /usr/share/licenses/linux-firmware/LICENCE.nvidia
     - qcom :
         - /lib64/firmware/qcom
         - /usr/lib64/firmware/qcom
-        - /usr/share/doc/linux-firmware/LICENSE.qcom
-        - /usr/share/doc/linux-firmware/LICENSE.qcom-2
-        - /usr/share/doc/linux-firmware/LICENSE.qcom_yamato
+        - /usr/share/licenses/linux-firmware/LICENSE.qcom
+        - /usr/share/licenses/linux-firmware/LICENSE.qcom-2
+        - /usr/share/licenses/linux-firmware/LICENSE.qcom_yamato
