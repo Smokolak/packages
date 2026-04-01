@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : solseek
-version    : 1.1.4
-release    : 25
+version    : 1.2.0
+release    : 26
 source     :
-    - https://github.com/clintre/solseek/archive/refs/tags/v1.1.4.tar.gz : 804815dc0fa99539365c9336826656da138b1323c0dd2d747543bcdf953f57c8
+    - https://github.com/clintre/solseek/archive/refs/tags/v1.2.0.tar.gz : 4889f25cb38a00c0583f9991f8d4a6cc69af3b76aa2d7a1363c27cedd3dbb0ab
 homepage   : https://github.com/clintre/solseek
 license    : GPL-3.0-or-later
 component  : system.utils
@@ -15,10 +15,12 @@ rundeps    :
     - font-firacode-nerd
     - fzf
     - packagekit
+    - python3
 install    : |-
     install -Dm00755 $workdir/package/bin/solseek $installdir/usr/bin/solseek
     install -dm00755 $installdir/usr/share
     cp -r $workdir/package/share/solseek $installdir/usr/share/
+    chmod 00755 $installdir/usr/share/solseek/helpers/eopkg-info.py
     install -Dm00644 $workdir/package/share/applications/Solseek.desktop $installdir/usr/share/applications/Solseek.desktop
     install -Dm00644 $workdir/package/share/icons/hicolor/scalable/apps/solseek.svg $installdir/usr/share/icons/hicolor/scalable/apps/solseek.svg
     install -Dm00644 $workdir/package/share/metainfo/solseek.metainfo.xml $installdir/usr/share/metainfo/solseek.metainfo.xml
