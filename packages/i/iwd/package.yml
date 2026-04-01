@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : iwd
-version    : '3.11'
-release    : 16
+version    : '3.12'
+release    : 17
 source     :
-    - https://mirrors.edge.kernel.org/pub/linux/network/wireless/iwd-3.11.tar.xz : 85730e79de05978e26e44b958fd11e2ebb45424ca181f8db7a8daf25fc2226ea
+    - https://mirrors.edge.kernel.org/pub/linux/network/wireless/iwd-3.12.tar.xz : d89a5e45c7180170e19be828f9e944a768c593758094fc57a358d0e7c4cb1a49
 homepage   : https://iwd.wiki.kernel.org
 license    : LGPL-2.1-or-later
 component  : network.base
@@ -27,3 +27,4 @@ install    : |
     install -Dm00644 $pkgfiles/iwd.tmpfiles $installdir/usr/lib/tmpfiles.d/iwd.conf
 check      : |
     %make check
+    %install_license COPYING
