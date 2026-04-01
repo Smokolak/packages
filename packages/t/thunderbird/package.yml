@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : thunderbird
-version    : '149.0'
-release    : 252
+version    : 149.0.1
+release    : 253
 source     :
-    - https://ftp.mozilla.org/pub/thunderbird/releases/149.0/source/thunderbird-149.0.source.tar.xz : edea1dcf73753656dffb2d38b529f6f870ceab01487ac02ce4fe29065c32dbdc
+    - https://ftp.mozilla.org/pub/thunderbird/releases/149.0.1/source/thunderbird-149.0.1.source.tar.xz : f6dd8d14bbb76f339e856454c7ffa27db2b7f07c47f9e61c2f34acd9d556f53c
 license    :
     - GPL-2.0-or-later
     - LGPL-2.1-or-later
