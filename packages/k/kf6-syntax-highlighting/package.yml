@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-syntax-highlighting
 version    : 6.24.0
-release    : 33
+release    : 34
 source     :
     - https://download.kde.org/stable/frameworks/6.24/syntax-highlighting-6.24.0.tar.xz : 061c5946dc6170ecfa91b9c7d4faa5ec81eb53bb5f86eda861c2ce748a65486d
 homepage   : https://community.kde.org/Frameworks
