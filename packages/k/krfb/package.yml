@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : krfb
 version    : 25.12.3
-release    : 39
+release    : 40
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/krfb-25.12.3.tar.xz : 3dd46a3a0e6da3008a11407333453b5e7763057e739025d3525106301ed38c4a
 homepage   : https://apps.kde.org/krfb/
