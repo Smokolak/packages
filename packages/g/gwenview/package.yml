@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gwenview
 version    : 25.12.3
-release    : 116
+release    : 117
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/gwenview-25.12.3.tar.xz : 06ea32a51d8e9efebc4a4e63eb3ef8b23b68a5af5ab38045a7e2837a4fd193b4
 homepage   : https://kde.org/applications/graphics/org.kde.gwenview
