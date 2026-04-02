@@ -24,15 +24,15 @@ Installation Guide: https://help.getsol.us/docs/user/software/virtualization/vir
 </Description>
         <PartOf>virt</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="374">virtualbox-common</Dependency>
+            <Dependency releaseFrom="375">virtualbox-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/extra/vboxdrv.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/extra/vboxnetadp.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/extra/vboxnetflt.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/extra/vboxdrv.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/extra/vboxnetadp.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/extra/vboxnetflt.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/extra/vboxdrv.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/extra/vboxnetadp.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/extra/vboxnetflt.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/extra/vboxdrv.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/extra/vboxnetadp.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/extra/vboxnetflt.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -315,15 +315,15 @@ Installation Guide: https://help.getsol.us/docs/user/software/virtualization/vir
 </Description>
         <PartOf>virt</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="374">virtualbox-common</Dependency>
+            <Dependency releaseFrom="375">virtualbox-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/extra/vboxdrv.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/extra/vboxnetadp.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/extra/vboxnetflt.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/extra/vboxdrv.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/extra/vboxnetadp.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/extra/vboxnetflt.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/extra/vboxdrv.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/extra/vboxnetadp.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/extra/vboxnetflt.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/extra/vboxdrv.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/extra/vboxnetadp.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/extra/vboxnetflt.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -335,8 +335,8 @@ Installation Guide: https://help.getsol.us/docs/user/software/virtualization/vir
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="374">virtualbox</Dependency>
-            <Dependency releaseFrom="374">virtualbox-common</Dependency>
+            <Dependency release="375">virtualbox</Dependency>
+            <Dependency releaseFrom="375">virtualbox-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib/python3.12/site-packages/vboxapi-1-py3.12.egg-info/PKG-INFO</Path>
@@ -627,15 +627,15 @@ Installation Guide: https://help.getsol.us/docs/user/software/virtualization/vir
 </Description>
         <PartOf>virt</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="374">virtualbox-guest-common</Dependency>
+            <Dependency releaseFrom="375">virtualbox-guest-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/misc/vboxguest.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/misc/vboxsf.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/misc/vboxvideo.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/misc/vboxguest.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/misc/vboxsf.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/misc/vboxvideo.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/misc/vboxguest.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/misc/vboxsf.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/misc/vboxvideo.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/misc/vboxguest.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/misc/vboxsf.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/misc/vboxvideo.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -682,20 +682,20 @@ Installation Guide: https://help.getsol.us/docs/user/software/virtualization/vir
 </Description>
         <PartOf>virt</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="374">virtualbox-guest-common</Dependency>
+            <Dependency releaseFrom="375">virtualbox-guest-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/misc/vboxguest.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/misc/vboxsf.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/misc/vboxvideo.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/misc/vboxguest.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/misc/vboxsf.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/misc/vboxvideo.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/misc/vboxguest.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/misc/vboxsf.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/misc/vboxvideo.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/misc/vboxguest.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/misc/vboxsf.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/misc/vboxvideo.ko.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="374">
-            <Date>2026-03-28</Date>
+        <Update release="375">
+            <Date>2026-04-02</Date>
             <Version>7.2.6</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
