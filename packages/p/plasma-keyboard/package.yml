@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-keyboard
 version    : 6.6.3
-release    : 3
+release    : 4
 source     :
     - https://download.kde.org/stable/plasma/6.6.3/plasma-keyboard-6.6.3.tar.xz : fd10bafeb13b1065720dbf8ee334354f050979eddec8b2b025f76c6eb1a1193c
 homepage   : https://kde.org/plasma-desktop/
