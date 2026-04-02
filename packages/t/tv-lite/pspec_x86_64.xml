@@ -38,8 +38,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2026-01-31</Date>
+        <Update release="10">
+            <Date>2026-04-02</Date>
             <Version>0.8.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Jakob Gezelius</Name>
