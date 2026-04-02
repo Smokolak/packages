@@ -698,7 +698,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="137">libksysguard</Dependency>
+            <Dependency release="138">libksysguard</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/ksysguard/faces/FaceLoader.h</Path>
@@ -751,8 +751,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="137">
-            <Date>2026-03-17</Date>
+        <Update release="138">
+            <Date>2026-04-02</Date>
             <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
