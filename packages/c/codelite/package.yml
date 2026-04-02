@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : codelite
-version    : 18.2.0
-release    : 28
+version    : 18.3.0
+release    : 29
 source     :
-    - git|https://github.com/eranif/codelite.git : 18.2.0
+    - git|https://github.com/eranif/codelite.git : 18.3.0
 homepage   : https://codelite.org/
 component  : programming.ide
 license    : GPL-2.0-or-later
@@ -16,7 +16,6 @@ builddeps  :
     - pkgconfig(libssh)
     - pkgconfig(ncursesw)
     - pkgconfig(sqlite3)
-    - pkgconfig(webkit2gtk-4.0)
     - wxwidgets-devel
 setup      : |
     %cmake -B build \
