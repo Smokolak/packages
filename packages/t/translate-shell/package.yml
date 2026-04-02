@@ -10,11 +10,11 @@ component  : office
 summary    : A command-line online translator
 description: |
     Translate Shell (formerly Google Translate CLI) is a command-line translator powered by Google Translate (default), Bing Translator, Yandex.Translate and Apertium.
-builddeps  :
-    - emacs   # check
-    - rlwrap  # check
 rundeps    :
     - fribidi
+    - rlwrap
+checkdeps  :
+    - emacs
     - rlwrap
 setup      : |
     # curl tests fails on Solus
@@ -24,5 +24,6 @@ build      : |
     %make
 install    : |
     %make_install PREFIX=%PREFIX%
+    %install_license LICENSE
 check      : |
     %make test
