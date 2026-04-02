@@ -20,7 +20,7 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/kernel/drivers/platform/x86/zenergy.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/kernel/drivers/platform/x86/zenergy.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -30,12 +30,12 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/kernel/drivers/platform/x86/zenergy.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/kernel/drivers/platform/x86/zenergy.ko.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="24">
-            <Date>2026-03-28</Date>
+        <Update release="25">
+            <Date>2026-04-02</Date>
             <Version>1.0.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
