@@ -204,9 +204,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="383">
-            <Date>2026-03-26</Date>
-            <Version>129.0.5823.28</Version>
+        <Update release="384">
+            <Date>2026-04-02</Date>
+            <Version>129.0.5823.44</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
