@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libkscreen
 version    : 6.6.3
-release    : 135
+release    : 136
 source     :
     - https://download.kde.org/stable/plasma/6.6.3/libkscreen-6.6.3.tar.xz : 408110fc5342a8fe1ff43f026613e0b5ad94e925e85c195a24eac142e74fd179
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
