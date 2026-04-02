@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : linux-lts
 version    : 6.18.20
-release    : 281
+release    : 282
 source     :
     - https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.20.tar.xz : 837a5abd98e46078a0ae1400e2daad89ece45cc3209037b09c2265dab2393553
 license    : GPL-2.0-only
@@ -56,7 +56,17 @@ environment: |
     export CCACHE_BASEDIR=$workdir
     export CCACHE_HASHDIR=yes
 setup      : |
-    %apply_patches
+    if [[ -f $pkgfiles/patches/series ]]
+    then
+        # This retains patch order while removings blank lines
+        # and lines starting with a # character (with any number of preceding blanks)
+        # which should make the patch series file nicer to maintain due to comment support
+        PATCHES=($(sed -E -e '/^\s*$/d' -e '/^[[:space:]]*#.*$/d' $pkgfiles/patches/series))
+        for p in "${PATCHES[@]}"
+        do
+            %patch -p1 -i "$pkgfiles/patches/${p}"
+        done
+    fi
 
     # Make sure the kernel version is consistent with the package version, even if we set the package version to something different
     # We might do this if we're bisecting and don't want to mess with creating many different module dirs.

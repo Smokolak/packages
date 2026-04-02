@@ -20,20 +20,20 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="359">nvidia-developer-driver-common</Dependency>
+            <Dependency releaseFrom="360">nvidia-developer-driver-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.lts.6.18.20-281.nvidia</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-281.lts/kernel/drivers/video/nvidia.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.lts.6.18.20-282.nvidia</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/kernel/drivers/video/nvidia.ko.zst</Path>
         </Files>
         <Conflicts>
             <Package>nvidia-470-glx-driver</Package>
@@ -48,7 +48,7 @@
 </Description>
         <PartOf>xorg.driver</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="359">nvidia-developer-driver-common</Dependency>
+            <Dependency releaseFrom="360">nvidia-developer-driver-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/libEGL_nvidia.so</Path>
@@ -281,20 +281,20 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="359">nvidia-developer-driver-common</Dependency>
+            <Dependency releaseFrom="360">nvidia-developer-driver-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.current.6.18.20-331.nvidia</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-331.current/kernel/drivers/video/nvidia.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia-drm.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.current.6.18.20-332.nvidia</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia-drm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/kernel/drivers/video/nvidia.ko.zst</Path>
         </Files>
         <Conflicts>
             <Package>nvidia-470-glx-driver-current</Package>
@@ -314,8 +314,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="359">
-            <Date>2026-03-28</Date>
+        <Update release="360">
+            <Date>2026-04-02</Date>
             <Version>580.94.18</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
