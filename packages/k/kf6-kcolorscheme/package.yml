@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kcolorscheme
 version    : 6.24.0
-release    : 34
+release    : 35
 source     :
     - https://download.kde.org/stable/frameworks/6.24/kcolorscheme-6.24.0.tar.xz : e9c9e0155e9b8049ad8588049645c998494b91145648467ddcbef178e31e84c5
 homepage   : https://community.kde.org/Frameworks
