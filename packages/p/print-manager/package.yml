@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : print-manager
 version    : 6.6.3
-release    : 123
+release    : 124
 source     :
     - https://download.kde.org/stable/plasma/6.6.3/print-manager-6.6.3.tar.xz : 686fcff428c2be57114d14c3e74129f3e35e4c457cbcad37219515473c5b621b
 homepage   : https://kde.org/
