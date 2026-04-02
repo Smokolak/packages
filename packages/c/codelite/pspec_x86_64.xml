@@ -77,7 +77,6 @@
             <Path fileType="library">/usr/lib/codelite/libdatabaselayersqlite.so</Path>
             <Path fileType="library">/usr/lib/codelite/liblibcodelite.so</Path>
             <Path fileType="library">/usr/lib/codelite/libplugin.so</Path>
-            <Path fileType="library">/usr/lib/codelite/libwxshapeframework.so</Path>
             <Path fileType="library">/usr/lib/codelite/libwxsqlite3.so</Path>
             <Path fileType="library">/usr/lib/codelite/wxCrafter.so</Path>
             <Path fileType="library">/usr/lib/codelite/wxFormBuilder.so</Path>
@@ -224,6 +223,7 @@
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/link_editor.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/lock.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/log.svg</Path>
+            <Path fileType="data">/usr/share/codelite/svgs/dark-theme/lua.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/macro.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/mark_word.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/marker.svg</Path>
@@ -237,6 +237,7 @@
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/mime-bmp.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/mime-c.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/mime-cpp.svg</Path>
+            <Path fileType="data">/usr/share/codelite/svgs/dark-theme/mime-csharp.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/mime-css.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/mime-go.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/dark-theme/mime-h.svg</Path>
@@ -418,6 +419,7 @@
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/link_editor.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/lock.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/log.svg</Path>
+            <Path fileType="data">/usr/share/codelite/svgs/light-theme/lua.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/macro.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/mark_word.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/marker.svg</Path>
@@ -431,6 +433,7 @@
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/mime-bmp.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/mime-c.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/mime-cpp.svg</Path>
+            <Path fileType="data">/usr/share/codelite/svgs/light-theme/mime-csharp.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/mime-css.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/mime-go.svg</Path>
             <Path fileType="data">/usr/share/codelite/svgs/light-theme/mime-h.svg</Path>
@@ -699,9 +702,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="28">
-            <Date>2025-10-27</Date>
-            <Version>18.2.0</Version>
+        <Update release="29">
+            <Date>2026-04-02</Date>
+            <Version>18.3.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Jakob Gezelius</Name>
             <Email>jakob@knugen.nu</Email>
