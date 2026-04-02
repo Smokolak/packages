@@ -94,7 +94,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="30">mimetreeparser</Dependency>
+            <Dependency release="31">mimetreeparser</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KPim6/MimeTreeParserCore/MimeTreeParserCore/AttachmentModel</Path>
@@ -150,8 +150,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="30">
-            <Date>2026-03-05</Date>
+        <Update release="31">
+            <Date>2026-04-02</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
