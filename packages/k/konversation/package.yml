@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : konversation
 version    : 25.12.3
-release    : 68
+release    : 69
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/konversation-25.12.3.tar.xz : b859bcf527fec1d4fbb29a0ba4d1e18430cef58871994617881895e7867fb6f7
 homepage   : https://konversation.kde.org/
