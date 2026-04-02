@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libinput
-version    : 1.31.0
-release    : 53
+version    : 1.31.1
+release    : 54
 source     :
-    - https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.31.0/libinput-1.31.0.tar.gz : 5f95a8ce039b3b2b4560a60bbdb920518d41baa9419344e5878c94bd841d5a54
+    - https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.31.1/libinput-1.31.1.tar.gz : e010b02021b8fe9f3e696a4a2059c0243f0c90f2f9d4bcf4c88d2f9613c52b0b
 license    : MIT
 component  : desktop.library
 homepage   : https://www.freedesktop.org/wiki/Software/libinput/
@@ -18,7 +18,8 @@ builddeps  :
     - pyparsing
     - python-pytest
 setup      : |
-    %meson_configure -Ddebug-gui=false \
+    %meson_configure \
+        -Ddebug-gui=false \
         -Ddocumentation=false \
         -Dtests=false \
         -Dudev-dir=%libdir%/udev
@@ -26,6 +27,8 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING
+
     # Empty
     rm -fr $installdir/etc/
 check      : |
