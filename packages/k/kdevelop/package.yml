@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kdevelop
 version    : 25.12.3
-release    : 88
+release    : 89
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/kdevelop-25.12.3.tar.xz : b6e8f6a02b3ab843b2212eda13aadee3f5d7039dc0b90c2070fec56e337dfcd5
 homepage   : https://kdevelop.org/

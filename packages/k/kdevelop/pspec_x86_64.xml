@@ -3126,7 +3126,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="88">kdevelop</Dependency>
+            <Dependency release="89">kdevelop</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/kdevelop/custom-definesandincludes/idefinesandincludesmanager.h</Path>
@@ -3515,8 +3515,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="88">
-            <Date>2026-03-05</Date>
+        <Update release="89">
+            <Date>2026-04-02</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
