@@ -510,15 +510,15 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="147">powerdevil</Dependency>
+            <Dependency release="148">powerdevil</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/libpowerdevilcore.so</Path>
         </Files>
     </Package>
     <History>
-        <Update release="147">
-            <Date>2026-03-18</Date>
+        <Update release="148">
+            <Date>2026-04-02</Date>
             <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
