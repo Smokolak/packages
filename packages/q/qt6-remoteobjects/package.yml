@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qt6-remoteobjects
-version    : 6.10.2
-release    : 19
+version    : 6.10.3
+release    : 20
 source     :
-    - https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtremoteobjects-everywhere-src-6.10.2.tar.xz : bc683f044fe74dcf06c2b47f31fff2d967b5ac81896620108697dcc942eb65cd
+    - https://download.qt.io/official_releases/qt/6.10/6.10.3/submodules/qtremoteobjects-everywhere-src-6.10.3.tar.xz : fa8faa42fbc4c97ef087cd7e0e7b6f21288d66498113a3f5bc3681cf798d5968
 license    :
     - GFDL-1.3-or-later
     - GPL-2.0-or-later
