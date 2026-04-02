@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : typos
-version    : 1.31.1
-release    : 2
+version    : 1.45.0
+release    : 3
 source     :
-    - https://github.com/crate-ci/typos/archive/refs/tags/v1.31.1.tar.gz : 58bb9286e877e77213c941d5f0f8c999606e27a333edb2258e5ee7e5a58b4cf8
+    - https://github.com/crate-ci/typos/archive/refs/tags/v1.45.0.tar.gz : f7bd2b353818b4e6a2710c30b11f9d4ec62672d6f0c0f7186f6e84140f290d2a
 license    :
     - Apache-2.0
     - MIT
@@ -23,5 +23,7 @@ build      : |
     %cargo_build
 install    : |
     %cargo_install
+    %install_license LICENSE-APACHE
+    %install_license LICENSE-MIT
 check      : |
     %cargo_test
