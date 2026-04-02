@@ -3,8 +3,8 @@
         <Name>kasts</Name>
         <Homepage>https://apps.kde.org/kasts/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.kde</PartOf>
@@ -97,12 +97,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="36">
-            <Date>2026-03-17</Date>
+        <Update release="37">
+            <Date>2026-04-02</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
