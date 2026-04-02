@@ -4,7 +4,7 @@
         <Homepage>https://quickshell.org/</Homepage>
         <Packager>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>LGPL-3.0-only</License>
         <PartOf>system.utils</PartOf>
@@ -85,12 +85,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2026-01-30</Date>
+        <Update release="4">
+            <Date>2026-04-02</Date>
             <Version>0.2.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
