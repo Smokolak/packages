@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kquickcharts
 version    : 6.24.0
-release    : 32
+release    : 33
 source     :
     - https://download.kde.org/stable/frameworks/6.24/kquickcharts-6.24.0.tar.xz : 3b4a14a8197e2c225dc4717971cc626c9f9b0606c612bcb740f80ef9b6bd1aab
 homepage   : https://community.kde.org/Frameworks
