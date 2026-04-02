@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : pinta
-version    : 3.1.1
+version    : 3.1.2
 homepage   : https://www.pinta-project.com/
-release    : 26
+release    : 27
 source     :
-    - https://github.com/PintaProject/Pinta/releases/download/3.1.1/pinta-3.1.1.tar.gz : 9a1453b630e7ad03a377a1bcc702cb84a2339acac3dca5fe3a30245e8a68b56d
+    - https://github.com/PintaProject/Pinta/releases/download/3.1.2/pinta-3.1.2.tar.gz : 27f55a026b51f6f18197e6bcfdd7c79544e41529d166daf6c93a1117e9ed45f0
 license    : MIT
 component  : multimedia.graphics
 summary    : Pinta Painting Made Simple
