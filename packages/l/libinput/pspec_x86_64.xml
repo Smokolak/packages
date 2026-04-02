@@ -3,8 +3,8 @@
         <Name>libinput</Name>
         <Homepage>https://www.freedesktop.org/wiki/Software/libinput/</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>desktop.library</PartOf>
@@ -97,6 +97,7 @@
             <Path fileType="data">/usr/share/libinput/50-system-starlabs.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-system76.quirks</Path>
             <Path fileType="data">/usr/share/libinput/50-system-toshiba.quirks</Path>
+            <Path fileType="data">/usr/share/licenses/libinput/COPYING</Path>
             <Path fileType="man">/usr/share/man/man1/libinput-analyze-buttons.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/libinput-analyze-per-slot-delta.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/libinput-analyze-recording.1.zst</Path>
@@ -130,7 +131,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="53">libinput</Dependency>
+            <Dependency release="54">libinput</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/libinput.h</Path>
@@ -139,12 +140,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="53">
-            <Date>2026-03-21</Date>
-            <Version>1.31.0</Version>
+        <Update release="54">
+            <Date>2026-04-02</Date>
+            <Version>1.31.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
