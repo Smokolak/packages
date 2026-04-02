@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : translate-shell
 version    : 0.9.7.1
-release    : 10
+release    : 11
 source     :
     - https://github.com/soimort/translate-shell/archive/refs/tags/v0.9.7.1.tar.gz : f949f379779b9e746bccb20fcd180d041fb90da95816615575b49886032bcefa
 homepage   : https://www.soimort.org/translate-shell/
