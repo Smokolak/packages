@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qt6-languageserver
-version    : 6.10.2
-release    : 17
+version    : 6.10.3
+release    : 18
 source     :
-    - https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtlanguageserver-everywhere-src-6.10.2.tar.xz : 9a043f2c84b0b470065fc7a954dc4ff0388db3e1b2c457c3d69670baecc40d53
+    - https://download.qt.io/official_releases/qt/6.10/6.10.3/submodules/qtlanguageserver-everywhere-src-6.10.3.tar.xz : 94f90484be8e49d3eb3bfcf0ba6cb2d8a170fc831c78de138332feebdf193964
 license    : GPL-3.0-or-later
 component  : desktop.qt
 homepage   : https://www.qt.io
