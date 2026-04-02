@@ -5,6 +5,7 @@ fyplugin_fileops.so
 fyplugin_filters.so
 fyplugin_lyrics.so
 fyplugin_mpris.so
+fyplugin_notify.so
 fyplugin_pipewire.so
 fyplugin_rawaudio.so
 fyplugin_rgscanner.so
