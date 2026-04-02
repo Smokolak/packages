@@ -107,7 +107,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="101">kidentitymanagement</Dependency>
+            <Dependency release="102">kidentitymanagement</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KPim6/KIdentityManagementCore/KIdentityManagementCore/Identity</Path>
@@ -171,8 +171,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="101">
-            <Date>2026-03-05</Date>
+        <Update release="102">
+            <Date>2026-04-02</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
