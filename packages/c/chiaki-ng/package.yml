@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : chiaki-ng
 version    : 1.9.9
-release    : 3
+release    : 4
 source     :
     - git|https://github.com/streetpea/chiaki-ng.git : v1.9.9
 homepage   : https://streetpea.github.io/chiaki-ng/
@@ -26,6 +26,8 @@ builddeps  :
     - pkgconfig(protobuf)
     - pkgconfig(sdl2)
     - pkgconfig(speexdsp)
+    - nanopb-devel
+    - python-nanopb
     - python-protobuf
     - qt6-base-private-devel
 environment: |
@@ -33,9 +35,12 @@ environment: |
 setup      : |
     %patch -p1 -i ${pkgfiles}/qt-6.10.0.patch
     %patch -p1 -i ${pkgfiles}/0001-Fix-Wayland-appId.patch
+    %patch -p1 -i ${pkgfiles}/chiaki-ng-1.9.9-use-shared-nanopb.patch
     %patch -p1 -d third-party/cpp-steam-tools -i ${pkgfiles}/0001-Build-cpp-steam-tools-static.patch
 
-    %cmake_ninja -DCHIAKI_USE_SYSTEM_CURL=ON
+    %cmake_ninja \
+        -DCHIAKI_USE_SYSTEM_CURL=ON \
+        -DCHIAKI_USE_SYSTEM_NANOPB=ON
 build      : |
     %ninja_build
 install    : |

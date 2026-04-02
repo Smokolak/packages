@@ -22,5 +22,6 @@ libm.so.6
 libminiupnpc.so.18
 libopus.so.0
 libplacebo.so.351
+libprotobuf-nanopb.so.0
 libspeexdsp.so.1
 libstdc++.so.6
