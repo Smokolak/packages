@@ -1565,7 +1565,7 @@
         <Description xml:lang="en">Oxygen visual style for the Plasma desktop.</Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="132">oxygen</Dependency>
+            <Dependency release="133">oxygen</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/oxygen-demo5</Path>
@@ -1573,8 +1573,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="132">
-            <Date>2026-03-18</Date>
+        <Update release="133">
+            <Date>2026-04-02</Date>
             <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
