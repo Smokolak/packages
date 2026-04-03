@@ -3,13 +3,13 @@
         <Name>appstream-catalog</Name>
         <Homepage>https://www.freedesktop.org/wiki/Distributions/AppStream/</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>CC-BY-SA-3.0</License>
         <License>CC-BY-SA-4.0</License>
         <License>CC0-1.0</License>
-        <License>GFDL-1.3</License>
+        <License>GFDL-1.3-or-later</License>
         <PartOf>desktop.core</PartOf>
         <Summary xml:lang="en">AppStream data for Solus</Summary>
         <Description xml:lang="en">AppStream data for Solus
@@ -23,6 +23,10 @@
 </Description>
         <PartOf>desktop.core</PartOf>
         <Files>
+            <Path fileType="data">/usr/share/licenses/appstream-catalog/CC-BY-SA-3.0</Path>
+            <Path fileType="data">/usr/share/licenses/appstream-catalog/CC-BY-SA-4.0</Path>
+            <Path fileType="data">/usr/share/licenses/appstream-catalog/CC0-1.0</Path>
+            <Path fileType="data">/usr/share/licenses/appstream-catalog/GFDL-1.3-or-later</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/OTPClient_com.github.paolostivanin.OTPClient.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/VisualBoyAdvance-M_visualboyadvance-m.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/abiword_abiword.png</Path>
@@ -224,6 +228,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/freedroidrpg_freedroidrpg.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/freeorion_org.freeorion.FreeOrion.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/freeplane_freeplane.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/fresh_io.github.sinelaw.fresh.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/fsearch_io.github.cboxdoerfer.FSearch.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/fuse-emulator_fuse.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gajim_org.gajim.Gajim.png</Path>
@@ -478,6 +483,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/mumble_mumble.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/mupdf_mupdf.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/mupen64plus-qt_mupen64plus-qt.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/museeks_io.museeks.app.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/musescore_mscore.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/mypaint_org.mypaint.MyPaint.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/naev_org.naev.Naev.png</Path>
@@ -1001,6 +1007,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/freedroidrpg_freedroidrpg.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/freeorion_org.freeorion.FreeOrion.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/freeplane_freeplane.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/fresh_io.github.sinelaw.fresh.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/frozen-bubble_frozen-bubble.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/fsearch_io.github.cboxdoerfer.FSearch.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/fuse-emulator_fuse.png</Path>
@@ -1811,6 +1818,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/freefilesync_FreeFileSync.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/freeorion_org.freeorion.FreeOrion.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/freeplane_freeplane.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/fresh_io.github.sinelaw.fresh.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/fritzing_fritzing.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/frozen-bubble_frozen-bubble.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/fsearch_io.github.cboxdoerfer.FSearch.png</Path>
@@ -2093,6 +2101,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/mumble_mumble.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/mupdf_mupdf.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/mupen64plus-qt_mupen64plus-qt.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/museeks_io.museeks.app.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/musescore_mscore.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/mypaint_org.mypaint.MyPaint.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/naev_org.naev.Naev.png</Path>
@@ -2466,12 +2475,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="49">
-            <Date>2026-03-27</Date>
-            <Version>20260327</Version>
+        <Update release="50">
+            <Date>2026-04-03</Date>
+            <Version>20260403</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
