@@ -974,6 +974,15 @@ libplacebo.so.351:pl_vulkan_sem_create
 libplacebo.so.351:pl_vulkan_sem_destroy
 libplacebo.so.351:pl_vulkan_unwrap
 libplacebo.so.351:pl_vulkan_wrap
+libprotobuf-nanopb.so.0:pb_decode
+libprotobuf-nanopb.so.0:pb_default_field_callback
+libprotobuf-nanopb.so.0:pb_encode
+libprotobuf-nanopb.so.0:pb_encode_string
+libprotobuf-nanopb.so.0:pb_encode_tag_for_field
+libprotobuf-nanopb.so.0:pb_encode_varint
+libprotobuf-nanopb.so.0:pb_istream_from_buffer
+libprotobuf-nanopb.so.0:pb_ostream_from_buffer
+libprotobuf-nanopb.so.0:pb_read
 libspeexdsp.so.1:speex_echo_cancellation
 libspeexdsp.so.1:speex_echo_state_destroy
 libspeexdsp.so.1:speex_echo_state_init
