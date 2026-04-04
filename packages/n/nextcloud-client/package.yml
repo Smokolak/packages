@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : nextcloud-client
-version    : 4.0.6
-release    : 83
+version    : 33.0.2
+release    : 84
 source     :
-    - https://github.com/nextcloud/desktop/archive/refs/tags/v4.0.6.tar.gz : 34079396b306be6e99c2f4073e23547ad1723b3da1988e04959b28ec7b9d1c9c
+    - https://github.com/nextcloud/desktop/archive/refs/tags/v33.0.2.tar.gz : 401589929303f7f8be9093285afd0167bad5c976d27d95cf74495e20146089cf
 homepage   : https://docs.nextcloud.com/desktop
 license    : GPL-2.0-or-later
 component  :
@@ -23,21 +23,18 @@ builddeps  :
     - pkgconfig(Qt6Gui)
     - pkgconfig(Qt6QuickControls2)
     - pkgconfig(Qt6Svg)
-    - pkgconfig(Qt6UiTools)
     - pkgconfig(Qt6WebEngineCore)
     - pkgconfig(Qt6WebSockets)
     - pkgconfig(cloudproviders)
-    - pkgconfig(cmocka)
     - pkgconfig(libp11)
     - pkgconfig(sqlite3)
     - appstream
-    - graphviz
     - inkscape
+    - kdsingleapplication-devel
     - kf6-karchive-devel
     - kf6-kio-devel
     - kf6-kwindowsystem-devel
     - kio-devel
-    - python-sphinx
     - qt6-base-private-devel
     - qtkeychain-qt6-devel
     - xdg-utils
@@ -64,3 +61,6 @@ install    : |
 
     # Install AppStream metainfo
     install -Dm00644 $pkgfiles/com.nextcloud.desktopclient.nextcloud.metainfo.xml $installdir/usr/share/metainfo/com.nextcloud.desktopclient.nextcloud.metainfo.xml
+
+    %install_license COPYING* LICENSES/*
+    
