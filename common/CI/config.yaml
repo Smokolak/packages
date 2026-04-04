@@ -35,6 +35,7 @@ static_libs:
     - llvm
     - llvm-15
     - llvm-bolt
+    - musl
     - ocaml
     - ocamlbuild
     - opencolorio
