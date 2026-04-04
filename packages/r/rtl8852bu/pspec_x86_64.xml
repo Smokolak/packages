@@ -20,11 +20,11 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="66">rtl8852bu-common</Dependency>
+            <Dependency releaseFrom="67">rtl8852bu-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-282.lts/kernel/drivers/net/wireless/rtl8852bu/8852bu.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/kernel/drivers/net/wireless/rtl8852bu/8852bu.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.21-283.lts/kernel/drivers/net/wireless/rtl8852bu/8852bu.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.21-283.lts/kernel/drivers/net/wireless/rtl8852bu/8852bu.ko.zst</Path>
             <Path fileType="data">/usr/share/licenses/rtl8852bu/LICENSE</Path>
         </Files>
     </Package>
@@ -45,11 +45,11 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="66">rtl8852bu-common</Dependency>
+            <Dependency releaseFrom="67">rtl8852bu-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-332.current/kernel/drivers/net/wireless/rtl8852bu/8852bu.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/kernel/drivers/net/wireless/rtl8852bu/8852bu.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.21-333.current/kernel/drivers/net/wireless/rtl8852bu/8852bu.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.21-333.current/kernel/drivers/net/wireless/rtl8852bu/8852bu.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -63,8 +63,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="66">
-            <Date>2026-04-02</Date>
+        <Update release="67">
+            <Date>2026-04-04</Date>
             <Version>1.19.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
