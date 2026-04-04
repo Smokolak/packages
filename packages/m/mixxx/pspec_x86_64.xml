@@ -3,8 +3,8 @@
         <Name>mixxx</Name>
         <Homepage>https://mixxx.org/</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -2827,12 +2827,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="52">
-            <Date>2026-03-30</Date>
+        <Update release="53">
+            <Date>2026-04-02</Date>
             <Version>2.5.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>

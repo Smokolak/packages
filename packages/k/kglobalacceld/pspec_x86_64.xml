@@ -44,7 +44,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="47">kglobalacceld</Dependency>
+            <Dependency release="48">kglobalacceld</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KGlobalAccelD/kglobalaccel_interface.h</Path>
@@ -58,8 +58,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="47">
-            <Date>2026-03-17</Date>
+        <Update release="48">
+            <Date>2026-04-02</Date>
             <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>

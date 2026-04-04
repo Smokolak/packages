@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : marble
 version    : 25.12.3
-release    : 112
+release    : 113
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/marble-25.12.3.tar.xz : 6f444e70f61ae3e4b7a2c9cc07bea788a795263693278ac637d8afc86a0c3dd4
 homepage   : https://kde.org/applications/education/org.kde.marble

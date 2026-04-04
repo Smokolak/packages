@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : keysmith
 version    : 25.12.3
-release    : 32
+release    : 33
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/keysmith-25.12.3.tar.xz : e1bcd577cabec0235ae08a693a94f71ae5de0df2271febc64f04ebc8319da2d4
 homepage   : https://apps.kde.org/keysmith

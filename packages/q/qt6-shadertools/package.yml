@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qt6-shadertools
-version    : 6.10.2
-release    : 26
+version    : 6.10.3
+release    : 27
 source     :
-    - https://download.qt.io/official_releases/qt/6.10/6.10.2/submodules/qtshadertools-everywhere-src-6.10.2.tar.xz : 18d9dbbc4f7e6e96e6ed89a9965dc032e2b58158b65156c035537826216716c9
+    - https://download.qt.io/official_releases/qt/6.10/6.10.3/submodules/qtshadertools-everywhere-src-6.10.3.tar.xz : c75837e2ea493ec0b9747b227c455d4a12cafe90068abf607992da9a403616c6
 license    : GPL-3.0-or-later
 component  : desktop.qt
 homepage   : https://www.qt.io

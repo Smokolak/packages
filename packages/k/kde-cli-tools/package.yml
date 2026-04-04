@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kde-cli-tools
 version    : 6.6.3
-release    : 137
+release    : 138
 source     :
     - https://download.kde.org/stable/plasma/6.6.3/kde-cli-tools-6.6.3.tar.xz : b51294a62d0dd3bc0232a3b9b0314405717aa5081fafa48445b5c66b1899def6
 homepage   : https://www.kde.org/workspaces/plasmadesktop/

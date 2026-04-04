@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kgraphviewer
 version    : 25.12.3
-release    : 21
+release    : 22
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/kgraphviewer-25.12.3.tar.xz : 634d92f9bedb09e5e491e7c8ceb1c4a6607ccb8ef87f8c8b1c8a9f52e3f8c0c6
 homepage   : https://apps.kde.org/kgraphviewer/

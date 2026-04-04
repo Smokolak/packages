@@ -41,7 +41,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="37">kf6-kguiaddons</Dependency>
+            <Dependency release="38">kf6-kguiaddons</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KF6/KGuiAddons/KColorCollection</Path>
@@ -91,8 +91,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="37">
-            <Date>2026-03-13</Date>
+        <Update release="38">
+            <Date>2026-04-02</Date>
             <Version>6.24.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>

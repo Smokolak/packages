@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : systemsettings
 version    : 6.6.3
-release    : 140
+release    : 141
 source     :
     - https://download.kde.org/stable/plasma/6.6.3/systemsettings-6.6.3.tar.xz : 99974a1922c9e3b3ce8a8479946e6f48c28f2ea860a3b8763c7bfc35e712e151
 homepage   : https://www.kde.org/workspaces/plasmadesktop/

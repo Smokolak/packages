@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kdenetwork-filesharing
 version    : 25.12.3
-release    : 90
+release    : 91
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/kdenetwork-filesharing-25.12.3.tar.xz : 269de47fccf26ce1c989a4b66d432c4306913d1a814199c5ffce533c67305696
 homepage   : https://kde.org/

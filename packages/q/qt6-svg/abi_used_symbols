@@ -51,7 +51,7 @@ libQt6Core.so.6:_ZN11QTextStreamlsEi
 libQt6Core.so.6:_ZN11QTextStreamlsEx
 libQt6Core.so.6:_ZN13QMimeDatabaseC1Ev
 libQt6Core.so.6:_ZN13QMimeDatabaseD1Ev
-libQt6Core.so.6:_ZN14QObjectPrivateC2E16QtPrivate_6_10_2
+libQt6Core.so.6:_ZN14QObjectPrivateC2E16QtPrivate_6_10_3
 libQt6Core.so.6:_ZN14QObjectPrivateD2Ev
 libQt6Core.so.6:_ZN14QStandardPaths17standardLocationsENS_16StandardLocationE
 libQt6Core.so.6:_ZN15QtSharedPointer20ExternalRefCountData9getAndRefEPK7QObject
@@ -363,7 +363,6 @@ libQt6Gui.so.6:_ZN12QPainterPath6moveToERK7QPointF
 libQt6Gui.so.6:_ZN12QPainterPath6quadToERK7QPointFS2_
 libQt6Gui.so.6:_ZN12QPainterPath7addRectERK6QRectF
 libQt6Gui.so.6:_ZN12QPainterPath7cubicToERK7QPointFS2_S2_
-libQt6Gui.so.6:_ZN12QPainterPathC1ERK7QPointF
 libQt6Gui.so.6:_ZN12QPainterPathC1ERKS_
 libQt6Gui.so.6:_ZN12QPainterPathC1Ev
 libQt6Gui.so.6:_ZN12QPainterPathD1Ev
@@ -767,7 +766,7 @@ libQt6Widgets.so.6:_ZN13QGraphicsItem9dropEventEP27QGraphicsSceneDragDropEvent
 libQt6Widgets.so.6:_ZN14QWidgetPrivate10setVisibleEb
 libQt6Widgets.so.6:_ZN14QWidgetPrivate11focusObjectEv
 libQt6Widgets.so.6:_ZN14QWidgetPrivate14setWindowFlagsE6QFlagsIN2Qt10WindowTypeEE
-libQt6Widgets.so.6:_ZN14QWidgetPrivateC2E16QtPrivate_6_10_2
+libQt6Widgets.so.6:_ZN14QWidgetPrivateC2E16QtPrivate_6_10_3
 libQt6Widgets.so.6:_ZN14QWidgetPrivateD2Ev
 libQt6Widgets.so.6:_ZN15QAbstractButton16staticMetaObjectE
 libQt6Widgets.so.6:_ZN15QAbstractButton7clickedEb

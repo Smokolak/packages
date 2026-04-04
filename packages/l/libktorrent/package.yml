@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libktorrent
 version    : 25.12.3
-release    : 65
+release    : 66
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/libktorrent-25.12.3.tar.xz : e462cba899d4d122923aa4d0c6efd395ebc4ef9eb688e6b7a405234da6c8c302
 homepage   : https://invent.kde.org/network/libktorrent

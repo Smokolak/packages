@@ -3,8 +3,8 @@
         <Name>nheko</Name>
         <Homepage>https://nheko-reborn.github.io/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>network.im</PartOf>
@@ -38,12 +38,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="26">
-            <Date>2026-03-17</Date>
+        <Update release="27">
+            <Date>2026-04-02</Date>
             <Version>0.12.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>

@@ -5304,7 +5304,7 @@ libQt6Core.so.6:_ZN14QItemSelection6selectERK11QModelIndexS2_
 libQt6Core.so.6:_ZN14QItemSelectionC1ERK11QModelIndexS2_
 libQt6Core.so.6:_ZN14QObjectPrivate7connectEPK7QObjectiPN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeE
 libQt6Core.so.6:_ZN14QObjectPrivate7connectEPK7QObjectiS2_PN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeE
-libQt6Core.so.6:_ZN14QObjectPrivateC2E16QtPrivate_6_10_2
+libQt6Core.so.6:_ZN14QObjectPrivateC2E16QtPrivate_6_10_3
 libQt6Core.so.6:_ZN14QObjectPrivateD2Ev
 libQt6Core.so.6:_ZN14QReadWriteLock13initRecursiveEv
 libQt6Core.so.6:_ZN14QReadWriteLock14tryLockForReadE14QDeadlineTimer
@@ -6391,6 +6391,7 @@ libQt6Core.so.6:_ZN7QString9fromUtf16EPKDsx
 libQt6Core.so.6:_ZN7QStringC1E5QChar
 libQt6Core.so.6:_ZN7QStringC1EPK5QCharx
 libQt6Core.so.6:_ZN7QStringC1Ex5QChar
+libQt6Core.so.6:_ZN7QStringC1ExN2Qt14InitializationE
 libQt6Core.so.6:_ZN7QStringC2EPK5QCharx
 libQt6Core.so.6:_ZN7QStringaSE13QLatin1String
 libQt6Core.so.6:_ZN7QStringaSE5QChar
@@ -7857,7 +7858,6 @@ libQt6Core.so.6:_ZNK7QString8containsERK18QRegularExpressionP23QRegularExpressio
 libQt6Core.so.6:_ZNK7QString8endsWithE13QLatin1StringN2Qt15CaseSensitivityE
 libQt6Core.so.6:_ZNK7QString8endsWithE5QCharN2Qt15CaseSensitivityE
 libQt6Core.so.6:_ZNK7QString8endsWithERKS_N2Qt15CaseSensitivityE
-libQt6Core.so.6:_ZNK7QString8repeatedEx
 libQt6Core.so.6:_ZNK7QString8toDoubleEPb
 libQt6Core.so.6:_ZNK7QThread10isFinishedEv
 libQt6Core.so.6:_ZNK7QThread10metaObjectEv

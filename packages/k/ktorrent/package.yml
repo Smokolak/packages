@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : ktorrent
 version    : 25.12.3
-release    : 30
+release    : 31
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/ktorrent-25.12.3.tar.xz : d7aeef6fd792ecffc0a836c2978cfb8754223d725db1a12397dfcc9787be98d2
 homepage   : https://apps.kde.org/ktorrent

@@ -1,10 +1,8 @@
 UNKNOWN:ceil
 UNKNOWN:fmaxf
 UNKNOWN:fminf
-UNKNOWN:log10f
 UNKNOWN:sincos
 UNKNOWN:sinf
-UNKNOWN:sqrtf
 ld-linux-x86-64.so.2:__libc_stack_end
 ld-linux-x86-64.so.2:__tls_get_addr
 libQt6Core.so.6:_Z15compareThreeWayRK21QPersistentModelIndexS1_

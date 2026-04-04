@@ -22,7 +22,6 @@ UNKNOWN:_ZTVN10__cxxabiv119__pointer_type_infoE
 UNKNOWN:_ZTVN10__cxxabiv120__function_type_infoE
 UNKNOWN:_ZTVN10__cxxabiv120__si_class_type_infoE
 UNKNOWN:_ZTVN5sword13InstallSourceE
-UNKNOWN:sqrt
 libQt6Core.so.6:_Z13comparesEqualRK21QPersistentModelIndexRK11QModelIndex
 libQt6Core.so.6:_Z20qt_qFindChild_helperPK7QObject14QAnyStringViewRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE
 libQt6Core.so.6:_Z21qRegisterResourceDataiPKhS0_S0_
@@ -1982,6 +1981,7 @@ libclucene-shared.so.1:_Z16lucene_wcstoutf8PcPKwm
 libgcc_s.so.1:_Unwind_Resume
 libgcc_s.so.1:__gcc_personality_v0
 libm.so.6:pow
+libm.so.6:sqrt
 libstdc++.so.6:_ZNSt10_Sp_lockerC1EPKv
 libstdc++.so.6:_ZNSt10_Sp_lockerC1EPKvS1_
 libstdc++.so.6:_ZNSt10_Sp_lockerD1Ev

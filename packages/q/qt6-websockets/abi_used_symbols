@@ -43,7 +43,7 @@ libQt6Core.so.6:_ZN12QChronoTimer5startEv
 libQt6Core.so.6:_ZN12QChronoTimer7timeoutENS_14QPrivateSignalE
 libQt6Core.so.6:_ZN12QChronoTimerC1EP7QObject
 libQt6Core.so.6:_ZN13QElapsedTimer5startEv
-libQt6Core.so.6:_ZN14QObjectPrivateC2E16QtPrivate_6_10_2
+libQt6Core.so.6:_ZN14QObjectPrivateC2E16QtPrivate_6_10_3
 libQt6Core.so.6:_ZN14QObjectPrivateD2Ev
 libQt6Core.so.6:_ZN15QtSharedPointer20ExternalRefCountData9getAndRefEPK7QObject
 libQt6Core.so.6:_ZN16QCoreApplication4execEv
@@ -252,6 +252,7 @@ libQt6Network.so.6:_ZN10QSslSocket15ignoreSslErrorsERK5QListI9QSslErrorE
 libQt6Network.so.6:_ZN10QSslSocket15ignoreSslErrorsEv
 libQt6Network.so.6:_ZN10QSslSocket15peerVerifyErrorERK9QSslError
 libQt6Network.so.6:_ZN10QSslSocket16staticMetaObjectE
+libQt6Network.so.6:_ZN10QSslSocket17setPeerVerifyNameERK7QString
 libQt6Network.so.6:_ZN10QSslSocket19setSslConfigurationERK17QSslConfiguration
 libQt6Network.so.6:_ZN10QSslSocket21encryptedBytesWrittenEx
 libQt6Network.so.6:_ZN10QSslSocket22connectToHostEncryptedERK7QStringt6QFlagsIN13QIODeviceBase12OpenModeFlagEEN15QAbstractSocket20NetworkLayerProtocolE
@@ -366,6 +367,7 @@ libQt6Network.so.6:_ZNK15QAbstractSocket8peerNameEv
 libQt6Network.so.6:_ZNK15QAbstractSocket8peerPortEv
 libQt6Network.so.6:_ZNK15QAbstractSocket9localPortEv
 libQt6Network.so.6:_ZNK15QAbstractSocket9pauseModeEv
+libQt6Network.so.6:_ZNK15QNetworkRequest14peerVerifyNameEv
 libQt6Network.so.6:_ZNK15QNetworkRequest3urlEv
 libQt6Network.so.6:_ZNK15QNetworkRequest7headersEv
 libQt6Network.so.6:_ZNK15QNetworkRequesteqERKS_

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : stellarium
 version    : '25.4'
-release    : 41
+release    : 42
 source     :
     - https://github.com/Stellarium/stellarium/releases/download/v25.4/stellarium-25.4.tar.xz : e376e0dc28eae0f7c4b3686fed9c2129c69a87a371b33e24bd79559a5142d613
 homepage   : https://stellarium.org/

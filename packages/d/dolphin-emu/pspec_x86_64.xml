@@ -4,7 +4,7 @@
         <Homepage>https://dolphin-emu.org/</Homepage>
         <Packager>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <License>CC0-1.0</License>
@@ -2575,12 +2575,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="85">
-            <Date>2026-01-31</Date>
+        <Update release="86">
+            <Date>2026-04-02</Date>
             <Version>2512</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>

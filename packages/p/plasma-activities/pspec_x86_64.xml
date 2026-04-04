@@ -50,7 +50,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="46">plasma-activities</Dependency>
+            <Dependency release="47">plasma-activities</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/PlasmaActivities/PlasmaActivities/ActivitiesModel</Path>
@@ -79,8 +79,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="46">
-            <Date>2026-03-17</Date>
+        <Update release="47">
+            <Date>2026-04-02</Date>
             <Version>6.6.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>

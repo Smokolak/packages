@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kclock
 version    : 25.12.3
-release    : 33
+release    : 34
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/kclock-25.12.3.tar.xz : 8cb4b1d502ad04abf04e5d76ed476a607dda885d282bfc367d218588fb8f3e45
 homepage   : https://apps.kde.org/kclock

@@ -174,7 +174,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="107">libkdegames</Dependency>
+            <Dependency release="108">libkdegames</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KDEGames6/KGameAudioScene</Path>
@@ -241,8 +241,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="107">
-            <Date>2026-03-05</Date>
+        <Update release="108">
+            <Date>2026-04-02</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>

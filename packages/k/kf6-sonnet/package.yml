@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-sonnet
 version    : 6.24.0
-release    : 33
+release    : 34
 source     :
     - https://download.kde.org/stable/frameworks/6.24/sonnet-6.24.0.tar.xz : f5f107bd4d154c93bbacc717ec3411bcebce3513df103945e202ffa1f0ee9ae7
 homepage   : https://community.kde.org/Frameworks

@@ -3,8 +3,8 @@
         <Name>neochat</Name>
         <Homepage>https://apps.kde.org/neochat/</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <License>GPL-2.0-or-later</License>
@@ -94,12 +94,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="56">
-            <Date>2026-03-08</Date>
+        <Update release="57">
+            <Date>2026-04-02</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>

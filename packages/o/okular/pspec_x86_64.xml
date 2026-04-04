@@ -1210,7 +1210,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="122">okular</Dependency>
+            <Dependency release="123">okular</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/okular/core/action.h</Path>
@@ -1251,8 +1251,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="122">
-            <Date>2026-03-05</Date>
+        <Update release="123">
+            <Date>2026-04-02</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>

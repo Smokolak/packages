@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : falkon
 version    : 25.12.3
-release    : 72
+release    : 73
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/falkon-25.12.3.tar.xz : 25f90957335058fff8536b511135e36d96e74c49fab45690be89b994015777b5
 homepage   : https://www.falkon.org/

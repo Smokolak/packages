@@ -4,7 +4,7 @@
         <Homepage>https://hluk.github.io/CopyQ/</Homepage>
         <Packager>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>system.utils</PartOf>
@@ -93,12 +93,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="24">
-            <Date>2026-01-30</Date>
+        <Update release="25">
+            <Date>2026-04-02</Date>
             <Version>13.0.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>

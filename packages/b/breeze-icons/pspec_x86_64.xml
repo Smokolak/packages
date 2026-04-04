@@ -39851,7 +39851,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="108">breeze-icons</Dependency>
+            <Dependency release="109">breeze-icons</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KF6/BreezeIcons/BreezeIcons</Path>
@@ -39866,8 +39866,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="108">
-            <Date>2026-03-13</Date>
+        <Update release="109">
+            <Date>2026-04-02</Date>
             <Version>6.24.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>

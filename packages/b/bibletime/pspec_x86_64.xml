@@ -3,8 +3,8 @@
         <Name>bibletime</Name>
         <Homepage>https://bibletime.info/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>office</PartOf>
@@ -1388,12 +1388,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2026-02-21</Date>
+        <Update release="11">
+            <Date>2026-04-02</Date>
             <Version>3.2.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
