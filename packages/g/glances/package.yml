@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : glances
-version    : 4.5.2
-release    : 59
+version    : 4.5.3
+release    : 60
 source     :
-    - https://github.com/nicolargo/glances/archive/refs/tags/v4.5.2.tar.gz : 89db3857f07aeb02350d6f388385f6fa31f5bcbd463ff467f97c7905a3e1b1bd
+    - https://github.com/nicolargo/glances/archive/refs/tags/v4.5.3.tar.gz : e5169d273e40740b9b13626fd566239050e36169cf678ae82329ccf0300e1767
 homepage   : https://nicolargo.github.io/glances/
 license    : LGPL-3.0-or-later
 component  : system.utils
