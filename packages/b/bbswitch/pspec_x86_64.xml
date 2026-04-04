@@ -20,8 +20,8 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-282.lts/misc/bbswitch.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-282.lts/misc/bbswitch.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.21-283.lts/misc/bbswitch.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.21-283.lts/misc/bbswitch.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -31,13 +31,13 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.20-332.current/misc/bbswitch.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.20-332.current/misc/bbswitch.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.21-333.current/misc/bbswitch.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.21-333.current/misc/bbswitch.ko.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="373">
-            <Date>2026-04-02</Date>
+        <Update release="374">
+            <Date>2026-04-04</Date>
             <Version>0.8</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
