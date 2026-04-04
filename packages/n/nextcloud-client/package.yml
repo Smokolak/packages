@@ -63,4 +63,3 @@ install    : |
     install -Dm00644 $pkgfiles/com.nextcloud.desktopclient.nextcloud.metainfo.xml $installdir/usr/share/metainfo/com.nextcloud.desktopclient.nextcloud.metainfo.xml
 
     %install_license COPYING* LICENSES/*
-    
