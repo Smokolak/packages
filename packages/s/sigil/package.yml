@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : sigil
-version    : 2.7.0
-release    : 51
+version    : 2.7.6
+release    : 52
 source     :
-    - https://github.com/Sigil-Ebook/Sigil/archive/refs/tags/2.7.0.tar.gz : 1e87682dda92dfe0dbaf327a18f698c64794e375c22f04036015140be5b08083
+    - https://github.com/Sigil-Ebook/Sigil/archive/refs/tags/2.7.6.tar.gz : 0b3df166cdaddbe74f28351e53e6cfc0af51256351958e513c7bb92e3614d817
 homepage   : https://sigil-ebook.com/
 license    : GPL-3.0-or-later
 component  : office.viewers
