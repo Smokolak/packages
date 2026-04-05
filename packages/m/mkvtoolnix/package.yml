@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mkvtoolnix
-version    : '97.0'
-release    : 110
+version    : '98.0'
+release    : 111
 source     :
-    - https://codeberg.org/mbunkus/mkvtoolnix/archive/release-97.0.tar.gz : 0cc13289ad1281d6e3c329d243f6e85674276f25680324b99243a3b93872ba51
+    - https://codeberg.org/mbunkus/mkvtoolnix/archive/release-98.0.tar.gz : 39d6b7a414336b1be374a723c3ccb50b66fa4b86b816b8635fc44781d34e49f4
 homepage   : https://codeberg.org/mbunkus/mkvtoolnix
 license    : GPL-2.0-or-later
 component  : multimedia.video
