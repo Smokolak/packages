@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libvirt
-version    : 12.1.0
-release    : 82
+version    : 12.2.0
+release    : 83
 source     :
-    - https://libvirt.org/sources/libvirt-12.1.0.tar.xz : 3b60040a3670ec014d058ed021ae641e9fa6d3b5c4b56e63e8928f1804ef4b9b
+    - https://libvirt.org/sources/libvirt-12.2.0.tar.xz : ac93cd0da743a6c231911fb549399b415102ecfee775329bebbf61ed843b9786
 license    :
     - GPL-2.0-or-later
     - LGPL-2.1-or-later

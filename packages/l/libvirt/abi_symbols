@@ -10,7 +10,7 @@ libvirt-admin.so.0:LIBVIRT_ADMIN_11.2.0
 libvirt-admin.so.0:LIBVIRT_ADMIN_2.0.0
 libvirt-admin.so.0:LIBVIRT_ADMIN_3.0.0
 libvirt-admin.so.0:LIBVIRT_ADMIN_8.6.0
-libvirt-admin.so.0:LIBVIRT_ADMIN_PRIVATE_12.1.0
+libvirt-admin.so.0:LIBVIRT_ADMIN_PRIVATE_12.2.0
 libvirt-admin.so.0:virAdmClientClass
 libvirt-admin.so.0:virAdmClientClose
 libvirt-admin.so.0:virAdmClientFree
@@ -206,7 +206,7 @@ libvirt.so.0:LIBVIRT_8.4.0
 libvirt.so.0:LIBVIRT_8.5.0
 libvirt.so.0:LIBVIRT_9.0.0
 libvirt.so.0:LIBVIRT_9.7.0
-libvirt.so.0:LIBVIRT_PRIVATE_12.1.0
+libvirt.so.0:LIBVIRT_PRIVATE_12.2.0
 libvirt.so.0:cpuDecode
 libvirt.so.0:cpuEncode
 libvirt.so.0:dnsmasqAddDhcpHost
@@ -1183,6 +1183,7 @@ libvirt.so.0:virDomainDefHasOldStyleROUEFI
 libvirt.so.0:virDomainDefHasOldStyleUEFI
 libvirt.so.0:virDomainDefHasPCIHostdev
 libvirt.so.0:virDomainDefHasPCIHostdevWithIOMMUFD
+libvirt.so.0:virDomainDefHasPCIHostdevWithoutIOMMUFD
 libvirt.so.0:virDomainDefHasTimer
 libvirt.so.0:virDomainDefHasUSB
 libvirt.so.0:virDomainDefHasVDPANet
@@ -1370,6 +1371,7 @@ libvirt.so.0:virDomainEventTunableNewFromObj
 libvirt.so.0:virDomainEventWatchdogNewFromDom
 libvirt.so.0:virDomainEventWatchdogNewFromObj
 libvirt.so.0:virDomainFDAssociate
+libvirt.so.0:virDomainFDTupleNew
 libvirt.so.0:virDomainFSAccessModeTypeToString
 libvirt.so.0:virDomainFSCacheModeTypeToString
 libvirt.so.0:virDomainFSDefFind
@@ -2446,8 +2448,8 @@ libvirt.so.0:virGetSystemPageSize
 libvirt.so.0:virGetSystemPageSizeKB
 libvirt.so.0:virGetUserCacheDirectory
 libvirt.so.0:virGetUserConfigDirectory
-libvirt.so.0:virGetUserDirectory
-libvirt.so.0:virGetUserDirectoryByUID
+libvirt.so.0:virGetUserHomeDirectory
+libvirt.so.0:virGetUserHomeDirectoryByUID
 libvirt.so.0:virGetUserID
 libvirt.so.0:virGetUserName
 libvirt.so.0:virGetUserRuntimeDirectory
@@ -2522,6 +2524,7 @@ libvirt.so.0:virHostdevHostSupportsPassthroughVFIO
 libvirt.so.0:virHostdevIsMdevDevice
 libvirt.so.0:virHostdevIsPCIDevice
 libvirt.so.0:virHostdevIsPCIDeviceWithIOMMUFD
+libvirt.so.0:virHostdevIsPCIDeviceWithoutIOMMUFD
 libvirt.so.0:virHostdevIsSCSIDevice
 libvirt.so.0:virHostdevManagerGetDefault
 libvirt.so.0:virHostdevNeedsVFIO
@@ -4362,7 +4365,6 @@ libvirt.so.0:virStorageSourceClear
 libvirt.so.0:virStorageSourceCopy
 libvirt.so.0:virStorageSourceCreate
 libvirt.so.0:virStorageSourceDeinit
-libvirt.so.0:virStorageSourceFDTupleNew
 libvirt.so.0:virStorageSourceFetchRelativeBackingPath
 libvirt.so.0:virStorageSourceGetActualType
 libvirt.so.0:virStorageSourceGetMetadata
@@ -7506,6 +7508,7 @@ libvirt_driver_qemu.so:qemuProcessEventFree
 libvirt_driver_qemu.so:qemuProcessFakeRebootViaRecreate
 libvirt_driver_qemu.so:qemuProcessFindDomainDiskByAliasOrQOM
 libvirt_driver_qemu.so:qemuProcessFinishStartup
+libvirt_driver_qemu.so:qemuProcessGetPassedIommuFd
 libvirt_driver_qemu.so:qemuProcessHandleDeviceDeleted
 libvirt_driver_qemu.so:qemuProcessHandleNbdkitExit
 libvirt_driver_qemu.so:qemuProcessIncomingDefFree
