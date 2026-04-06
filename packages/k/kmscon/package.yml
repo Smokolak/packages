@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kmscon
-version    : 9.3.2
-release    : 8
+version    : 9.3.3
+release    : 9
 source     :
-    - https://github.com/kmscon/kmscon/archive/refs/tags/v9.3.2.tar.gz : 6ecedaf7eb65052be8286465e3600d09857d4dfb36c6076bce8ea985843bb60d
+    - https://github.com/kmscon/kmscon/archive/refs/tags/v9.3.3.tar.gz : e516dd457e4d4b339541d5ac267122bc19f7fbcf12d596dfbe3370a59f8125b1
 homepage   : https://www.freedesktop.org/wiki/Software/kmscon
 license    :
     - MIT
@@ -37,5 +37,7 @@ install    : |
     # FIXME: statelessness
     install -dm00755 $installdir/etc/systemd/system/
     ln -sv ../../../usr/lib/systemd/system/kmsconvt@.service $installdir/etc/systemd/system/autovt@.service
-#check      : |
-#    %ninja_check
+
+    install -Dm00644 -t ${installdir}/%libdir%/systemd/system-preset/ ${pkgfiles}/60-kmscon.preset
+# check      : |
+#     %ninja_check
