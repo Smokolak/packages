@@ -1143,6 +1143,7 @@ nvim:e_noalt
 nvim:e_nobang
 nvim:e_nobufnr
 nvim:e_nogroup
+nvim:e_noident
 nvim:e_noinstext
 nvim:e_nolastcmd
 nvim:e_nomap
@@ -4414,7 +4415,6 @@ nvim:remote_ui_msg_set_pos
 nvim:remote_ui_option_set
 nvim:remote_ui_put
 nvim:remote_ui_raw_line
-nvim:remote_ui_restart
 nvim:remote_ui_screenshot
 nvim:remote_ui_set_icon
 nvim:remote_ui_set_title
@@ -5399,6 +5399,7 @@ nvim:ui_call_popupmenu_show
 nvim:ui_call_put
 nvim:ui_call_raw_line
 nvim:ui_call_resize
+nvim:ui_call_restart
 nvim:ui_call_screenshot
 nvim:ui_call_scroll
 nvim:ui_call_set_icon

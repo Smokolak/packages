@@ -78,6 +78,7 @@ libc.so.6:fputc
 libc.so.6:fputs
 libc.so.6:fread
 libc.so.6:free
+libc.so.6:freopen
 libc.so.6:fseek
 libc.so.6:fseeko
 libc.so.6:fstat
@@ -412,9 +413,6 @@ libuv.so.1:uv_pipe_bind
 libuv.so.1:uv_pipe_connect
 libuv.so.1:uv_pipe_init
 libuv.so.1:uv_pipe_open
-libuv.so.1:uv_poll_init
-libuv.so.1:uv_poll_start
-libuv.so.1:uv_poll_stop
 libuv.so.1:uv_print_all_handles
 libuv.so.1:uv_random
 libuv.so.1:uv_read_start
