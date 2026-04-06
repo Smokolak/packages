@@ -33,10 +33,10 @@ libaom.so.3
 libasound.so.2
 libass.so.9
 libavc1394.so.0
-libavcodec.so.61
-libavfilter.so.10
-libavformat.so.61
-libavutil.so.59
+libavcodec.so.62
+libavfilter.so.11
+libavformat.so.62
+libavutil.so.60
 libbs2b.so.0
 libbz2.so.1.0
 libc.so.6
