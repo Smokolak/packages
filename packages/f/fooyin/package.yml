@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : fooyin
-version    : 0.10.2
-release    : 19
+version    : 0.10.3
+release    : 20
 source     :
-    - https://github.com/fooyin/fooyin/archive/refs/tags/v0.10.2.tar.gz : 5cdd33835679578c940ac5d3dfabaa94406a707d44f0b4b1f7fff11417c5457c
+    - https://github.com/fooyin/fooyin/archive/refs/tags/v0.10.3.tar.gz : 3ba96386c12acacb7b73a637bf2a57690516814e862868e340505a3804551cda
 homepage   : https://www.fooyin.org/
 license    : GPL-3.0-or-later
 component  : multimedia.audio
