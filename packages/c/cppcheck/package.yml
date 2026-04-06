@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : cppcheck
-version    : 2.19.1
-release    : 35
+version    : 2.20.0
+release    : 36
 source     :
-    - https://github.com/danmar/cppcheck/archive/refs/tags/2.19.1.tar.gz : 49bdf1d7826d60053575b78d3192d81d54970dbfb356590f7476de250b1a4234
+    - https://github.com/danmar/cppcheck/archive/refs/tags/2.20.0.tar.gz : 7be7992439339017edb551d8e7d2315f9bb57c402da50c2cee9cd0e2724600a1
 homepage   : https://cppcheck.sourceforge.io/
 license    : GPL-3.0-or-later
 component  : programming.tools
@@ -18,3 +18,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING
