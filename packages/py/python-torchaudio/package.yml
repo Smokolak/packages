@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : python-torchaudio
-version    : 2.9.1
-release    : 10
+version    : 2.11.0
+release    : 11
 source     :
-    - https://github.com/pytorch/audio/archive/refs/tags/v2.9.1.tar.gz : 590492c90552959b3df6f601eb733135064bf2d9e53c516adcf6845a4e545662
+    - https://github.com/pytorch/audio/archive/refs/tags/v2.11.0.tar.gz : 599ec24e7e1eef476ef21f0178e33da00e2434f930ba42e9cc20bf4002220486
 homepage   : https://pytorch.org/audio
 license    : BSD-3-Clause
 component  : programming.python

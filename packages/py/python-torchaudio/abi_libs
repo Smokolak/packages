@@ -1,2 +1,2 @@
-_torchaudio.so
-libtorchaudio.so
+_torchaudio.abi3.so
+libtorchaudio.abi3.so
