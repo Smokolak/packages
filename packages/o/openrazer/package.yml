@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : openrazer
-version    : 3.11.0
-release    : 367
+version    : 3.12.1
+release    : 368
 source     :
-    - https://github.com/openrazer/openrazer/archive/refs/tags/v3.11.0.tar.gz : ba9a4facbde87d23b33791f1f4bb1c963cf5dd31a0a55032753d723491a8ea70
+    - https://github.com/openrazer/openrazer/archive/refs/tags/v3.12.1.tar.gz : 63b9579e3650e532b355fa627317dfd4ee2e2859348c8dd73660d99d7d35ff65
 license    : GPL-2.0-or-later
 component  :
     - kernel.drivers
@@ -104,6 +104,9 @@ install    : |
 
     # Compress modules with zstd
     find "$installdir" -name '*.ko' -exec strip --strip-debug {} \; -exec zstd {} \; -exec rm -v {} \;
+
+    # License
+    %install_license openrazer-${version}/LICENSES/*.txt
 
     # Usr-merge
     install -dm00755 $installdir/lib64
