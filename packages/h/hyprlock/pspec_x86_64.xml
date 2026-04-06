@@ -27,8 +27,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="21">
-            <Date>2026-03-31</Date>
+        <Update release="22">
+            <Date>2026-04-06</Date>
             <Version>0.9.3</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>

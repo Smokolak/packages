@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : hyprgraphics
 version    : 0.5.0
-release    : 16
+release    : 17
 source     :
     - https://github.com/hyprwm/hyprgraphics/archive/refs/tags/v0.5.0.tar.gz : bb37f611c1f50e58dcc0aa97ec1b39c186b78160807f109c5dd8833d58f8bc04
 homepage   : https://github.com/hyprwm/hyprgraphics
