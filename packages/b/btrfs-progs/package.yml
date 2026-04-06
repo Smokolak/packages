@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : btrfs-progs
-version    : '6.19'
-release    : 76
+version    : 6.19.1
+release    : 77
 source     :
-    - https://mirrors.edge.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v6.19.tar.xz : ad6b791a60eb563d3314bc18e3c47f6b053a032639488b5b09b9d5e7921de6b6
+    - https://mirrors.edge.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v6.19.1.tar.xz : bb27e1ec54e7c3c0b7b2e596f853a73c07a3d72f21bc94042073c24dbf045796
 license    : GPL-2.0-only
 homepage   : https://btrfs.wiki.kernel.org/index.php/Main_Page
 summary    :
@@ -36,3 +36,4 @@ build      : |
     %make
 install    : |
     %make_install
+    %install_license COPYING
