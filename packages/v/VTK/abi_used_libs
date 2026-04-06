@@ -14,9 +14,9 @@ libXcursor.so.1
 libadios2_cxx11.so.2.10
 libadios2_cxx11_mpi.so.2.10
 libarchive.so.13
-libavcodec.so.61
-libavformat.so.61
-libavutil.so.59
+libavcodec.so.62
+libavformat.so.62
+libavutil.so.60
 libc.so.6
 libcgns.so.4.2
 libdouble-conversion.so.3
@@ -49,7 +49,7 @@ libproj.so.25
 libpugixml.so.1
 libsqlite3.so.0
 libstdc++.so.6
-libswscale.so.8
+libswscale.so.9
 libtbb.so.12
 libtheoradec.so.1
 libtheoraenc.so.1
