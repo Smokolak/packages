@@ -73,6 +73,7 @@ bluefish:bfwin_alldoc_recalc_right_margin
 bluefish:bfwin_apply_session
 bluefish:bfwin_apply_settings
 bluefish:bfwin_commands_menu_create
+bluefish:bfwin_compile_colors
 bluefish:bfwin_create_main
 bluefish:bfwin_current_document_change_register
 bluefish:bfwin_current_document_change_remove_all
@@ -117,6 +118,7 @@ bluefish:bfwin_set_menu_toggle_item_from_path
 bluefish:bfwin_set_title
 bluefish:bfwin_set_undo_redo_actions
 bluefish:bfwin_show_main
+bluefish:bfwin_show_notebook2_set_split_position
 bluefish:bfwin_side_panel_rebuild
 bluefish:bfwin_side_panel_show
 bluefish:bfwin_side_panel_show_hide_toggle
@@ -296,7 +298,6 @@ bluefish:doc_move_selection
 bluefish:doc_move_to_window
 bluefish:doc_move_to_window_dialog
 bluefish:doc_new
-bluefish:doc_new_backend
 bluefish:doc_new_from_input
 bluefish:doc_new_from_uri
 bluefish:doc_new_loading_in_background
@@ -327,7 +328,6 @@ bluefish:doc_set_readonly
 bluefish:doc_set_status
 bluefish:doc_set_statusbar_lang_encoding
 bluefish:doc_set_statusbar_lncol
-bluefish:doc_set_tabsize
 bluefish:doc_set_title
 bluefish:doc_set_tooltip
 bluefish:doc_set_uri
@@ -678,6 +678,7 @@ bluefish:update_outputbox
 bluefish:uri_from_external_input
 bluefish:uri_in_refresh
 bluefish:urilist_to_stringlist
+bluefish:using_dark_theme
 bluefish:utf82xmlentities
 bluefish:utf8_byteoffset_to_charsoffset_cached
 bluefish:utf8_charoffset_to_byteoffset_cached

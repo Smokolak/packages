@@ -236,6 +236,7 @@ libglib-2.0.so.0:g_file_test
 libglib-2.0.so.0:g_filename_to_utf8
 libglib-2.0.so.0:g_format_size
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_charset
 libglib-2.0.so.0:g_get_home_dir
 libglib-2.0.so.0:g_get_real_name
@@ -781,6 +782,7 @@ libgtk-3.so.0:gtk_paned_new
 libgtk-3.so.0:gtk_paned_pack1
 libgtk-3.so.0:gtk_paned_pack2
 libgtk-3.so.0:gtk_paned_set_position
+libgtk-3.so.0:gtk_paned_set_wide_handle
 libgtk-3.so.0:gtk_print_context_create_pango_layout
 libgtk-3.so.0:gtk_print_context_get_cairo_context
 libgtk-3.so.0:gtk_print_context_get_height
@@ -829,6 +831,7 @@ libgtk-3.so.0:gtk_selection_data_get_length
 libgtk-3.so.0:gtk_selection_data_get_target
 libgtk-3.so.0:gtk_selection_data_set
 libgtk-3.so.0:gtk_separator_new
+libgtk-3.so.0:gtk_settings_get_default
 libgtk-3.so.0:gtk_show_about_dialog
 libgtk-3.so.0:gtk_spin_button_get_adjustment
 libgtk-3.so.0:gtk_spin_button_get_value
