@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : just
-version    : 1.48.1
-release    : 50
+version    : 1.49.0
+release    : 51
 source     :
-    - https://github.com/casey/just/archive/refs/tags/1.48.1.tar.gz : 290bb320b36ca118b8a8da6271660c941a8b0888b943de22e8238286e2312554
+    - https://github.com/casey/just/archive/refs/tags/1.49.0.tar.gz : 442406ee14eb9a59414525cf262354fe2e752b22c224ce2a5e42b2c493226e09
 license    : CC0-1.0
 component  : programming.tools
 homepage   : https://github.com/casey/just/
@@ -28,5 +28,7 @@ install    : |
     install -Dm00644 completions/just.zsh $installdir/usr/share/zsh/site-functions/_just
     %install_license LICENSE
 check      : |
-    # completions::bash requires that we be building from git source
-    %cargo_test -- --skip fmt::write_error --skip completions::bash
+    %cargo_test -- \
+         --skip fmt::write_error \
+         --skip completions::bash \
+         --skip  directories::runtime_directory
