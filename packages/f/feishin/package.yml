@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : feishin
-version    : 1.10.0
-release    : 7
+version    : 1.11.0
+release    : 8
 source     :
-    - https://github.com/jeffvli/feishin/archive/refs/tags/v1.10.0.tar.gz : a73baf91459b8c38deea0617d206dafbd015378f3de75c303efc0f048c45e4cf
+    - https://github.com/jeffvli/feishin/archive/refs/tags/v1.11.0.tar.gz : a99d0fd82fb04ad217d3f016032499af93998c5989a3c2093e209d775342280b
 homepage   : https://github.com/jeffvli/feishin
 license    : GPL-3.0-or-later
 component  : multimedia.audio
