@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : flatpak
-version    : 1.16.3
-release    : 84
+version    : 1.16.4
+release    : 85
 source     :
-    - https://github.com/flatpak/flatpak/archive/refs/tags/1.16.3.tar.gz : b1f778a392cefc1a936fb7158da046f02348d1866245ad383ba482446d1a3c4a
+    - https://github.com/flatpak/flatpak/archive/refs/tags/1.16.4.tar.gz : 5a00c154d865d518f2c4d5a67194f775fafe2ffac349fdf4f49ca6dbdb5d0cf9
 homepage   : https://flatpak.org/
 license    : LGPL-2.1-or-later
 component  : desktop
