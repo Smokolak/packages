@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : zellij
-version    : 0.44.0
-release    : 17
+version    : 0.44.1
+release    : 18
 source     :
-    - https://github.com/zellij-org/zellij/archive/refs/tags/v0.44.0.tar.gz : be413dc49d7bff1be6502a1998664b015b77ad55636d72e0497cfc66d4a4cdf6
+    - https://github.com/zellij-org/zellij/archive/refs/tags/v0.44.1.tar.gz : a7fb97e7d32c7be977cdc977d4f03a3b6bdb054251b3f2c36bf143671e4a7f08
 homepage   : https://zellij.dev
 license    : MIT
 component  : system.utils
