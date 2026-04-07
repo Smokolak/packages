@@ -422,5 +422,6 @@ libudf.so.0:udf_opendir
 libudf.so.0:udf_read_block
 libudf.so.0:udf_read_sectors
 libudf.so.0:udf_readdir
+libudf.so.0:udf_setpos
 libudf.so.0:udf_stamp_to_time
 libudf.so.0:udf_timespec_to_stamp

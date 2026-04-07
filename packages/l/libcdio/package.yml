@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libcdio
-version    : 2.2.0
-release    : 10
+version    : 2.3.0
+release    : 11
 source     :
-    - https://github.com/libcdio/libcdio/releases/download/2.2.0/libcdio-2.2.0.tar.bz2 : 6f8fbdf4d189cf63f2a7a1549c516cd720c7b222c7aaadbc924a26e745a48539
+    - https://github.com/libcdio/libcdio/releases/download/2.3.0/libcdio-2.3.0.tar.bz2 : 53e83d284667535a767fd2d31edad1a6701591960459df373a10f1f21e80a7ed
 homepage   : https://www.gnu.org/software/libcdio/
 license    : GPL-3.0-or-later
 component  : multimedia.library
@@ -19,6 +19,7 @@ build      : |
     %make
 install    : |
     %make_install
+    %install_license COPYING
 
     # remove the architecture information from version.h
     sed -i -e "s|${version//./\\.}.*$|${version}\\\"|g" $installdir/usr/include/cdio/version.h

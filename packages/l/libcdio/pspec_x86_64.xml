@@ -3,8 +3,8 @@
         <Name>libcdio</Name>
         <Homepage>https://www.gnu.org/software/libcdio/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.library</PartOf>
@@ -30,7 +30,7 @@
             <Path fileType="library">/usr/lib64/libcdio++.so.1</Path>
             <Path fileType="library">/usr/lib64/libcdio++.so.1.0.0</Path>
             <Path fileType="library">/usr/lib64/libcdio.so.19</Path>
-            <Path fileType="library">/usr/lib64/libcdio.so.19.0.0</Path>
+            <Path fileType="library">/usr/lib64/libcdio.so.19.1.0</Path>
             <Path fileType="library">/usr/lib64/libiso9660++.so.1</Path>
             <Path fileType="library">/usr/lib64/libiso9660++.so.1.0.0</Path>
             <Path fileType="library">/usr/lib64/libiso9660.so.12</Path>
@@ -38,6 +38,7 @@
             <Path fileType="library">/usr/lib64/libudf.so.0</Path>
             <Path fileType="library">/usr/lib64/libudf.so.0.0.0</Path>
             <Path fileType="info">/usr/share/info/libcdio.info.zst</Path>
+            <Path fileType="data">/usr/share/licenses/libcdio/COPYING</Path>
             <Path fileType="man">/usr/share/man/man1/cd-drive.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/cd-info.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/cd-read.1.zst</Path>
@@ -52,7 +53,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="10">libcdio</Dependency>
+            <Dependency release="11">libcdio</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/cdio++/cdio.hpp</Path>
@@ -111,12 +112,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2025-10-30</Date>
-            <Version>2.2.0</Version>
+        <Update release="11">
+            <Date>2026-04-07</Date>
+            <Version>2.3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Update>
     </History>
 </PISI>
