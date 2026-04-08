@@ -1745,6 +1745,7 @@ libffmpeg.so:ff_vk_shader_add_push_const
 libffmpeg.so:ff_vk_shader_free
 libffmpeg.so:ff_vk_shader_init
 libffmpeg.so:ff_vk_shader_link
+libffmpeg.so:ff_vk_shader_load
 libffmpeg.so:ff_vk_shader_print
 libffmpeg.so:ff_vk_shader_register_exec
 libffmpeg.so:ff_vk_shader_rep_fmt
