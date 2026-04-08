@@ -124,7 +124,6 @@
             <Path fileType="library">/usr/lib/opera-stable/resources/doh_providers.json</Path>
             <Path fileType="library">/usr/lib/opera-stable/resources/domain_suggestions.json</Path>
             <Path fileType="library">/usr/lib/opera-stable/resources/ffmpeg_preload_config.json</Path>
-            <Path fileType="library">/usr/lib/opera-stable/resources/keywords.json</Path>
             <Path fileType="library">/usr/lib/opera-stable/resources/opera_intro_extension/0428c5c7e6c4bbf91f69.png</Path>
             <Path fileType="library">/usr/lib/opera-stable/resources/opera_intro_extension/05fd1070863e289cb409.png</Path>
             <Path fileType="library">/usr/lib/opera-stable/resources/opera_intro_extension/0968ac62b8504efada7a.jpg</Path>
@@ -204,9 +203,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="384">
-            <Date>2026-04-02</Date>
-            <Version>129.0.5823.44</Version>
+        <Update release="385">
+            <Date>2026-04-08</Date>
+            <Version>130.0.5847.12</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
