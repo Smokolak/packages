@@ -2815,6 +2815,14 @@ libkwin.so.6:_ZN4KWin20AbstractEffectLoaderC2EP7QObject
 libkwin.so.6:_ZN4KWin20AbstractEffectLoaderD0Ev
 libkwin.so.6:_ZN4KWin20AbstractEffectLoaderD1Ev
 libkwin.so.6:_ZN4KWin20AbstractEffectLoaderD2Ev
+libkwin.so.6:_ZN4KWin20BackgroundEffectItem11qt_metacallEN11QMetaObject4CallEiPPv
+libkwin.so.6:_ZN4KWin20BackgroundEffectItem11qt_metacastEPKc
+libkwin.so.6:_ZN4KWin20BackgroundEffectItem14updateGeometryEv
+libkwin.so.6:_ZN4KWin20BackgroundEffectItem16staticMetaObjectE
+libkwin.so.6:_ZN4KWin20BackgroundEffectItem21setEffectBoundingRectERKNS_5RectFE
+libkwin.so.6:_ZN4KWin20BackgroundEffectItem43setPixelsToExpandRepaintsBelowOpaqueRegionsEj
+libkwin.so.6:_ZN4KWin20BackgroundEffectItemC1EPNS_10WindowItemE
+libkwin.so.6:_ZN4KWin20BackgroundEffectItemC2EPNS_10WindowItemE
 libkwin.so.6:_ZN4KWin20BlurManagerInterface11qt_metacallEN11QMetaObject4CallEiPPv
 libkwin.so.6:_ZN4KWin20BlurManagerInterface11qt_metacastEPKc
 libkwin.so.6:_ZN4KWin20BlurManagerInterface16staticMetaObjectE
@@ -6044,6 +6052,7 @@ libkwin.so.6:_ZNK4KWin10WindowItem10shadowItemEv
 libkwin.so.6:_ZNK4KWin10WindowItem11surfaceItemEv
 libkwin.so.6:_ZNK4KWin10WindowItem12effectWindowEv
 libkwin.so.6:_ZNK4KWin10WindowItem14decorationItemEv
+libkwin.so.6:_ZNK4KWin10WindowItem15windowContainerEv
 libkwin.so.6:_ZNK4KWin10WindowItem17computeVisibilityEv
 libkwin.so.6:_ZNK4KWin10WindowItem6windowEv
 libkwin.so.6:_ZNK4KWin10WindowQuad11makeSubQuadEdddd
@@ -7117,6 +7126,8 @@ libkwin.so.6:_ZNK4KWin19XdgSurfaceInterface7surfaceEv
 libkwin.so.6:_ZNK4KWin19XdgSurfaceInterface8toplevelEv
 libkwin.so.6:_ZNK4KWin20AbstractEffectLoader10metaObjectEv
 libkwin.so.6:_ZNK4KWin20AbstractEffectLoader10readConfigERK7QStringb
+libkwin.so.6:_ZNK4KWin20BackgroundEffectItem10metaObjectEv
+libkwin.so.6:_ZNK4KWin20BackgroundEffectItem40pixelsToExpandRepaintsBelowOpaqueRegionsEv
 libkwin.so.6:_ZNK4KWin20BlurManagerInterface10metaObjectEv
 libkwin.so.6:_ZNK4KWin20DpmsInputEventFilter10metaObjectEv
 libkwin.so.6:_ZNK4KWin20DpmsManagerInterface10metaObjectEv
@@ -8203,6 +8214,7 @@ libkwin.so.6:_ZTIN4KWin19ViewporterInterfaceE
 libkwin.so.6:_ZTIN4KWin19VirtualKeyboardDBusE
 libkwin.so.6:_ZTIN4KWin19XdgSurfaceInterfaceE
 libkwin.so.6:_ZTIN4KWin20AbstractEffectLoaderE
+libkwin.so.6:_ZTIN4KWin20BackgroundEffectItemE
 libkwin.so.6:_ZTIN4KWin20BlurManagerInterfaceE
 libkwin.so.6:_ZTIN4KWin20DpmsInputEventFilterE
 libkwin.so.6:_ZTIN4KWin20DpmsManagerInterfaceE
@@ -8476,6 +8488,7 @@ libkwin.so.6:_ZTSN4KWin19ViewporterInterfaceE
 libkwin.so.6:_ZTSN4KWin19VirtualKeyboardDBusE
 libkwin.so.6:_ZTSN4KWin19XdgSurfaceInterfaceE
 libkwin.so.6:_ZTSN4KWin20AbstractEffectLoaderE
+libkwin.so.6:_ZTSN4KWin20BackgroundEffectItemE
 libkwin.so.6:_ZTSN4KWin20BlurManagerInterfaceE
 libkwin.so.6:_ZTSN4KWin20DpmsInputEventFilterE
 libkwin.so.6:_ZTSN4KWin20DpmsManagerInterfaceE
@@ -8749,6 +8762,7 @@ libkwin.so.6:_ZTVN4KWin19ViewporterInterfaceE
 libkwin.so.6:_ZTVN4KWin19VirtualKeyboardDBusE
 libkwin.so.6:_ZTVN4KWin19XdgSurfaceInterfaceE
 libkwin.so.6:_ZTVN4KWin20AbstractEffectLoaderE
+libkwin.so.6:_ZTVN4KWin20BackgroundEffectItemE
 libkwin.so.6:_ZTVN4KWin20BlurManagerInterfaceE
 libkwin.so.6:_ZTVN4KWin20DpmsInputEventFilterE
 libkwin.so.6:_ZTVN4KWin20DpmsManagerInterfaceE
