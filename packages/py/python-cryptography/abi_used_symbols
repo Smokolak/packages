@@ -1,6 +1,7 @@
 UNKNOWN:PyArg_UnpackTuple
 UNKNOWN:PyBaseObject_Type
 UNKNOWN:PyBool_Type
+UNKNOWN:PyBuffer_IsContiguous
 UNKNOWN:PyBuffer_Release
 UNKNOWN:PyByteArray_AsString
 UNKNOWN:PyByteArray_Size
