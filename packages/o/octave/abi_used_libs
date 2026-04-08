@@ -51,4 +51,5 @@ libspqr.so.2
 libstdc++.so.6
 libsuitesparseconfig.so.5
 libumfpack.so.5
+libwayland-client.so.0
 libz.so.1
