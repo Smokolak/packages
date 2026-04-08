@@ -11,7 +11,7 @@ import base64
 
 from datetime import datetime
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import List, Optional, Tuple
 from xml.etree import ElementTree
 from urllib import request
 from email.utils import parsedate_to_datetime
@@ -86,7 +86,7 @@ class Publisher:
 
         packages = {commit: self._packages(commit) for commit in commits}
         invalid = {commit: packages for commit, packages in packages.items()
-                   if len(packages) != 1 or any(p is None for p in packages)}
+                   if not self._change_is_valid(commit, packages)}
 
         if len(invalid) > 0:
             print('Found commits with an incorrect number of packages:')
@@ -101,6 +101,10 @@ class Publisher:
         for i, commit in enumerate(commits):
             if self.render:
                 self._render(commit)
+
+            if self._skip_commit(commit):
+                print(f'Skipping commit: {self.git.commit_summary(commit)}')
+                continue
 
             comment = f'BUILD {i+1}/{len(commits)}'
             if self.title:
@@ -147,6 +151,18 @@ class Publisher:
 
         return str(os.path.join(*parts[0:3]))
 
+    def _skip_commit(self, commit: str) -> bool:
+        msg = self.git.commit_summary(commit)
+        return msg.startswith('[NFC]') or \
+            msg.startswith('common:') or \
+            msg.startswith('packages:') or\
+            msg.startswith('repo_data:') or\
+            msg.lower().endswith(': deprecate')
+
+    def _change_is_valid(self, commit: str, packages: List[str]) -> bool:
+        return self._skip_commit(commit) or \
+            len(packages) == 1 and not any(p is None for p in packages)
+
     def _git_push(self) -> None:
         print('Pushing to Git')
         if not self.noop:
@@ -163,7 +179,7 @@ class Publisher:
 
         return int(json.loads(output)['id'])
 
-    def _build_exists(self, build: Build) -> [bool, int]:
+    def _build_exists(self, build: Build) -> Tuple[bool, int]:
         try:
             found = next(b for b in Builds().all
                          if b.tag == build.tag and b.status != 'FAILED')
