@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : tea
-version    : 0.12.0
-release    : 9
+version    : 0.13.0
+release    : 10
 source     :
-    - https://gitea.com/gitea/tea/archive/v0.12.0.tar.gz : db2f442c3ff8038f41a1745e70f9f17257368e9c6dd7b6706dd096778b06dee5
+    - https://gitea.com/gitea/tea/archive/v0.13.0.tar.gz : c08f1ffd1318461a80bdee800a35515b07f0d305333af4e06e66b3a518d54f46
 homepage   : https://gitea.com/gitea/tea
 license    : MIT
 component  : system.utils
