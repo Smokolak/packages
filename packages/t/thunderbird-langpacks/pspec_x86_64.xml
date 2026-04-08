@@ -87,9 +87,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="15">
-            <Date>2026-04-01</Date>
-            <Version>149.0.1</Version>
+        <Update release="16">
+            <Date>2026-04-08</Date>
+            <Version>149.0.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
