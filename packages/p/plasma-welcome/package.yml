@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-welcome
-version    : 6.6.3
-release    : 33
+version    : 6.6.4
+release    : 34
 source     :
-    - https://download.kde.org/stable/plasma/6.6.3/plasma-welcome-6.6.3.tar.xz : 7b85b3e9b8b04d2c46f80b2b5117ba7c3b853f963c7eba2862a5394790b4bcd3
+    - https://download.kde.org/stable/plasma/6.6.4/plasma-welcome-6.6.4.tar.xz : f05c53bae317e482fbb141bb61a8ad868b08a93f625599c2289cdfb0b79c1fba
 homepage   : https://invent.kde.org/plasma/plasma-welcome
 license    :
     - BSD-2-Clause
