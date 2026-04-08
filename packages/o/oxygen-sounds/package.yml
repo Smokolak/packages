@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : oxygen-sounds
-version    : 6.6.3
-release    : 43
+version    : 6.6.4
+release    : 44
 source     :
-    - https://download.kde.org/stable/plasma/6.6.3/oxygen-sounds-6.6.3.tar.xz : c53b95557e318f78b26ee5bde1152781f61dfc1a441336dfa32ce8de5aee5be4
+    - https://download.kde.org/stable/plasma/6.6.4/oxygen-sounds-6.6.4.tar.xz : ffd36dfe7c3d1627933678d45b626c4d15a1194096bf66b5145dfbe873ee1051
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - BSD-2-Clause

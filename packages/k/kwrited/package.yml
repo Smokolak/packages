@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kwrited
-version    : 6.6.3
-release    : 133
+version    : 6.6.4
+release    : 134
 source     :
-    - https://download.kde.org/stable/plasma/6.6.3/kwrited-6.6.3.tar.xz : 7d254573de29330bd47cb332de97a824e0ea23bcabc516cc917ba16823a40c80
+    - https://download.kde.org/stable/plasma/6.6.4/kwrited-6.6.4.tar.xz : 22543f56e124e76c96666e162b70d88d9dfdaf4000e732fca3ffc34a2ed36196
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - CC0-1.0

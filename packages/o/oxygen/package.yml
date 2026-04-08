@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : oxygen
-version    : 6.6.3
-release    : 133
+version    : 6.6.4
+release    : 134
 source     :
-    - https://download.kde.org/stable/plasma/6.6.3/oxygen-6.6.3.tar.xz : 2b62011740f28db8975ce37ed733f514e8180ffe4840f81276bd9f9914d7079c
+    - https://download.kde.org/stable/plasma/6.6.4/oxygen-6.6.4.tar.xz : d42522d3c34138583f3ab6a3d8077fbc77cb87a413205fed35a9d5feef9009cd
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - CC0-1.0

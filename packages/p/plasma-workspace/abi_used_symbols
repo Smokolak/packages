@@ -2917,11 +2917,13 @@ libQt6Core.so.6:_ZN8QVariantaSERKS_
 libQt6Core.so.6:_ZN9QCollator18setCaseSensitivityEN2Qt15CaseSensitivityE
 libQt6Core.so.6:_ZN9QCollatorC1Ev
 libQt6Core.so.6:_ZN9QCollatorD1Ev
+libQt6Core.so.6:_ZN9QDateTime11setTimeZoneERK9QTimeZoneNS_20TransitionResolutionE
 libQt6Core.so.6:_ZN9QDateTime15currentDateTimeEv
 libQt6Core.so.6:_ZN9QDateTime18currentDateTimeUtcEv
 libQt6Core.so.6:_ZN9QDateTime18setMSecsSinceEpochEx
 libQt6Core.so.6:_ZN9QDateTime21currentSecsSinceEpochEv
 libQt6Core.so.6:_ZN9QDateTime22currentMSecsSinceEpochEv
+libQt6Core.so.6:_ZN9QDateTime7setTimeE5QTimeNS_20TransitionResolutionE
 libQt6Core.so.6:_ZN9QDateTimeC1EOS_
 libQt6Core.so.6:_ZN9QDateTimeC1ERKS_
 libQt6Core.so.6:_ZN9QDateTimeC1Ev
@@ -3477,7 +3479,6 @@ libQt6Core.so.6:_ZNK9QFileInfo8baseNameEv
 libQt6Core.so.6:_ZNK9QFileInfo8fileNameEv
 libQt6Core.so.6:_ZNK9QFileInfo8filePathEv
 libQt6Core.so.6:_ZNK9QFileInfo8fileTimeEN11QFileDevice8FileTimeE
-libQt6Core.so.6:_ZNK9QFileInfo8isHiddenEv
 libQt6Core.so.6:_ZNK9QFileInfo9isSymLinkEv
 libQt6Core.so.6:_ZNK9QIODevice11canReadLineEv
 libQt6Core.so.6:_ZNK9QIODevice11errorStringEv
