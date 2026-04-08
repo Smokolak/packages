@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : powerdevil
 version    : 6.6.4
-release    : 149
+release    : 150
 source     :
     - https://download.kde.org/stable/plasma/6.6.4/powerdevil-6.6.4.tar.xz : 85234e1c8402e919f33c8592af71ea3c8be1c4cd93c22c09b4b8b38467ddbf05
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
