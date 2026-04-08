@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : hyprwire
 version    : 0.3.0
-release    : 7
+release    : 8
 source     :
     - https://github.com/hyprwm/hyprwire/archive/refs/tags/v0.3.0.tar.gz : ba3ff4b82620209d5680ce0e771d0f2c41f78cdb96d5d84fa66e4f0709ca8de6
 homepage   : https://github.com/hyprwm/hyprwire

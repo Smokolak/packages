@@ -1,3 +1,4 @@
+hyprpaper:_IO_stdin_used
 hyprpaper:_ZN10CCWlBuffer10setReleaseESt8functionIFvPS_EE
 hyprpaper:_ZN10CCWlBuffer11sendDestroyEv
 hyprpaper:_ZN10CCWlBufferC1EP8wl_proxy
