@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-vault
-version    : 6.6.3
-release    : 108
+version    : 6.6.4
+release    : 109
 source     :
-    - https://download.kde.org/stable/plasma/6.6.3/plasma-vault-6.6.3.tar.xz : ff5dd7c32c8f2afd4465fee250265cd041252217080f39832f7793eda9879b4f
+    - https://download.kde.org/stable/plasma/6.6.4/plasma-vault-6.6.4.tar.xz : 67bcf9da9021369af955b4b25d0bcf9789157c69affc16405aa84b539be69886
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - CC0-1.0
