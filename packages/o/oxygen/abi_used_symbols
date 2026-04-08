@@ -132,6 +132,7 @@ libKF5WindowSystem.so.5:_ZN13KWindowShadow7destroyEv
 libKF5WindowSystem.so.5:_ZN13KWindowShadow9setWindowEP7QWindow
 libKF5WindowSystem.so.5:_ZN13KWindowShadowC1EP7QObject
 libKF5WindowSystem.so.5:_ZN13KWindowSystem13isPlatformX11Ev
+libKF5WindowSystem.so.5:_ZN13KWindowSystem17isPlatformWaylandEv
 libKF5WindowSystem.so.5:_ZN17KWindowShadowTile8setImageERK6QImage
 libKF5WindowSystem.so.5:_ZN17KWindowShadowTileC1Ev
 libKF5WindowSystem.so.5:_ZN17KWindowShadowTileD1Ev
@@ -391,6 +392,7 @@ libQt5Gui.so.5:_ZN15QLinearGradientC1Ev
 libQt5Gui.so.5:_ZN15QLinearGradientD1Ev
 libQt5Gui.so.5:_ZN15QRadialGradientC1Eddd
 libQt5Gui.so.5:_ZN15QRadialGradientD1Ev
+libQt5Gui.so.5:_ZN4QPen11setCosmeticEb
 libQt5Gui.so.5:_ZN4QPen14setDashPatternERK7QVectorIdE
 libQt5Gui.so.5:_ZN4QPen8setColorERK6QColor
 libQt5Gui.so.5:_ZN4QPen9setWidthFEd
@@ -1346,6 +1348,7 @@ libQt6Gui.so.6:_ZN15QLinearGradientD1Ev
 libQt6Gui.so.6:_ZN15QPointingDevice21primaryPointingDeviceERK7QString
 libQt6Gui.so.6:_ZN15QRadialGradientC1Eddd
 libQt6Gui.so.6:_ZN15QRadialGradientD1Ev
+libQt6Gui.so.6:_ZN4QPen11setCosmeticEb
 libQt6Gui.so.6:_ZN4QPen14setDashPatternERK5QListIdE
 libQt6Gui.so.6:_ZN4QPen8setColorERK6QColor
 libQt6Gui.so.6:_ZN4QPen9setWidthFEd
@@ -1473,6 +1476,7 @@ libQt6Gui.so.6:_ZNK12QFontMetrics17horizontalAdvanceERK7QStringi
 libQt6Gui.so.6:_ZNK12QFontMetrics4sizeEiRK7QStringiPi
 libQt6Gui.so.6:_ZNK12QFontMetrics6heightEv
 libQt6Gui.so.6:_ZNK12QKeySequenceixEj
+libQt6Gui.so.6:_ZNK12QPaintDevice16devicePixelRatioEv
 libQt6Gui.so.6:_ZNK13QFontMetricsF12boundingRectERK7QString
 libQt6Gui.so.6:_ZNK15QGuiApplication16devicePixelRatioEv
 libQt6Gui.so.6:_ZNK15QRadialGradient6centerEv
