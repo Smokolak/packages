@@ -3,8 +3,8 @@
         <Name>golang</Name>
         <Homepage>https://golang.org</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Silke Hofstra</Name>
+            <Email>silke@slxh.eu</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <PartOf>programming</PartOf>
@@ -2027,6 +2027,7 @@
             <Path fileType="library">/usr/lib64/golang/src/cmd/compile/internal/test/logic_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/cmd/compile/internal/test/math_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/cmd/compile/internal/test/memcombine_test.go</Path>
+            <Path fileType="library">/usr/lib64/golang/src/cmd/compile/internal/test/memoverlap_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/cmd/compile/internal/test/mergelocals_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/cmd/compile/internal/test/move_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/cmd/compile/internal/test/mulconst_test.go</Path>
@@ -8472,6 +8473,9 @@
             <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fallocate_bsd_386.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fallocate_bsd_64bit.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fallocate_bsd_arm.go</Path>
+            <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fchmodat_linux.go</Path>
+            <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fchmodat_other.go</Path>
+            <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fchmodat_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fcntl_js.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fcntl_unix.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/internal/syscall/unix/fcntl_wasip1.go</Path>
@@ -10804,6 +10808,7 @@
             <Path fileType="library">/usr/lib64/golang/src/runtime/preempt_xreg.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/print.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/print_quoted_test.go</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/print_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/proc.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/proc_runtime_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/proc_test.go</Path>
@@ -10814,24 +10819,33 @@
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/README</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/doc.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/doc.go</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_darwin.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_darwin.syso</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_freebsd.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_freebsd.syso</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_linux.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_linux.syso</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_netbsd.syso</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_openbsd.syso</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_windows.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v1/race_windows.syso</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v3/doc.go</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v3/race_linux.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/internal/amd64v3/race_linux.syso</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/mkcgo.sh</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/output_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_darwin_amd64.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_darwin_arm64.go</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_darwin_arm64.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_darwin_arm64.syso</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_arm64.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_arm64.syso</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_loong64.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_loong64.syso</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_ppc64le.syso</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_riscv64.syso</Path>
+            <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_s390x.patch</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_s390x.syso</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_linux_test.go</Path>
             <Path fileType="library">/usr/lib64/golang/src/runtime/race/race_test.go</Path>
@@ -14812,7 +14826,11 @@
             <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue7760.go</Path>
             <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue77604.go</Path>
             <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue77613.go</Path>
+            <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue77635.go</Path>
+            <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue77635b.go</Path>
             <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue77779.go</Path>
+            <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue77815.go</Path>
+            <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue77919.go</Path>
             <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue7794.go</Path>
             <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue7863.go</Path>
             <Path fileType="library">/usr/lib64/golang/test/fixedbugs/issue7867.go</Path>
@@ -15729,12 +15747,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="140">
-            <Date>2026-03-06</Date>
-            <Version>1.26.1</Version>
+        <Update release="141">
+            <Date>2026-04-08</Date>
+            <Version>1.26.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Silke Hofstra</Name>
+            <Email>silke@slxh.eu</Email>
         </Update>
     </History>
 </PISI>

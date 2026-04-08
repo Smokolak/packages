@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 # If you're updating this package to a new major version of golang, please update gopls to a version with support for that golang version
 name       : golang
-version    : 1.26.1
-release    : 140
+version    : 1.26.2
+release    : 141
 homepage   : https://golang.org
 source     :
-    - https://golang.org/dl/go1.26.1.src.tar.gz : 3172293d04b209dc1144698e7ba13f0477f6ba8c5ffd0be66c20fdbc9785dfbb
+    - https://golang.org/dl/go1.26.2.src.tar.gz : 2e91ebb6947a96e9436fb2b3926a8802efe63a6d375dffec4f82aa9dbd6fd43b
 license    : BSD-3-Clause
 summary    : The Go programming language
 description: Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
