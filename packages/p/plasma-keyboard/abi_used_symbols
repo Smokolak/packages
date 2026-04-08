@@ -123,6 +123,7 @@ libQt6Core.so.6:_ZN7QString6_emptyE
 libQt6Core.so.6:_ZN7QString6insertEx5QChar
 libQt6Core.so.6:_ZN7QString6numberEii
 libQt6Core.so.6:_ZN7QString8fromUtf8E14QByteArrayView
+libQt6Core.so.6:_ZN7QStringC1EPK5QCharx
 libQt6Core.so.6:_ZN7QStringC1ExN2Qt14InitializationE
 libQt6Core.so.6:_ZN7QStringaSERKS_
 libQt6Core.so.6:_ZN8QProcess13startDetachedERK7QStringRK5QListIS0_ES2_Px
@@ -132,7 +133,7 @@ libQt6Core.so.6:_ZN8QVariantC1E9QMetaTypePKv
 libQt6Core.so.6:_ZN8QVariantC1ERK7QString
 libQt6Core.so.6:_ZN8QVariantC1ERKS_
 libQt6Core.so.6:_ZN8QVariantC1Eb
-libQt6Core.so.6:_ZN8QVariantC1Ej
+libQt6Core.so.6:_ZN8QVariantC1Ex
 libQt6Core.so.6:_ZN8QVariantD1Ev
 libQt6Core.so.6:_ZN9QDateTime22currentMSecsSinceEpochEv
 libQt6Core.so.6:_ZN9QHashSeed10globalSeedEv
@@ -170,6 +171,7 @@ libQt6Core.so.6:_ZNK4QUrl4pathE6QFlagsINS_25ComponentFormattingOptionEE
 libQt6Core.so.6:_ZNK4QUrl6schemeEv
 libQt6Core.so.6:_ZNK7QString10startsWithE5QCharN2Qt15CaseSensitivityE
 libQt6Core.so.6:_ZNK7QString8toDoubleEPb
+libQt6Core.so.6:_ZNK8QVariant6toBoolEv
 libQt6Core.so.6:_ZNK8QVariant8toStringEv
 libQt6Core.so.6:_ZNK9QMetaType8destructEPv
 libQt6Core.so.6:_ZNK9QMetaType9constructEPvPKv
@@ -263,6 +265,7 @@ libQt6Gui.so.6:_ZNK7QWindow6formatEv
 libQt6Gui.so.6:_ZNK7QWindow6handleEv
 libQt6Gui.so.6:_ZNK7QWindow8geometryEv
 libQt6Gui.so.6:_ZNK7QWindow9isExposedEv
+libQt6Gui.so.6:_ZNK7QWindow9isVisibleEv
 libQt6Gui.so.6:_ZNK9QKeyEvent9modifiersEv
 libQt6Gui.so.6:_ZTI15QPlatformWindow
 libQt6Gui.so.6:_ZThn16_NK7QWindow11surfaceTypeEv
