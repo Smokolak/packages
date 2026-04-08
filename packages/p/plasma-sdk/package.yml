@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-sdk
-version    : 6.6.3
-release    : 121
+version    : 6.6.4
+release    : 122
 source     :
-    - https://download.kde.org/stable/plasma/6.6.3/plasma-sdk-6.6.3.tar.xz : 4953ef978568947992aae44921302c8de776fa269e1644ea366772ddccc72c42
+    - https://download.kde.org/stable/plasma/6.6.4/plasma-sdk-6.6.4.tar.xz : b9a469bbca0250656c32e754989a85eb71f4e86e361bcdf831af2cc3b9266326
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - BSD-2-Clause
