@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : aurorae
-version    : 6.6.3
-release    : 12
+version    : 6.6.4
+release    : 13
 source     :
-    - https://download.kde.org/stable/plasma/6.6.3/aurorae-6.6.3.tar.xz : 2a196fea76980f20b53bbd94f5ef7a6b5ee08b68ba7a1a5917a780b789c57e91
+    - https://download.kde.org/stable/plasma/6.6.4/aurorae-6.6.4.tar.xz : f7dbc82de06a53dd2c3ff54ae542351485cd5b27e071fada5bb7fc87911054f3
 homepage   : https://kde.org/plasma-desktop/
 license    :
     - CC0-1.0
