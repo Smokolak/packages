@@ -37,4 +37,4 @@ libsystemd.so.0
 libudev.so.1
 libusb-1.0.so.0
 libvulkan.so.1
-libwebrtc-audio-processing-1.so.3
+libwebrtc-audio-processing-2.so.1
