@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : rio
-version    : 0.2.37
-release    : 4
+version    : 0.3.2
+release    : 5
 source     :
-    - https://github.com/raphamorim/rio/archive/refs/tags/v0.2.37.tar.gz : f52bcd0fb3c669cae016c614a77a95547c2769e6a98a17d7bbc703b6e72af169
+    - https://github.com/raphamorim/rio/archive/refs/tags/v0.3.2.tar.gz : 21c96402bd171b2b3349cc9ee2c8bf3ef0031b060816f6edffcde2bb8f9cf106
 homepage   : https://rioterm.com
 license    : MIT
 component  : system.utils
