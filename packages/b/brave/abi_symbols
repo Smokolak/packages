@@ -402,11 +402,17 @@ chrome-management-service:pvalloc
 chrome-management-service:realloc
 chrome-management-service:rust_bmp$cxxbridge1$194$Reader$alpha
 chrome-management-service:rust_bmp$cxxbridge1$194$Reader$color
+chrome-management-service:rust_bmp$cxxbridge1$194$Reader$get_next_rows
 chrome-management-service:rust_bmp$cxxbridge1$194$Reader$height
-chrome-management-service:rust_bmp$cxxbridge1$194$Reader$next_row
+chrome-management-service:rust_bmp$cxxbridge1$194$Reader$icc_profile
+chrome-management-service:rust_bmp$cxxbridge1$194$Reader$image_data_loaded
+chrome-management-service:rust_bmp$cxxbridge1$194$Reader$metadata_loaded
 chrome-management-service:rust_bmp$cxxbridge1$194$Reader$operator$alignof
 chrome-management-service:rust_bmp$cxxbridge1$194$Reader$operator$sizeof
+chrome-management-service:rust_bmp$cxxbridge1$194$Reader$read_image_data
+chrome-management-service:rust_bmp$cxxbridge1$194$Reader$read_metadata
 chrome-management-service:rust_bmp$cxxbridge1$194$Reader$reset_decode_state
+chrome-management-service:rust_bmp$cxxbridge1$194$Reader$row_bytes
 chrome-management-service:rust_bmp$cxxbridge1$194$Reader$width
 chrome-management-service:rust_bmp$cxxbridge1$194$ResultOfReader$err
 chrome-management-service:rust_bmp$cxxbridge1$194$ResultOfReader$operator$alignof
@@ -1122,6 +1128,7 @@ libGLESv2.so:GL_EnableiEXT
 libGLESv2.so:GL_EnableiOES
 libGLESv2.so:GL_EndPerfMonitorAMD
 libGLESv2.so:GL_EndPixelLocalStorageANGLE
+libGLESv2.so:GL_EndPixelLocalStorageImplicitANGLE
 libGLESv2.so:GL_EndQuery
 libGLESv2.so:GL_EndQueryEXT
 libGLESv2.so:GL_EndTilingQCOM
@@ -1223,6 +1230,8 @@ libGLESv2.so:GL_GetFramebufferPixelLocalStorageParameterfvANGLE
 libGLESv2.so:GL_GetFramebufferPixelLocalStorageParameterfvRobustANGLE
 libGLESv2.so:GL_GetFramebufferPixelLocalStorageParameterivANGLE
 libGLESv2.so:GL_GetFramebufferPixelLocalStorageParameterivRobustANGLE
+libGLESv2.so:GL_GetFramebufferPixelLocalStorageParameteruivANGLE
+libGLESv2.so:GL_GetFramebufferPixelLocalStorageParameteruivRobustANGLE
 libGLESv2.so:GL_GetGraphicsResetStatus
 libGLESv2.so:GL_GetGraphicsResetStatusEXT
 libGLESv2.so:GL_GetGraphicsResetStatusKHR
@@ -1980,6 +1989,7 @@ libGLESv2.so:glEnableiEXT
 libGLESv2.so:glEnableiOES
 libGLESv2.so:glEndPerfMonitorAMD
 libGLESv2.so:glEndPixelLocalStorageANGLE
+libGLESv2.so:glEndPixelLocalStorageImplicitANGLE
 libGLESv2.so:glEndQuery
 libGLESv2.so:glEndQueryEXT
 libGLESv2.so:glEndTilingQCOM
@@ -2081,6 +2091,8 @@ libGLESv2.so:glGetFramebufferPixelLocalStorageParameterfvANGLE
 libGLESv2.so:glGetFramebufferPixelLocalStorageParameterfvRobustANGLE
 libGLESv2.so:glGetFramebufferPixelLocalStorageParameterivANGLE
 libGLESv2.so:glGetFramebufferPixelLocalStorageParameterivRobustANGLE
+libGLESv2.so:glGetFramebufferPixelLocalStorageParameteruivANGLE
+libGLESv2.so:glGetFramebufferPixelLocalStorageParameteruivRobustANGLE
 libGLESv2.so:glGetGraphicsResetStatus
 libGLESv2.so:glGetGraphicsResetStatusEXT
 libGLESv2.so:glGetGraphicsResetStatusKHR
