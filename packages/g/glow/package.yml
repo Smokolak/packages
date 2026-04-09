@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : glow
-version    : 2.1.1
-release    : 6
+version    : 2.1.2
+release    : 7
 source     :
-    - https://github.com/charmbracelet/glow/archive/refs/tags/v2.1.1.tar.gz : f13e1d6be1ab4baf725a7fedc4cd240fc7e5c7276af2d92f199e590e1ef33967
+    - https://github.com/charmbracelet/glow/archive/refs/tags/v2.1.2.tar.gz : 1b933139da1d08647bf5b3f112cab9548fdc2b40c056c7fa3d84d8706de5265a
 homepage   : https://github.com/charmbracelet/glow
 license    : MIT
 component  : office.notes
