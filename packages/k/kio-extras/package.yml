@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kio-extras
 version    : 25.12.3
-release    : 153
+release    : 154
 source     :
     # We need to build this twice until all KDE apps are qt6
     - https://download.kde.org/stable/release-service/25.12.3/src/kio-extras-25.12.3.tar.xz#kio-extras.tar.xz : b161e363320f96cffba0195e4045a88049fc3c5b93272532dce5ab6ce886916a
