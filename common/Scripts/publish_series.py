@@ -79,6 +79,7 @@ class Publisher:
         self.render = render
         self.wait = wait
         self.git = Git(path)
+        self.builds = Builds().all
 
     def run(self) -> bool:
         commits = self.git.commit_refs(self.base, self.head)
@@ -171,7 +172,7 @@ class Publisher:
     def _push_build(self, build: Build) -> int:
         print(f'Pushing build: {build}')
         if self.noop:
-            return Builds().all[-1].id
+            return self.builds[-1].id
 
         output = self._run('ssh', 'build-controller@build.getsol.us', 'build',
                            build.source, build.tag, build.path, build.ref,
@@ -181,7 +182,7 @@ class Publisher:
 
     def _build_exists(self, build: Build) -> Tuple[bool, int]:
         try:
-            found = next(b for b in Builds().all
+            found = next(b for b in self.builds
                          if b.tag == build.tag and b.status != 'FAILED')
             return True, found.id
         except StopIteration:
