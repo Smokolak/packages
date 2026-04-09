@@ -1,5 +1,6 @@
 _gi_gst.cpython-312-x86_64-linux-gnu.so:PyInit__gi_gst
 _gi_gst_analytics.cpython-312-x86_64-linux-gnu.so:PyInit__gi_gst_analytics
+gst-ptp-helper:_IO_stdin_used
 libges-1.0.so.0:ges_add_missing_uri_relocation_uri
 libges-1.0.so.0:ges_asset_cache_lookup
 libges-1.0.so.0:ges_asset_extract
@@ -2919,8 +2920,6 @@ libgstinterleave.so:gst_plugin_interleave_get_desc
 libgstinterleave.so:gst_plugin_interleave_register
 libgstipcpipeline.so:gst_plugin_ipcpipeline_get_desc
 libgstipcpipeline.so:gst_plugin_ipcpipeline_register
-libgstisac.so:gst_plugin_isac_get_desc
-libgstisac.so:gst_plugin_isac_register
 libgstisoff-1.0.so.0:gst_isoff_moof_box_free
 libgstisoff-1.0.so.0:gst_isoff_moof_box_parse
 libgstisoff-1.0.so.0:gst_isoff_moov_box_free

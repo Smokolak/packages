@@ -139,8 +139,7 @@ libwayland-cursor.so.0
 libwayland-egl.so.1
 libwebp.so.7
 libwebpmux.so.3
-libwebrtc-audio-coding-1.so.3
-libwebrtc-audio-processing-1.so.3
+libwebrtc-audio-processing-2.so.1
 libx264.so.164
 libxcb.so.1
 libxkbcommon-x11.so.0
