@@ -104,7 +104,7 @@ class Publisher:
                 self._render(commit)
 
             if self._skip_commit(commit):
-                print(f'Skipping commit: {self.git.commit_summary(commit)}')
+                print(f'Skipping commit: {self._commit_str(commit)}')
                 continue
 
             comment = f'BUILD {i+1}/{len(commits)}'
@@ -117,7 +117,7 @@ class Publisher:
             if not found:
                 id = self._push_build(build)
             else:
-                print(f'Skipping build: {build}')
+                print(f'Skipping build: {self._commit_str(build.ref)}')
 
             if self.wait:
                 self._wait_for_build(id)
@@ -170,7 +170,7 @@ class Publisher:
             self.git.run('push')
 
     def _push_build(self, build: Build) -> int:
-        print(f'Pushing build: {build}')
+        print(f'Pushing build: {self._commit_str(build.ref)}')
         if self.noop:
             return self.builds[-1].id
 
@@ -225,6 +225,9 @@ class Publisher:
             f.write(res.stdout.encode('utf-8'))
             f.close()
             self._run('xdg-open', f.name)
+
+    def _commit_str(self, ref: str) -> str:
+        return f'{self.git.commit_summary(ref)} ({ref[:10]})'
 
     @staticmethod
     def _run(*args: str) -> str:
