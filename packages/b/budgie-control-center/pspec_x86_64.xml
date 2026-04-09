@@ -3,8 +3,8 @@
         <Name>budgie-control-center</Name>
         <Homepage>https://buddiesofbudgie.org</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.budgie</PartOf>
@@ -316,12 +316,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="33">
-            <Date>2026-03-26</Date>
+        <Update release="34">
+            <Date>2026-04-09</Date>
             <Version>1.4.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
