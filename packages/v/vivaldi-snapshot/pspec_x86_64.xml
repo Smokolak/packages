@@ -474,7 +474,7 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/adblocker_resources/redirectable_resources.json</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-common-bundle.js</Path>
-            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-d5268edf4afa968fe859249c0b7d57f9.js</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-6e105c9839e3fdc4f8d527498f9acc44.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle-mailreader-worker.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/components/mail/mail.html</Path>
@@ -802,6 +802,8 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/notification_ding.opus</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/notification_rooster.opus</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/notification_tada.opus</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/perm-denied.svg</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/perm-undecided.svg</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/picture_in_picture.svg</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/picture_in_picture_exit.svg</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/pref-lock.svg</Path>
@@ -1340,9 +1342,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="565">
-            <Date>2026-03-30</Date>
-            <Version>7.10.3995.3</Version>
+        <Update release="566">
+            <Date>2026-04-09</Date>
+            <Version>7.10.4001.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>

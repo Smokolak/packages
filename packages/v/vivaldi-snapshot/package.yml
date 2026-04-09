@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : vivaldi-snapshot
-version    : 7.10.3995.3
-release    : 565
+version    : 7.10.4001.3
+release    : 566
 source     :
-    - https://downloads.vivaldi.com/snapshot/vivaldi-snapshot_7.10.3995.3-1_amd64.deb : ff5bcbede5bee8afe8cd05eea4eddd5e4971c7a84269544ce9684e75f0ceb4b1
+    - https://downloads.vivaldi.com/snapshot/vivaldi-snapshot_7.10.4001.3-1_amd64.deb : 9ea83a8c975ac7188d8818ddac47f13aef3fd4eaa60d59fdac1cf4de0ccc07e7
 license    : Distributable
 homepage   : https://vivaldi.com
 component  : network.web.browser
