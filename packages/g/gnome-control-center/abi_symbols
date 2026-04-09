@@ -2181,3 +2181,6 @@ gnome-control-center:wireguard_peer_get_type
 gnome-control-center:wireguard_peer_new
 gnome-control-center:xcb_modifier_transform_binding_to_label
 gnome-control-center:xdevice_get_device_node
+gnome-control-center-global-shortcuts-provider:_IO_stdin_used
+gnome-control-center-print-renderer:_IO_stdin_used
+gnome-control-center-search-provider:_IO_stdin_used
