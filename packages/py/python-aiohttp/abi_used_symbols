@@ -151,6 +151,7 @@ UNKNOWN:PyObject_Vectorcall
 UNKNOWN:PyObject_VectorcallDict
 UNKNOWN:PyObject_VectorcallMethod
 UNKNOWN:PySequence_Contains
+UNKNOWN:PySequence_GetSlice
 UNKNOWN:PySet_Add
 UNKNOWN:PySet_Contains
 UNKNOWN:PySet_New
@@ -171,6 +172,7 @@ UNKNOWN:PyType_Modified
 UNKNOWN:PyType_Ready
 UNKNOWN:PyType_Type
 UNKNOWN:PyUnicode_Concat
+UNKNOWN:PyUnicode_Contains
 UNKNOWN:PyUnicode_Decode
 UNKNOWN:PyUnicode_DecodeASCII
 UNKNOWN:PyUnicode_DecodeLatin1

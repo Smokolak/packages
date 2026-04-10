@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : python-aiohttp
-version    : 3.13.3
-release    : 23
+version    : 3.13.5
+release    : 24
 source     :
-    - https://files.pythonhosted.org/packages/source/a/aiohttp/aiohttp-3.13.3.tar.gz : a949eee43d3782f2daae4f4a2819b2cb9b0c5d3b7f7a927067cc84dafdbb9f88
+    - https://files.pythonhosted.org/packages/source/a/aiohttp/aiohttp-3.13.5.tar.gz : 9d98cc980ecc96be6eb4c1994ce35d28d8b1f5e5208a23b421187d1209dbb7d1
 homepage   : https://docs.aiohttp.org/
 license    : Apache-2.0
 component  : programming.python
