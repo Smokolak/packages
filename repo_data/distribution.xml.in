@@ -4332,5 +4332,9 @@
 		<Package>webrtc-audio-processing03-dbginfo</Package>
 		<Package>webrtc-audio-processing03-devel</Package>
 
+		<!-- Package deprecated and replaced by tetro-tui -->
+		<Package>tetrs</Package>
+		<Package>tetrs-dbginfo</Package>
+		
 	</Obsoletes>
 </PISI>
