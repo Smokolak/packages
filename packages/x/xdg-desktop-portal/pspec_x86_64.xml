@@ -3,8 +3,8 @@
         <Name>xdg-desktop-portal</Name>
         <Homepage>https://github.com/flatpak/xdg-desktop-portal</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Robert Gonzalez</Name>
+            <Email>uni.dos12@outlook.com</Email>
         </Packager>
         <License>LGPL-2.1-or-later</License>
         <PartOf>desktop.util</PartOf>
@@ -135,19 +135,19 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="33">xdg-desktop-portal</Dependency>
+            <Dependency release="34">xdg-desktop-portal</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/share/pkgconfig/xdg-desktop-portal.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="33">
-            <Date>2026-03-17</Date>
-            <Version>1.20.3</Version>
+        <Update release="34">
+            <Date>2026-04-10</Date>
+            <Version>1.20.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Robert Gonzalez</Name>
+            <Email>uni.dos12@outlook.com</Email>
         </Update>
     </History>
 </PISI>
