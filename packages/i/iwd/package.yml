@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : iwd
 version    : '3.12'
-release    : 17
+release    : 18
 source     :
     - https://mirrors.edge.kernel.org/pub/linux/network/wireless/iwd-3.12.tar.xz : d89a5e45c7180170e19be828f9e944a768c593758094fc57a358d0e7c4cb1a49
 homepage   : https://iwd.wiki.kernel.org
@@ -14,7 +14,6 @@ builddeps  :
     - python-docutils
 clang      : true
 setup      : |
-    %patch -p1 -i $pkgfiles/0001-Use-sudo-group-remove-netdev-group.patch
     %configure \
         --enable-hwsim \
         --enable-ofono \
