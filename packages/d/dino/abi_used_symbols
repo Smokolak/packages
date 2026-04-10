@@ -558,6 +558,7 @@ libglib-2.0.so.0:g_file_error_quark
 libglib-2.0.so.0:g_file_test
 libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_charset
 libglib-2.0.so.0:g_get_home_dir
 libglib-2.0.so.0:g_get_monotonic_time
@@ -1683,8 +1684,7 @@ libsrtp2.so.1:srtp_unprotect_rtcp
 libstdc++.so.6:_ZdlPvm
 libstdc++.so.6:_Znwm
 libstdc++.so.6:__gxx_personality_v0
-libwebrtc-audio-processing-1.so.3:_ZN6webrtc15AudioProcessing6Config8PipelineC1Ev
-libwebrtc-audio-processing-1.so.3:_ZN6webrtc20AudioProcessingStatsD1Ev
-libwebrtc-audio-processing-1.so.3:_ZN6webrtc22AudioProcessingBuilder6CreateEv
-libwebrtc-audio-processing-1.so.3:_ZN6webrtc22AudioProcessingBuilderC1Ev
-libwebrtc-audio-processing-1.so.3:_ZN6webrtc22AudioProcessingBuilderD1Ev
+libwebrtc-audio-processing-2.so.1:_ZN6webrtc20AudioProcessingStatsD1Ev
+libwebrtc-audio-processing-2.so.1:_ZN6webrtc22AudioProcessingBuilder6CreateEv
+libwebrtc-audio-processing-2.so.1:_ZN6webrtc22AudioProcessingBuilderC1Ev
+libwebrtc-audio-processing-2.so.1:_ZN6webrtc22AudioProcessingBuilderD1Ev

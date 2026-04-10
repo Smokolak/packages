@@ -4321,5 +4321,16 @@
 		<Package>libxfce4util-docs</Package>
 		<Package>xfce4-panel-docs</Package>
 
+		<!-- No longer used -->
+		<Package>webrtc-audio-processing</Package>
+		<Package>webrtc-audio-processing-32bit</Package>
+		<Package>webrtc-audio-processing-32bit-dbginfo</Package>
+		<Package>webrtc-audio-processing-32bit-devel</Package>
+		<Package>webrtc-audio-processing-dbginfo</Package>
+		<Package>webrtc-audio-processing-devel</Package>
+		<Package>webrtc-audio-processing03</Package>
+		<Package>webrtc-audio-processing03-dbginfo</Package>
+		<Package>webrtc-audio-processing03-devel</Package>
+
 	</Obsoletes>
 </PISI>

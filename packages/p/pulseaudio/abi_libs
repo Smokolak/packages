@@ -16,7 +16,6 @@ libpulsecore-17.0.so
 libpulsedsp.so
 libraop.so
 librtp.so
-libwebrtc-util.so
 module-allow-passthrough.so
 module-alsa-card.so
 module-alsa-sink.so
