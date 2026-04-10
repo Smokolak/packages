@@ -307,7 +307,6 @@ libKF6CoreAddons.so.6:_ZN4KJob9totalSizeEPS_y
 libKF6CoreAddons.so.6:_ZN4KJobC2EP7QObject
 libKF6CoreAddons.so.6:_ZN4KJobD2Ev
 libKF6CoreAddons.so.6:_ZN5KUser12allUserNamesEj
-libKF6CoreAddons.so.6:_ZN5KUserC1E7KUserId
 libKF6CoreAddons.so.6:_ZN5KUserC1ENS_7UIDModeE
 libKF6CoreAddons.so.6:_ZN5KUserC1ERK7QString
 libKF6CoreAddons.so.6:_ZN5KUserC1Ej
@@ -320,7 +319,6 @@ libKF6CoreAddons.so.6:_ZN6KShell9splitArgsERK7QString6QFlagsINS_6OptionEEPNS_6Er
 libKF6CoreAddons.so.6:_ZN7KFormatC1ERK7QLocale
 libKF6CoreAddons.so.6:_ZN7KFormatD1Ev
 libKF6CoreAddons.so.6:_ZN7KRandom12randomStringEi
-libKF6CoreAddons.so.6:_ZN7KUserId13currentUserIdEv
 libKF6CoreAddons.so.6:_ZN7KUserId22currentEffectiveUserIdEv
 libKF6CoreAddons.so.6:_ZN7KUserId8fromNameERK7QString
 libKF6CoreAddons.so.6:_ZN8KGroupId8fromNameERK7QString
@@ -347,7 +345,6 @@ libKF6CoreAddons.so.6:_ZN9KDirWatch7deletedERK7QString
 libKF6CoreAddons.so.6:_ZN9KDirWatch9removeDirERK7QString
 libKF6CoreAddons.so.6:_ZN9KDirWatchC1EP7QObject
 libKF6CoreAddons.so.6:_ZNK10KUserGroup4nameEv
-libKF6CoreAddons.so.6:_ZNK10KUserGroupeqERKS_
 libKF6CoreAddons.so.6:_ZNK12KProcessList12KProcessInfo4nameEv
 libKF6CoreAddons.so.6:_ZNK13KCompositeJob10hasSubjobsEv
 libKF6CoreAddons.so.6:_ZNK13KCompositeJob7subjobsEv
@@ -378,7 +375,6 @@ libKF6CoreAddons.so.6:_ZNK4KJob7percentEv
 libKF6CoreAddons.so.6:_ZNK4KJob9errorTextEv
 libKF6CoreAddons.so.6:_ZNK5KUser10groupNamesEj
 libKF6CoreAddons.so.6:_ZNK5KUser11isSuperUserEv
-libKF6CoreAddons.so.6:_ZNK5KUser6groupsEj
 libKF6CoreAddons.so.6:_ZNK5KUser7homeDirEv
 libKF6CoreAddons.so.6:_ZNK5KUser7isValidEv
 libKF6CoreAddons.so.6:_ZNK5KUser9loginNameEv
