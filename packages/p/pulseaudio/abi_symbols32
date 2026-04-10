@@ -2207,12 +2207,6 @@ librtp.so:pa_sap_send
 librtp.so:pa_sdp_build
 librtp.so:pa_sdp_info_destroy
 librtp.so:pa_sdp_parse
-libwebrtc-util.so:pa_webrtc_ec_done
-libwebrtc-util.so:pa_webrtc_ec_init
-libwebrtc-util.so:pa_webrtc_ec_play
-libwebrtc-util.so:pa_webrtc_ec_record
-libwebrtc-util.so:pa_webrtc_ec_run
-libwebrtc-util.so:pa_webrtc_ec_set_drift
 module-allow-passthrough.so:module_allow_passthrough_LTX_pa__done
 module-allow-passthrough.so:module_allow_passthrough_LTX_pa__get_author
 module-allow-passthrough.so:module_allow_passthrough_LTX_pa__get_description

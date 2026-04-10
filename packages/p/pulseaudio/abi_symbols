@@ -1,3 +1,4 @@
+gsettings-helper:_IO_stdin_used
 gsettings-helper:main
 libalsa-util.so:pa_alsa_add_ports
 libalsa-util.so:pa_alsa_build_pollfd
@@ -2262,12 +2263,6 @@ librtp.so:pa_sap_send
 librtp.so:pa_sdp_build
 librtp.so:pa_sdp_info_destroy
 librtp.so:pa_sdp_parse
-libwebrtc-util.so:pa_webrtc_ec_done
-libwebrtc-util.so:pa_webrtc_ec_init
-libwebrtc-util.so:pa_webrtc_ec_play
-libwebrtc-util.so:pa_webrtc_ec_record
-libwebrtc-util.so:pa_webrtc_ec_run
-libwebrtc-util.so:pa_webrtc_ec_set_drift
 module-allow-passthrough.so:module_allow_passthrough_LTX_pa__done
 module-allow-passthrough.so:module_allow_passthrough_LTX_pa__get_author
 module-allow-passthrough.so:module_allow_passthrough_LTX_pa__get_description
@@ -2938,9 +2933,15 @@ module-zeroconf-publish.so:module_zeroconf_publish_LTX_pa__get_description
 module-zeroconf-publish.so:module_zeroconf_publish_LTX_pa__get_version
 module-zeroconf-publish.so:module_zeroconf_publish_LTX_pa__init
 module-zeroconf-publish.so:module_zeroconf_publish_LTX_pa__load_once
+pacat:_IO_stdin_used
 pacat:main
+pacmd:_IO_stdin_used
 pacmd:main
+pactl:_IO_stdin_used
 pactl:main
+pasuspender:_IO_stdin_used
 pasuspender:main
+pax11publish:_IO_stdin_used
 pax11publish:main
+pulseaudio:_IO_stdin_used
 pulseaudio:main

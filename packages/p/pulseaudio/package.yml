@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : pulseaudio
 version    : '17.0'
-release    : 63
+release    : 64
 source     :
     - https://freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz : 053794d6671a3e397d849e478a80b82a63cb9d8ca296bd35b73317bb5ceb87b5
 homepage   : https://www.freedesktop.org/wiki/Software/PulseAudio/
@@ -22,14 +22,6 @@ emul32     : true
 ccache     : false
 libsplit   : false
 optimize   : size
-patterns   :
-    - equalizer :
-        - /usr/bin/qpaeq
-        - /usr/lib64/pulseaudio/modules/module-equalizer-sink.so
-    - module-jack :
-        - /usr/lib64/pulseaudio/modules/module-jack*
-    - module-jack-32bit :
-        - /usr/lib32/pulseaudio/modules/module-jack*
 builddeps  :
     - pkgconfig32(alsa)
     - pkgconfig32(gtk+-3.0)
@@ -44,7 +36,6 @@ builddeps  :
     - pkgconfig32(sndfile)
     - pkgconfig32(soxr)
     - pkgconfig32(speex)
-    - pkgconfig32(webrtc-audio-processing-1)
     - pkgconfig(avahi-core)
     - pkgconfig(bluez)
     - pkgconfig(check)
@@ -65,6 +56,7 @@ setup      : |
     else
         extra_opts="-Dbluez5=enabled -Dbluez5-native-headset=true -Dgsettings=enabled"
     fi
+
     %meson_configure \
         -Dalsa=enabled \
         -Ddatabase='gdbm' \
@@ -78,6 +70,8 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSE GPL LGPL
+
     # These incorrect files break gdm
     rm -rfv $installdir/usr/share/bash-completion
     # Ensure Audio works in PulseAudio
@@ -91,3 +85,11 @@ install    : |
     if [[ -z "${EMUL32BUILD}" ]]; then
         install -D -m 00644 $pkgfiles/pulseaudio.conf $installdir/%libdir%/sysusers.d/pulseaudio.conf
     fi
+patterns   :
+    - equalizer :
+        - /usr/bin/qpaeq
+        - /usr/lib64/pulseaudio/modules/module-equalizer-sink.so
+    - module-jack :
+        - /usr/lib64/pulseaudio/modules/module-jack*
+    - module-jack-32bit :
+        - /usr/lib32/pulseaudio/modules/module-jack*
