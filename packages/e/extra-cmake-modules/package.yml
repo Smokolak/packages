@@ -1,13 +1,14 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : extra-cmake-modules
-version    : 6.24.0
-release    : 106
+version    : 6.25.0
+release    : 107
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/extra-cmake-modules-6.24.0.tar.xz : 8ef3f7e176588e099c02559d20ddf4fed0590f92c168f0bcc60a7e638ba1e6a3
+    - https://download.kde.org/stable/frameworks/6.25/extra-cmake-modules-6.25.0.tar.xz : ffeb4951bf09b2b8ee17ef24a28b6de650c0db0f59ddffb9009b37cac63af348
 homepage   : https://community.kde.org/Frameworks
 license    :
     - BSD-2-Clause
     - BSD-3-Clause
+    - CC0-1.0
     - MIT
 component  : programming.devel
 summary    : Extra cmake modules and scripts for KF5/KF6.
@@ -27,4 +28,5 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
     rm -rfv $installdir/usr/share/doc/ECM/html
