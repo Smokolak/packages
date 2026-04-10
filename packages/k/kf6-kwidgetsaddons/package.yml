@@ -1,17 +1,19 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kwidgetsaddons
-version    : 6.24.0
-release    : 34
+version    : 6.25.0
+release    : 35
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kwidgetsaddons-6.24.0.tar.xz : dfe563e58b0d8c72e8a1da4f379f03610552d8663eac613e47a2a6a384c20107
+    - https://download.kde.org/stable/frameworks/6.25/kwidgetsaddons-6.25.0.tar.xz : 8a9f9cde4427ffec37a0501d337aadae3de39736674f571ff8a13d17d1e6c938
 homepage   : https://community.kde.org/Frameworks
 license    :
     - BSD-3-Clause
+    - CC0-1.0
     - GPL-2.0-or-later
     - LGPL-2.0-only
     - LGPL-2.0-or-later
     - LGPL-2.1-only
     - LGPL-2.1-or-later
+    - LGPL-3.0-only
     - LGPL-3.0-or-later
 component  : desktop.library
 summary    : Large set of desktop widgets.
@@ -32,3 +34,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
