@@ -1,15 +1,21 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kcoreaddons
-version    : 6.24.0
-release    : 36
+version    : 6.25.0
+release    : 37
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kcoreaddons-6.24.0.tar.xz : bc2fb0d94de859f6e6bc7413620584f072ace1487e302c65b3398d7c6b0eff7c
+    - https://download.kde.org/stable/frameworks/6.25/kcoreaddons-6.25.0.tar.xz : e7f0825576dc44af0c7194538e48114aa240f8fd3402f27047771f009e161a7e
 homepage   : https://community.kde.org/Frameworks
 license    :
-    - GPL-2.0-only
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CC0-1.0
+    - GPL-2.0-or-later
     - LGPL-2.0-only
     - LGPL-2.0-or-later
     - LGPL-2.1-only
+    - LGPL-2.1-or-later
+    - LGPL-3.0-only
+    - MPL-1.1
 component  : programming.library
 summary    : Qt addon library with a collection of non-GUI utilities.
 description: |
@@ -30,3 +36,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
