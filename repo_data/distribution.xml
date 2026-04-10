@@ -3152,5 +3152,11 @@
 		<Package>network-manager-devel</Package>
 		<Package>libxfce4util-docs</Package>
 		<Package>xfce4-panel-docs</Package>
+		<Package>webrtc-audio-processing</Package>
+		<Package>webrtc-audio-processing-32bit</Package>
+		<Package>webrtc-audio-processing-32bit-dbginfo</Package>
+		<Package>webrtc-audio-processing-32bit-devel</Package>
+		<Package>webrtc-audio-processing-dbginfo</Package>
+		<Package>webrtc-audio-processing-devel</Package>
 	</Obsoletes>
 </PISI>
