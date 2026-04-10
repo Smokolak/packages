@@ -100,6 +100,7 @@ libQt6Core.so.6:_ZN10QByteArray4fillEcx
 libQt6Core.so.6:_ZN10QByteArray6_emptyE
 libQt6Core.so.6:_ZN10QByteArray6appendEc
 libQt6Core.so.6:_ZN10QByteArray6insertEx14QByteArrayView
+libQt6Core.so.6:_ZN10QByteArray6insertExxc
 libQt6Core.so.6:_ZN10QByteArray6resizeEx
 libQt6Core.so.6:_ZN10QByteArrayC1EPKcx
 libQt6Core.so.6:_ZN10QByteArrayC1ExN2Qt14InitializationE
