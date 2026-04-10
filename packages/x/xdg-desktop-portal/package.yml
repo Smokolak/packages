@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xdg-desktop-portal
-version    : 1.20.3
-release    : 33
+version    : 1.20.4
+release    : 34
 source     :
-    - https://github.com/flatpak/xdg-desktop-portal/releases/download/1.20.3/xdg-desktop-portal-1.20.3.tar.xz : 4bfb164937f59107eb1a3cc21abaa948d903c76f3b99fac210cea38ce1da9edc
+    - https://github.com/flatpak/xdg-desktop-portal/releases/download/1.20.4/xdg-desktop-portal-1.20.4.tar.xz : 9528eb3b060b88ac82f294fbdc6af5f4d3adfa42575f2cd816cab3d3e0a7a68c
 homepage   : https://github.com/flatpak/xdg-desktop-portal
 license    : LGPL-2.1-or-later
 component  : desktop.util
