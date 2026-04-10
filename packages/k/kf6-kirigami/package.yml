@@ -1,11 +1,21 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kirigami
-version    : 6.24.0
-release    : 39
+version    : 6.25.0
+release    : 40
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kirigami-6.24.0.tar.xz : 7b3247dfe349867d44244335beb8d549ad4a8f6b3179d1736d231512dea5b0ce
+    - https://download.kde.org/stable/frameworks/6.25/kirigami-6.25.0.tar.xz : da7f3b733557b19975bb6b122e05d2f4d9214a70a81e2bb6e71c65761a3c6b43
 homepage   : https://community.kde.org/Frameworks
-license    : LGPL-2.0-or-later
+license    :
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CC0-1.0
+    - FSFAP
+    - GPL-2.0-or-later
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-2.1-or-later
+    - LGPL-3.0-only
+    - MIT
 component  : desktop.kde
 summary    : QtQuick components for mobile and desktop UI development.
 description: |
@@ -29,6 +39,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
 patterns   :
     - devel :
         - /usr/share/kdevappwizard
