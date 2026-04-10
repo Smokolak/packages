@@ -102,6 +102,7 @@ libSDL3.so.0:SDL_Vulkan_CreateSurface
 libSDL3.so.0:SDL_Vulkan_GetInstanceExtensions
 libSDL3.so.0:SDL_Vulkan_GetVkGetInstanceProcAddr
 libSDL3.so.0:SDL_WaitSemaphore
+libSDL3.so.0:SDL_WaitSemaphoreTimeout
 libSDL3.so.0:SDL_WaitThread
 libSDL3.so.0:SDL_WasInit
 libSDL3.so.0:SDL_free
@@ -115,6 +116,7 @@ libc.so.6:__dprintf_chk
 libc.so.6:__errno_location
 libc.so.6:__fdelt_chk
 libc.so.6:__fprintf_chk
+libc.so.6:__fread_chk
 libc.so.6:__isoc23_sscanf
 libc.so.6:__isoc23_strtol
 libc.so.6:__isoc23_strtoll
@@ -195,6 +197,7 @@ libc.so.6:funlockfile
 libc.so.6:fwrite
 libc.so.6:gai_strerror
 libc.so.6:getaddrinfo
+libc.so.6:getc
 libc.so.6:getcwd
 libc.so.6:getenv
 libc.so.6:getifaddrs
@@ -265,6 +268,7 @@ libc.so.6:pthread_rwlock_unlock
 libc.so.6:pthread_rwlock_wrlock
 libc.so.6:pthread_self
 libc.so.6:pthread_setschedparam
+libc.so.6:putc
 libc.so.6:quick_exit
 libc.so.6:raise
 libc.so.6:rand
@@ -327,6 +331,7 @@ libc.so.6:tolower
 libc.so.6:toupper
 libc.so.6:tzset
 libc.so.6:uname
+libc.so.6:ungetc
 libc.so.6:unlink
 libc.so.6:usleep
 libc.so.6:waitpid
@@ -736,6 +741,7 @@ libstdc++.so.6:_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcmm
 libstdc++.so.6:_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcm
 libstdc++.so.6:_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEPKcmm
 libstdc++.so.6:_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5rfindEcm
+libstdc++.so.6:_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6substrEmm
 libstdc++.so.6:_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv
 libstdc++.so.6:_ZNKSt8__detail20_Prime_rehash_policy11_M_next_bktEm
 libstdc++.so.6:_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm
