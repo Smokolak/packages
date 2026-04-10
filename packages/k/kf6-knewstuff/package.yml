@@ -1,14 +1,19 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-knewstuff
-version    : 6.24.0
-release    : 36
+version    : 6.25.0
+release    : 37
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/knewstuff-6.24.0.tar.xz : 9759f4e158d1f466030131443201441b2f7cff12638a24f6184bdae4b08e2a05
+    - https://download.kde.org/stable/frameworks/6.25/knewstuff-6.25.0.tar.xz : 8c31ef25a7d7389473d12245ae564ad888467b8ef910ac212e16e9334540cd08
 homepage   : https://community.kde.org/Frameworks
 license    :
+    - BSD-2-Clause
+    - CC0-1.0
+    - GPL-2.0-only
+    - GPL-3.0-only
     - LGPL-2.0-or-later
     - LGPL-2.1-only
     - LGPL-2.1-or-later
+    - LGPL-3.0-only
 component  : programming.library
 summary    : Framework for downloading and sharing additional application data.
 description: |
@@ -43,3 +48,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
