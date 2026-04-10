@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : easyeffects
 version    : 8.1.8
-release    : 26
+release    : 27
 source     :
     - https://github.com/wwmm/easyeffects/archive/refs/tags/v8.1.8.tar.gz : 5a70d4c74da297d49fa7472f7cc2193bb595e1764140088667abdbcf81f32d38
 homepage   : https://github.com/wwmm/easyeffects
@@ -55,6 +55,7 @@ rundeps    :
     - fmt
     - lsp-plugins
     - mda-lv2
+    - qt6-graphs
     - yelp
     - zam-plugins
 clang      : true

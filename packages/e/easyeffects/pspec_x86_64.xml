@@ -3,8 +3,8 @@
         <Name>easyeffects</Name>
         <Homepage>https://github.com/wwmm/easyeffects</Homepage>
         <Packager>
-            <Name>Gavin Zhao</Name>
-            <Email>me@gzgz.dev</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.audio</PartOf>
@@ -73,12 +73,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="26">
-            <Date>2026-04-09</Date>
+        <Update release="27">
+            <Date>2026-04-10</Date>
             <Version>8.1.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>Gavin Zhao</Name>
-            <Email>me@gzgz.dev</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
