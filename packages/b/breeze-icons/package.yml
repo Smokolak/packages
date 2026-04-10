@@ -1,11 +1,15 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : breeze-icons
-version    : 6.24.0
-release    : 109
+version    : 6.25.0
+release    : 110
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/breeze-icons-6.24.0.tar.xz : 63d67d834b28f95f45d53ee4594b1b39de4802429570f0e3b5e63ab509abde8b
+    - https://download.kde.org/stable/frameworks/6.25/breeze-icons-6.25.0.tar.xz : 2188492d83ead80cae83cbb0db80cac0b55388ea2e3e02d436354b6ca2559d0c
 homepage   : https://community.kde.org/Frameworks
-license    : LGPL-3.0-or-later
+license    :
+    - CC-BY-SA-4.0
+    - LGPL-2.0-or-later
+    - LGPL-2.1-or-later
+    - LGPL-3.0-or-later
 component  : desktop.theme
 summary    : Breeze icon theme
 description: |
@@ -21,6 +25,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING-ICONS COPYING.LIB
 
     # Re-use icon for Doflicky
     ln -srv $installdir/usr/share/icons/breeze/devices/64/cpu.svg $installdir/usr/share/icons/breeze/apps/48/jockey.svg
