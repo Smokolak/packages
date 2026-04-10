@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : appstream-catalog
-version    : '20260403'
-release    : 50
+version    : '20260410'
+release    : 51
 source     :
-    - https://appstream.getsol.us/data/unstable/main/Components-x86_64.xml.gz: f86aeeeb5c3a7293d246884a54ecde482664b09c19b35ac235007121d285dd5e
-    - https://appstream.getsol.us/data/unstable/main/icons-128x128.tar.gz: 033f3377a35948b79824fa3e98beaeefc4649efd6d2cc694668dd81828c13076
+    - https://appstream.getsol.us/data/unstable/main/Components-x86_64.xml.gz: a602c27852e03a20c890e52a33abdfc7a51b29ea4727d3073022d7b9b843f82e
+    - https://appstream.getsol.us/data/unstable/main/icons-128x128.tar.gz: 5eab996ca13ed4c8b71ad24997e08f6f777fc4149b3585ee9d5a3bc9cee458ee
     - https://appstream.getsol.us/data/unstable/main/icons-128x128@2.tar.gz: cfebee1f9d89d02082aa64b907ab5c4614dc92cc7d2f739d620cc61f4846b972
-    - https://appstream.getsol.us/data/unstable/main/icons-48x48.tar.gz: 5dce926c39a167783c34b45cb3e2ec9093050afc448302b1d385baf4e491d3fd
+    - https://appstream.getsol.us/data/unstable/main/icons-48x48.tar.gz: 9cf4392730c5e314af4e966729804e9b30cd01f72b1777c8cca5c1b03c63b336
     - https://appstream.getsol.us/data/unstable/main/icons-48x48@2.tar.gz: 88769127dc2ae40511ed9a8146beae536e1a39de83bcee6884acf208eda1b1ba
-    - https://appstream.getsol.us/data/unstable/main/icons-64x64.tar.gz: 1000be31272e087d4c39f6777e0e861e13db9d9b312a912a42307d56d157f36a
+    - https://appstream.getsol.us/data/unstable/main/icons-64x64.tar.gz: 0043edb187851c003d9ef937234655630766edaea5559d1141541c1266706362
     - https://appstream.getsol.us/data/unstable/main/icons-64x64@2.tar.gz: 9868435523e7213959a80ca21243ad07939100f05af92a94f11938951cfabe1a
 homepage   : https://www.freedesktop.org/wiki/Distributions/AppStream/
 license    :

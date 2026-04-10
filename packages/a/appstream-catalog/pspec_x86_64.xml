@@ -658,6 +658,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/surfer_com.gitlab.surferproject.surfer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/syncthing-gtk_syncthing-gtk.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/syncthing_syncthing.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/syncthingtray_syncthingtray.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/synfigstudio_org.synfig.SynfigStudio.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/sysprof_org.gnome.Sysprof.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/system-config-printer_printer.png</Path>
@@ -1437,6 +1438,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/supertuxkart_supertuxkart.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/syncthing-gtk_syncthing-gtk.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/syncthing_syncthing.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/syncthingtray_syncthingtray.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/synfigstudio_org.synfig.SynfigStudio.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/sysprof_org.gnome.Sysprof.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/system-config-printer_printer.png</Path>
@@ -2303,6 +2305,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/surfer_com.gitlab.surferproject.surfer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/syncthing-gtk_syncthing-gtk.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/syncthing_syncthing.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/syncthingtray_syncthingtray.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/synfigstudio_org.synfig.SynfigStudio.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/sysprof_org.gnome.Sysprof.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/system-config-printer_printer.png</Path>
@@ -2475,9 +2478,9 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="50">
-            <Date>2026-04-03</Date>
-            <Version>20260403</Version>
+        <Update release="51">
+            <Date>2026-04-10</Date>
+            <Version>20260410</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>
             <Email>maddock.evan@vivaldi.net</Email>
