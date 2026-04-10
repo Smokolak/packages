@@ -4328,6 +4328,9 @@
 		<Package>webrtc-audio-processing-32bit-devel</Package>
 		<Package>webrtc-audio-processing-dbginfo</Package>
 		<Package>webrtc-audio-processing-devel</Package>
+		<Package>webrtc-audio-processing03</Package>
+		<Package>webrtc-audio-processing03-dbginfo</Package>
+		<Package>webrtc-audio-processing03-devel</Package>
 
 	</Obsoletes>
 </PISI>
