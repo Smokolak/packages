@@ -3,8 +3,8 @@
         <Name>chiaki-ng</Name>
         <Homepage>https://streetpea.github.io/chiaki-ng/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Packager>
         <License>AGPL-3.0-only</License>
         <PartOf>games</PartOf>
@@ -33,12 +33,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2026-04-02</Date>
+        <Update release="5">
+            <Date>2026-04-11</Date>
             <Version>1.9.9</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Update>
     </History>
 </PISI>
