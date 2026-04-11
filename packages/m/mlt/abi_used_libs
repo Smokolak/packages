@@ -12,11 +12,11 @@ libQt6Xml.so.6
 libSDL2-2.0.so.0
 libX11.so.6
 libasound.so.2
-libavcodec.so.61
-libavdevice.so.61
-libavfilter.so.10
-libavformat.so.61
-libavutil.so.59
+libavcodec.so.62
+libavdevice.so.62
+libavfilter.so.11
+libavformat.so.62
+libavutil.so.60
 libc.so.6
 libepoxy.so.0
 libfftw3.so.3
@@ -35,8 +35,8 @@ librubberband.so.2
 libsamplerate.so.0
 libsox_ng.so.3
 libstdc++.so.6
-libswresample.so.5
-libswscale.so.8
+libswresample.so.6
+libswscale.so.9
 libvidstab.so.1.2
 libvorbisfile.so.3
 libxml2.so.2
