@@ -955,7 +955,6 @@ libgcc_s.so.1:__deregister_frame
 libgcc_s.so.1:__divti3
 libgcc_s.so.1:__extendhfsf2
 libgcc_s.so.1:__floattidf
-libgcc_s.so.1:__floattisf
 libgcc_s.so.1:__floatuntidf
 libgcc_s.so.1:__floatuntisf
 libgcc_s.so.1:__powidf2
@@ -1207,6 +1206,7 @@ libglib-2.0.so.0:g_main_loop_new
 libglib-2.0.so.0:g_main_loop_quit
 libglib-2.0.so.0:g_main_loop_ref
 libglib-2.0.so.0:g_main_loop_run
+libglib-2.0.so.0:g_main_loop_unref
 libglib-2.0.so.0:g_malloc
 libglib-2.0.so.0:g_malloc0
 libglib-2.0.so.0:g_markup_escape_text
