@@ -3,8 +3,8 @@
         <Name>deluge</Name>
         <Homepage>https://deluge-torrent.org/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Silke Hofstra</Name>
+            <Email>silke@slxh.eu</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>network.download</PartOf>
@@ -750,12 +750,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="30">
-            <Date>2026-04-09</Date>
+        <Update release="31">
+            <Date>2026-04-11</Date>
             <Version>2.2.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Silke Hofstra</Name>
+            <Email>silke@slxh.eu</Email>
         </Update>
     </History>
 </PISI>
