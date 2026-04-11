@@ -3,8 +3,8 @@
         <Name>calibre</Name>
         <Homepage>https://calibre-ebook.com/</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Packager>
         <License>GPL-3.0-only</License>
         <PartOf>office.viewers</PartOf>
@@ -3640,12 +3640,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="231">
-            <Date>2026-04-02</Date>
+        <Update release="232">
+            <Date>2026-04-11</Date>
             <Version>8.16.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Update>
     </History>
 </PISI>
