@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : waypipe
 version    : 0.11.0
-release    : 3
+release    : 4
 source     :
     - https://gitlab.freedesktop.org/mstoeckl/waypipe/-/archive/v0.11.0/waypipe-v0.11.0.tar.gz : dc4741bd4435666b4b45ef9b8354c9f742e9c2c5fb99bb49b2ac4f32a371bcd7
 homepage   : https://gitlab.freedesktop.org/mstoeckl/waypipe
