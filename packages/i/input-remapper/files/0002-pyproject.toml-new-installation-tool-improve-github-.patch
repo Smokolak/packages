@@ -1,7 +1,7 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Tobi <28510156+sezanzeb@users.noreply.github.com>
 Date: Thu, 25 Dec 2025 16:00:35 +0100
-Subject: [PATCH] pyproject.toml, new installation tool, improve github
+Subject: [PATCH 2/2] pyproject.toml, new installation tool, improve github
  workflows (#1221)
 
 ---
@@ -13,11 +13,12 @@ Subject: [PATCH] pyproject.toml, new installation tool, improve github
  .mypy.ini                                     |   4 -
  .reviewdog.yml                                |   2 +-
  DEBIAN/control                                |   2 +-
- README.md                                     |  30 +--
+ README.md                                     |  28 +--
  bin/input-remapper-control                    |  21 +-
  inputremapper/configs/data.py                 |  98 +---------
  inputremapper/configs/input_config.py         |   2 +-
  inputremapper/configs/migrations.py           |   2 +-
+ inputremapper/daemon.py                       |   8 +-
  inputremapper/gui/messages/message_broker.py  |   2 +-
  inputremapper/installation_info.py            |  30 +++
  inputremapper/logging/logger.py               |  18 +-
@@ -41,7 +42,7 @@ Subject: [PATCH] pyproject.toml, new installation tool, improve github
  .../test_event_pipeline.py                    |   4 +-
  tests/unit/test_macros/test_repeat.py         |   4 +-
  tests/unit/test_user.py                       |   5 +-
- 36 files changed, 738 insertions(+), 624 deletions(-)
+ 37 files changed, 741 insertions(+), 627 deletions(-)
  create mode 100644 .github/workflows/installation.yml
  create mode 100644 inputremapper/installation_info.py
  create mode 100644 install/__init__.py
@@ -287,20 +288,20 @@ index 849929f..97aad1f 100644
        - "%f:%l:%c: %m"
  
 diff --git a/DEBIAN/control b/DEBIAN/control
-index 55f3b16..dc456f1 100644
+index 09a0094..dc456f1 100644
 --- a/DEBIAN/control
 +++ b/DEBIAN/control
 @@ -2,7 +2,7 @@ Package: input-remapper
  Version: 2.2.0
  Architecture: all
  Maintainer: Sezanzeb <b8x45ygc9@mozmail.com>
--Depends: build-essential, libpython3-dev, libdbus-1-dev, python3, python3-setuptools, python3-evdev, python3-pydbus, python3-gi, gettext, python3-cairo, libgtk-3-0, libgtksourceview-4-dev, python3-pydantic, python3-packaging, python3-psutil
+-Depends: build-essential, libpython3-dev, libdbus-1-dev, python3, python3-setuptools, python3-evdev, python3-dasbus, python3-gi, gettext, python3-cairo, libgtk-3-0, libgtksourceview-4-dev, python3-pydantic, python3-packaging, python3-psutil
 +Depends: build-essential, libpython3-dev, libdbus-1-dev, python3, python3-evdev, python3-dasbus, python3-gi, gettext, python3-cairo, libgtk-3-0, libgtksourceview-4-dev, python3-pydantic, python3-packaging, python3-psutil
  Description: A tool to change the mapping of your input device buttons
  Replaces: python3-key-mapper, key-mapper, input-remapper-gtk, input-remapper-daemon, python3-inputremapper
  Conflicts: python3-key-mapper, key-mapper, input-remapper-gtk, input-remapper-daemon, python3-inputremapper
 diff --git a/README.md b/README.md
-index 447ee17..1d84a3f 100644
+index 9f4bdbd..1d84a3f 100644
 --- a/README.md
 +++ b/README.md
 @@ -27,18 +27,18 @@
@@ -353,19 +354,12 @@ index 447ee17..1d84a3f 100644
  yay -S input-remapper-git
  sudo systemctl enable --now input-remapper
  ```
-@@ -76,19 +76,25 @@ sudo systemctl enable --now input-remapper
- 
- Figure out the packages providing those dependencies in your distro, and install them:
- `python3-evdev` ≥1.3.0, `gtksourceview4`, `python3-devel`, `python3-pydantic`,
--`python3-pydbus`, `python3-psutil`
-+`python3-dasbus`, `python3-psutil`
- 
- You can also use pip to install some of them. Python packages need to be installed
+@@ -82,13 +82,19 @@ You can also use pip to install some of them. Python packages need to be install
  globally for the service to be able to import them. Don't use `--user`. Conda and such
  may also cause problems due to changed python paths and versions.
  
 -```bash
--sudo pip install evdev pydantic pydbus PyGObject setuptools
+-sudo pip install evdev pydantic dasbus PyGObject setuptools
 +```sh
 +sudo pip install evdev pydantic dasbus PyGObject
  ```
@@ -553,6 +547,35 @@ index 2f3a2a4..9d628ac 100644
                  x_scroll_speed = joystick_dict.get("x_scroll_speed")
                  y_scroll_speed = joystick_dict.get("y_scroll_speed")
  
+diff --git a/inputremapper/daemon.py b/inputremapper/daemon.py
+index 9484dbf..3273a3f 100644
+--- a/inputremapper/daemon.py
++++ b/inputremapper/daemon.py
+@@ -53,11 +53,11 @@ from inputremapper.user import UserUtils
+ gi.require_version("GLib", "2.0")
+ 
+ 
+-SESSION_BUS = SystemMessageBus()
++SYSTEM_BUS = SystemMessageBus()
+ 
+ DAEMON = DBusServiceIdentifier(
+     namespace=("inputremapper", "Control"),
+-    message_bus=SESSION_BUS,
++    message_bus=SYSTEM_BUS,
+ )
+ 
+ # timeout in seconds
+@@ -276,8 +276,8 @@ class Daemon:
+     def publish(self) -> None:
+         """Make the dbus interface available."""
+         try:
+-            SESSION_BUS.publish_object(DAEMON.object_path, self)
+-            SESSION_BUS.register_service(DAEMON.service_name)
++            SYSTEM_BUS.publish_object(DAEMON.object_path, self)
++            SYSTEM_BUS.register_service(DAEMON.service_name)
+         except ConnectionError as error:
+             logger.error("Is the service already running? (%s)", str(error))
+             sys.exit(9)
 diff --git a/inputremapper/gui/messages/message_broker.py b/inputremapper/gui/messages/message_broker.py
 index cd95236..b102e90 100644
 --- a/inputremapper/gui/messages/message_broker.py
@@ -1287,7 +1310,7 @@ index 03a6319..0000000
 -
 -wait
 diff --git a/scripts/ci-install-deps.sh b/scripts/ci-install-deps.sh
-index e258c7f..0119dab 100755
+index 62b1999..b134b72 100755
 --- a/scripts/ci-install-deps.sh
 +++ b/scripts/ci-install-deps.sh
 @@ -2,12 +2,14 @@
@@ -1298,7 +1321,7 @@ index e258c7f..0119dab 100755
 +
  # native deps
  # gettext required to generate translations, others are python deps
- sudo apt-get install -y gettext python3-evdev python3-pydbus python3-pydantic python3-gi gir1.2-gtk-3.0 gir1.2-gtksource-4
+ sudo apt-get install -y gettext python3-evdev python3-dasbus python3-pydantic python3-gi gir1.2-gtk-3.0 gir1.2-gtksource-4
  
  # ensure pip and setuptools/wheel up to date so can install all pip modules
 -sudo apt-get install python3-pip python3-wheel python3-setuptools
@@ -1492,7 +1515,7 @@ index c24fce7..0000000
 -esac; shift; done
 diff --git a/setup.py b/setup.py
 deleted file mode 100644
-index bf9094b..0000000
+index f1ebe65..0000000
 --- a/setup.py
 +++ /dev/null
 @@ -1,143 +0,0 @@
@@ -1631,7 +1654,7 @@ index bf9094b..0000000
 -        "setuptools",
 -        "evdev",
 -        "psutil",
--        "pydbus",
+-        "dasbus",
 -        "pygobject",
 -        "pydantic",
 -    ],
@@ -1641,7 +1664,7 @@ index bf9094b..0000000
 -)
 diff --git a/shell.nix b/shell.nix
 deleted file mode 100644
-index 4d669e2..0000000
+index 0c3afcf..0000000
 --- a/shell.nix
 +++ /dev/null
 @@ -1,48 +0,0 @@
@@ -1672,7 +1695,7 @@ index 4d669e2..0000000
 -        types-setuptools
 -
 -        evdev
--        pydbus
+-        dasbus
 -        pygobject3
 -        pydantic
 -
