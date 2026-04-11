@@ -3,8 +3,8 @@
         <Name>iwd</Name>
         <Homepage>https://iwd.wiki.kernel.org</Homepage>
         <Packager>
-            <Name>Robert Gonzalez</Name>
-            <Email>uni.dos12@outlook.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>LGPL-2.1-or-later</License>
         <PartOf>network.base</PartOf>
@@ -48,12 +48,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2026-04-10</Date>
+        <Update release="19">
+            <Date>2026-04-11</Date>
             <Version>3.12</Version>
             <Comment>Packaging update</Comment>
-            <Name>Robert Gonzalez</Name>
-            <Email>uni.dos12@outlook.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
