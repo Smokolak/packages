@@ -3,8 +3,8 @@
         <Name>xpra</Name>
         <Homepage>https://xpra.org</Homepage>
         <Packager>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop</PartOf>
@@ -350,10 +350,6 @@
             <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/gstreamer/encoder.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/icon_util.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/image_wrapper.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/jpeg/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/jpeg/__pycache__/__init__.cpython-312.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/jpeg/decoder.cpython-312-x86_64-linux-gnu.so</Path>
-            <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/jpeg/encoder.cpython-312-x86_64-linux-gnu.so</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/loader.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/nvidia/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.12/site-packages/xpra/codecs/nvidia/__pycache__/__init__.cpython-312.pyc</Path>
@@ -1190,9 +1186,9 @@
             <Path fileType="data">/usr/share/icons/xpra-mdns.png</Path>
             <Path fileType="data">/usr/share/icons/xpra-shadow.png</Path>
             <Path fileType="data">/usr/share/icons/xpra.png</Path>
-            <Path fileType="man">/usr/share/man/man1/run_scaled.1</Path>
-            <Path fileType="man">/usr/share/man/man1/xpra.1</Path>
-            <Path fileType="man">/usr/share/man/man1/xpra_launcher.1</Path>
+            <Path fileType="man">/usr/share/man/man1/run_scaled.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/xpra.1.zst</Path>
+            <Path fileType="man">/usr/share/man/man1/xpra_launcher.1.zst</Path>
             <Path fileType="data">/usr/share/metainfo/xpra.appdata.xml</Path>
             <Path fileType="data">/usr/share/mime/packages/application-x-xpraconfig.xml</Path>
             <Path fileType="data">/usr/share/xpra/COPYING</Path>
@@ -1288,12 +1284,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2025-06-25</Date>
+        <Update release="17">
+            <Date>2026-04-11</Date>
             <Version>5.1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Update>
     </History>
 </PISI>
