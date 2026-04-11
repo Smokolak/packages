@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : network-manager
-version    : 1.54.3
-release    : 91
+version    : 1.56.0
+release    : 92
 source     :
-    - https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/archive/1.54.3/NetworkManager-1.54.3.tar.bz2 : e38d55611af8127e1a2b1a7b4952bded1f61917cbc49d4ee7a272ec3fcd7b51b
+    - https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/archive/1.56.0/NetworkManager-1.56.0.tar.bz2 : 589281aed255b5872c0899240bb0ded1883cd7221aa5b54d42a90dffcb57fdec
 homepage   : https://gitlab.freedesktop.org/NetworkManager/NetworkManager
 license    :
     - GFDL-1.1-or-later
@@ -66,25 +66,25 @@ builddeps  :
     - python-gobject-devel
     - vala
 rundeps    :
-    - iptables
-    - mobile-broadband-provider-info
-    - ppp
-    - usb-modeswitch
-    - wireless-tools
-    - wpa_supplicant
     - bluetooth :
         - bluez
         - network-manager
+    - iptables
     - iwd :
         - iwd
         - network-manager
-    - libnm-devel :
-        - network-manager-libnm
     - libnm-32bit :
         - network-manager-libnm
     - libnm-32bit-devel :
         - network-manager-libnm-32bit
         - network-manager-libnm-devel
+    - libnm-devel :
+        - network-manager-libnm
+    - mobile-broadband-provider-info
+    - ppp
+    - usb-modeswitch
+    - wireless-tools
+    - wpa_supplicant
 emul32     : true
 environment: |
     unset LD_AS_NEEDED
@@ -108,6 +108,7 @@ setup      : |
         -Diptables=/usr/sbin/iptables \
         -Diwd=true \
         -Dlibaudit=no \
+        -Dman=${_IS_64BIT_BOOL} \
         -Dmodem_manager=${_IS_64BIT_BOOL} \
         -Dmodify_system=true \
         -Dnft=/usr/sbin/nft \

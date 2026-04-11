@@ -152,6 +152,7 @@ libc.so.6:memset
 libc.so.6:mkdir
 libc.so.6:mkdirat
 libc.so.6:mkstemp64
+libc.so.6:name_to_handle_at
 libc.so.6:nl_langinfo
 libc.so.6:open64
 libc.so.6:openat64
@@ -767,6 +768,7 @@ libglib-2.0.so.0:g_strndup
 libglib-2.0.so.0:g_strnfill
 libglib-2.0.so.0:g_strrstr
 libglib-2.0.so.0:g_strsplit
+libglib-2.0.so.0:g_strsplit_set
 libglib-2.0.so.0:g_strv_contains
 libglib-2.0.so.0:g_strv_length
 libglib-2.0.so.0:g_test_config_vars
@@ -1101,6 +1103,7 @@ libmm-glib.so.0:mm_modem_disable_finish
 libmm-glib.so.0:mm_modem_enable
 libmm-glib.so.0:mm_modem_enable_finish
 libmm-glib.so.0:mm_modem_get_current_capabilities
+libmm-glib.so.0:mm_modem_get_device
 libmm-glib.so.0:mm_modem_get_device_identifier
 libmm-glib.so.0:mm_modem_get_drivers
 libmm-glib.so.0:mm_modem_get_primary_port

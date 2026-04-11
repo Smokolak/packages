@@ -42,9 +42,11 @@ libnm.so.0:libnm_1_4_0
 libnm.so.0:libnm_1_50_0
 libnm.so.0:libnm_1_50_4
 libnm.so.0:libnm_1_52_0
+libnm.so.0:libnm_1_52_2
 libnm.so.0:libnm_1_54_0
 libnm.so.0:libnm_1_54_2
 libnm.so.0:libnm_1_54_3
+libnm.so.0:libnm_1_56_0
 libnm.so.0:libnm_1_6_0
 libnm.so.0:libnm_1_8_0
 libnm.so.0:nm_802_11_ap_flags_get_type
@@ -533,6 +535,7 @@ libnm.so.0:nm_dns_entry_get_priority
 libnm.so.0:nm_dns_entry_get_type
 libnm.so.0:nm_dns_entry_get_vpn
 libnm.so.0:nm_dns_entry_unref
+libnm.so.0:nm_dns_server_validate
 libnm.so.0:nm_ethtool_optname_is_channels
 libnm.so.0:nm_ethtool_optname_is_coalesce
 libnm.so.0:nm_ethtool_optname_is_eee
@@ -905,6 +908,7 @@ libnm.so.0:nm_setting_connection_add_secondary
 libnm.so.0:nm_setting_connection_autoconnect_slaves_get_type
 libnm.so.0:nm_setting_connection_clear_ip_ping_addresses
 libnm.so.0:nm_setting_connection_dns_over_tls_get_type
+libnm.so.0:nm_setting_connection_dnssec_get_type
 libnm.so.0:nm_setting_connection_down_on_poweroff_get_type
 libnm.so.0:nm_setting_connection_get_auth_retries
 libnm.so.0:nm_setting_connection_get_autoconnect
@@ -915,6 +919,7 @@ libnm.so.0:nm_setting_connection_get_autoconnect_slaves
 libnm.so.0:nm_setting_connection_get_connection_type
 libnm.so.0:nm_setting_connection_get_controller
 libnm.so.0:nm_setting_connection_get_dns_over_tls
+libnm.so.0:nm_setting_connection_get_dnssec
 libnm.so.0:nm_setting_connection_get_down_on_poweroff
 libnm.so.0:nm_setting_connection_get_gateway_ping_timeout
 libnm.so.0:nm_setting_connection_get_id
@@ -1004,6 +1009,7 @@ libnm.so.0:nm_setting_get_type
 libnm.so.0:nm_setting_gsm_get_apn
 libnm.so.0:nm_setting_gsm_get_auto_config
 libnm.so.0:nm_setting_gsm_get_device_id
+libnm.so.0:nm_setting_gsm_get_device_uid
 libnm.so.0:nm_setting_gsm_get_home_only
 libnm.so.0:nm_setting_gsm_get_initial_eps_apn
 libnm.so.0:nm_setting_gsm_get_initial_eps_config
