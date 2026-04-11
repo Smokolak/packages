@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : usdx
 version    : 2026.3.0
-release    : 23
+release    : 24
 source     :
     - https://github.com/UltraStar-Deluxe/USDX/archive/refs/tags/v2026.3.0.tar.gz : 8238e1855fa9ea2ed6c1eb613e4d7535e5c0366ef08211ce176a42315fc80f64
 homepage   : https://usdx.eu/
