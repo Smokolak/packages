@@ -4513,6 +4513,8 @@ linux-v4l2.so:obs_module_load
 linux-v4l2.so:obs_module_set_locale
 linux-v4l2.so:obs_module_set_pointer
 linux-v4l2.so:obs_module_ver
+obs:_IO_stdin_used
+obs-browser-page:_IO_stdin_used
 obs-browser.so:obs_browser_create_qcef
 obs-browser.so:obs_browser_initialize
 obs-browser.so:obs_browser_qcef_version_export
@@ -4525,6 +4527,7 @@ obs-browser.so:obs_module_set_locale
 obs-browser.so:obs_module_set_pointer
 obs-browser.so:obs_module_unload
 obs-browser.so:obs_module_ver
+obs-ffmpeg-mux:_IO_stdin_used
 obs-ffmpeg.so:obs_module_description
 obs-ffmpeg.so:obs_module_free_locale
 obs-ffmpeg.so:obs_module_get_string
