@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : hedgewars
 version    : 1.0.3
-release    : 37
+release    : 38
 source     :
     - https://www.hedgewars.org/download/releases/hedgewars-src-1.0.3.tar.bz2 : c5c1877c0bae1354c75d2b9527b6f9a9f79e99932e5d08b1f6f7de1708066130
 homepage   : https://www.hedgewars.org/
