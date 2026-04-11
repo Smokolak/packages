@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kfilemetadata
 version    : 6.25.0
-release    : 36
+release    : 37
 source     :
     - https://download.kde.org/stable/frameworks/6.25/kfilemetadata-6.25.0.tar.xz : 78b3516ab3038fec122f86c1370f4c7d8857ddea9e907263242affae1dd1f738
 homepage   : https://community.kde.org/Frameworks
