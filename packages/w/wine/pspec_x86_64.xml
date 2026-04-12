@@ -1872,7 +1872,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="207">wine</Dependency>
+            <Dependency release="208">wine</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/wine/debug.h</Path>
@@ -3432,8 +3432,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="207">
-            <Date>2026-03-28</Date>
+        <Update release="208">
+            <Date>2026-04-12</Date>
             <Version>11.5</Version>
             <Comment>Packaging update</Comment>
             <Name>Jakob Gezelius</Name>
