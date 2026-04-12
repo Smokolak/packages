@@ -6731,8 +6731,8 @@ libturbojpeg.so.0:tjDestroy
 libturbojpeg.so.0:tjGetErrorStr2
 libturbojpeg.so.0:tjInitDecompress
 libturbojpeg.so.0:tjPlaneSizeYUV
-libunibreak.so.5:set_graphemebreaks_utf16
-libunibreak.so.5:set_linebreaks_utf16
+libunibreak.so.7:set_graphemebreaks_utf16
+libunibreak.so.7:set_linebreaks_utf16
 libwebp.so.7:WebPConfigInitInternal
 libwebp.so.7:WebPConfigLosslessPreset
 libwebp.so.7:WebPDecode
