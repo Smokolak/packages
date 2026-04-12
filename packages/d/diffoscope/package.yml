@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : diffoscope
-version    : '316'
-release    : 17
+version    : '317'
+release    : 18
 source     :
-    - https://diffoscope.org/archive/diffoscope-316.tar.bz2 : e982de34d59531bbcbdb1ca6b1db3150f9e49ce49ca867357a097c54ab565f3e
+    - https://diffoscope.org/archive/diffoscope-317.tar.bz2 : 953717a88819d766732039cc7df22fc6651c99279e9786b950f04ec9663e8d88
 homepage   : https://diffoscope.org/
 license    : GPL-3.0-or-later
 component  : programming.python
