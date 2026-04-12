@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kakoune
-version    : 2025.06.03
-release    : 17
+version    : 2026.04.12
+release    : 18
 source     :
-    - https://github.com/mawww/kakoune/archive/refs/tags/v2025.06.03.tar.gz : e065dbb715bfe6b0abdaeee775243115748bd540a346d0212fdca6c20c13d340
+    - https://github.com/mawww/kakoune/archive/refs/tags/v2026.04.12.tar.gz : a4089744fa768e3799d53fb369cd13bac1ff45a408d8fb323d09169ad9ab7204
 homepage   : https://kakoune.org
 license    : Unlicense
 component  : editor
