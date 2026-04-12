@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : glaze
-version    : 7.0.2
-release    : 7
+version    : 7.3.3
+release    : 8
 source     :
-    - https://github.com/stephenberry/glaze/archive/refs/tags/v7.0.2.tar.gz : febbec555648b310c2a1975ca750939cd00c4801dede8362fcf84cab7b3ae46f
+    - https://github.com/stephenberry/glaze/archive/refs/tags/v7.3.3.tar.gz : 41c8184a4fc4ab4df92b9bdde9ff85c9c47ef8f7a0fe3972db369574ac130d3a
 homepage   : https://github.com/stephenberry/glaze
 license    : MIT
 component  : programming.library

@@ -70,6 +70,8 @@
             <Path fileType="header">/usr/include/glaze/concepts/container_concepts.hpp</Path>
             <Path fileType="header">/usr/include/glaze/containers/flat_map.hpp</Path>
             <Path fileType="header">/usr/include/glaze/containers/inplace_vector.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/containers/ordered_map.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/containers/ordered_small_map.hpp</Path>
             <Path fileType="header">/usr/include/glaze/core/array_apply.hpp</Path>
             <Path fileType="header">/usr/include/glaze/core/as_array_wrapper.hpp</Path>
             <Path fileType="header">/usr/include/glaze/core/buffer_traits.hpp</Path>
@@ -96,6 +98,7 @@
             <Path fileType="header">/usr/include/glaze/core/std_error_code.hpp</Path>
             <Path fileType="header">/usr/include/glaze/core/streaming_state.hpp</Path>
             <Path fileType="header">/usr/include/glaze/core/to.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/core/traits.hpp</Path>
             <Path fileType="header">/usr/include/glaze/core/wrapper_traits.hpp</Path>
             <Path fileType="header">/usr/include/glaze/core/wrappers.hpp</Path>
             <Path fileType="header">/usr/include/glaze/core/write.hpp</Path>
@@ -107,6 +110,7 @@
             <Path fileType="header">/usr/include/glaze/eetf.hpp</Path>
             <Path fileType="header">/usr/include/glaze/eetf/cmp.hpp</Path>
             <Path fileType="header">/usr/include/glaze/eetf/defs.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/eetf/eetf_to_json.hpp</Path>
             <Path fileType="header">/usr/include/glaze/eetf/ei.hpp</Path>
             <Path fileType="header">/usr/include/glaze/eetf/opts.hpp</Path>
             <Path fileType="header">/usr/include/glaze/eetf/read.hpp</Path>
@@ -135,6 +139,7 @@
             <Path fileType="header">/usr/include/glaze/glaze.hpp</Path>
             <Path fileType="header">/usr/include/glaze/glaze_exceptions.hpp</Path>
             <Path fileType="header">/usr/include/glaze/hardware/volatile_array.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/hash/sweethash.hpp</Path>
             <Path fileType="header">/usr/include/glaze/json.hpp</Path>
             <Path fileType="header">/usr/include/glaze/json/escape_unicode.hpp</Path>
             <Path fileType="header">/usr/include/glaze/json/float_format.hpp</Path>
@@ -187,6 +192,10 @@
             <Path fileType="header">/usr/include/glaze/rpc/repe/repe.hpp</Path>
             <Path fileType="header">/usr/include/glaze/rpc/repe/repe_registry_impl.hpp</Path>
             <Path fileType="header">/usr/include/glaze/rpc/repe/repe_to_jsonrpc.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/simd/avx.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/simd/neon.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/simd/simd.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/simd/sse.hpp</Path>
             <Path fileType="header">/usr/include/glaze/stencil/stencil.hpp</Path>
             <Path fileType="header">/usr/include/glaze/stencil/stencilcount.hpp</Path>
             <Path fileType="header">/usr/include/glaze/thread/async.hpp</Path>
@@ -207,6 +216,7 @@
             <Path fileType="header">/usr/include/glaze/trace/trace.hpp</Path>
             <Path fileType="header">/usr/include/glaze/tuplet/tuple.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/atoi.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/util/bit.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/bit_array.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/buffer_pool.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/compare.hpp</Path>
@@ -214,6 +224,7 @@
             <Path fileType="header">/usr/include/glaze/util/dragonbox.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/dtoa.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/dump.hpp</Path>
+            <Path fileType="header">/usr/include/glaze/util/env.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/expected.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/fast_float.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/for_each.hpp</Path>
@@ -232,7 +243,6 @@
             <Path fileType="header">/usr/include/glaze/util/string_literal.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/tuple.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/type_traits.hpp</Path>
-            <Path fileType="header">/usr/include/glaze/util/utility.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/validate.hpp</Path>
             <Path fileType="header">/usr/include/glaze/util/variant.hpp</Path>
             <Path fileType="header">/usr/include/glaze/version.hpp</Path>
@@ -249,9 +259,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2026-02-28</Date>
-            <Version>7.0.2</Version>
+        <Update release="8">
+            <Date>2026-04-12</Date>
+            <Version>7.3.3</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
