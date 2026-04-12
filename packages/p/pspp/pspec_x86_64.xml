@@ -24,8 +24,8 @@
             <Path fileType="executable">/usr/bin/pspp-convert</Path>
             <Path fileType="executable">/usr/bin/pspp-output</Path>
             <Path fileType="executable">/usr/bin/psppire</Path>
-            <Path fileType="library">/usr/lib64/pspp/libpspp-2.0.1.so</Path>
-            <Path fileType="library">/usr/lib64/pspp/libpspp-core-2.0.1.so</Path>
+            <Path fileType="library">/usr/lib64/pspp/libpspp-2.1.1.so</Path>
+            <Path fileType="library">/usr/lib64/pspp/libpspp-core-2.1.1.so</Path>
             <Path fileType="library">/usr/lib64/pspp/libpspp-core.so</Path>
             <Path fileType="library">/usr/lib64/pspp/libpspp.so</Path>
             <Path fileType="data">/usr/share/applications/org.gnu.pspp.desktop</Path>
@@ -79,13 +79,17 @@
             <Path fileType="localedata">/usr/share/locale/gl/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/pspp.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ka/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/pspp.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/pspp.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ta/LC_MESSAGES/pspp.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/th/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/pspp.mo</Path>
             <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/pspp.mo</Path>
@@ -166,9 +170,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="13">
-            <Date>2025-10-31</Date>
-            <Version>2.0.1</Version>
+        <Update release="14">
+            <Date>2026-04-12</Date>
+            <Version>2.1.1</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
