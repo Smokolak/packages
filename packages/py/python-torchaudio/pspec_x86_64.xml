@@ -3,8 +3,8 @@
         <Name>python-torchaudio</Name>
         <Homepage>https://pytorch.org/audio</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <PartOf>programming.python</PartOf>
@@ -264,12 +264,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2026-04-06</Date>
+        <Update release="12">
+            <Date>2026-04-12</Date>
             <Version>2.11.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Update>
     </History>
 </PISI>
