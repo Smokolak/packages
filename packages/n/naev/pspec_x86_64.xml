@@ -3,8 +3,8 @@
         <Name>naev</Name>
         <Homepage>https://naev.org/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Robert Gonzalez</Name>
+            <Email>uni.dos12@outlook.com</Email>
         </Packager>
         <License>CC-BY-SA-4.0</License>
         <License>GPL-3.0-or-later</License>
@@ -7691,12 +7691,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="25">
-            <Date>2026-04-12</Date>
+        <Update release="26">
+            <Date>2026-04-13</Date>
             <Version>0.13.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Robert Gonzalez</Name>
+            <Email>uni.dos12@outlook.com</Email>
         </Update>
     </History>
 </PISI>

@@ -935,9 +935,9 @@ libssl.so.3:SSL_shutdown
 libssl.so.3:SSL_write
 libssl.so.3:SSL_write_ex
 libssl.so.3:TLS_method
-libunibreak.so.5:init_linebreak
-libunibreak.so.5:lb_init_break_context
-libunibreak.so.5:lb_process_next_char
+libunibreak.so.7:init_linebreak
+libunibreak.so.7:lb_init_break_context
+libunibreak.so.7:lb_process_next_char
 libxml2.so.2:xmlCheckVersion
 libxml2.so.2:xmlCleanupParser
 libxml2.so.2:xmlFreeDoc
