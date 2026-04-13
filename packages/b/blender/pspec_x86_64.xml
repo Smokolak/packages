@@ -3,8 +3,8 @@
         <Name>blender</Name>
         <Homepage>https://blender.org/</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <License>EULA</License>
@@ -2289,6 +2289,32 @@
             <Path fileType="data">/usr/share/blender/5.0/scripts/templates_py/ui_previews_dynamic_enum.py</Path>
             <Path fileType="data">/usr/share/blender/5.0/scripts/templates_py/ui_tool_simple.py</Path>
             <Path fileType="data">/usr/share/blender/5.0/scripts/templates_toml/blender_manifest.toml</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/license.md</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/licenses.json</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/others/Arev-Fonts.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/others/ICS.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/others/LLVM-exception.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/others/TOST-1.0.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/Apache-2.0.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/BSD-2-Clause.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/BSD-3-Clause.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/BSL-1.0.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/Bitstream-Vera.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/FTL.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/GPL-2.0-or-later.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/GPL-3.0-or-later.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/LGPL-2.1-or-later.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/MIT-Khronos-old.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/MIT.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/MPL-2.0.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/NCSA.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/OFL-1.1.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/Python-2.0.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/SGI-B-2.0.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/Zlib.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/bzip2-1.0.6.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/libpng-2.0.txt</Path>
+            <Path fileType="doc">/usr/share/doc/blender/license/spdx/libtiff.txt</Path>
             <Path fileType="doc">/usr/share/doc/blender/readme.html</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/blender.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/blender-symbolic.svg</Path>
@@ -2297,12 +2323,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="101">
-            <Date>2026-02-01</Date>
+        <Update release="102">
+            <Date>2026-04-13</Date>
             <Version>5.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
