@@ -522,6 +522,7 @@ libgvc.so.6:gvRenderFilename
 libheif.so.1:heif_check_filetype
 libheif.so.1:heif_context_add_XMP_metadata
 libheif.so.1:heif_context_add_exif_metadata
+libheif.so.1:heif_context_add_visual_sequence_track
 libheif.so.1:heif_context_alloc
 libheif.so.1:heif_context_encode_image
 libheif.so.1:heif_context_free
@@ -532,7 +533,10 @@ libheif.so.1:heif_context_get_number_of_top_level_images
 libheif.so.1:heif_context_get_primary_image_ID
 libheif.so.1:heif_context_get_primary_image_handle
 libheif.so.1:heif_context_get_security_limits
+libheif.so.1:heif_context_get_track
+libheif.so.1:heif_context_has_sequence
 libheif.so.1:heif_context_read_from_file
+libheif.so.1:heif_context_set_sequence_timescale
 libheif.so.1:heif_context_write
 libheif.so.1:heif_decode_image
 libheif.so.1:heif_decoding_options_alloc
@@ -549,6 +553,8 @@ libheif.so.1:heif_have_decoder_for_format
 libheif.so.1:heif_have_encoder_for_format
 libheif.so.1:heif_image_add_plane
 libheif.so.1:heif_image_create
+libheif.so.1:heif_image_get_bits_per_pixel_range
+libheif.so.1:heif_image_get_duration
 libheif.so.1:heif_image_get_height
 libheif.so.1:heif_image_get_plane
 libheif.so.1:heif_image_get_plane_readonly
@@ -570,6 +576,7 @@ libheif.so.1:heif_image_handle_has_alpha_channel
 libheif.so.1:heif_image_handle_has_depth_image
 libheif.so.1:heif_image_handle_release
 libheif.so.1:heif_image_release
+libheif.so.1:heif_image_set_duration
 libheif.so.1:heif_image_set_nclx_color_profile
 libheif.so.1:heif_image_set_raw_color_profile
 libheif.so.1:heif_init
@@ -582,6 +589,18 @@ libheif.so.1:heif_nclx_color_profile_free
 libheif.so.1:heif_nclx_color_profile_set_color_primaries
 libheif.so.1:heif_nclx_color_profile_set_matrix_coefficients
 libheif.so.1:heif_nclx_color_profile_set_transfer_characteristics
+libheif.so.1:heif_sequence_encoding_options_alloc
+libheif.so.1:heif_sequence_encoding_options_release
+libheif.so.1:heif_track_decode_next_image
+libheif.so.1:heif_track_encode_end_of_sequence
+libheif.so.1:heif_track_encode_sequence_image
+libheif.so.1:heif_track_get_image_resolution
+libheif.so.1:heif_track_get_timescale
+libheif.so.1:heif_track_has_alpha_channel
+libheif.so.1:heif_track_options_alloc
+libheif.so.1:heif_track_options_release
+libheif.so.1:heif_track_options_set_timescale
+libheif.so.1:heif_track_release
 libjpeg.so.8:jpeg12_read_scanlines
 libjpeg.so.8:jpeg12_write_scanlines
 libjpeg.so.8:jpeg16_read_scanlines
@@ -644,10 +663,12 @@ libjxl.so.0.11:JxlEncoderDestroy
 libjxl.so.0.11:JxlEncoderFrameSettingsCreate
 libjxl.so.0.11:JxlEncoderFrameSettingsSetOption
 libjxl.so.0.11:JxlEncoderInitBasicInfo
+libjxl.so.0.11:JxlEncoderInitBlendInfo
 libjxl.so.0.11:JxlEncoderInitFrameHeader
 libjxl.so.0.11:JxlEncoderProcessOutput
 libjxl.so.0.11:JxlEncoderSetBasicInfo
 libjxl.so.0.11:JxlEncoderSetColorEncoding
+libjxl.so.0.11:JxlEncoderSetExtraChannelBlendInfo
 libjxl.so.0.11:JxlEncoderSetFrameDistance
 libjxl.so.0.11:JxlEncoderSetFrameHeader
 libjxl.so.0.11:JxlEncoderSetFrameLossless
