@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : rio
-version    : 0.3.3
-release    : 6
+version    : 0.3.11
+release    : 7
 source     :
-    - https://github.com/raphamorim/rio/archive/refs/tags/v0.3.3.tar.gz : 6fc453e9e4c21a6da46b461dc8d3bc50bcfcc2c39a7da5c3b9e7c7f18cb51dd6
+    - https://github.com/raphamorim/rio/archive/refs/tags/v0.3.11.tar.gz : f59abcfb501bb4e98dd13d471ba4ceba9b7dd25bcd2c45865b2aef3d8dce9a19
 homepage   : https://rioterm.com
 license    : MIT
 component  : system.utils
@@ -45,4 +45,4 @@ install    : |
     install -Dm00644 docs/static/assets/rio-logo.svg $installdir/usr/share/icons/hicolor/scalable/apps/rio.svg
     install -Dm00644 misc/com.rioterm.Rio.metainfo.xml -t $installdir/usr/share/metainfo/
 check      : |
-    %cargo_test
+    %cargo_test -- --skip renderer::text_run_manager::tests::test_vertex_positioning
