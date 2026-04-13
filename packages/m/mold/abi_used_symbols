@@ -39,6 +39,7 @@ libc.so.6:fork
 libc.so.6:free
 libc.so.6:fseek
 libc.so.6:fstat
+libc.so.6:fstatfs
 libc.so.6:ftell
 libc.so.6:ftruncate
 libc.so.6:fwrite
@@ -107,7 +108,6 @@ libstdc++.so.6:_ZNKSt10filesystem7__cxx114path11parent_pathEv
 libstdc++.so.6:_ZNKSt10filesystem7__cxx114path16lexically_normalEv
 libstdc++.so.6:_ZNKSt10filesystem7__cxx114path5_List13_Impl_deleterclEPNS2_5_ImplE
 libstdc++.so.6:_ZNKSt10filesystem7__cxx114path5_List3endEv
-libstdc++.so.6:_ZNKSt12__basic_fileIcE7is_openEv
 libstdc++.so.6:_ZNKSt5ctypeIcE13_M_widen_initEv
 libstdc++.so.6:_ZNKSt6locale2id5_M_idEv
 libstdc++.so.6:_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm
