@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libarchive
-version    : 3.8.6
-release    : 61
+version    : 3.8.7
+release    : 62
 source     :
-    - https://github.com/libarchive/libarchive/releases/download/v3.8.6/libarchive-3.8.6.tar.xz : 8ac57c1f5e99550948d1fe755c806d26026e71827da228f36bef24527e372e6f
+    - https://github.com/libarchive/libarchive/releases/download/v3.8.7/libarchive-3.8.7.tar.xz : d3a8ba457ae25c27c84fd2830a2efdcc5b1d40bf585d4eb0d35f47e99e5d4774
 homepage   : https://www.libarchive.org/
 license    : BSD-2-Clause
 component  :
