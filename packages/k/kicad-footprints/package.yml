@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kicad-footprints
-version    : 9.0.8
-release    : 20
+version    : 10.0.0
+release    : 21
 source     :
-    - https://gitlab.com/kicad/libraries/kicad-footprints/-/archive/9.0.8/kicad-footprints-9.0.8.tar.gz : 08ae267f1bbb489d27fe8ee30998e671d0df6012dae9043b8732824938344f0f
+    - https://gitlab.com/kicad/libraries/kicad-footprints/-/archive/10.0.0/kicad-footprints-10.0.0.tar.gz : acce6775a78a5fc94b07b41711f9c0a9e9f204640b4cde77b375370389775e77
 homepage   : https://www.kicad.org/
 license    : CC-BY-SA-4.0
 component  : office.scientific
