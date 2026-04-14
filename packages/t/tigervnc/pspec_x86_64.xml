@@ -3,8 +3,8 @@
         <Name>tigervnc</Name>
         <Homepage>https://tigervnc.org/</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <License>MIT</License>
@@ -82,12 +82,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="29">
-            <Date>2026-03-27</Date>
+        <Update release="30">
+            <Date>2026-04-14</Date>
             <Version>1.16.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
