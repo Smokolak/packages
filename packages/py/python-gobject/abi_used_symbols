@@ -538,6 +538,7 @@ libgobject-2.0.so.0:g_object_is_floating
 libgobject-2.0.so.0:g_object_new_with_properties
 libgobject-2.0.so.0:g_object_ref
 libgobject-2.0.so.0:g_object_ref_sink
+libgobject-2.0.so.0:g_object_run_dispose
 libgobject-2.0.so.0:g_object_set_property
 libgobject-2.0.so.0:g_object_set_qdata
 libgobject-2.0.so.0:g_object_set_qdata_full
