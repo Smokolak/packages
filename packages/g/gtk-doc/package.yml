@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gtk-doc
-version    : 1.36.0
-release    : 18
+version    : 1.36.1
+release    : 19
 source     :
-    - https://download.gnome.org/sources/gtk-doc/1.36/gtk-doc-1.36.0.tar.xz : 3b84bac36efbe59017469040dfee58f17cf0853b5f54dfae26347daf55b6d337
+    - https://download.gnome.org/sources/gtk-doc/1.36/gtk-doc-1.36.1.tar.xz : 0e517a5f97069831181be177516bde8aa8b3922398f2bdb09e265d22aecadbc5
 homepage   : https://www.gtk.org/gtk-doc/
 license    : GPL-2.0-or-later
 component  : desktop.gnome.doc
