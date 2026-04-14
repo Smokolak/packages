@@ -24,6 +24,12 @@ libadwaita-1.so.0:adw_dialog_present
 libadwaita-1.so.0:adw_preferences_dialog_get_type
 libadwaita-1.so.0:adw_preferences_group_set_title
 libadwaita-1.so.0:adw_status_page_set_title
+libadwaita-1.so.0:adw_toast_new
+libadwaita-1.so.0:adw_toast_overlay_add_toast
+libadwaita-1.so.0:adw_toast_set_action_name
+libadwaita-1.so.0:adw_toast_set_button_label
+libadwaita-1.so.0:adw_toggle_group_get_active_name
+libadwaita-1.so.0:adw_toggle_group_set_active_name
 libc.so.6:__fprintf_chk
 libc.so.6:__isoc23_strtol
 libc.so.6:__libc_start_main
@@ -47,7 +53,6 @@ libc.so.6:strcmp
 libc.so.6:strlen
 libc.so.6:strstr
 libc.so.6:textdomain
-libcairo.so.2:cairo_clip_extents
 libcairo.so.2:cairo_destroy
 libcairo.so.2:cairo_fill
 libcairo.so.2:cairo_line_to
@@ -180,6 +185,7 @@ libglib-2.0.so.0:g_file_get_contents
 libglib-2.0.so.0:g_file_set_contents
 libglib-2.0.so.0:g_filename_to_uri
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_environ
 libglib-2.0.so.0:g_get_num_processors
 libglib-2.0.so.0:g_get_user_cache_dir
@@ -223,6 +229,7 @@ libglib-2.0.so.0:g_main_context_iteration
 libglib-2.0.so.0:g_malloc
 libglib-2.0.so.0:g_malloc0
 libglib-2.0.so.0:g_malloc0_n
+libglib-2.0.so.0:g_memdup2
 libglib-2.0.so.0:g_mkdir_with_parents
 libglib-2.0.so.0:g_mutex_clear
 libglib-2.0.so.0:g_mutex_init
@@ -385,6 +392,7 @@ libgtk-4.so.1:gdk_texture_new_for_pixbuf
 libgtk-4.so.1:gtk_action_bar_pack_end
 libgtk-4.so.1:gtk_action_bar_remove
 libgtk-4.so.1:gtk_adjustment_get_lower
+libgtk-4.so.1:gtk_adjustment_get_type
 libgtk-4.so.1:gtk_adjustment_get_upper
 libgtk-4.so.1:gtk_adjustment_get_value
 libgtk-4.so.1:gtk_adjustment_set_value
@@ -438,6 +446,8 @@ libgtk-4.so.1:gtk_file_filter_new
 libgtk-4.so.1:gtk_file_filter_set_name
 libgtk-4.so.1:gtk_file_launcher_launch
 libgtk-4.so.1:gtk_file_launcher_new
+libgtk-4.so.1:gtk_file_launcher_open_containing_folder
+libgtk-4.so.1:gtk_file_launcher_open_containing_folder_finish
 libgtk-4.so.1:gtk_gesture_click_get_type
 libgtk-4.so.1:gtk_gesture_click_new
 libgtk-4.so.1:gtk_gesture_single_set_button
@@ -465,6 +475,7 @@ libgtk-4.so.1:gtk_progress_bar_set_show_text
 libgtk-4.so.1:gtk_progress_bar_set_text
 libgtk-4.so.1:gtk_render_focus
 libgtk-4.so.1:gtk_scale_add_mark
+libgtk-4.so.1:gtk_scrolled_window_get_hadjustment
 libgtk-4.so.1:gtk_scrolled_window_new
 libgtk-4.so.1:gtk_scrolled_window_set_child
 libgtk-4.so.1:gtk_scrolled_window_set_policy
@@ -494,6 +505,7 @@ libgtk-4.so.1:gtk_widget_grab_focus
 libgtk-4.so.1:gtk_widget_init_template
 libgtk-4.so.1:gtk_widget_insert_action_group
 libgtk-4.so.1:gtk_widget_queue_draw
+libgtk-4.so.1:gtk_widget_queue_resize
 libgtk-4.so.1:gtk_widget_set_can_focus
 libgtk-4.so.1:gtk_widget_set_cursor
 libgtk-4.so.1:gtk_widget_set_focusable
