@@ -474,7 +474,7 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/adblocker_resources/redirectable_resources.json</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-common-bundle.js</Path>
-            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-6e105c9839e3fdc4f8d527498f9acc44.js</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-bdcd939bdc34fb28c2ed40b9b98872cb.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle-mailreader-worker.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/components/mail/mail.html</Path>
@@ -545,6 +545,7 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/markdowneditor-bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/menus/contextmenu.json</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/menus/mainmenu.json</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/policy_prefs.json</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/prefs_definitions.json</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/reader-bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/resources/ToolbarIconFallback.svg</Path>
@@ -1342,9 +1343,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="566">
-            <Date>2026-04-09</Date>
-            <Version>7.10.4001.3</Version>
+        <Update release="567">
+            <Date>2026-04-15</Date>
+            <Version>7.10.4007.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
