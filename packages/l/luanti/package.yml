@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : luanti
-version    : 5.15.1
-release    : 39
+version    : 5.15.2
+release    : 40
 source     :
-    - https://github.com/luanti-org/luanti/archive/refs/tags/5.15.1.tar.gz : fe0b10df866f57c0047d84a4c6f6cd848650f52d9b0cab563fbbedc81632d616
+    - https://github.com/luanti-org/luanti/archive/refs/tags/5.15.2.tar.gz : 1fdfa8b973968f8fcf5a264ce3fb3a170c3882105f953498a64d6415eff83471
 license    :
     - Apache-2.0
     - CC-BY-SA-3.0

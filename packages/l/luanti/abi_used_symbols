@@ -447,6 +447,7 @@ libluajit-5.1.so.2:lua_createtable
 libluajit-5.1.so.2:lua_equal
 libluajit-5.1.so.2:lua_error
 libluajit-5.1.so.2:lua_gc
+libluajit-5.1.so.2:lua_getfenv
 libluajit-5.1.so.2:lua_getfield
 libluajit-5.1.so.2:lua_getinfo
 libluajit-5.1.so.2:lua_getmetatable
