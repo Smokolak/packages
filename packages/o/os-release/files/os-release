@@ -1,9 +1,9 @@
 NAME="Solus"
-VERSION="4.8"
+VERSION="4.9"
 ID="solus"
-VERSION_CODENAME=opportunity
-VERSION_ID="4.8"
-PRETTY_NAME="Solus 4.8 Opportunity"
+VERSION_CODENAME=serenity
+VERSION_ID="4.9"
+PRETTY_NAME="Solus 4.9 Serenity"
 ANSI_COLOR="1;34"
 HOME_URL="https://getsol.us"
 SUPPORT_URL="https://help.getsol.us/docs/user/contributing/getting-involved"

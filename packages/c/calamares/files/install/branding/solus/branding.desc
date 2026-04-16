@@ -113,10 +113,10 @@ navigation: widget
 strings:
     productName:         "Solus"
     shortProductName:    "Solus"
-    version:             "4.8 Opportunity"
-    shortVersion:        "4.8"
-    versionedName:       "Solus 4.8 Opportunity"
-    shortVersionedName:  "Solus 4.8"
+    version:             "4.9 Serenity"
+    shortVersion:        "4.9"
+    versionedName:       "Solus 4.9 Serenity"
+    shortVersionedName:  "Solus 4.9"
     bootloaderEntryName: "Solus"
     productUrl:          https://getsol.us
     supportUrl:          https://help.getsol.us

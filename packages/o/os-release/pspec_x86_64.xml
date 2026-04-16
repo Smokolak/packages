@@ -3,8 +3,8 @@
         <Name>os-release</Name>
         <Homepage>https://getsol.us</Homepage>
         <Packager>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>system.base</PartOf>
@@ -24,12 +24,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2025-11-16</Date>
-            <Version>4.8</Version>
+        <Update release="5">
+            <Date>2026-04-13</Date>
+            <Version>4.9</Version>
             <Comment>Packaging update</Comment>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
