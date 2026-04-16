@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mesalib
-version    : 26.0.4
-release    : 298
+version    : 26.0.5
+release    : 299
 source     :
-    - https://archive.mesa3d.org/mesa-26.0.4.tar.xz : 6d91541e086f29bb003602d2c81070f2be4c0693a90b181ca91e46fa3953fe78
+    - https://archive.mesa3d.org/mesa-26.0.5.tar.xz : d229c9937d9a25ca0a8958c59f425174563d300ec42acbea2dbe84a055023368
 homepage   : https://mesa3d.org/
 license    :
     - BSL-1.0
