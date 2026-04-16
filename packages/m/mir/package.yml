@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mir
-version    : 2.25.2
-release    : 12
+version    : 2.26.0
+release    : 13
 source     :
-    - https://github.com/canonical/mir/releases/download/v2.25.2/mir-2.25.2.tar.xz : fad807079146cff925aaf97b9efffa17a71b862d1082b992c0885c9072acdbbd
+    - https://github.com/canonical/mir/releases/download/v2.26.0/mir-2.26.0.tar.xz : 0b7705e11de14665bbf6ab07bb89ebf8128c9e56f3bbaf71ac9776bb7aa21f03
 homepage   : https://mir-server.io/
 license    :
     - GPL-2.0-only
@@ -42,10 +42,12 @@ builddeps  :
     - gtest
     - libboost-devel
     - python-pillow-devel
+    - rust
 rundeps    :
     - demos :
         - mir
 clang      : true
+networking : true
 environment: |
     export CFLAGS="${CFLAGS} -Wno-c23-extensions"
 setup      : |
