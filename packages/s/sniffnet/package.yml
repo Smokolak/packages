@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : sniffnet
-version    : 1.4.2
-release    : 3
+version    : 1.5.0
+release    : 4
 source     :
-    - https://github.com/GyulyVGC/sniffnet/archive/refs/tags/v1.4.2.tar.gz : 7fc4cc610a2bbd823604abe6acabceac2cbeb9d42129851df9b6b24cc24d05c7
+    - https://github.com/GyulyVGC/sniffnet/archive/refs/tags/v1.5.0.tar.gz : c2000ee833c8329d5aaf2b4c1f950d01b48b2a93bd094f949dbed5d6ac4f4d8c
 homepage   : https://sniffnet.net/
 license    :
     - Apache-2.0
