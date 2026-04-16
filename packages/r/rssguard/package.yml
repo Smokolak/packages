@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : rssguard
-version    : 4.8.6
-release    : 19
+version    : 5.0.4
+release    : 20
 source     :
-    - https://github.com/martinrotter/rssguard/archive/refs/tags/4.8.6.tar.gz : c29bdda08ece8de113dbdb87e8e23491221ba9ddbacd26141d6a00e04888972e
+    - https://github.com/martinrotter/rssguard/releases/download/5.0.4/rssguard-5.0.4-src.tar.gz : 0a8750da59a3c9c245db604bd71fa23aa7d10e4ce6d502eaee343f1796c9d1a1
 license    : GPL-3.0-or-later
 homepage   : https://github.com/martinrotter/rssguard
 component  : network.news
@@ -11,25 +11,20 @@ summary    : Simple (yet powerful) Qt feed reader
 description: |
     Simple (yet powerful) Qt feed reader
 builddeps  :
-    - pkgconfig(Qt6Core5Compat)
     - pkgconfig(Qt6Designer)
     - pkgconfig(Qt6Multimedia)
     - pkgconfig(Qt6Qml)
-    - pkgconfig(Qt6WebEngineWidgets)
-    - pkgconfig(dbus-1)
     - pkgconfig(mpv)
-    - pkgconfig(sqlite3)
+    - golang
+    - qt6-base-private-devel
 clang      : true
 optimize   :
     - speed
     - thin-lto
 setup      : |
-    %patch -p1 -i $pkgfiles/0001-Solus-default-settings.patch
-    %cmake_ninja -DBUILD_WITH_QT6=ON \
-                 -DNO_UPDATE_CHECK=ON \
-                 -DREVISION_FROM_GIT=OFF \
-                 -DUSE_SYSTEM_SQLITE=ON \
-                 -DUSE_WEBENGINE=ON
+    %patch -p1 -i $pkgfiles/0001-default-settings.patch
+    %cmake_ninja -DNO_UPDATE_CHECK=ON \
+                 -DREVISION_FROM_GIT=OFF
 build      : |
     %ninja_build
 install    : |
