@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : freetype2
-version    : 2.14.2
-release    : 39
+version    : 2.14.3
+release    : 40
 source     :
     - https://download.savannah.gnu.org/releases/freetype/freetype-2.14.2.tar.xz : 4b62dcab4c920a1a860369933221814362e699e26f55792516d671e6ff55b5e1
 homepage   : https://freetype.org/
