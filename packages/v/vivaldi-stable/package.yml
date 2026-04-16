@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : vivaldi-stable
-version    : 7.9.3970.50
-release    : 339
+version    : 7.9.3970.55
+release    : 340
 source     :
-    - https://downloads.vivaldi.com/stable/vivaldi-stable_7.9.3970.50-1_amd64.deb : f5f5f4c672197aeee14d8c8abd242b263de64244cf1a0f12dc88c48e1ffce20d
+    - https://downloads.vivaldi.com/stable/vivaldi-stable_7.9.3970.55-1_amd64.deb : 14d646483bffc51881debe18e87d857f254847ce3ec1532256a4fff607e613cc
 license    : Distributable
 homepage   : https://vivaldi.com
 component  : network.web.browser
