@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : zed
-version    : 0.231.2
-release    : 126
+version    : 0.232.2
+release    : 127
 source     :
-    - git|https://github.com/zed-industries/zed.git : v0.231.2
+    - git|https://github.com/zed-industries/zed.git : v0.232.2
 homepage   : https://zed.dev/
 license    :
     - AGPL-3.0-or-later
