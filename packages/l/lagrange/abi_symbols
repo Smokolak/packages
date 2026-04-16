@@ -1,3 +1,4 @@
+lagrange:_IO_stdin_used
 lagrange:cnd_broadcast
 lagrange:cnd_destroy
 lagrange:cnd_init
