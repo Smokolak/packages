@@ -1,15 +1,15 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : appstream-catalog
-version    : '20260410'
-release    : 51
+version    : '20260417'
+release    : 52
 source     :
-    - https://appstream.getsol.us/data/unstable/main/Components-x86_64.xml.gz: a602c27852e03a20c890e52a33abdfc7a51b29ea4727d3073022d7b9b843f82e
-    - https://appstream.getsol.us/data/unstable/main/icons-128x128.tar.gz: 5eab996ca13ed4c8b71ad24997e08f6f777fc4149b3585ee9d5a3bc9cee458ee
-    - https://appstream.getsol.us/data/unstable/main/icons-128x128@2.tar.gz: cfebee1f9d89d02082aa64b907ab5c4614dc92cc7d2f739d620cc61f4846b972
-    - https://appstream.getsol.us/data/unstable/main/icons-48x48.tar.gz: 9cf4392730c5e314af4e966729804e9b30cd01f72b1777c8cca5c1b03c63b336
-    - https://appstream.getsol.us/data/unstable/main/icons-48x48@2.tar.gz: 88769127dc2ae40511ed9a8146beae536e1a39de83bcee6884acf208eda1b1ba
-    - https://appstream.getsol.us/data/unstable/main/icons-64x64.tar.gz: 0043edb187851c003d9ef937234655630766edaea5559d1141541c1266706362
-    - https://appstream.getsol.us/data/unstable/main/icons-64x64@2.tar.gz: 9868435523e7213959a80ca21243ad07939100f05af92a94f11938951cfabe1a
+    - https://appstream.getsol.us/data/unstable/main/Components-x86_64.xml.gz: d4608e00c2d5a16a94ab9e770636f1eaec6b39cba70b3f2c4707cae3873a5195
+    - https://appstream.getsol.us/data/unstable/main/icons-128x128.tar.gz: 8e85fcab6d93fcfd4c800461d307a7c0d8f809ec492766edaf563b0183fe1eef
+    - https://appstream.getsol.us/data/unstable/main/icons-128x128@2.tar.gz: 5ede957942dadc8517f0a0e3b2bd480d0091ed5749793c716433dbf5e2405504
+    - https://appstream.getsol.us/data/unstable/main/icons-48x48.tar.gz: 2bb06aed3ff5c9a856708a05bb4645c0c2ebca4a34028760efb18b4b911006ff
+    - https://appstream.getsol.us/data/unstable/main/icons-48x48@2.tar.gz: bf94c749e2cf37c262fa40a9ee055bf1bf478b4f6ea0c1e948cb0f6e0da41b6d
+    - https://appstream.getsol.us/data/unstable/main/icons-64x64.tar.gz: ab04c5c8489cce0780ba200331966ddb1179150f56fe1da5e6745a773f46eea2
+    - https://appstream.getsol.us/data/unstable/main/icons-64x64@2.tar.gz: 9004e2623a396bd70260867fe12dc111fb44b0e77e9eb9098dd4979e014272c7
 homepage   : https://www.freedesktop.org/wiki/Distributions/AppStream/
 license    :
     - CC-BY-SA-3.0
