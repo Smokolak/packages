@@ -3,8 +3,8 @@
         <Name>cemu</Name>
         <Homepage>https://cemu.info/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Marcus Mellor</Name>
+            <Email>infinitymdm@gmail.com</Email>
         </Packager>
         <License>MPL-2.0</License>
         <PartOf>games.emulator</PartOf>
@@ -288,12 +288,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2026-02-02</Date>
+        <Update release="19">
+            <Date>2026-03-27</Date>
             <Version>2.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Marcus Mellor</Name>
+            <Email>infinitymdm@gmail.com</Email>
         </Update>
     </History>
 </PISI>

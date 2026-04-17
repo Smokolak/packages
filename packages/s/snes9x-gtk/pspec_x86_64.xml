@@ -3,8 +3,8 @@
         <Name>snes9x-gtk</Name>
         <Homepage>https://www.snes9x.com/</Homepage>
         <Packager>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Marcus Mellor</Name>
+            <Email>infinitymdm@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <License>LGPL-2.1-or-later</License>
@@ -44,12 +44,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="23">
-            <Date>2025-11-16</Date>
+        <Update release="24">
+            <Date>2026-04-09</Date>
             <Version>1.63</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Marcus Mellor</Name>
+            <Email>infinitymdm@gmail.com</Email>
         </Update>
     </History>
 </PISI>
