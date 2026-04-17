@@ -474,7 +474,7 @@
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/adblocker_resources/redirectable_resources.json</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-common-bundle.js</Path>
-            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-bdcd939bdc34fb28c2ed40b9b98872cb.js</Path>
+            <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/background-service-worker-b45f2185dd47b3210dabc79673a53b97.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle-mailreader-worker.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/bundle.js</Path>
             <Path fileType="data">/usr/share/vivaldi-snapshot/resources/vivaldi/components/mail/mail.html</Path>
@@ -1343,9 +1343,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="567">
-            <Date>2026-04-15</Date>
-            <Version>7.10.4007.3</Version>
+        <Update release="568">
+            <Date>2026-04-17</Date>
+            <Version>7.10.4009.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
