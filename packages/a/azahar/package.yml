@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : azahar
-version    : 2125.0.1
-release    : 12
+version    : '2125.1'
+release    : 13
 source     :
-    - https://github.com/azahar-emu/azahar/releases/download/2125.0.1/azahar-unified-source-2125.0.1.tar.xz : f7d152f548ea6a102f3930389df147e7ba7045d3556201d2357e780c11f3300d
+    - https://github.com/azahar-emu/azahar/releases/download/2125.1/azahar-unified-source-2125.1.tar.xz : 62801e8584c78917199cb6a2dd28ee06b21b829ce331c39b119039b652dbedd1
 homepage   : https://azahar-emu.org/
 license    : GPL-2.0-or-later
 component  : games.emulator
