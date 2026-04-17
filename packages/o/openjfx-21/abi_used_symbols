@@ -173,6 +173,7 @@ libc.so.6:__fdelt_chk
 libc.so.6:__freelocale
 libc.so.6:__getcwd_chk
 libc.so.6:__getdelim
+libc.so.6:__inet_pton_chk
 libc.so.6:__isoc23_sscanf
 libc.so.6:__isoc23_strtol
 libc.so.6:__isoc23_strtoul
@@ -275,7 +276,6 @@ libc.so.6:gmtime_r
 libc.so.6:iconv
 libc.so.6:iconv_close
 libc.so.6:iconv_open
-libc.so.6:inet_pton
 libc.so.6:ioctl
 libc.so.6:localtime
 libc.so.6:localtime_r
