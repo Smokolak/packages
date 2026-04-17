@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : yubico-authenticator
-version    : 7.3.2
-release    : 14
+version    : 7.3.3
+release    : 15
 source     :
-    - https://github.com/Yubico/yubioath-flutter/archive/refs/tags/7.3.2.tar.gz : 6aba677eb4f2705201bdee0ca3a56711fcba94b42e679c4040c32d566c332f20
-    - https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.2-stable.tar.xz#flutter.tar.xz : 4a04f8a6152986d14fc137ffaf98106ca743c0f9ab66f1bc2f20ee84eb573e5c
+    - https://github.com/Yubico/yubioath-flutter/archive/refs/tags/7.3.3.tar.gz : 183d84d2a3fd345e9b3c408e6cd896f9894833b91ad91ecb4a32ea9fae7a6883
+    - https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.41.6-stable.tar.xz#flutter.tar.xz : 503b3e6b7d352fca5d21b6474eca95ad544d8fc3b053782eab63a360c7fc7569
 homepage   : https://www.yubico.com/products/yubico-authenticator/
 license    : Apache-2.0
 component  : security
