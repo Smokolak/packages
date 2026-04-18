@@ -14,5 +14,6 @@ rundeps    :
     - lmdb-devel
 install    : |
     make install DESTDIR="$installdir" PREFIX="/usr"
+    %install_license UNLICENSE
 patterns   :
     - /*
