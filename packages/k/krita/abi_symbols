@@ -1,3 +1,4 @@
+krita:_IO_stdin_used
 krita.so:PyInit_krita
 krita.so:_Z13sipVH_krita_016PyGILState_STATEPFvP17_sipSimpleWrapperS_ES1_P7_objectRK11QMetaMethod
 krita.so:_Z13sipVH_krita_116PyGILState_STATEPFvP17_sipSimpleWrapperS_ES1_P7_objectP6QEvent
@@ -2319,6 +2320,7 @@ krita_shape_paths.so:qt_plugin_instance
 krita_shape_paths.so:qt_plugin_query_metadata
 krita_tool_svgtext.so:qt_plugin_instance
 krita_tool_svgtext.so:qt_plugin_query_metadata
+krita_version:_IO_stdin_used
 kritaanimationdocker.so:qt_plugin_instance
 kritaanimationdocker.so:qt_plugin_query_metadata
 kritaarrangedocker.so:qt_plugin_instance
@@ -2548,6 +2550,7 @@ kritaroundcornersfilter.so:qt_plugin_instance
 kritaroundcornersfilter.so:qt_plugin_query_metadata
 kritaroundmarkerpaintop.so:qt_plugin_instance
 kritaroundmarkerpaintop.so:qt_plugin_query_metadata
+kritarunner:_IO_stdin_used
 kritasamplescreencolor.so:qt_plugin_instance
 kritasamplescreencolor.so:qt_plugin_query_metadata
 kritascreentonegenerator.so:qt_plugin_instance

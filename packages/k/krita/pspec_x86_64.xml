@@ -3,8 +3,8 @@
         <Name>krita</Name>
         <Homepage>https://krita.org</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Robert Gonzalez</Name>
+            <Email>uni.dos12@outlook.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -1182,12 +1182,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="103">
-            <Date>2026-03-17</Date>
+        <Update release="104">
+            <Date>2026-04-12</Date>
             <Version>5.2.16</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Robert Gonzalez</Name>
+            <Email>uni.dos12@outlook.com</Email>
         </Update>
     </History>
 </PISI>
