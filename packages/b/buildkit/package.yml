@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : buildkit
-version    : 0.18.2
-release    : 8
+version    : 0.29.0
+release    : 9
 source     :
-    - https://github.com/moby/buildkit/archive/refs/tags/v0.18.2.tar.gz : dd23faf8bca378a96404f11ad570b47d25f281f0b223b922601bd1b26d2aa4ec
+    - https://github.com/moby/buildkit/archive/refs/tags/v0.29.0.tar.gz : 243d6ba77404467f90087a9141af5f755f1e8aa22d4b4c42ce87a1b898d9b8b2
 homepage   : https://github.com/moby/buildkit
 license    : Apache-2.0
 component  : virt
@@ -43,6 +43,7 @@ build      : |
              ./cmd/...
 install    : |
     install -vDm755 -t "$installdir/usr/bin" build-output/*
+    %install_license LICENSE
 
     # Systemd socket activation
     install -vDm00644 -t "$installdir/usr/lib/systemd/system" examples/systemd/system/buildkit.*
