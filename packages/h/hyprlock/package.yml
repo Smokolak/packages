@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : hyprlock
-version    : 0.9.3
-release    : 23
+version    : 0.9.4
+release    : 24
 source     :
-    - https://github.com/hyprwm/hyprlock/archive/refs/tags/v0.9.3.tar.gz : 22e7346486d0f6a1ab46d9917ae5354de4d3d32350f6947bc7028a9c42859ce8
+    - https://github.com/hyprwm/hyprlock/archive/refs/tags/v0.9.4.tar.gz : b8fd512e54016632439c1a8e7e033846e64421e5203bdc3ad86663a4a152473a
 homepage   : https://github.com/hyprwm/hyprlock
 license    : BSD-3-Clause
 component  : desktop.hyprland
