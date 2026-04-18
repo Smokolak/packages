@@ -3,8 +3,8 @@
         <Name>openjfx-21</Name>
         <Homepage>https://wiki.openjdk.java.net/display/OpenJFX/Main</Homepage>
         <Packager>
-            <Name>Reilly Brogan</Name>
-            <Email>solus@reillybrogan.com</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Packager>
         <License>GPL-2.0-only WITH Classpath-exception-2.0</License>
         <PartOf>programming.java</PartOf>
@@ -54,12 +54,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2024-11-15</Date>
+        <Update release="3">
+            <Date>2026-04-17</Date>
             <Version>21.0.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Reilly Brogan</Name>
-            <Email>solus@reillybrogan.com</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Update>
     </History>
 </PISI>
