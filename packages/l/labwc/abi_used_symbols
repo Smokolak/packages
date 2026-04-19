@@ -395,6 +395,7 @@ libwlroots-0.19.so:wlr_buffer_finish
 libwlroots-0.19.so:wlr_buffer_init
 libwlroots-0.19.so:wlr_buffer_lock
 libwlroots-0.19.so:wlr_buffer_unlock
+libwlroots-0.19.so:wlr_client_buffer_get
 libwlroots-0.19.so:wlr_compositor_create
 libwlroots-0.19.so:wlr_compositor_set_renderer
 libwlroots-0.19.so:wlr_cursor_absolute_to_layout_coords
