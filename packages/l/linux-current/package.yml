@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : linux-current
-version    : 6.18.21
-release    : 333
+version    : 6.18.23
+release    : 334
 source     :
-    - https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.21.tar.xz : 1c38214fb137bae85b82b82537b5987358621b915ab2a8e4f09e60697c19474f
+    - https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.23.tar.xz : 2a2d8e76bfcd135ab861bb9795211574eeff6d4ede9cc920f7c137587e835134
 license    : GPL-2.0-only
 component  :
     - kernel.image
