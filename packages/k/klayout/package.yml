@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : klayout
-version    : 0.30.5
-release    : 49
+version    : 0.30.8
+release    : 50
 source     :
-    - https://www.klayout.org/downloads/source/klayout-0.30.5.tar.gz : 7646acc1d81a5176dc577b297b96aabfa8515b17d264a9b85c9231a937ba42b7
+    - https://www.klayout.org/downloads/source/klayout-0.30.8.tar.gz : 68d83a215f306726501361eca3d12912023189c9e8df36cff08df2220bb4ae73
 homepage   : https://www.klayout.de/
 license    :
     - GPL-2.0-or-later
@@ -12,18 +12,19 @@ summary    : Klayout GDS/OASIS editor
 description: |
     High performance layout viewer and editor that supports GDS and OASIS files.
 builddeps  :
-    - pkgconfig(Qt5Designer)
-    - pkgconfig(Qt5Multimedia)
-    - pkgconfig(Qt5Svg)
-    - pkgconfig(Qt5XmlPatterns)
+    - pkgconfig(Qt6Core5Compat)
+    - pkgconfig(Qt6Designer)
+    - pkgconfig(Qt6Multimedia)
+    - pkgconfig(Qt6Svg)
     - pkgconfig(libgit2)
     - pkgconfig(python3)
     - pkgconfig(ruby-3.4)
+    - qt6-base-private-devel
 replaces   :
     - klayout-devel
 setup      : |
     export QMAKESPEC=linux-g++
-    ./build.sh -dry-run -rpath %libdir%/klayout
+    ./build.sh -dry-run -rpath %libdir%/klayout -qmake qmake6
 build      : |
     %make -C build-release
 install    : |
