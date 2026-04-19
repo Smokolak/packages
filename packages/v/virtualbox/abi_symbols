@@ -21973,6 +21973,7 @@ VMMR0.r0:tmVirtualNanoTSBadCpuIndex
 VMMR0.r0:tmVirtualNanoTSRediscover
 VMMR0.r0:vmmR0CallRing3SetJmp2
 VMMR0.r0:vmmR0CallRing3SetJmpEx
+VirtualBox:_IO_stdin_used
 VirtualBoxVM.so:TrustedError
 VirtualBoxVM.so:TrustedMain
 mount.vboxsf:optarg
