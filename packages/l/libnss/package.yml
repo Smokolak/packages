@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libnss
-version    : '3.122'
-release    : 80
+version    : '3.123'
+release    : 81
 source     :
-    - https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_122_RTM/src/nss-3.122.tar.gz : 2699478b843b9f09c61f85341578df514463a0069447c816bef0d59bd800d777
+    - https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_123_RTM/src/nss-3.123.tar.gz : 2145113398a269779a7390515a1638800836b130248e33f93243268c026d4e49
 license    :
     - GPL-2.0-or-later
     - LGPL-2.1-or-later
