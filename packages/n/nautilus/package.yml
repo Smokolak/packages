@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : nautilus
-version    : '50.0'
-release    : 106
+version    : '50.1'
+release    : 107
 source     :
-    - https://download.gnome.org/sources/nautilus/50/nautilus-50.0.tar.xz : a9596ebb44fe118ab6d07c909bb3836d6ce1eed18d91520c5a805895d16333cc
+    - https://download.gnome.org/sources/nautilus/50/nautilus-50.1.tar.xz : d62793b9659771b66a6b6e052b52229f868ddbec1388a0b669eef0bd211212ee
 homepage   : https://apps.gnome.org/Nautilus/
 license    : GPL-3.0-or-later
 component  :

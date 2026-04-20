@@ -324,6 +324,10 @@ libgio-2.0.so.0:g_drive_start
 libgio-2.0.so.0:g_drive_start_finish
 libgio-2.0.so.0:g_drive_stop
 libgio-2.0.so.0:g_drive_stop_finish
+libgio-2.0.so.0:g_emblem_get_icon
+libgio-2.0.so.0:g_emblem_get_type
+libgio-2.0.so.0:g_emblemed_icon_get_icon
+libgio-2.0.so.0:g_emblemed_icon_get_type
 libgio-2.0.so.0:g_file_build_attribute_list_for_copy
 libgio-2.0.so.0:g_file_copy
 libgio-2.0.so.0:g_file_create
@@ -1218,7 +1222,7 @@ libgstreamer-1.0.so.0:gst_tag_list_get_date
 libgstreamer-1.0.so.0:gst_tag_list_get_date_time
 libgstreamer-1.0.so.0:gst_tag_list_get_string
 libgstreamer-1.0.so.0:gst_tag_list_get_string_index
-libgtk-4.so.1:gdk_app_launch_context_set_icon_name
+libgtk-4.so.1:gdk_app_launch_context_set_icon
 libgtk-4.so.1:gdk_cairo_set_source_rgba
 libgtk-4.so.1:gdk_clipboard_get_content
 libgtk-4.so.1:gdk_clipboard_get_formats

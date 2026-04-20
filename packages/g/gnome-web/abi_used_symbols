@@ -584,6 +584,7 @@ libgio-2.0.so.0:g_settings_bind_with_mapping
 libgio-2.0.so.0:g_settings_bind_writable
 libgio-2.0.so.0:g_settings_get
 libgio-2.0.so.0:g_settings_get_boolean
+libgio-2.0.so.0:g_settings_get_default_value
 libgio-2.0.so.0:g_settings_get_double
 libgio-2.0.so.0:g_settings_get_enum
 libgio-2.0.so.0:g_settings_get_int
@@ -591,6 +592,7 @@ libgio-2.0.so.0:g_settings_get_int64
 libgio-2.0.so.0:g_settings_get_string
 libgio-2.0.so.0:g_settings_get_strv
 libgio-2.0.so.0:g_settings_get_uint
+libgio-2.0.so.0:g_settings_get_user_value
 libgio-2.0.so.0:g_settings_get_value
 libgio-2.0.so.0:g_settings_new
 libgio-2.0.so.0:g_settings_new_with_backend_and_path
@@ -1008,6 +1010,7 @@ libglib-2.0.so.0:g_strsplit
 libglib-2.0.so.0:g_strsplit_set
 libglib-2.0.so.0:g_strstr_len
 libglib-2.0.so.0:g_strv_builder_add
+libglib-2.0.so.0:g_strv_builder_addv
 libglib-2.0.so.0:g_strv_builder_end
 libglib-2.0.so.0:g_strv_builder_new
 libglib-2.0.so.0:g_strv_builder_unref
@@ -2205,9 +2208,9 @@ libwebkitgtk-6.0.so.4:webkit_user_content_manager_add_script
 libwebkitgtk-6.0.so.4:webkit_user_content_manager_add_style_sheet
 libwebkitgtk-6.0.so.4:webkit_user_content_manager_new
 libwebkitgtk-6.0.so.4:webkit_user_content_manager_register_script_message_handler
+libwebkitgtk-6.0.so.4:webkit_user_content_manager_remove_all_filters
 libwebkitgtk-6.0.so.4:webkit_user_content_manager_remove_all_scripts
 libwebkitgtk-6.0.so.4:webkit_user_content_manager_remove_all_style_sheets
-libwebkitgtk-6.0.so.4:webkit_user_content_manager_remove_filter
 libwebkitgtk-6.0.so.4:webkit_user_content_manager_remove_script
 libwebkitgtk-6.0.so.4:webkit_user_content_manager_remove_style_sheet
 libwebkitgtk-6.0.so.4:webkit_user_content_manager_unregister_script_message_handler

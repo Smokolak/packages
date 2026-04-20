@@ -2642,7 +2642,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="18">papers</Dependency>
+            <Dependency release="19">papers</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/papers/4.0/libdocument/pps-annotation.h</Path>
@@ -2697,6 +2697,7 @@
             <Path fileType="header">/usr/include/papers/4.0/libview/context/pps-search-result.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libview/context/pps-undo-context.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libview/context/pps-undo-handler.h</Path>
+            <Path fileType="header">/usr/include/papers/4.0/libview/pps-css-utils.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libview/pps-job-scheduler.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libview/pps-job.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libview/pps-jobs.h</Path>
@@ -2715,9 +2716,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2026-03-21</Date>
-            <Version>50.0</Version>
+        <Update release="19">
+            <Date>2026-04-14</Date>
+            <Version>50.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>

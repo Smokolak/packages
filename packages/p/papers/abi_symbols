@@ -496,6 +496,7 @@ libppsview-4.0.so.5:pps_attachment_context_get_type
 libppsview-4.0.so.5:pps_attachment_context_new
 libppsview-4.0.so.5:pps_attachment_context_save_attachments_async
 libppsview-4.0.so.5:pps_attachment_context_save_attachments_finish
+libppsview-4.0.so.5:pps_css_utils_filter_class_chars
 libppsview-4.0.so.5:pps_debug_get_debug_borders
 libppsview-4.0.so.5:pps_document_model_get_annotation_editing_state
 libppsview-4.0.so.5:pps_document_model_get_annotation_model

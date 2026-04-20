@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-software
-version    : '50.0'
-release    : 35
+version    : '50.1'
+release    : 36
 source     :
-    - https://download.gnome.org/sources/gnome-software/50/gnome-software-50.0.tar.xz : 3515e2015f235b6abb7a342806008acb1f184c29d9c4ced3581f8ed4c1f1c241
+    - https://download.gnome.org/sources/gnome-software/50/gnome-software-50.1.tar.xz : 6967eefec69d51d34d200585c9edfe24f151803e49ed9284a3d74edb0e5340a8
 homepage   : https://apps.gnome.org/Software/
 license    : GPL-2.0-or-later
 component  : desktop.gnome

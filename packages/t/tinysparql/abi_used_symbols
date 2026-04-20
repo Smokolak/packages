@@ -281,6 +281,7 @@ libglib-2.0.so.0:g_hash_table_iter_next
 libglib-2.0.so.0:g_hash_table_iter_remove
 libglib-2.0.so.0:g_hash_table_iter_steal
 libglib-2.0.so.0:g_hash_table_lookup
+libglib-2.0.so.0:g_hash_table_lookup_extended
 libglib-2.0.so.0:g_hash_table_new
 libglib-2.0.so.0:g_hash_table_new_full
 libglib-2.0.so.0:g_hash_table_ref
@@ -642,6 +643,7 @@ libjson-glib-1.0.so.0:json_generator_set_root
 libjson-glib-1.0.so.0:json_generator_to_gstring
 libjson-glib-1.0.so.0:json_node_alloc
 libjson-glib-1.0.so.0:json_node_equal
+libjson-glib-1.0.so.0:json_node_free
 libjson-glib-1.0.so.0:json_node_get_array
 libjson-glib-1.0.so.0:json_node_get_node_type
 libjson-glib-1.0.so.0:json_node_get_object

@@ -3938,6 +3938,8 @@ libevolution-util.so:e_focus_tracker_set_undo_action
 libevolution-util.so:e_focus_tracker_undo
 libevolution-util.so:e_focus_tracker_update_actions
 libevolution-util.so:e_format_number
+libevolution-util.so:e_get_localized_month_name_format
+libevolution-util.so:e_get_localized_month_name_with_year_format
 libevolution-util.so:e_get_month_name
 libevolution-util.so:e_get_weekday_name
 libevolution-util.so:e_gtk_emoji_chooser_get_type

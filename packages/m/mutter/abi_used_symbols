@@ -1836,12 +1836,13 @@ libpango-1.0.so.0:pango_attr_iterator_get
 libpango-1.0.so.0:pango_attr_iterator_get_attrs
 libpango-1.0.so.0:pango_attr_iterator_next
 libpango-1.0.so.0:pango_attr_iterator_range
-libpango-1.0.so.0:pango_attr_list_change
 libpango-1.0.so.0:pango_attr_list_copy
 libpango-1.0.so.0:pango_attr_list_equal
+libpango-1.0.so.0:pango_attr_list_filter
 libpango-1.0.so.0:pango_attr_list_get_iterator
 libpango-1.0.so.0:pango_attr_list_get_type
 libpango-1.0.so.0:pango_attr_list_insert
+libpango-1.0.so.0:pango_attr_list_insert_before
 libpango-1.0.so.0:pango_attr_list_new
 libpango-1.0.so.0:pango_attr_list_ref
 libpango-1.0.so.0:pango_attr_list_splice
