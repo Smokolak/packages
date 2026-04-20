@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : lact
 version    : 0.8.4
-release    : 14
+release    : 15
 source     :
     - git|https://github.com/ilya-zlobintsev/LACT.git : v0.8.4
 homepage   : https://github.com/ilya-zlobintsev/LACT
@@ -25,13 +25,12 @@ rundeps    :
 setup      : |
     %patch -p1 -i $pkgfiles/0001-Solus-Start-after-systemd-udev.patch
     %patch -p1 -i $pkgfiles/0001-Solus-Adapt-to-our-amdgpu-kernel-argument.patch
-    %patch -p1 -i $pkgfiles/group-priority.patch
 build      : |
     %make
 install    : |
     %make_install PREFIX=/usr
 
-    install -Dm00644 -t ${installdir}/%libdir%/systemd/system-preset/ ${pkgfiles}/20-lact.preset
+    install -Dm00644 ${pkgfiles}/${package}.preset ${installdir}/%libdir%/systemd/system-preset/60-${package}.preset
 
     # Allow amdgpu users to overclock their GPUs by default
     install -Dm00644 $pkgfiles/kernel-lact.cmdline $installdir/usr/lib64/kernel/cmdline.d/50_lact.conf

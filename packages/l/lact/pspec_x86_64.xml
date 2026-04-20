@@ -23,7 +23,7 @@
             <Path fileType="executable">/usr/bin/lact</Path>
             <Path fileType="library">/usr/lib/systemd/system/lactd.service</Path>
             <Path fileType="library">/usr/lib64/kernel/cmdline.d/50_lact.conf</Path>
-            <Path fileType="library">/usr/lib64/systemd/system-preset/20-lact.preset</Path>
+            <Path fileType="library">/usr/lib64/systemd/system-preset/60-lact.preset</Path>
             <Path fileType="data">/usr/share/applications/io.github.ilya_zlobintsev.LACT.desktop</Path>
             <Path fileType="data">/usr/share/icons/hicolor/512x512/apps/io.github.ilya_zlobintsev.LACT.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/io.github.ilya_zlobintsev.LACT.svg</Path>
@@ -32,8 +32,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="14">
-            <Date>2026-03-17</Date>
+        <Update release="15">
+            <Date>2026-04-19</Date>
             <Version>0.8.4</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>
