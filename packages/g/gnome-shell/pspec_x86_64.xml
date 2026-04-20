@@ -192,9 +192,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="138">
+        <Update release="139">
             <Date>2026-04-20</Date>
-            <Version>50.0</Version>
+            <Version>50.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>

@@ -1307,7 +1307,6 @@ libmutter-clutter-18.so.0:clutter_paint_node_paint
 libmutter-clutter-18.so.0:clutter_paint_node_set_static_name
 libmutter-clutter-18.so.0:clutter_paint_node_unref
 libmutter-clutter-18.so.0:clutter_paint_volume_free
-libmutter-clutter-18.so.0:clutter_paint_volume_get_origin
 libmutter-clutter-18.so.0:clutter_paint_volume_set_from_allocation
 libmutter-clutter-18.so.0:clutter_paint_volume_set_height
 libmutter-clutter-18.so.0:clutter_paint_volume_set_origin
