@@ -102,9 +102,9 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="155">
-            <Date>2026-04-13</Date>
-            <Version>0.0.133</Version>
+        <Update release="156">
+            <Date>2026-04-20</Date>
+            <Version>0.0.134</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
