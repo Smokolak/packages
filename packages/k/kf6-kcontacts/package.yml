@@ -1,14 +1,16 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kcontacts
-version    : 6.24.0
-release    : 33
+version    : 6.25.0
+release    : 34
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kcontacts-6.24.0.tar.xz : 7ffc5c0e6c7966d47c996dd778a47d2cd1bb711baa4b63be441c941a334ab48b
+    - https://download.kde.org/stable/frameworks/6.25/kcontacts-6.25.0.tar.xz : 386826b3886d6b32a4583e638493ccd3cfb37722faaf318742d70d6bf0e3f0a7
 homepage   : https://community.kde.org/Frameworks
 license    :
     - BSD-3-Clause
+    - CC0-1.0
     - LGPL-2.0-or-later
     - MIT
+    - Unicode-DFS-2016
 component  : desktop.library
 summary    : Address book API for KDE
 description: |
@@ -34,3 +36,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

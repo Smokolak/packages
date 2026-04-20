@@ -1,17 +1,20 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kconfig
-version    : 6.24.0
-release    : 35
+version    : 6.25.0
+release    : 36
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kconfig-6.24.0.tar.xz : 45cfbdd8419bd1ade54a6f54050f2465de76a4f91b7a702b806930e6fbb3651f
+    - https://download.kde.org/stable/frameworks/6.25/kconfig-6.25.0.tar.xz : 8c675c9d35a866fbf1b564354a589019b429cca949f7ba3ba0adb9f2fa15959c
 homepage   : https://community.kde.org/Frameworks
 license    :
     - BSD-2-Clause
     - BSD-3-Clause
+    - CC0-1.0
+    - CC-BY-SA-4.0
     - GPL-2.0-or-later
     - LGPL-2.0-only
     - LGPL-2.0-or-later
     - LGPL-2.1-only
+    - LGPL-3.0-only
     - MIT
 component  : desktop.library
 summary    : Persistent platform-independent application settings.
@@ -34,3 +37,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

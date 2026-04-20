@@ -1,13 +1,20 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kguiaddons
-version    : 6.24.0
-release    : 38
+version    : 6.25.0
+release    : 39
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kguiaddons-6.24.0.tar.xz : c5e44b56739cbc67e1b6955edc9534f58288ca09d02f85eaae56db8347395eaf
+    - https://download.kde.org/stable/frameworks/6.25/kguiaddons-6.25.0.tar.xz : 38850963cb91978d08e781d81b147c7b66f78f4204ad820631e42ab1ef5ef76b
 homepage   : https://community.kde.org/Frameworks
 license    :
+    - BSD-2-Clause
+    - CC0-1.0
+    - GPL-2.0-only
+    - GPL-2.0-or-later
     - GPL-3.0-only
+    - LGPL-2.0-only
     - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-3.0-only
 component  : programming.tools
 summary    : Utilities for graphical user interfaces.
 description: |
@@ -32,3 +39,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

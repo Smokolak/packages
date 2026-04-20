@@ -1,16 +1,17 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kwallet
-version    : 6.24.0
-release    : 35
+version    : 6.25.0
+release    : 36
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kwallet-6.24.0.tar.xz : 094a26ec24a2fc9ae73096c47da2d963799668ef9e0e4004162a0082e54f9520
+    - https://download.kde.org/stable/frameworks/6.25/kwallet-6.25.0.tar.xz : 6fe7c8f4c556db4861f0046dfe179c31e7891fb6ecdcfa33692d252bf23d3b11
 homepage   : https://community.kde.org/Frameworks
 license    :
     - BSD-3-Clause
+    - CC0-1.0
     - LGPL-2.0-only
     - LGPL-2.0-or-later
-    - LGPL-3.0-or-later
     - LGPL-2.1-or-later
+    - LGPL-3.0-or-later
 component  : desktop.library
 summary    : Safe desktop-wide storage for passwords
 description: |
@@ -40,3 +41,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

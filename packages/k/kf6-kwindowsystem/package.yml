@@ -1,14 +1,15 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kwindowsystem
-version    : 6.24.0
-release    : 36
+version    : 6.25.0
+release    : 37
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kwindowsystem-6.24.0.tar.xz : 2291d95836e8b81263ceea0c1ffa7cfd92773130d6edd130b439874169f13e58
+    - https://download.kde.org/stable/frameworks/6.25/kwindowsystem-6.25.0.tar.xz : b51448a7669efa18190ab7fa8d6f5e0f77d8f9879cf457dadb4629b245a02434
 homepage   : https://community.kde.org/Frameworks
 license    :
-    - LGPL-2.0-only
+    - CC0-1.0
     - LGPL-2.1-only
     - LGPL-2.1-or-later
+    - LGPL-3.0-only
     - MIT
 component  : programming.library
 summary    : Access to the windowing system.
@@ -39,3 +40,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

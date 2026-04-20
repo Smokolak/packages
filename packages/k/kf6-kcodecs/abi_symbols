@@ -65,8 +65,6 @@ libKF6Codecs.so.6:_ZN9KCharsets10fromEntityE11QStringViewRi
 libKF6Codecs.so.6:_ZN9KCharsets15resolveEntitiesERK7QString
 libKF6Codecs.so.6:_ZN9KCharsets8charsetsEv
 libKF6Codecs.so.6:_ZN9KCharsets8toEntityERK5QChar
-libKF6Codecs.so.6:_ZN9KCharsetsC1Ev
-libKF6Codecs.so.6:_ZN9KCharsetsC2Ev
 libKF6Codecs.so.6:_ZN9KCharsetsD1Ev
 libKF6Codecs.so.6:_ZN9KCharsetsD2Ev
 libKF6Codecs.so.6:_ZNK15KEncodingProber10confidenceEv

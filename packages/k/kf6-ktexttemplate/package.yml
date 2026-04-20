@@ -1,11 +1,13 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-ktexttemplate
-version    : 6.24.0
-release    : 30
+version    : 6.25.0
+release    : 31
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/ktexttemplate-6.24.0.tar.xz : 85021f69f61d09fe5b1b01075dff4fc90b4d3598f7e83bdd4fee31d4a01488e0
+    - https://download.kde.org/stable/frameworks/6.25/ktexttemplate-6.25.0.tar.xz : 4e9f7583b3dcb37980b99fb2ac2de9e95af8b14fe9a166752bcb83c66ce26e25
 homepage   : https://community.kde.org/Frameworks
 license    :
+    - BSD-2-Clause
+    - CC0-1.0
     - LGPL-2.0-or-later
     - LGPL-2.1-or-later
 component  : desktop.library
@@ -25,3 +27,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

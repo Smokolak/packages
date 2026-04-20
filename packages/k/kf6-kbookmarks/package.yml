@@ -1,14 +1,15 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kbookmarks
-version    : 6.24.0
-release    : 31
+version    : 6.25.0
+release    : 32
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kbookmarks-6.24.0.tar.xz : e2ada057c77f5939e7172d0c3acd8c85273b0823b28697c89cbc2cce23d68d5d
+    - https://download.kde.org/stable/frameworks/6.25/kbookmarks-6.25.0.tar.xz : 5c4a8c1f8499f6ff1cdd035b56f6fe321244913b1894a8c6001c3acf082c5bd6
 homepage   : https://community.kde.org/Frameworks
 license    :
-    - GPL-2.0-or-later
+    - CC0-1.0
     - LGPL-2.0-only
     - LGPL-2.0-or-later
+    - LGPL-3.0-only
 component  : desktop.library
 summary    : Bookmarks management library.
 description: |
@@ -31,3 +32,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

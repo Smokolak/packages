@@ -17,6 +17,7 @@ libQt6Core.so.6:_Z9qBadAllocv
 libQt6Core.so.6:_ZN10QArrayData10deallocateEPS_xx
 libQt6Core.so.6:_ZN10QArrayData19reallocateUnalignedEPS_PvxxNS_16AllocationOptionE
 libQt6Core.so.6:_ZN10QArrayData8allocateEPPS_xxxNS_16AllocationOptionE
+libQt6Core.so.6:_ZN10QArrayData9allocate2EPPS_xNS_16AllocationOptionE
 libQt6Core.so.6:_ZN10QByteArray11reallocDataExN10QArrayData16AllocationOptionE
 libQt6Core.so.6:_ZN10QByteArray14trimmed_helperERKS_
 libQt6Core.so.6:_ZN10QByteArray6_emptyE

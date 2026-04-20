@@ -1,11 +1,15 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-attica
-version    : 6.24.0
-release    : 31
+version    : 6.25.0
+release    : 32
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/attica-6.24.0.tar.xz : 67ea77148fba093bfdbd9104e3f09b995aefc34b0b6c34bc31a96e63b110abcb
+    - https://download.kde.org/stable/frameworks/6.25/attica-6.25.0.tar.xz : fa39cc74cd34ffd4beb906099a5f42e4180432b5839a75a4b251c0ae2fb01ab1
 homepage   : https://community.kde.org/Frameworks
-license    : LGPL-2.1-only
+license    :
+    - CC0-1.0
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-3.0-only
 component  : desktop.library
 summary    : Open Collaboration Service client library.
 description: |
@@ -25,3 +29,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

@@ -1,11 +1,12 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-frameworkintegration
-version    : 6.24.0
-release    : 31
+version    : 6.25.0
+release    : 32
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/frameworkintegration-6.24.0.tar.xz : aaf473e80021c63e06df6ee200a61e71296665c770a5046ef297d2082fa77d65
+    - https://download.kde.org/stable/frameworks/6.25/frameworkintegration-6.25.0.tar.xz : eb8d55bd04cb023ea0480cf82c396d63b4a14ae7e5f60963a00a0d58f47a8022
 homepage   : https://community.kde.org/Frameworks
 license    :
+    - CC0-1.0
     - LGPL-2.0-only
     - LGPL-2.0-or-later
     - LGPL-3.0-only
@@ -37,3 +38,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*

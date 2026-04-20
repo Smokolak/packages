@@ -1,14 +1,17 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kf6-kparts
-version    : 6.24.0
-release    : 30
+version    : 6.25.0
+release    : 31
 source     :
-    - https://download.kde.org/stable/frameworks/6.24/kparts-6.24.0.tar.xz : b4a0b72167e0f77974aafe93305c18dcc99c0e66c1f2fd56a3e44d78e72f54e7
+    - https://download.kde.org/stable/frameworks/6.25/kparts-6.25.0.tar.xz : f0d6346e3127d1e44506733113be467d8b50cb82731d300a57990dd09baaedf1
 homepage   : https://community.kde.org/Frameworks
 license    :
+    - CC0-1.0
+    - GPL-2.0-or-later
     - LGPL-2.0-only
     - LGPL-2.0-or-later
     - LGPL-2.1-or-later
+    - LGPL-3.0-only
 component  : desktop.library
 summary    : Plugin framework for user interface components
 description: |
@@ -32,6 +35,7 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license LICENSES/*
 patterns   :
     - devel :
         - /usr/share/kdevappwizard

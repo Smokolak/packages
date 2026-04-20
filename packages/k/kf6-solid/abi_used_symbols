@@ -265,7 +265,7 @@ libQt6Core.so.6:_ZNK14QMessageLogger5debugEv
 libQt6Core.so.6:_ZNK14QMessageLogger5fatalEPKcz
 libQt6Core.so.6:_ZNK14QMessageLogger7warningEPKcz
 libQt6Core.so.6:_ZNK14QMessageLogger7warningEv
-libQt6Core.so.6:_ZNK14QMessageLogger8criticalEPFRK16QLoggingCategoryvE
+libQt6Core.so.6:_ZNK14QMessageLogger8criticalEv
 libQt6Core.so.6:_ZNK14QMetaContainer10constBeginEPKv
 libQt6Core.so.6:_ZNK14QMetaContainer15destroyIteratorEPKv
 libQt6Core.so.6:_ZNK14QMetaContainer20advanceConstIteratorEPvx
