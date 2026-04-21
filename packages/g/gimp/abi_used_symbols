@@ -1955,11 +1955,11 @@ libgomp.so.1:GOMP_loop_nonmonotonic_dynamic_start
 libgomp.so.1:GOMP_parallel
 libgomp.so.1:omp_get_max_threads
 libgomp.so.1:omp_get_thread_num
-libgs.so.9:gsapi_delete_instance
-libgs.so.9:gsapi_exit
-libgs.so.9:gsapi_init_with_args
-libgs.so.9:gsapi_new_instance
-libgs.so.9:gsapi_set_arg_encoding
+libgs.so.10:gsapi_delete_instance
+libgs.so.10:gsapi_exit
+libgs.so.10:gsapi_init_with_args
+libgs.so.10:gsapi_new_instance
+libgs.so.10:gsapi_set_arg_encoding
 libgtk-3.so.0:gtk_about_dialog_get_type
 libgtk-3.so.0:gtk_accel_group_connect
 libgtk-3.so.0:gtk_accel_group_new
