@@ -3,8 +3,8 @@
         <Name>ntfs-3g</Name>
         <Homepage>https://github.com/tuxera/ntfs-3g/wiki</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>system.utils</PartOf>
@@ -48,6 +48,9 @@
             <Path fileType="executable">/usr/sbin/ntfslabel</Path>
             <Path fileType="executable">/usr/sbin/ntfsresize</Path>
             <Path fileType="executable">/usr/sbin/ntfsundelete</Path>
+            <Path fileType="doc">/usr/share/doc/ntfs-3g/README</Path>
+            <Path fileType="data">/usr/share/licenses/ntfs-3g/COPYING</Path>
+            <Path fileType="data">/usr/share/licenses/ntfs-3g/COPYING.LIB</Path>
             <Path fileType="man">/usr/share/man/man8/mkfs.ntfs.8</Path>
             <Path fileType="man">/usr/share/man/man8/mkntfs.8.zst</Path>
             <Path fileType="man">/usr/share/man/man8/mount.lowntfs-3g.8</Path>
@@ -82,7 +85,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="20">ntfs-3g</Dependency>
+            <Dependency release="21">ntfs-3g</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/ntfs-3g/acls.h</Path>
@@ -129,12 +132,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="20">
-            <Date>2025-10-25</Date>
-            <Version>2022.10.3</Version>
+        <Update release="21">
+            <Date>2026-04-21</Date>
+            <Version>2026.2.25</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
