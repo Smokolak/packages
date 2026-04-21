@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : coreutils
-version    : '9.10'
-release    : 43
+version    : '9.11'
+release    : 44
 source     :
-    - https://ftpmirror.gnu.org/gnu/coreutils/coreutils-9.10.tar.xz : 16535a9adf0b10037364e2d612aad3d9f4eca3a344949ced74d12faf4bd51d25
+    - https://ftpmirror.gnu.org/gnu/coreutils/coreutils-9.11.tar.xz : 394024eda0a5955217ceda9cd1201e65dc8fa3aa29c2951135a49521d57c3cc3
 homepage   : https://www.gnu.org/software/coreutils/
 license    : GPL-3.0-or-later
 component  : system.base
@@ -25,7 +25,7 @@ optimize   :
     - speed
     - thin-lto
 setup      : |
-    %patch -p1 -i $pkgfiles/0001-Disable-tests-that-fail-in-chroot.patch
+    %patch -p1 -i ${pkgfiles}/0001-Disable-tests-that-fail-in-chroot.patch
 
     # Force autogen to allow newer gettext
     sed -i 's/0.19.2/0.23/' bootstrap.conf configure.ac
@@ -33,12 +33,13 @@ setup      : |
     export FORCE_UNSAFE_CONFIGURE=1
     # Reconfigure due to weird automake errors
     %reconfigure \
-                 --enable-no-install-program=kill,uptime \
-                 --enable-systemd
+        --enable-no-install-program=kill,uptime \
+        --enable-systemd
 build      : |
     %make
 install    : |
     %make_install
+    %install_license COPYING
 # 2025-06-11: Seems to freeze on the build server for unknown reasons
 # check      : |
 #     # Breaks several tests, and the test suite for coreutils is generally well-behaved. Disable fakeroot
