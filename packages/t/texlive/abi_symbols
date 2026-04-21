@@ -5,9 +5,6 @@ axohelp:send
 dvibook:error
 dviconcat:error
 dvidvi:error
-dvipng:__bss_start
-dvipng:_edata
-dvipng:_end
 dvips:error
 dviselect:error
 dvispc:error
@@ -20,6 +17,7 @@ dvisvgm:BrotliTransformDictionaryWord
 dvisvgm:MD5_Final
 dvisvgm:MD5_Init
 dvisvgm:MD5_Update
+dvisvgm:_IO_stdin_used
 dvisvgm:_kBrotliContextLookupTable
 dvisvgm:_kBrotliPrefixCodeRanges
 dvitodvi:error
@@ -24939,6 +24937,7 @@ xindy.run:safe_to_string
 xindy.run:savemem
 xindy.run:sec_usec
 xindy.run:sec_usec_number
+xindy.run:select
 xindy.run:set_terminalstream_external_format
 xindy.run:setq
 xindy.run:sha1_buffer
