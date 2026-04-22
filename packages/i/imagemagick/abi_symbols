@@ -2616,6 +2616,7 @@ libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_GetMEPPSimilarity
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_GetMSESimilarity
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_GetNCCSimilarity
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_GetPASimilarity
+libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_GetPDCSimilarity
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_GetPHASESimilarity
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_GetSSIMSimularity
 libMagickCore-7.Q16HDRI.so.10:.gomp_critical_user_MagickCore_GetSimilarityMetric
