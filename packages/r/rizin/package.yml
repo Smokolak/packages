@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : rizin
 version    : 0.8.2
-release    : 36
+release    : 37
 source     :
     - https://github.com/rizinorg/rizin/releases/download/v0.8.2/rizin-src-v0.8.2.tar.xz : 1630ca52bae86f2ff37eb220699fc82f951b5b18080edfa3f50dd36a526c2d95
 homepage   : https://rizin.re/
