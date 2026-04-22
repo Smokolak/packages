@@ -3,8 +3,8 @@
         <Name>gnome-shell</Name>
         <Homepage>https://gitlab.gnome.org/GNOME/gnome-shell</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -192,12 +192,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="139">
-            <Date>2026-04-20</Date>
+        <Update release="140">
+            <Date>2026-04-22</Date>
             <Version>50.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
