@@ -31,9 +31,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="127">
-            <Date>2026-04-16</Date>
-            <Version>0.232.2</Version>
+        <Update release="128">
+            <Date>2026-04-22</Date>
+            <Version>0.233.5</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>

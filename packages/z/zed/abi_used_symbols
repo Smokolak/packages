@@ -614,6 +614,7 @@ libc.so.6:getgrouplist
 libc.so.6:getgroups
 libc.so.6:gethostname
 libc.so.6:getifaddrs
+libc.so.6:getmntent
 libc.so.6:getpagesize
 libc.so.6:getpeername
 libc.so.6:getpgid
