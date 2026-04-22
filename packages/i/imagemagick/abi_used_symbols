@@ -308,6 +308,7 @@ libc.so.6:gmtime_r
 libc.so.6:isatty
 libc.so.6:listen
 libc.so.6:lseek
+libc.so.6:lstat
 libc.so.6:malloc
 libc.so.6:memcmp
 libc.so.6:memcpy
@@ -504,7 +505,7 @@ libgomp.so.1:omp_get_num_threads
 libgomp.so.1:omp_get_thread_num
 libgomp.so.1:omp_init_lock
 libgomp.so.1:omp_set_lock
-libgomp.so.1:omp_set_nested
+libgomp.so.1:omp_set_max_active_levels
 libgomp.so.1:omp_unset_lock
 libgs.so.10:gsapi_delete_instance
 libgs.so.10:gsapi_exit
@@ -971,7 +972,6 @@ libtiff.so.6:TIFFReadEncodedStrip
 libtiff.so.6:TIFFReadGPSDirectory
 libtiff.so.6:TIFFReadRGBAImage
 libtiff.so.6:TIFFReadRawStrip
-libtiff.so.6:TIFFReadScanline
 libtiff.so.6:TIFFReadTile
 libtiff.so.6:TIFFScanlineSize
 libtiff.so.6:TIFFSetDirectory
