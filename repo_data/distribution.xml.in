@@ -4344,5 +4344,13 @@
 		<Package>tetrs</Package>
 		<Package>tetrs-dbginfo</Package>
 		
+		<Package>pulseaudio-equalizer</Package>
+		<Package>pulseaudio-module-jack</Package>
+		<Package>pulseaudio-module-jack-32bit</Package>
+
+		<!-- Seems dead upstream, doubt it still works -->
+		<Package>cadence</Package>
+		<Package>cadence-dbginfo</Package>
+
 	</Obsoletes>
 </PISI>

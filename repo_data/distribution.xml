@@ -3167,5 +3167,10 @@
 		<Package>webrtc-audio-processing03-devel</Package>
 		<Package>tetrs</Package>
 		<Package>tetrs-dbginfo</Package>
+		<Package>pulseaudio-equalizer</Package>
+		<Package>pulseaudio-module-jack</Package>
+		<Package>pulseaudio-module-jack-32bit</Package>
+		<Package>cadence</Package>
+		<Package>cadence-dbginfo</Package>
 	</Obsoletes>
 </PISI>
