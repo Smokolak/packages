@@ -3169,6 +3169,7 @@ elisp-mode-90dbfe40-51ae271b.eln:text_optim_qly_blob
 elisp-mode-90dbfe40-51ae271b.eln:top_level_run
 emacs-30.2:XSetWMNormalHints
 emacs-30.2:XSetWMSizeHints
+emacs-30.2:_IO_stdin_used
 emacs-30.2:error
 emacs-30.2:re_compile_pattern
 emacs-30.2:re_match_2
