@@ -109,11 +109,8 @@ libOpenEXR-3_1.so.30:_ZN7Imf_3_17IStreamD2Ev
 libOpenEXR-3_1.so.30:_ZNK7Imf_3_113RgbaInputFile10dataWindowEv
 libOpenEXR-3_1.so.30:_ZNK7Imf_3_113RgbaInputFile16pixelAspectRatioEv
 libOpenEXR-3_1.so.30:_ZNK7Imf_3_17IStream14isMemoryMappedEv
-libQt5Core.so.5:_Z11qt_assert_xPKcS0_S0_i
-libQt5Core.so.5:_Z13qFlagLocationPKc
 libQt5Core.so.5:_Z20qt_qFindChild_helperPK7QObjectRK7QStringRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE
 libQt5Core.so.5:_Z9qBadAllocv
-libQt5Core.so.5:_Z9qt_assertPKcS0_i
 libQt5Core.so.5:_ZN10QArrayData10deallocateEPS_mm
 libQt5Core.so.5:_ZN10QArrayData11shared_nullE
 libQt5Core.so.5:_ZN10QByteArray11reallocDataEj6QFlagsIN10QArrayData16AllocationOptionEE
@@ -243,7 +240,6 @@ libQt5Gui.so.5:_ZNK11QTouchEvent10TouchPoint5stateEv
 libQt5Gui.so.5:_ZNK11QTouchEvent10TouchPoint8pressureEv
 libQt5Gui.so.5:_ZNK14QOpenGLContext9functionsEv
 libQt5Gui.so.5:_ZNK20QOpenGLShaderProgram15uniformLocationEPKc
-libQt5Gui.so.5:_ZNK20QOpenGLShaderProgram8isLinkedEv
 libQt5Gui.so.5:_ZNK24QOpenGLFramebufferObject4sizeEv
 libQt5Gui.so.5:_ZNK24QOpenGLFramebufferObject6handleEv
 libQt5Gui.so.5:_ZNK24QOpenGLFramebufferObject7textureEv
@@ -383,13 +379,9 @@ libQt5Quick.so.5:_ZTI17QSGMaterialShader
 libQt5Quick.so.5:_ZThn16_N10QQuickItem10classBeginEv
 libQt5Quick.so.5:_ZThn16_N10QQuickItem17componentCompleteEv
 libQt5X11Extras.so.5:_ZN8QX11Info7displayEv
-libQt6Core.so.6:_Z11qt_assert_xPKcS0_S0_i
-libQt6Core.so.6:_Z13qFlagLocationPKc
 libQt6Core.so.6:_Z20qt_qFindChild_helperPK7QObject14QAnyStringViewRK11QMetaObject6QFlagsIN2Qt15FindChildOptionEE
 libQt6Core.so.6:_Z21qRegisterResourceDataiPKhS0_S0_
 libQt6Core.so.6:_Z23qUnregisterResourceDataiPKhS0_S0_
-libQt6Core.so.6:_Z6qIsNaNd
-libQt6Core.so.6:_Z9qt_assertPKcS0_i
 libQt6Core.so.6:_ZN10QArrayData10deallocateEPS_xx
 libQt6Core.so.6:_ZN10QByteArray11reallocDataExN10QArrayData16AllocationOptionE
 libQt6Core.so.6:_ZN10QByteArray6_emptyE
@@ -405,7 +397,6 @@ libQt6Core.so.6:_ZN11QBasicMutex12lockInternalEv
 libQt6Core.so.6:_ZN11QBasicMutex15destroyInternalEPv
 libQt6Core.so.6:_ZN11QBasicMutex19unlockInternalFutexEPv
 libQt6Core.so.6:_ZN11QMetaObject10ConnectionD1Ev
-libQt6Core.so.6:_ZN11QMetaObject14normalizedTypeEPKc
 libQt6Core.so.6:_ZN11QMetaObject16invokeMethodImplEP7QObjectPKcN2Qt14ConnectionTypeExPKPKvPKS3_PKPKN9QtPrivate18QMetaTypeInterfaceE
 libQt6Core.so.6:_ZN11QMetaObject8activateEP7QObjectPKS_iPPv
 libQt6Core.so.6:_ZN16QAnimationDriver11qt_metacallEN11QMetaObject4CallEiPPv
@@ -4116,7 +4107,6 @@ libstdc++.so.6:__cxa_guard_release
 libstdc++.so.6:__cxa_pure_virtual
 libstdc++.so.6:__cxa_rethrow
 libstdc++.so.6:__cxa_throw
-libstdc++.so.6:__dynamic_cast
 libstdc++.so.6:__gxx_personality_v0
 libstdc++.so.6:__once_proxy
 libtag.so.2:_ZN6TagLib10ByteVector4dataEv
