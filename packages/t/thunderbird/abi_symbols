@@ -260,7 +260,6 @@ libmozavcodec.so:av_xiphlacing
 libmozavcodec.so:avcodec_align_dimensions
 libmozavcodec.so:avcodec_align_dimensions2
 libmozavcodec.so:avcodec_alloc_context3
-libmozavcodec.so:avcodec_close
 libmozavcodec.so:avcodec_configuration
 libmozavcodec.so:avcodec_decode_subtitle2
 libmozavcodec.so:avcodec_default_execute
@@ -299,6 +298,7 @@ libmozavcodec.so:ff_thread_progress_init
 libmozavcodec.so:ff_thread_progress_report
 libmozavutil.so:av_add_q
 libmozavutil.so:av_add_stable
+libmozavutil.so:av_alpha_mode_name
 libmozavutil.so:av_append_path_component
 libmozavutil.so:av_asprintf
 libmozavutil.so:av_base64_decode
@@ -370,6 +370,7 @@ libmozavutil.so:av_dirname
 libmozavutil.so:av_div_q
 libmozavutil.so:av_dynamic_hdr_plus_create_side_data
 libmozavutil.so:av_dynamic_hdr_plus_from_t35
+libmozavutil.so:av_dynamic_hdr_plus_to_t35
 libmozavutil.so:av_dynarray2_add
 libmozavutil.so:av_dynarray_add
 libmozavutil.so:av_dynarray_add_nofree
@@ -417,6 +418,7 @@ libmozavutil.so:av_frame_side_data_clone
 libmozavutil.so:av_frame_side_data_free
 libmozavutil.so:av_frame_side_data_get_c
 libmozavutil.so:av_frame_side_data_name
+libmozavutil.so:av_frame_side_data_new
 libmozavutil.so:av_frame_side_data_remove
 libmozavutil.so:av_frame_unref
 libmozavutil.so:av_free
@@ -608,7 +610,6 @@ libmozavutil.so:avpriv_alloc_fixed_dsp
 libmozavutil.so:avpriv_float_dsp_alloc
 libmozavutil.so:avpriv_report_missing_feature
 libmozavutil.so:avpriv_request_sample
-libmozavutil.so:avpriv_scalarproduct_float_c
 libmozavutil.so:avpriv_set_systematic_pal2
 libmozavutil.so:avpriv_slicethread_create
 libmozavutil.so:avpriv_slicethread_execute
@@ -843,6 +844,7 @@ libmozwayland.so:wl_egl_window_destroy
 libmozwayland.so:wl_egl_window_get_attached_size
 libmozwayland.so:wl_egl_window_resize
 libmozwayland.so:wl_event_queue_destroy
+libmozwayland.so:wl_fixes_interface
 libmozwayland.so:wl_keyboard_interface
 libmozwayland.so:wl_list_empty
 libmozwayland.so:wl_list_init
@@ -1504,6 +1506,7 @@ pingsender:__free_hook
 pingsender:__malloc_hook
 pingsender:__memalign_hook
 pingsender:__realloc_hook
+pingsender:__secure_getenv
 pingsender:_start
 pingsender:abort
 pingsender:aligned_alloc
@@ -1557,6 +1560,7 @@ pingsender:posix_memalign
 pingsender:printf_stderr
 pingsender:putenv
 pingsender:realloc
+pingsender:secure_getenv
 pingsender:setenv
 pingsender:strdup
 pingsender:strndup
@@ -1879,6 +1883,7 @@ thunderbird:__free_hook
 thunderbird:__malloc_hook
 thunderbird:__memalign_hook
 thunderbird:__realloc_hook
+thunderbird:__secure_getenv
 thunderbird:_start
 thunderbird:abort
 thunderbird:aligned_alloc
@@ -1932,6 +1937,7 @@ thunderbird:posix_memalign
 thunderbird:printf_stderr
 thunderbird:putenv
 thunderbird:realloc
+thunderbird:secure_getenv
 thunderbird:setenv
 thunderbird:strdup
 thunderbird:strndup
@@ -2254,6 +2260,7 @@ thunderbird-bin:__free_hook
 thunderbird-bin:__malloc_hook
 thunderbird-bin:__memalign_hook
 thunderbird-bin:__realloc_hook
+thunderbird-bin:__secure_getenv
 thunderbird-bin:_start
 thunderbird-bin:abort
 thunderbird-bin:aligned_alloc
@@ -2307,6 +2314,7 @@ thunderbird-bin:posix_memalign
 thunderbird-bin:printf_stderr
 thunderbird-bin:putenv
 thunderbird-bin:realloc
+thunderbird-bin:secure_getenv
 thunderbird-bin:setenv
 thunderbird-bin:strdup
 thunderbird-bin:strndup

@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : thunderbird
-version    : 149.0.2
-release    : 254
+version    : '150.0'
+release    : 255
 source     :
-    - https://ftp.mozilla.org/pub/thunderbird/releases/149.0.2/source/thunderbird-149.0.2.source.tar.xz : b16192338ba16f89f933dcfaa55eccfe812f4bc6a7bc8b630b7b5d6ead28171e
+    - https://ftp.mozilla.org/pub/thunderbird/releases/150.0/source/thunderbird-150.0.source.tar.xz : bacee6c25a4b7bd4de112a0f78055f96e93d2a12683fd3b0490a4ef9b632cf12
 license    :
     - GPL-2.0-or-later
     - LGPL-2.1-or-later
@@ -60,8 +60,6 @@ setup      : |
     %patch -p1 -i $pkgfiles/0002-Fix-appstream-metainfo.patch
     %patch -p1 -i $pkgfiles/0001-Allow-installing-addons-from-user-scope.patch
 
-    # Try to remove this in thunderbird 150
-    ./mach tb-rust vendor
     %patch -p1 -i ${pkgfiles}/ftbfs-glibc-2.43-2.patch
     sed -i 's/f8ad2b69fa472e332b50572c1b2dcc1c8a0fa783a1199aad245398d3df421b4b/dfdde6b4d42603fd3fe087a96bc0e7258ed38891154132a55b1eeac504f6f3c6/g' third_party/rust/glslopt/.cargo-checksum.json
     sed -i 's/f8ad2b69fa472e332b50572c1b2dcc1c8a0fa783a1199aad245398d3df421b4b/dfdde6b4d42603fd3fe087a96bc0e7258ed38891154132a55b1eeac504f6f3c6/g' comm/third_party/rust/glslopt/.cargo-checksum.json
