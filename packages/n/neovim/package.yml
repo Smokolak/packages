@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : neovim
 version    : 0.12.1
-release    : 58
+release    : 59
 source     :
     - https://github.com/neovim/neovim/archive/refs/tags/v0.12.1.tar.gz : 41898a5073631bc8fd9ac43476b811c05fb3b88ffb043d4fbb9e75e478457336
 homepage   : https://neovim.io

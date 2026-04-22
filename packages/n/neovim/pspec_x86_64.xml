@@ -3,8 +3,8 @@
         <Name>neovim</Name>
         <Homepage>https://neovim.io</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Clint Eschberger</Name>
+            <Email>clint@eschberger.info</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>editor</PartOf>
@@ -2165,12 +2165,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="58">
-            <Date>2026-04-06</Date>
+        <Update release="59">
+            <Date>2026-04-22</Date>
             <Version>0.12.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Clint Eschberger</Name>
+            <Email>clint@eschberger.info</Email>
         </Update>
     </History>
 </PISI>
