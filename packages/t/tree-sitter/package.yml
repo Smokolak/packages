@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : tree-sitter
-version    : 0.25.10
-release    : 19
+version    : 0.26.8
+release    : 20
 source     :
-    - https://github.com/tree-sitter/tree-sitter/archive/refs/tags/v0.25.10.tar.gz : ad5040537537012b16ef6e1210a572b927c7cdc2b99d1ee88d44a7dcdc3ff44c
+    - https://github.com/tree-sitter/tree-sitter/archive/refs/tags/v0.26.8.tar.gz : e6826b7533ec3a885aba598377a6d20b5a6321ff3db76968e960c2352d3a5077
 license    : MIT
 component  : programming.library
 homepage   : https://tree-sitter.github.io
@@ -18,3 +18,4 @@ build      : |
 install    : |
     %make_install LIBDIR=%libdir% PREFIX=/usr
     rm -v $installdir/%libdir%/libtree-sitter.a
+    %install_license LICENSE
