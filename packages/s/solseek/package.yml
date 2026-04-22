@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : solseek
-version    : 1.2.9
-release    : 29
+version    : 1.2.10
+release    : 30
 source     :
-    - https://github.com/clintre/solseek/archive/refs/tags/v1.2.9.tar.gz : 9ac0125b3bba32bb44dee53fbad1630a14545776b5a39b70b2f204ad38e31028
+    - https://github.com/clintre/solseek/archive/refs/tags/v1.2.10.tar.gz : b746f826d84b234ecbc9af8804086476d228740d175e867c2892dda4d83ac5ff
 homepage   : https://github.com/clintre/solseek
 license    : GPL-3.0-or-later
 component  : system.utils
