@@ -13,7 +13,6 @@ libc.so.6:__isoc23_strtoul
 libc.so.6:__isoc23_strtoull
 libc.so.6:__isoc23_vsscanf
 libc.so.6:__libc_start_main
-libc.so.6:__memcpy_chk
 libc.so.6:__printf_chk
 libc.so.6:__read_chk
 libc.so.6:__realpath_chk
@@ -69,6 +68,7 @@ libc.so.6:getmntent
 libc.so.6:getpid
 libc.so.6:getppid
 libc.so.6:getpwuid
+libc.so.6:getsockname
 libc.so.6:getsockopt
 libc.so.6:getuid
 libc.so.6:getutxent
