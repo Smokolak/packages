@@ -4348,5 +4348,10 @@
 		<Package>cadence</Package>
 		<Package>cadence-dbginfo</Package>
 
+		<!-- Deprecate botan2 as no packages use it any longer -->
+		<Package>botan2</Package>
+		<Package>botan2-devel</Package>
+		<Package>botan2-dbginfo</Package>
+
 	</Obsoletes>
 </PISI>
