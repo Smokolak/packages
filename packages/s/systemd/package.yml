@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : systemd
-version    : '257.10'
-release    : 186
+version    : '257.13'
+release    : 187
 source     :
-    - https://github.com/systemd/systemd/archive/refs/tags/v257.10.tar.gz : 5a2f477e6268630f6e2829c7bb3e442017549798a4122635817934eaa0c6ac10
+    - https://github.com/systemd/systemd/archive/refs/tags/v257.13.tar.gz : 1eb7d5f9ff8a426ff880a3cded9ce819613ba8003ac5ddde9eca162f14ddabe7
 license    :
     - LGPL-2.1-or-later
     - GPL-2.0-or-later

@@ -3,8 +3,8 @@
         <Name>systemd</Name>
         <Homepage>https://www.github.com/systemd/systemd</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>LGPL-2.1-or-later</License>
         <License>GPL-2.0-or-later</License>
@@ -668,6 +668,7 @@
             <Path fileType="library">/usr/lib/udev/hwdb.d/70-sound-card.hwdb</Path>
             <Path fileType="library">/usr/lib/udev/hwdb.d/70-touchpad.hwdb</Path>
             <Path fileType="library">/usr/lib/udev/hwdb.d/80-ieee1394-unit-function.hwdb</Path>
+            <Path fileType="library">/usr/lib/udev/hwdb.d/82-net-auto-link-local.hwdb</Path>
             <Path fileType="library">/usr/lib/udev/hwdb.d/README</Path>
             <Path fileType="library">/usr/lib/udev/iocost</Path>
             <Path fileType="library">/usr/lib/udev/mtd_probe</Path>
@@ -1329,7 +1330,7 @@
 </Description>
         <PartOf>emul32</PartOf>
         <RuntimeDependencies>
-            <Dependency release="186">systemd</Dependency>
+            <Dependency release="187">systemd</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/libnss_myhostname.so.2</Path>
@@ -1352,8 +1353,8 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="186">systemd-devel</Dependency>
-            <Dependency release="186">systemd-32bit</Dependency>
+            <Dependency release="187">systemd-32bit</Dependency>
+            <Dependency release="187">systemd-devel</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/lib32/pkgconfig/libsystemd.pc</Path>
@@ -1367,7 +1368,7 @@
 </Description>
         <PartOf>system.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="186">systemd</Dependency>
+            <Dependency release="187">systemd</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/libudev.h</Path>
@@ -2187,12 +2188,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="186">
-            <Date>2026-03-19</Date>
-            <Version>257.10</Version>
+        <Update release="187">
+            <Date>2026-04-23</Date>
+            <Version>257.13</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>

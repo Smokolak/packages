@@ -1109,7 +1109,6 @@ libsystemd-shared-257.so:_ordered_set_ensure_allocated
 libsystemd-shared-257.so:_ordered_set_ensure_put
 libsystemd-shared-257.so:_ordered_set_put_strdup
 libsystemd-shared-257.so:_ordered_set_put_strdupv
-libsystemd-shared-257.so:_packed
 libsystemd-shared-257.so:_set_ensure_allocated
 libsystemd-shared-257.so:_set_ensure_consume
 libsystemd-shared-257.so:_set_ensure_put
@@ -1961,6 +1960,7 @@ libsystemd-shared-257.so:device_cleanup_devlinks
 libsystemd-shared-257.so:device_cleanup_tags
 libsystemd-shared-257.so:device_clear_sysattr_cache
 libsystemd-shared-257.so:device_clone_with_db
+libsystemd-shared-257.so:device_copy_all_tags
 libsystemd-shared-257.so:device_delete_db
 libsystemd-shared-257.so:device_ensure_usec_initialized
 libsystemd-shared-257.so:device_enumerator_add_device
@@ -2206,14 +2206,15 @@ libsystemd-shared-257.so:emoji_enabled
 libsystemd-shared-257.so:empty_or_root
 libsystemd-shared-257.so:encode_devnode_name
 libsystemd-shared-257.so:encrypt_credential_and_warn
-libsystemd-shared-257.so:endswith
-libsystemd-shared-257.so:endswith_no_case
-libsystemd-shared-257.so:endswith_strv
+libsystemd-shared-257.so:endswith_internal
+libsystemd-shared-257.so:endswith_no_case_internal
+libsystemd-shared-257.so:endswith_strv_internal
 libsystemd-shared-257.so:env_assignment_is_valid
 libsystemd-shared-257.so:env_name_is_valid
 libsystemd-shared-257.so:env_value_is_valid
 libsystemd-shared-257.so:errno_from_name
 libsystemd-shared-257.so:errno_to_name
+libsystemd-shared-257.so:errno_to_pam_error
 libsystemd-shared-257.so:escape_non_printable_full
 libsystemd-shared-257.so:ether_addr_compare
 libsystemd-shared-257.so:ether_addr_hash_ops
@@ -2350,7 +2351,7 @@ libsystemd-shared-257.so:filesystems_gperf_lookup
 libsystemd-shared-257.so:find_esp_and_warn
 libsystemd-shared-257.so:find_esp_and_warn_at
 libsystemd-shared-257.so:find_executable_full
-libsystemd-shared-257.so:find_line_startswith
+libsystemd-shared-257.so:find_line_startswith_internal
 libsystemd-shared-257.so:find_portable_profile
 libsystemd-shared-257.so:find_suitable_hibernation_device_full
 libsystemd-shared-257.so:find_tpm2_auto_data
@@ -3355,6 +3356,7 @@ libsystemd-shared-257.so:notify_access_to_string
 libsystemd-shared-257.so:notify_push_fd
 libsystemd-shared-257.so:notify_push_fdf
 libsystemd-shared-257.so:notify_reloading_full
+libsystemd-shared-257.so:notify_remove_fd
 libsystemd-shared-257.so:notify_remove_fd_warn
 libsystemd-shared-257.so:notify_remove_fd_warnf
 libsystemd-shared-257.so:now
@@ -5232,9 +5234,9 @@ libsystemd-shared-257.so:sr_iov_get_num_vfs
 libsystemd-shared-257.so:sr_iov_hash_func
 libsystemd-shared-257.so:sr_iov_set_netlink_message
 libsystemd-shared-257.so:sr_iov_set_num_vfs
-libsystemd-shared-257.so:startswith
-libsystemd-shared-257.so:startswith_no_case
-libsystemd-shared-257.so:startswith_strv
+libsystemd-shared-257.so:startswith_internal
+libsystemd-shared-257.so:startswith_no_case_internal
+libsystemd-shared-257.so:startswith_strv_internal
 libsystemd-shared-257.so:stat_inode_same
 libsystemd-shared-257.so:stat_inode_unmodified
 libsystemd-shared-257.so:stat_verify_device_node
@@ -5287,7 +5289,7 @@ libsystemd-shared-257.so:strpcpyf_full
 libsystemd-shared-257.so:strpcpyl_full
 libsystemd-shared-257.so:strrep
 libsystemd-shared-257.so:strreplace
-libsystemd-shared-257.so:strrstr
+libsystemd-shared-257.so:strrstr_internal
 libsystemd-shared-257.so:strscpy_full
 libsystemd-shared-257.so:strscpyl_full
 libsystemd-shared-257.so:strshorten
@@ -6078,6 +6080,7 @@ libsystemd-shared-257.so:userdb_iterator_free
 libsystemd-shared-257.so:userdb_iterator_get
 libsystemd-shared-257.so:userns_acquire
 libsystemd-shared-257.so:userns_acquire_empty
+libsystemd-shared-257.so:usleep_safe
 libsystemd-shared-257.so:utf16_encode_unichar
 libsystemd-shared-257.so:utf16_to_utf8
 libsystemd-shared-257.so:utf8_char_console_width
@@ -7190,3 +7193,4 @@ pam_systemd_loadkey.so:__start_SYSTEMD_BUS_ERROR_MAP
 pam_systemd_loadkey.so:__stop_SYSTEMD_BUS_ERROR_MAP
 pam_systemd_loadkey.so:pam_sm_authenticate
 pam_systemd_loadkey.so:pam_sm_setcred
+systemctl:_IO_stdin_used
