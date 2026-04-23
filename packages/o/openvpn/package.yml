@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : openvpn
-version    : 2.7.1
-release    : 39
+version    : 2.7.2
+release    : 40
 source     :
-    - https://github.com/OpenVPN/openvpn/archive/v2.7.1.tar.gz : 92801c834d8b1193a988f8b6ab52c1e8a92cadaf745a346d2155aea0eb260e6e
+    - https://github.com/OpenVPN/openvpn/archive/v2.7.2.tar.gz : a65cdcb2c4d911fab73daf13a4cf109dc9664e28c094f77aafcd39c7e9d5023e
 homepage   : https://openvpn.net/community/
 license    :
     - GPL-2.0-only
