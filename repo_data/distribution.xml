@@ -3170,5 +3170,8 @@
 		<Package>pulseaudio-module-jack-32bit</Package>
 		<Package>cadence</Package>
 		<Package>cadence-dbginfo</Package>
+		<Package>botan2</Package>
+		<Package>botan2-devel</Package>
+		<Package>botan2-dbginfo</Package>
 	</Obsoletes>
 </PISI>
