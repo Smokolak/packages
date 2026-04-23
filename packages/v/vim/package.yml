@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : vim
-version    : 9.2.0272
-release    : 161
+version    : 9.2.0389
+release    : 162
 source     :
-    - https://github.com/vim/vim/archive/refs/tags/v9.2.0272.tar.gz#vim.tar.gz : 020efae1f8187a65a457f4b73cdbd0be3ccbae230e63293af51fdfcf3c831cb5
+    - https://github.com/vim/vim/archive/refs/tags/v9.2.0389.tar.gz#vim.tar.gz : 27c7db205ab23ad53e067fafeb9ed3e6ae751afc85518db185d2e956f3d22ba9
 extract    : false
 homepage   : https://www.vim.org
 license    : Vim

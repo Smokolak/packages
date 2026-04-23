@@ -93,6 +93,7 @@ libc.so.6:__stack_chk_fail
 libc.so.6:__stpcpy_chk
 libc.so.6:__strcat_chk
 libc.so.6:__strcpy_chk
+libc.so.6:__strncat_chk
 libc.so.6:__strncpy_chk
 libc.so.6:_exit
 libc.so.6:_nl_msg_cat_cntr
@@ -371,6 +372,7 @@ libgio-2.0.so.0:g_static_resource_get_resource
 libgio-2.0.so.0:g_static_resource_init
 libglib-2.0.so.0:g_error_free
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_idle_add
 libglib-2.0.so.0:g_intern_static_string
 libglib-2.0.so.0:g_io_add_watch
 libglib-2.0.so.0:g_io_channel_unix_new
@@ -595,6 +597,7 @@ libgtk-3.so.0:gtk_widget_get_has_window
 libgtk-3.so.0:gtk_widget_get_mapped
 libgtk-3.so.0:gtk_widget_get_parent
 libgtk-3.so.0:gtk_widget_get_parent_window
+libgtk-3.so.0:gtk_widget_get_preferred_height
 libgtk-3.so.0:gtk_widget_get_preferred_size
 libgtk-3.so.0:gtk_widget_get_realized
 libgtk-3.so.0:gtk_widget_get_screen
@@ -754,12 +757,7 @@ libsodium.so.26:sodium_malloc
 libsodium.so.26:sodium_memzero
 libsodium.so.26:sodium_mlock
 libsodium.so.26:sodium_munlock
-libwayland-client.so.0:wl_buffer_interface
 libwayland-client.so.0:wl_callback_interface
-libwayland-client.so.0:wl_compositor_interface
-libwayland-client.so.0:wl_data_device_interface
-libwayland-client.so.0:wl_data_device_manager_interface
-libwayland-client.so.0:wl_data_source_interface
 libwayland-client.so.0:wl_display_cancel_read
 libwayland-client.so.0:wl_display_connect
 libwayland-client.so.0:wl_display_disconnect
@@ -768,15 +766,10 @@ libwayland-client.so.0:wl_display_flush
 libwayland-client.so.0:wl_display_get_fd
 libwayland-client.so.0:wl_display_prepare_read
 libwayland-client.so.0:wl_display_read_events
-libwayland-client.so.0:wl_keyboard_interface
 libwayland-client.so.0:wl_log_set_handler_client
-libwayland-client.so.0:wl_output_interface
 libwayland-client.so.0:wl_proxy_add_listener
 libwayland-client.so.0:wl_proxy_destroy
 libwayland-client.so.0:wl_proxy_get_version
 libwayland-client.so.0:wl_proxy_marshal_flags
 libwayland-client.so.0:wl_registry_interface
 libwayland-client.so.0:wl_seat_interface
-libwayland-client.so.0:wl_shm_interface
-libwayland-client.so.0:wl_shm_pool_interface
-libwayland-client.so.0:wl_surface_interface
