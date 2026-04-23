@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : fresh
-version    : 0.2.21
-release    : 4
+version    : 0.3.0
+release    : 5
 source     :
-    - https://github.com/sinelaw/fresh/archive/refs/tags/v0.2.21.tar.gz : 578036ffc1dde76aa0bfd7f5f1ae675268f42e09aa7f4d2b824856e282bcc758
+    - https://github.com/sinelaw/fresh/archive/refs/tags/v0.3.0.tar.gz : 3504d47cd0ae3d37e397d46088ff2c7096405498ed4079b2df16e399a1b36608
 homepage   : https://getfresh.dev
 license    : GPL-2.0-or-later
 component  : editor
@@ -28,4 +28,4 @@ install    : |
     install -Dm00644 crates/fresh-editor/flatpak/io.github.sinelaw.fresh.svg $installdir/usr/share/icons/hicolor/scalable/apps/io.github.sinelaw.fresh.svg
     %install_license LICENSE
 check      : |
-    %cargo_test --lib -- --skip test_save_to_unwritable_directory --skip test_save_to_unwritable_file
+    %cargo_test --lib
