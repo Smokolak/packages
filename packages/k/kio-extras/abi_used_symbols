@@ -527,12 +527,11 @@ libKF6WidgetsAddons.so.6:_ZN21KContextualHelpButton21setContextualHelpTextERK7QS
 libKF6WidgetsAddons.so.6:_ZN21KContextualHelpButtonC1EP7QWidget
 libKF6WidgetsAddons.so.6:_ZN8KGuiItemC1ERK7QStringS2_S2_S2_
 libKF6WidgetsAddons.so.6:_ZN8KGuiItemD1Ev
-libOpenEXR-3_1.so.30:_ZN7Imf_3_117globalThreadCountEv
-libOpenEXR-3_1.so.30:_ZN7Imf_3_19InputFileC1EPKci
-libOpenEXR-3_1.so.30:_ZN7Imf_3_19InputFileD1Ev
-libOpenEXR-3_1.so.30:_ZNK7Imf_3_16Header12previewImageEv
-libOpenEXR-3_1.so.30:_ZNK7Imf_3_16Header15hasPreviewImageEv
-libOpenEXR-3_1.so.30:_ZNK7Imf_3_19InputFile6headerEv
+libOpenEXR-3_4.so.33:_ZN7Imf_3_417globalThreadCountEv
+libOpenEXR-3_4.so.33:_ZN7Imf_3_49InputFileC1EPKci
+libOpenEXR-3_4.so.33:_ZNK7Imf_3_46Header12previewImageEv
+libOpenEXR-3_4.so.33:_ZNK7Imf_3_46Header15hasPreviewImageEv
+libOpenEXR-3_4.so.33:_ZNK7Imf_3_49InputFile6headerEv
 libPlasmaActivities.so.7:_ZN11KActivities4InfoC1ERK7QStringP7QObject
 libPlasmaActivities.so.7:_ZN11KActivities4InfoD1Ev
 libPlasmaActivities.so.7:_ZN11KActivities8Consumer13serviceStatusEv
