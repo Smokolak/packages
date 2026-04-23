@@ -25,6 +25,7 @@ libSDL2-2.0.so.0:SDL_GetDisplayOrientation
 libSDL2-2.0.so.0:SDL_GetDisplayUsableBounds
 libSDL2-2.0.so.0:SDL_GetError
 libSDL2-2.0.so.0:SDL_GetGlobalMouseState
+libSDL2-2.0.so.0:SDL_GetKeyboardFocus
 libSDL2-2.0.so.0:SDL_GetModState
 libSDL2-2.0.so.0:SDL_GetMouseFocus
 libSDL2-2.0.so.0:SDL_GetMouseState
@@ -76,6 +77,7 @@ libSDL2-2.0.so.0:SDL_SetWindowSize
 libSDL2-2.0.so.0:SDL_SetWindowTitle
 libSDL2-2.0.so.0:SDL_ShowCursor
 libSDL2-2.0.so.0:SDL_ShowMessageBox
+libSDL2-2.0.so.0:SDL_ShowSimpleMessageBox
 libSDL2-2.0.so.0:SDL_ShowWindow
 libSDL2-2.0.so.0:SDL_StartTextInput
 libSDL2-2.0.so.0:SDL_StopTextInput
@@ -927,7 +929,6 @@ libkrb5.so.3:krb5_fwd_tgt_creds
 libkrb5.so.3:krb5_get_credentials
 libkrb5.so.3:krb5_get_default_realm
 libkrb5.so.3:krb5_get_error_message
-libkrb5.so.3:krb5_get_etype_info
 libkrb5.so.3:krb5_get_init_creds_keytab
 libkrb5.so.3:krb5_get_init_creds_opt_alloc
 libkrb5.so.3:krb5_get_init_creds_opt_free

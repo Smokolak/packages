@@ -829,6 +829,7 @@ libfreerdp3.so.3:freerdp_video_context_free
 libfreerdp3.so.3:freerdp_video_context_new
 libfreerdp3.so.3:freerdp_video_context_reconfigure
 libfreerdp3.so.3:freerdp_video_conversion_supported
+libfreerdp3.so.3:freerdp_video_format_string
 libfreerdp3.so.3:freerdp_video_sample_convert
 libfreerdp3.so.3:freerdp_write_four_byte_float
 libfreerdp3.so.3:freerdp_write_four_byte_signed_integer
@@ -2254,6 +2255,8 @@ libwinpr3.so.3:WINPR_JSON_version
 libwinpr3.so.3:WLog_AddStringLogFilters
 libwinpr3.so.3:WLog_CloseAppender
 libwinpr3.so.3:WLog_ConfigureAppender
+libwinpr3.so.3:WLog_Create
+libwinpr3.so.3:WLog_Discard
 libwinpr3.so.3:WLog_Get
 libwinpr3.so.3:WLog_GetLogAppender
 libwinpr3.so.3:WLog_GetLogLayout
@@ -2267,6 +2270,7 @@ libwinpr3.so.3:WLog_PrintMessageVA
 libwinpr3.so.3:WLog_PrintTextMessage
 libwinpr3.so.3:WLog_PrintTextMessageVA
 libwinpr3.so.3:WLog_SetContext
+libwinpr3.so.3:WLog_SetGlobalContext
 libwinpr3.so.3:WLog_SetLogAppenderType
 libwinpr3.so.3:WLog_SetLogLevel
 libwinpr3.so.3:WLog_SetStringLogLevel

@@ -33,21 +33,21 @@
             <Path fileType="library">/usr/lib64/freerdp3/proxy/libproxy-demo-plugin.so</Path>
             <Path fileType="library">/usr/lib64/freerdp3/proxy/libproxy-dyn-channel-dump-plugin.so</Path>
             <Path fileType="library">/usr/lib64/libfreerdp-client3.so.3</Path>
-            <Path fileType="library">/usr/lib64/libfreerdp-client3.so.3.24.2</Path>
+            <Path fileType="library">/usr/lib64/libfreerdp-client3.so.3.25.0</Path>
             <Path fileType="library">/usr/lib64/libfreerdp-server-proxy3.so.3</Path>
-            <Path fileType="library">/usr/lib64/libfreerdp-server-proxy3.so.3.24.2</Path>
+            <Path fileType="library">/usr/lib64/libfreerdp-server-proxy3.so.3.25.0</Path>
             <Path fileType="library">/usr/lib64/libfreerdp-server3.so.3</Path>
-            <Path fileType="library">/usr/lib64/libfreerdp-server3.so.3.24.2</Path>
+            <Path fileType="library">/usr/lib64/libfreerdp-server3.so.3.25.0</Path>
             <Path fileType="library">/usr/lib64/libfreerdp-shadow-subsystem3.so.3</Path>
-            <Path fileType="library">/usr/lib64/libfreerdp-shadow-subsystem3.so.3.24.2</Path>
+            <Path fileType="library">/usr/lib64/libfreerdp-shadow-subsystem3.so.3.25.0</Path>
             <Path fileType="library">/usr/lib64/libfreerdp-shadow3.so.3</Path>
-            <Path fileType="library">/usr/lib64/libfreerdp-shadow3.so.3.24.2</Path>
+            <Path fileType="library">/usr/lib64/libfreerdp-shadow3.so.3.25.0</Path>
             <Path fileType="library">/usr/lib64/libfreerdp3.so.3</Path>
-            <Path fileType="library">/usr/lib64/libfreerdp3.so.3.24.2</Path>
+            <Path fileType="library">/usr/lib64/libfreerdp3.so.3.25.0</Path>
             <Path fileType="library">/usr/lib64/libwinpr-tools3.so.3</Path>
-            <Path fileType="library">/usr/lib64/libwinpr-tools3.so.3.24.2</Path>
+            <Path fileType="library">/usr/lib64/libwinpr-tools3.so.3.25.0</Path>
             <Path fileType="library">/usr/lib64/libwinpr3.so.3</Path>
-            <Path fileType="library">/usr/lib64/libwinpr3.so.3.24.2</Path>
+            <Path fileType="library">/usr/lib64/libwinpr3.so.3.25.0</Path>
             <Path fileType="data">/usr/share/FreeRDP/images/test_icon.bmp</Path>
             <Path fileType="data">/usr/share/FreeRDP/images/test_icon.jpg</Path>
             <Path fileType="data">/usr/share/FreeRDP/images/test_icon.png</Path>
@@ -70,7 +70,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="49">freerdp</Dependency>
+            <Dependency release="50">freerdp</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/freerdp3/freerdp/addin.h</Path>
@@ -135,6 +135,7 @@
             <Path fileType="header">/usr/include/freerdp3/freerdp/client/utils/smartcard_cli.h</Path>
             <Path fileType="header">/usr/include/freerdp3/freerdp/client/video.h</Path>
             <Path fileType="header">/usr/include/freerdp3/freerdp/codec/audio.h</Path>
+            <Path fileType="header">/usr/include/freerdp3/freerdp/codec/av1.h</Path>
             <Path fileType="header">/usr/include/freerdp3/freerdp/codec/bitmap.h</Path>
             <Path fileType="header">/usr/include/freerdp3/freerdp/codec/bulk.h</Path>
             <Path fileType="header">/usr/include/freerdp3/freerdp/codec/clear.h</Path>
@@ -377,9 +378,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="49">
-            <Date>2026-03-25</Date>
-            <Version>3.24.2</Version>
+        <Update release="50">
+            <Date>2026-04-23</Date>
+            <Version>3.25.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Evan Maddock</Name>
             <Email>maddock.evan@vivaldi.net</Email>
