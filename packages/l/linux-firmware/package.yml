@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : linux-firmware
-version    : '20260309'
-release    : 103
+version    : '20260410'
+release    : 104
 source     :
-    - git|https://gitlab.com/kernel-firmware/linux-firmware.git : c822cbbb14ce5b8ee1f27346220640ac350bbf34
+    - git|https://gitlab.com/kernel-firmware/linux-firmware.git : dc85ccedc9c973682fbcf4d628ca61174bcc3120
 license    :
     - GPL-2.0-or-later
     - Distributable
