@@ -94,7 +94,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="214">imagemagick</Dependency>
+            <Dependency release="215">imagemagick</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/ImageMagick-7/Magick++.h</Path>
@@ -593,8 +593,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="214">
-            <Date>2026-04-22</Date>
+        <Update release="215">
+            <Date>2026-04-23</Date>
             <Version>7.1.2.21</Version>
             <Comment>Packaging update</Comment>
             <Name>Jared Cervantes</Name>
