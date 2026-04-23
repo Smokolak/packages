@@ -133,6 +133,7 @@ _imaging.cpython-312-x86_64-linux-gnu.so:ImagingPackBGR
 _imaging.cpython-312-x86_64-linux-gnu.so:ImagingPackBGRA
 _imaging.cpython-312-x86_64-linux-gnu.so:ImagingPackBGRX
 _imaging.cpython-312-x86_64-linux-gnu.so:ImagingPackBGRa
+_imaging.cpython-312-x86_64-linux-gnu.so:ImagingPackCMYK2RGB
 _imaging.cpython-312-x86_64-linux-gnu.so:ImagingPackLAB
 _imaging.cpython-312-x86_64-linux-gnu.so:ImagingPackRGB
 _imaging.cpython-312-x86_64-linux-gnu.so:ImagingPackXBGR

@@ -56,7 +56,7 @@ UNKNOWN:PyMem_Free
 UNKNOWN:PyMem_Malloc
 UNKNOWN:PyModuleDef_Init
 UNKNOWN:PyModule_AddIntConstant
-UNKNOWN:PyModule_AddObject
+UNKNOWN:PyModule_AddObjectRef
 UNKNOWN:PyModule_GetDict
 UNKNOWN:PyNumber_AsSsize_t
 UNKNOWN:PyNumber_Check
