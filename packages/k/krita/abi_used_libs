@@ -15,7 +15,7 @@ libKF5WindowSystem.so.5
 libKSeExpr.so.4
 libKSeExprUI.so.4
 libOpenColorIO.so.2.5
-libOpenEXR-3_1.so.30
+libOpenEXR-3_4.so.33
 libQt5Core.so.5
 libQt5DBus.so.5
 libQt5Gui.so.5

@@ -3,8 +3,8 @@
         <Name>krita</Name>
         <Homepage>https://krita.org</Homepage>
         <Packager>
-            <Name>Robert Gonzalez</Name>
-            <Email>uni.dos12@outlook.com</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -1182,12 +1182,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="104">
-            <Date>2026-04-12</Date>
+        <Update release="105">
+            <Date>2026-04-23</Date>
             <Version>5.2.16</Version>
             <Comment>Packaging update</Comment>
-            <Name>Robert Gonzalez</Name>
-            <Email>uni.dos12@outlook.com</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Update>
     </History>
 </PISI>
