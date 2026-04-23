@@ -3,8 +3,8 @@
         <Name>keepassxc</Name>
         <Homepage>https://keepassxc.org</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <License>BSD-3-Clause</License>
@@ -110,12 +110,12 @@ It provides strong password generation, customizable organization, and fast sear
         </Replaces>
     </Package>
     <History>
-        <Update release="53">
-            <Date>2026-03-10</Date>
+        <Update release="54">
+            <Date>2026-04-23</Date>
             <Version>2.7.12</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Update>
     </History>
 </PISI>
