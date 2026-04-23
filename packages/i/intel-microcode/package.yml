@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : intel-microcode
-version    : '20260210'
-release    : 36
+version    : '20260227'
+release    : 37
 source     :
-    - https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/archive/refs/tags/microcode-20260210.tar.gz : 252b4c2c1ed930b0422ee0cb843140c93f5e12a75bbbcca7d64e21b1bcf05bfa
+    - https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/archive/refs/tags/microcode-20260227.tar.gz : fcac5a08d7559a2ce4ad3b1ce5d59619c8adb364b9c51988fedd94220392bb37
 homepage   : https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
 license    : EULA
 component  : system.boot
