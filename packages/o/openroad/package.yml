@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : openroad
-version    : 26.01.29
-release    : 6
+version    : 26.04.07
+release    : 7
 source     :
-    - git|https://github.com/The-OpenROAD-Project/OpenROAD.git : 98fd27bc0965b486a3e47405ad90ac363a362b1b
+    - git|https://github.com/The-OpenROAD-Project/OpenROAD.git : 553ed63bc9f65277418adc82dffe1762c20aec9f
 homepage   : https://theopenroadproject.org/
 license    : BSD-3-Clause
 component  : office.scientific
@@ -34,6 +34,7 @@ builddeps  :
 rundeps    :
     - eqy
     - sby
+    - yosys-slang
 setup      : |
     %cmake_ninja \
         -DBUILD_GUI=ON \
