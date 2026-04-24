@@ -47,8 +47,8 @@
         </Conflicts>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2026-04-16</Date>
+        <Update release="2">
+            <Date>2026-04-24</Date>
             <Version>2.0.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Robert Gonzalez</Name>
