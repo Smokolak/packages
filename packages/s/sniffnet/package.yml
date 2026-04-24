@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : sniffnet
 version    : 1.5.0
-release    : 4
+release    : 5
 source     :
     - https://github.com/GyulyVGC/sniffnet/archive/refs/tags/v1.5.0.tar.gz : c2000ee833c8329d5aaf2b4c1f950d01b48b2a93bd094f949dbed5d6ac4f4d8c
 homepage   : https://sniffnet.net/
@@ -24,7 +24,7 @@ build      : |
 install    : |
     %cargo_install
 
-    install -D -m 00644 $workdir/resources/logos/raw/icon.png $installdir/usr/share/icons/hicolor/64x64/apps/sniffnet.png
+    install -D -m 00644 $workdir/resources/logos/raw/icon.svg $installdir/usr/share/hicolor/scalable/apps/icon.svg
     install -D -m 00644 $workdir/resources/packaging/linux/sniffnet.desktop $installdir/usr/share/applications/net.sniffnet.sniffnet.desktop
     install -D -m 00644 $pkgfiles/net.sniffnet.sniffnet.metainfo.xml $installdir/usr/share/metainfo/net.sniffnet.sniffnet.metainfo.xml
     setcap cap_net_raw,cap_net_admin=eip $installdir/usr/bin/sniffnet
