@@ -83,6 +83,7 @@ libc.so.6:dlopen
 libc.so.6:dlsym
 libc.so.6:dup2
 libc.so.6:execl
+libc.so.6:execvp
 libc.so.6:exit
 libc.so.6:fclose
 libc.so.6:fcntl64
@@ -291,6 +292,7 @@ libm.so.6:acosf
 libm.so.6:asinh
 libm.so.6:atan2f
 libm.so.6:cbrt
+libm.so.6:cosf
 libm.so.6:fmodf
 libm.so.6:log
 libm.so.6:log10
