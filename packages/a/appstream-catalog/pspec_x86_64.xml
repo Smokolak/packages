@@ -3,8 +3,8 @@
         <Name>appstream-catalog</Name>
         <Homepage>https://www.freedesktop.org/wiki/Distributions/AppStream/</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>CC-BY-SA-3.0</License>
         <License>CC-BY-SA-4.0</License>
@@ -103,6 +103,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/chocolate-doom_chocolate-doom.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/ckb_ckb-next.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/claws-mail_claws-mail.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/cmake-gui_CMakeSetup.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/cockatrice_cockatrice.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/codelite_codelite.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/collision_dev.geopjr.Collision.png</Path>
@@ -276,7 +277,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnome-music_org.gnome.Music.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnome-nibbles_org.gnome.Nibbles.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnome-photos_org.gnome.Photos.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnome-pomodoro_gnome-pomodoro.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnome-pomodoro_io.github.focustimerhq.FocusTimer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnome-power-manager_org.gnome.PowerStats.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnome-recipes_org.gnome.Recipes.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnome-screenshot_org.gnome.Screenshot.png</Path>
@@ -447,6 +448,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/lyx_lyx.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/maelstrom_maelstrom.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/mailnag_mailnag.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/mailspring_mailspring.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/mame_org.mamedev.MAME.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/manaplus_manaplus.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/mangohud_io.github.flightlessmango.mangohud.png</Path>
@@ -634,6 +636,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/skrooge_skrooge.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/smplayer_smplayer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/snapshot_org.gnome.Snapshot.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/sniffnet_sniffnet.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/solaar_solaar.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/solarus_org.solarus_games.solarus.Launcher.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/solseek_solseek.png</Path>
@@ -884,6 +887,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/chocolate-doom_chocolate-doom.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/ckb_ckb-next.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/claws-mail_claws-mail.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/cmake-gui_CMakeSetup.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/cockatrice_cockatrice.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/codelite_codelite.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/collision_dev.geopjr.Collision.png</Path>
@@ -1057,7 +1061,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnome-music_org.gnome.Music.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnome-nibbles_org.gnome.Nibbles.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnome-photos_org.gnome.Photos.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnome-pomodoro_gnome-pomodoro.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnome-pomodoro_io.github.focustimerhq.FocusTimer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnome-power-manager_org.gnome.PowerStats.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnome-recipes_org.gnome.Recipes.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnome-screenshot_org.gnome.Screenshot.png</Path>
@@ -1226,6 +1230,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/lyx_lyx.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/m64py_net.sourceforge.m64py.M64Py.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/mailnag_mailnag.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/mailspring_mailspring.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/mame_org.mamedev.MAME.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/manaplus_manaplus.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/mangohud_io.github.flightlessmango.mangohud.png</Path>
@@ -1683,6 +1688,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/cinelerra-gg_cin.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/ckb_ckb-next.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/claws-mail_claws-mail.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/cmake-gui_CMakeSetup.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/cockatrice_cockatrice.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/codeblocks_codeblocks.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/codelite_codelite.png</Path>
@@ -1872,7 +1878,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnome-music_org.gnome.Music.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnome-nibbles_org.gnome.Nibbles.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnome-photos_org.gnome.Photos.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnome-pomodoro_gnome-pomodoro.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnome-pomodoro_io.github.focustimerhq.FocusTimer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnome-power-manager_org.gnome.PowerStats.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnome-recipes_org.gnome.Recipes.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnome-screenshot_org.gnome.Screenshot.png</Path>
@@ -2059,6 +2065,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/m64py_net.sourceforge.m64py.M64Py.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/maelstrom_maelstrom.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/mailnag_mailnag.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/mailspring_mailspring.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/mame_org.mamedev.MAME.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/manaplus_manaplus.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/mangohud_io.github.flightlessmango.mangohud.png</Path>
@@ -2478,12 +2485,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="52">
-            <Date>2026-04-17</Date>
-            <Version>20260417</Version>
+        <Update release="53">
+            <Date>2026-04-24</Date>
+            <Version>20260424</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
