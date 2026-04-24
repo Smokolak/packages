@@ -3,6 +3,7 @@ libMangoHud.so:overlay_GetInstanceProcAddr
 libMangoHud_opengl.so:eglDestroyContext
 libMangoHud_opengl.so:eglGetDisplay
 libMangoHud_opengl.so:eglGetPlatformDisplay
+libMangoHud_opengl.so:eglGetPlatformDisplayEXT
 libMangoHud_opengl.so:eglGetProcAddress
 libMangoHud_opengl.so:eglSwapBuffers
 libMangoHud_opengl.so:eglTerminate
@@ -25,6 +26,7 @@ libMangoHud_shim.so:dlsym
 libMangoHud_shim.so:eglDestroyContext
 libMangoHud_shim.so:eglGetDisplay
 libMangoHud_shim.so:eglGetPlatformDisplay
+libMangoHud_shim.so:eglGetPlatformDisplayEXT
 libMangoHud_shim.so:eglGetProcAddress
 libMangoHud_shim.so:eglSwapBuffers
 libMangoHud_shim.so:eglTerminate
