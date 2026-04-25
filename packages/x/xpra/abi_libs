@@ -10,7 +10,6 @@ cyxor.cpython-312-x86_64-linux-gnu.so
 decoder.cpython-312-x86_64-linux-gnu.so
 decompressor.cpython-312-x86_64-linux-gnu.so
 display_source.cpython-312-x86_64-linux-gnu.so
-encoder.cpython-312-x86_64-linux-gnu.so
 events.cpython-312-x86_64-linux-gnu.so
 gdk_atoms.cpython-312-x86_64-linux-gnu.so
 gdk_bindings.cpython-312-x86_64-linux-gnu.so

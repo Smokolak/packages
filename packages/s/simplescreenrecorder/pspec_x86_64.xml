@@ -3,8 +3,8 @@
         <Name>simplescreenrecorder</Name>
         <Homepage>https://www.maartenbaert.be/simplescreenrecorder/</Homepage>
         <Packager>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.video</PartOf>
@@ -113,12 +113,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="28">
-            <Date>2025-11-02</Date>
+        <Update release="29">
+            <Date>2026-04-06</Date>
             <Version>0.4.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Update>
     </History>
 </PISI>

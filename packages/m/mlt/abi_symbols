@@ -1328,6 +1328,7 @@ libmltavformat.so:filter_avcolour_space_init
 libmltavformat.so:filter_avdeinterlace_init
 libmltavformat.so:filter_avfilter_init
 libmltavformat.so:filter_swresample_init
+libmltavformat.so:filter_sws_colortransform_init
 libmltavformat.so:filter_swscale_init
 libmltavformat.so:is_rgb
 libmltavformat.so:link_avdeinterlace_init
@@ -3610,4 +3611,5 @@ libmltxml.so:mlt_xml_prefix_size
 libmltxml.so:producer_xml_init
 libmltxml.so:producer_xmlclip_init
 libmltxml.so:xml_make_doc
+melt-7:_IO_stdin_used
 melt-7:main

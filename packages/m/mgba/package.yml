@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mgba
 version    : 0.10.5
-release    : 58
+release    : 59
 source     :
     - https://github.com/mgba-emu/mgba/archive/0.10.5.tar.gz : 91d6fbd32abcbdf030d58d3f562de25ebbc9d56040d513ff8e5c19bee9dacf14
 homepage   : https://mgba.io/

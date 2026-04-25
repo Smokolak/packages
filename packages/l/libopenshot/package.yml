@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libopenshot
-version    : 0.6.0
-release    : 44
+version    : 0.7.0
+release    : 45
 source     :
-    - https://github.com/OpenShot/libopenshot/archive/refs/tags/v0.6.0.tar.gz : 01c6510c92d7ec430f013cdaff3e65063fee4c1e4461fa1e87fcf80a892dddee
+    - https://github.com/OpenShot/libopenshot/archive/refs/tags/v0.7.0.tar.gz : a7954c6af479fbd2e83059d4b6cbb13228de183f9a4eefcbcc8b3fd8de630dd2
 homepage   : https://www.openshot.org/
 license    : LGPL-3.0-or-later
 component  : multimedia.library

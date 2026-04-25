@@ -75,8 +75,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="36">
-            <Date>2026-02-14</Date>
+        <Update release="37">
+            <Date>2026-04-11</Date>
             <Version>2.2.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Jakob Gezelius</Name>

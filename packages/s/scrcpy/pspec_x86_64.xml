@@ -3,8 +3,8 @@
         <Name>scrcpy</Name>
         <Homepage>https://github.com/Genymobile/scrcpy</Homepage>
         <Packager>
-            <Name>Mislav &#x10c;akari&#x107;</Name>
-            <Email>mcakaric@gmail.com</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>network.util</PartOf>
@@ -32,12 +32,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="38">
-            <Date>2025-12-18</Date>
+        <Update release="39">
+            <Date>2026-04-11</Date>
             <Version>3.3.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Mislav &#x10c;akari&#x107;</Name>
-            <Email>mcakaric@gmail.com</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Update>
     </History>
 </PISI>

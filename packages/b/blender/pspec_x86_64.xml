@@ -3,8 +3,8 @@
         <Name>blender</Name>
         <Homepage>https://blender.org/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <License>EULA</License>
@@ -2323,12 +2323,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="102">
-            <Date>2026-04-13</Date>
+        <Update release="103">
+            <Date>2026-04-14</Date>
             <Version>5.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Jakob Gezelius</Name>
+            <Email>jakob@knugen.nu</Email>
         </Update>
     </History>
 </PISI>

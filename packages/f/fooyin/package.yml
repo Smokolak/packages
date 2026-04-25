@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : fooyin
 version    : 0.10.3
-release    : 20
+release    : 21
 source     :
     - https://github.com/fooyin/fooyin/archive/refs/tags/v0.10.3.tar.gz : 3ba96386c12acacb7b73a637bf2a57690516814e862868e340505a3804551cda
 homepage   : https://www.fooyin.org/

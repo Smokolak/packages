@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : k3b
 version    : 25.12.3
-release    : 105
+release    : 106
 source     :
     - https://download.kde.org/stable/release-service/25.12.3/src/k3b-25.12.3.tar.xz : 51792146c932b58174c475c6e40b47b7dfd6ccce85346b31f711db3c32592be8
 homepage   : https://kde.org/applications/multimedia/org.kde.k3b

@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : openimageio
-version    : 3.1.9.0
-release    : 51
+version    : 3.1.12.0
+release    : 52
 source     :
-    - https://github.com/AcademySoftwareFoundation/OpenImageIO/releases/download/v3.1.9.0/OpenImageIO-3.1.9.0.tar.gz : effbceb783c9bdb206214fdf867022c78dc227118dab52fdf926dbfbcb91288a
+    - https://github.com/AcademySoftwareFoundation/OpenImageIO/releases/download/v3.1.12.0/OpenImageIO-3.1.12.0.tar.gz : 704511376faf32767cdcd9aa9a6d0be2b03b91f849ad9008227dc9f0e14bc265
 homepage   : https://openimageio.readthedocs.io/
 license    : BSD-3-Clause
 component  : multimedia.library

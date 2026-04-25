@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : qt6-multimedia
 version    : 6.10.3
-release    : 24
+release    : 25
 source     :
     - https://download.qt.io/official_releases/qt/6.10/6.10.3/submodules/qtmultimedia-everywhere-src-6.10.3.tar.xz : dd228fe54051e8834ca53e558794742c8814f217849f9dfa8f9a9df80441903a
 license    :

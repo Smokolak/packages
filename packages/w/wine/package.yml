@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : wine
 version    : '11.5'
-release    : 207
+release    : 208
 source     :
     - https://dl.winehq.org/wine/source/11.x/wine-11.5.tar.xz : 11370b57ea5d548a54d92c9cd65d0ba635f4f1c3eadace09ed1c419f705e19d1
 license    : LGPL-2.1-or-later
