@@ -43,6 +43,7 @@ setup      : |
     export CXXFLAGS+=" -Wno-incompatible-pointer-types -Wno-int-conversion"
 
     %cmake_ninja \
+        -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
         -DWITH_SSE2=ON \
         -DWITH_SERVER=ON \
         -DWITH_SWSCALE=ON

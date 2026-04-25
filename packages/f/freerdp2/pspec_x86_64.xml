@@ -3,8 +3,8 @@
         <Name>freerdp2</Name>
         <Homepage>https://www.freerdp.com/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>network.util</PartOf>
@@ -324,11 +324,11 @@
     </Package>
     <History>
         <Update release="4">
-            <Date>2026-04-02</Date>
+            <Date>2026-04-25</Date>
             <Version>2.11.7</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
