@@ -5,7 +5,7 @@ libasound.so.2
 libass.so.9
 libboost_locale.so.1.83.0
 libc.so.6
-libffms2.so.4
+libffms2.so.5
 libfftw3.so.3
 libfontconfig.so.1
 libgcc_s.so.1
