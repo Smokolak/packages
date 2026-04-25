@@ -27,9 +27,11 @@ setup      : |
     %patch -p1 -i $pkgfiles/ffmpeg-7-1.patch
     %patch -p1 -i $pkgfiles/ffmpeg-7-2.patch
     sed -i '/avcodec_close(m_codec_context);/d' src/AV/Output/BaseEncoder.cpp
-    %cmake_ninja -DCMAKE_INSTALL_LIBDIR=%libdir% \
-                 -DWITH_JACK=FALSE \
-                 -DWITH_QT5=TRUE
+    %cmake_ninja \
+        -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
+        -DCMAKE_INSTALL_LIBDIR=%libdir% \
+        -DWITH_JACK=FALSE \
+        -DWITH_QT5=TRUE
 build      : |
     %ninja_build
 install    : |
