@@ -3,8 +3,8 @@
         <Name>mgba</Name>
         <Homepage>https://mgba.io/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>MPL-2.0</License>
         <PartOf>games.emulator</PartOf>
@@ -253,11 +253,11 @@
     </Package>
     <History>
         <Update release="59">
-            <Date>2026-04-11</Date>
+            <Date>2026-04-26</Date>
             <Version>0.10.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>

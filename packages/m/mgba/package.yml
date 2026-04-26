@@ -24,7 +24,9 @@ builddeps  :
     - desktop-file-utils
 clang      : true
 setup      : |
-    %cmake_ninja -DBUILD_LTO=ON
+    %cmake_ninja \
+        -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
+        -DBUILD_LTO=ON
 build      : |
     %ninja_build
 install    : |
