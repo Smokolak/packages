@@ -6299,7 +6299,7 @@ liblcms2.so.2:cmsSetDeviceClass
 liblcms2.so.2:cmsSetLogErrorHandler
 liblcms2.so.2:cmsWriteTag
 liblcms2.so.2:cmsXYZ2xyY
-liblcms2_fast_float.so:cmsFastFloatExtensions
+liblcms2_fast_float.so.2:cmsFastFloatExtensions
 libm.so.6:acos
 libm.so.6:asin
 libm.so.6:atan
