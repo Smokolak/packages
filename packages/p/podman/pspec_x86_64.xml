@@ -3,8 +3,8 @@
         <Name>podman</Name>
         <Homepage>https://podman.io/</Homepage>
         <Packager>
-            <Name>Mislav &#x10c;akari&#x107;</Name>
-            <Email>mcakaric@gmail.com</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <License>GPL-2.0-or-later</License>
@@ -293,12 +293,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="45">
-            <Date>2025-12-18</Date>
-            <Version>5.7.1</Version>
+        <Update release="46">
+            <Date>2026-04-26</Date>
+            <Version>5.8.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Mislav &#x10c;akari&#x107;</Name>
-            <Email>mcakaric@gmail.com</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Update>
     </History>
 </PISI>

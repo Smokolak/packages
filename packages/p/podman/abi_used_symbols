@@ -17,6 +17,7 @@ libc.so.6:abort
 libc.so.6:access
 libc.so.6:calloc
 libc.so.6:chdir
+libc.so.6:clearenv
 libc.so.6:close
 libc.so.6:closedir
 libc.so.6:dirfd
