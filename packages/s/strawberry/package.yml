@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : strawberry
 version    : 1.2.19
-release    : 92
+release    : 93
 source     :
     - https://github.com/strawberrymusicplayer/strawberry/releases/download/1.2.19/strawberry-1.2.19.tar.xz : a4490de1ce5c1ce327ced1e6a7554f052ead4182a4f492fb6214747336fd9ab7
 license    : GPL-3.0-or-later
@@ -12,7 +12,6 @@ description: |
     Strawberry is a audio player and music collection organizer. It is a fork of Clementine released in 2018 aimed at music collectors, audio enthusiasts and audiophiles.
 builddeps  :
     - pkgconfig(Qt6UiTools)
-    - pkgconfig(RapidJSON)
     - pkgconfig(alsa)
     - pkgconfig(fftw3)
     - pkgconfig(gstreamer-audio-1.0)
@@ -32,8 +31,9 @@ builddeps  :
     - liblastfm-devel
     - qt6-base-private-devel
 setup      : |
-    %cmake_ninja -DINSTALL_TRANSLATIONS=ON \
-                 -DENABLE_GPOD=OFF
+    %cmake_ninja \
+        -DINSTALL_TRANSLATIONS=ON \
+        -DENABLE_GPOD=OFF
 build      : |
     %ninja_build
 install    : |

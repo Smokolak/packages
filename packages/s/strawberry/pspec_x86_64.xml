@@ -62,8 +62,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="92">
-            <Date>2026-04-17</Date>
+        <Update release="93">
+            <Date>2026-04-26</Date>
             <Version>1.2.19</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
