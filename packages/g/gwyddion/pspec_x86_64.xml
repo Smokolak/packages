@@ -477,7 +477,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="24">gwyddion</Dependency>
+            <Dependency release="25">gwyddion</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/gwyddion/app/app.h</Path>
@@ -1360,8 +1360,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="24">
-            <Date>2025-11-09</Date>
+        <Update release="25">
+            <Date>2026-04-23</Date>
             <Version>2.69</Version>
             <Comment>Packaging update</Comment>
             <Name>Jared Cervantes</Name>

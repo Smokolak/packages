@@ -3,8 +3,8 @@
         <Name>blender</Name>
         <Homepage>https://blender.org/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <License>EULA</License>
@@ -2323,12 +2323,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="103">
-            <Date>2026-04-14</Date>
+        <Update release="104">
+            <Date>2026-04-25</Date>
             <Version>5.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Update>
     </History>
 </PISI>

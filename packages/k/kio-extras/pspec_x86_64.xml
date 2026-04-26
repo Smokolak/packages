@@ -3,8 +3,8 @@
         <Name>kio-extras</Name>
         <Homepage>https://kde.org/</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.kde</PartOf>
@@ -2162,7 +2162,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="154">kio-extras</Dependency>
+            <Dependency release="155">kio-extras</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/KioArchive/kio_archivebase.h</Path>
@@ -2182,12 +2182,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="154">
-            <Date>2026-04-09</Date>
+        <Update release="155">
+            <Date>2026-04-23</Date>
             <Version>25.12.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harvey@getsol.us</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Update>
     </History>
 </PISI>

@@ -3,8 +3,8 @@
         <Name>hugin</Name>
         <Homepage>https://hugin.sourceforge.io/</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -608,12 +608,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="44">
-            <Date>2025-12-13</Date>
+        <Update release="45">
+            <Date>2026-04-23</Date>
             <Version>2025.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Jared Cervantes</Name>
+            <Email>jared@jaredcervantes.com</Email>
         </Update>
     </History>
 </PISI>

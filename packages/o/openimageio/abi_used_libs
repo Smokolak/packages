@@ -1,9 +1,9 @@
 UNKNOWN
 ld-linux-x86-64.so.2
-libIex-3_1.so.30
+libIex-3_4.so.33
 libOpenColorIO.so.2.5
-libOpenEXR-3_1.so.30
-libOpenEXRCore-3_1.so.30
+libOpenEXR-3_4.so.33
+libOpenEXRCore-3_4.so.33
 libOpenGL.so.0
 libPtex.so.2.4
 libQt6Core.so.6
