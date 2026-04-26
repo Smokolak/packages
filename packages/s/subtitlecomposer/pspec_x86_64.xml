@@ -3,8 +3,8 @@
         <Name>subtitlecomposer</Name>
         <Homepage>https://subtitlecomposer.kde.org/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.video</PartOf>
@@ -83,11 +83,11 @@
     </Package>
     <History>
         <Update release="18">
-            <Date>2026-04-12</Date>
+            <Date>2026-04-26</Date>
             <Version>0.8.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
