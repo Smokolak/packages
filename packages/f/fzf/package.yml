@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : fzf
-version    : 0.70.0
-release    : 50
+version    : 0.72.0
+release    : 51
 source     :
-    - git|https://github.com/junegunn/fzf : v0.70.0
+    - git|https://github.com/junegunn/fzf : v0.72.0
 homepage   : https://github.com/junegunn/fzf
 license    : MIT
 component  : system.utils
