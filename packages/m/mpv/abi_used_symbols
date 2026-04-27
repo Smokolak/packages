@@ -256,6 +256,7 @@ libasound.so.2:snd_strerror
 libass.so.9:ass_add_font
 libass.so.9:ass_alloc_event
 libass.so.9:ass_alloc_style
+libass.so.9:ass_configure_prune
 libass.so.9:ass_flush_events
 libass.so.9:ass_free_event
 libass.so.9:ass_free_track
