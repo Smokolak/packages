@@ -3,8 +3,8 @@
         <Name>openroad</Name>
         <Homepage>https://theopenroadproject.org/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Marcus Mellor</Name>
+            <Email>marcus@infinitymdm.dev</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <PartOf>office.scientific</PartOf>
@@ -28,12 +28,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2026-03-11</Date>
-            <Version>26.01.29</Version>
+        <Update release="7">
+            <Date>2026-04-28</Date>
+            <Version>26.04.07</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Marcus Mellor</Name>
+            <Email>marcus@infinitymdm.dev</Email>
         </Update>
     </History>
 </PISI>
