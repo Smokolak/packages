@@ -3,8 +3,8 @@
         <Name>fritzing</Name>
         <Homepage>https://fritzing.org/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Matthias Homann</Name>
+            <Email>palto@mailbox.org</Email>
         </Packager>
         <License>CC-BY-SA-3.0</License>
         <License>GPL-3.0-or-later</License>
@@ -218,6 +218,11 @@
             <Path fileType="data">/usr/share/fritzing/translations/syntax/arduino.xml</Path>
             <Path fileType="data">/usr/share/fritzing/translations/syntax/picaxe.xml</Path>
             <Path fileType="data">/usr/share/fritzing/translations/syntax/styles.xml</Path>
+            <Path fileType="data">/usr/share/licenses/fritzing/LICENSE.CC-BY-SA</Path>
+            <Path fileType="data">/usr/share/licenses/fritzing/LICENSE.GPL2</Path>
+            <Path fileType="data">/usr/share/licenses/fritzing/LICENSE.GPL3</Path>
+            <Path fileType="data">/usr/share/licenses/fritzing/LICENSE.LGPLv3</Path>
+            <Path fileType="data">/usr/share/licenses/fritzing/LICENSE.Modified_BSD</Path>
             <Path fileType="man">/usr/share/man/man1/Fritzing.1.zst</Path>
             <Path fileType="data">/usr/share/metainfo/org.fritzing.Fritzing.appdata.xml</Path>
             <Path fileType="data">/usr/share/mime/packages/fritzing.xml</Path>
@@ -225,12 +230,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="25">
-            <Date>2025-10-28</Date>
-            <Version>1.0.6</Version>
+        <Update release="26">
+            <Date>2026-04-27</Date>
+            <Version>1.0.7</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Matthias Homann</Name>
+            <Email>palto@mailbox.org</Email>
         </Update>
     </History>
 </PISI>

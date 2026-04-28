@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : fritzing
-version    : 1.0.6
-release    : 25
+version    : 1.0.7
+release    : 26
 source     :
-    - git|https://github.com/fritzing/fritzing-app.git : 04e5bb0241e8f1de24d0fce9be070041c6d5b68e
+    - git|https://github.com/fritzing/fritzing-app.git : 394a8bb4791424ffd99f99ebc330264d4becea63
     # Add required svg++ library
     - https://github.com/svgpp/svgpp/archive/refs/tags/v1.3.1.tar.gz : be8a89df72d01cf062cc9815dd64c9576b4d20910d6d7aee7f0ea26484dc5e76
 homepage   : https://fritzing.org/
@@ -29,10 +29,6 @@ builddeps  :
 rundeps    :
     - fritzing-parts
 setup      : |
-    # Allow use of newer Qt versions
-    git revert -n 1bf5a03f27b7401631baaedb1ceb9c313a5ffe3d
-    git revert -n 20eeb4c2f95f3de669e90a1f3fa2ac49cdcc33ac
-
     %apply_patches
 
     # Disable broken font scaling (#3221)
@@ -49,3 +45,5 @@ install    : |
 
     # Remove RUNPATH that points to build dir from Fritzing binary
     patchelf --remove-rpath "${installdir}"/usr/bin/Fritzing
+
+    %install_license LICENSE.*
