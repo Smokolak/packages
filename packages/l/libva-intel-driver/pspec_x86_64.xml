@@ -1,10 +1,10 @@
 <PISI>
     <Source>
         <Name>libva-intel-driver</Name>
-        <Homepage>https://github.com/intel/intel-vaapi-driver</Homepage>
+        <Homepage>https://github.com/irql-notlessorequal/intel-vaapi-driver</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Robert Gonzalez</Name>
+            <Email>uni.dos12@outlook.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>xorg.display</PartOf>
@@ -21,15 +21,16 @@
         <PartOf>xorg.display</PartOf>
         <Files>
             <Path fileType="library">/usr/lib64/dri/i965_drv_video.so</Path>
+            <Path fileType="data">/usr/share/licenses/libva-intel-driver/LICENSE</Path>
         </Files>
     </Package>
     <History>
-        <Update release="20">
-            <Date>2025-12-28</Date>
+        <Update release="21">
+            <Date>2026-04-27</Date>
             <Version>2.4.5</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Robert Gonzalez</Name>
+            <Email>uni.dos12@outlook.com</Email>
         </Update>
     </History>
 </PISI>
