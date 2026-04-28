@@ -1,8 +1,8 @@
 name       : nvidia-open
-version    : 580.126.18    # This has to be kept at the same version as nvidia-glx-driver
-release    : 19
+version    : '580.142'     # This has to be kept at the same version as nvidia-glx-driver
+release    : 20
 source     :
-    - https://download.nvidia.com/XFree86/NVIDIA-kernel-module-source/NVIDIA-kernel-module-source-580.126.18.tar.xz : 4f2b776d75707d6b4770bab4b0a7aba95355fe833bc4cee54100c29839b53e6e
+    - https://download.nvidia.com/XFree86/NVIDIA-kernel-module-source/NVIDIA-kernel-module-source-580.142.tar.xz : ad50b7f88559016dd4ee8d6cf3c0980cf5a4748eded157c8a89871c1f0719b90
 homepage   : https://github.com/NVIDIA/open-gpu-kernel-modules
 license    :
     - GPL-2.0-only
@@ -47,6 +47,13 @@ setup      : |
     mkdir current lts
     tar --strip-components=1 -xf $sources/NVIDIA-kernel-module-source-%version%.tar.xz -C current
     tar --strip-components=1 -xf $sources/NVIDIA-kernel-module-source-%version%.tar.xz -C lts
+
+    pushd current/kernel-open
+    %patch -p1 -i $pkgfiles/fix-hw-cursor-kde.patch
+    popd
+    pushd lts/kernel-open
+    %patch -p1 -i $pkgfiles/fix-hw-cursor-kde.patch
+    popd
 build      : |
     pushd current
     %make KERNEL_UNAME=%kernel_version_current% NV_VERBOSE=1 modules

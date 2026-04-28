@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : openrazer
 version    : 3.12.1
-release    : 369
+release    : 370
 source     :
     - https://github.com/openrazer/openrazer/archive/refs/tags/v3.12.1.tar.gz : 63b9579e3650e532b355fa627317dfd4ee2e2859348c8dd73660d99d7d35ff65
 license    : GPL-2.0-or-later

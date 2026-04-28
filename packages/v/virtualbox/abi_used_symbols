@@ -145,6 +145,9 @@ UNKNOWN:SUPR0DefaultLogInstanceEx
 UNKNOWN:SUPR0EnableHwvirt
 UNKNOWN:SUPR0FpuBegin
 UNKNOWN:SUPR0FpuEnd
+UNKNOWN:SUPR0FpuEnsureCurrent
+UNKNOWN:SUPR0FpuLock
+UNKNOWN:SUPR0FpuUnlock
 UNKNOWN:SUPR0GetCurrentGdtRw
 UNKNOWN:SUPR0GetDefaultLogRelInstanceEx
 UNKNOWN:SUPR0GetHwvirtMsrs
@@ -1957,6 +1960,7 @@ libQt6Widgets.so.6:_ZN12QTextBrowser14mouseMoveEventEP11QMouseEvent
 libQt6Widgets.so.6:_ZN12QTextBrowser15mousePressEventEP11QMouseEvent
 libQt6Widgets.so.6:_ZN12QTextBrowser16staticMetaObjectE
 libQt6Widgets.so.6:_ZN12QTextBrowser17backwardAvailableEb
+libQt6Widgets.so.6:_ZN12QTextBrowser17mouseReleaseEventEP11QMouseEvent
 libQt6Widgets.so.6:_ZN12QTextBrowser18focusNextPrevChildEb
 libQt6Widgets.so.6:_ZN12QTextBrowser20setOpenExternalLinksEb
 libQt6Widgets.so.6:_ZN12QTextBrowser4homeEv

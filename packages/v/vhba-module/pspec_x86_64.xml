@@ -20,11 +20,11 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="297">vhba-module-common</Dependency>
+            <Dependency releaseFrom="298">vhba-module-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.23-284.lts/kernel/drivers/misc/vhba.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/misc/vhba.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.25-285.lts/kernel/drivers/misc/vhba.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/misc/vhba.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -44,17 +44,17 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="297">vhba-module-common</Dependency>
+            <Dependency releaseFrom="298">vhba-module-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.23-334.current/kernel/drivers/misc/vhba.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/misc/vhba.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/7.0.2-335.current/kernel/drivers/misc/vhba.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/7.0.2-335.current/kernel/drivers/misc/vhba.ko.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="297">
-            <Date>2026-04-19</Date>
-            <Version>20250329</Version>
+        <Update release="298">
+            <Date>2026-04-28</Date>
+            <Version>20260313</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>

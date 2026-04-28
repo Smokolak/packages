@@ -19,12 +19,12 @@
         <Description xml:lang="en">NVIDIA open GPU kernel modules (LTS Kernel)</Description>
         <PartOf>kernel.drivers</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.lts.6.18.23-284.nvidia</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.lts.6.18.25-285.nvidia</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia.ko.zst</Path>
             <Path fileType="data">/usr/share/licenses/nvidia-open/COPYING</Path>
             <Path fileType="data">/usr/share/metainfo/nvidia-open-lts.metainfo.xml</Path>
         </Files>
@@ -41,12 +41,12 @@
         <Description xml:lang="en">NVIDIA open GPU kernel modules (Current Kernel)</Description>
         <PartOf>kernel.drivers</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.current.6.18.23-334.nvidia</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.current.7.0.2-335.nvidia</Path>
+            <Path fileType="library">/usr/lib64/modules/7.0.2-335.current/kernel/drivers/video/nvidia-drm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/7.0.2-335.current/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/7.0.2-335.current/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/7.0.2-335.current/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/7.0.2-335.current/kernel/drivers/video/nvidia.ko.zst</Path>
             <Path fileType="data">/usr/share/metainfo/nvidia-open-current.metainfo.xml</Path>
         </Files>
         <Conflicts>
@@ -66,9 +66,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="19">
-            <Date>2026-04-19</Date>
-            <Version>580.126.18</Version>
+        <Update release="20">
+            <Date>2026-04-28</Date>
+            <Version>580.142</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>

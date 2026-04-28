@@ -18,20 +18,20 @@
         <Description xml:lang="en">NVIDIA 470.xx Binary Driver (LTS Kernel)</Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="134">nvidia-470-glx-driver-common</Dependency>
+            <Dependency releaseFrom="135">nvidia-470-glx-driver-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.lts.6.18.23-284.nvidia</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/kernel/drivers/video/nvidia.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.lts.6.18.25-285.nvidia</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-drm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/kernel/drivers/video/nvidia.ko.zst</Path>
             <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/nvidia-lts.png</Path>
             <Path fileType="data">/usr/share/metainfo/nvidia-470-lts.metainfo.xml</Path>
         </Files>
@@ -47,7 +47,7 @@
         <Description xml:lang="en">32-bit libraries for NVIDIA 470.xx Binary Driver</Description>
         <PartOf>xorg.driver</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="134">nvidia-470-glx-driver-common</Dependency>
+            <Dependency releaseFrom="135">nvidia-470-glx-driver-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/libEGL_nvidia.so</Path>
@@ -248,35 +248,6 @@
         </Conflicts>
     </Package>
     <Package>
-        <Name>nvidia-470-glx-driver-current</Name>
-        <Summary xml:lang="en">NVIDIA 470.xx Binary Driver (Current Kernel)</Summary>
-        <Description xml:lang="en">NVIDIA 470.xx Binary Driver (Current Kernel)</Description>
-        <PartOf>kernel.drivers</PartOf>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="134">nvidia-470-glx-driver-common</Dependency>
-        </RuntimeDependencies>
-        <Files>
-            <Path fileType="data">/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="data">/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/kernel/initrd-com.solus-project.current.6.18.23-334.nvidia</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-drm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-modeset.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-peermem.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia-uvm.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/kernel/drivers/video/nvidia.ko.zst</Path>
-            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/nvidia-current.png</Path>
-            <Path fileType="data">/usr/share/metainfo/nvidia-470-current.metainfo.xml</Path>
-        </Files>
-        <Conflicts>
-            <Package>nvidia-beta-driver-current</Package>
-            <Package>nvidia-developer-driver-current</Package>
-            <Package>nvidia-glx-driver-current</Package>
-        </Conflicts>
-    </Package>
-    <Package>
         <Name>nvidia-470-glx-driver-modaliases</Name>
         <Summary xml:lang="en">These files are used by the Software Center for hardware detection</Summary>
         <Description xml:lang="en">These files are used by the Software Center for hardware detection</Description>
@@ -287,8 +258,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="134">
-            <Date>2026-04-19</Date>
+        <Update release="135">
+            <Date>2026-04-28</Date>
             <Version>470.256.02</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
