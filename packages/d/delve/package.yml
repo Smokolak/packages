@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : delve
-version    : 1.26.2
-release    : 10
+version    : 1.26.3
+release    : 11
 source     :
-    - https://github.com/go-delve/delve/archive/v1.26.2.tar.gz : b3be68f1207076e539268f0c502a7d399e798c18f6998860dbf0bdf80eb77f44
+    - https://github.com/go-delve/delve/archive/v1.26.3.tar.gz : c5abd02033d7601a41bb6748589c0be42080dc4f91c7e48fc8cbb7f558cc8748
 license    : MIT
 homepage   : https://github.com/go-delve/delve/
 component  : programming.tools
