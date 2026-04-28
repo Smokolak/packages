@@ -20,11 +20,11 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="339">v4l2loopback-common</Dependency>
+            <Dependency releaseFrom="340">v4l2loopback-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.23-284.lts/extra/v4l2loopback.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-284.lts/extra/v4l2loopback.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/6.18.25-285.lts/extra/v4l2loopback.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/6.18.25-285.lts/extra/v4l2loopback.ko.zst</Path>
         </Files>
     </Package>
     <Package>
@@ -45,16 +45,16 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="339">v4l2loopback-common</Dependency>
+            <Dependency releaseFrom="340">v4l2loopback-common</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="data">/lib64/modules/6.18.23-334.current/extra/v4l2loopback.ko.zst</Path>
-            <Path fileType="library">/usr/lib64/modules/6.18.23-334.current/extra/v4l2loopback.ko.zst</Path>
+            <Path fileType="data">/lib64/modules/7.0.2-335.current/extra/v4l2loopback.ko.zst</Path>
+            <Path fileType="library">/usr/lib64/modules/7.0.2-335.current/extra/v4l2loopback.ko.zst</Path>
         </Files>
     </Package>
     <History>
-        <Update release="339">
-            <Date>2026-04-19</Date>
+        <Update release="340">
+            <Date>2026-04-28</Date>
             <Version>0.15.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
