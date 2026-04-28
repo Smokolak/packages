@@ -3173,5 +3173,6 @@
 		<Package>botan2</Package>
 		<Package>botan2-devel</Package>
 		<Package>botan2-dbginfo</Package>
+		<Package>nvidia-470-glx-driver-current</Package>
 	</Obsoletes>
 </PISI>

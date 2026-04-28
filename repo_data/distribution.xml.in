@@ -4353,5 +4353,7 @@
 		<Package>botan2-devel</Package>
 		<Package>botan2-dbginfo</Package>
 
+		<!-- 470 driver is no longer supported on linux-current -->
+		<Package>nvidia-470-glx-driver-current</Package>
 	</Obsoletes>
 </PISI>
