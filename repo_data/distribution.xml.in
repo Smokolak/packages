@@ -4355,5 +4355,12 @@
 
 		<!-- 470 driver is no longer supported on linux-current -->
 		<Package>nvidia-470-glx-driver-current</Package>
+
+		<!-- Deprecate nvidia vulkan developer driver -->
+		<Package>nvidia-developer-driver</Package>
+		<Package>nvidia-developer-driver-32bit</Package>
+		<Package>nvidia-developer-driver-common</Package>
+		<Package>nvidia-developer-driver-current</Package>
+		<Package>nvidia-developer-driver-modaliases</Package>
 	</Obsoletes>
 </PISI>
