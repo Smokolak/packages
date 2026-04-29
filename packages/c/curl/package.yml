@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : curl
-version    : 8.19.0
-release    : 114
+version    : 8.20.0
+release    : 115
 source     :
-    - https://github.com/curl/curl/releases/download/curl-8_19_0/curl-8.19.0.tar.bz2 : eba3230c1b659211a7afa0fbf475978cbf99c412e4d72d9aa92d020c460742d4
+    - https://github.com/curl/curl/releases/download/curl-8_20_0/curl-8.20.0.tar.xz : 63fe2dc148ba0ceae89922ef838f7e5c946272c2e78b7c59fab4b79d3ce2b896
 extract    : false
 homepage   : https://curl.se
 license    : MIT
@@ -48,8 +48,8 @@ checkdeps  :
     - openssh-server
 setup      : |
     mkdir main gnutls
-    tar --strip-components=1 -xf $sources/curl-%version%.tar.bz2 -C main
-    tar --strip-components=1 -xf $sources/curl-%version%.tar.bz2 -C gnutls
+    tar --strip-components=1 -xf $sources/curl-%version%.tar.xz -C main
+    tar --strip-components=1 -xf $sources/curl-%version%.tar.xz -C gnutls
 
     common="\
         --disable-static \
@@ -100,6 +100,8 @@ install    : |
         done
     popd
     cp -a $workdir/gnutlsinst/* $installdir
+
+    %install_license main/COPYING
 check      : |
     # ccache breaks some tests if enabled
     export CCACHE_DISABLE=1

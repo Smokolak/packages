@@ -75,6 +75,11 @@ libc.so.6:open
 libc.so.6:opendir
 libc.so.6:pipe
 libc.so.6:poll
+libc.so.6:pthread_cond_destroy
+libc.so.6:pthread_cond_init
+libc.so.6:pthread_cond_signal
+libc.so.6:pthread_cond_timedwait
+libc.so.6:pthread_cond_wait
 libc.so.6:pthread_create
 libc.so.6:pthread_detach
 libc.so.6:pthread_join
@@ -158,9 +163,6 @@ libcrypto.so.3:BN_clear_free
 libcrypto.so.3:BN_num_bits
 libcrypto.so.3:BN_print
 libcrypto.so.3:CRYPTO_free
-libcrypto.so.3:DES_ecb_encrypt
-libcrypto.so.3:DES_set_key_unchecked
-libcrypto.so.3:DES_set_odd_parity
 libcrypto.so.3:ENGINE_by_id
 libcrypto.so.3:ENGINE_ctrl
 libcrypto.so.3:ENGINE_ctrl_cmd
@@ -191,9 +193,11 @@ libcrypto.so.3:EVP_PKEY_get0_type_name
 libcrypto.so.3:EVP_PKEY_get1_RSA
 libcrypto.so.3:EVP_PKEY_get_bits
 libcrypto.so.3:EVP_PKEY_get_bn_param
+libcrypto.so.3:EVP_PKEY_get_default_digest_name
 libcrypto.so.3:EVP_PKEY_get_group_name
 libcrypto.so.3:EVP_PKEY_get_id
 libcrypto.so.3:EVP_PKEY_get_security_bits
+libcrypto.so.3:EVP_PKEY_is_a
 libcrypto.so.3:EVP_get_digestbyname
 libcrypto.so.3:EVP_sha1
 libcrypto.so.3:EVP_sha256
@@ -202,7 +206,6 @@ libcrypto.so.3:GENERAL_NAMES_free
 libcrypto.so.3:MD5_Final
 libcrypto.so.3:MD5_Init
 libcrypto.so.3:MD5_Update
-libcrypto.so.3:OBJ_find_sigid_algs
 libcrypto.so.3:OBJ_nid2sn
 libcrypto.so.3:OBJ_obj2txt
 libcrypto.so.3:OCSP_BASICRESP_free
@@ -294,7 +297,7 @@ libcrypto.so.3:X509_get_ext_d2i
 libcrypto.so.3:X509_get_issuer_name
 libcrypto.so.3:X509_get_pubkey
 libcrypto.so.3:X509_get_serialNumber
-libcrypto.so.3:X509_get_signature_nid
+libcrypto.so.3:X509_get_signature_info
 libcrypto.so.3:X509_get_subject_name
 libcrypto.so.3:X509_get_version
 libcrypto.so.3:X509_load_crl_file
@@ -402,11 +405,6 @@ libidn2.so.0:idn2_check_version
 libidn2.so.0:idn2_free
 libidn2.so.0:idn2_lookup_ul
 libidn2.so.0:idn2_to_unicode_8z8z
-libnettle.so.8:nettle_des_encrypt
-libnettle.so.8:nettle_des_set_key
-libnettle.so.8:nettle_md4_digest
-libnettle.so.8:nettle_md4_init
-libnettle.so.8:nettle_md4_update
 libnettle.so.8:nettle_md5_digest
 libnettle.so.8:nettle_md5_init
 libnettle.so.8:nettle_md5_update
