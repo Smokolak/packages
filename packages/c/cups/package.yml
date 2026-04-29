@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : cups
-version    : 2.4.18
-release    : 43
+version    : 2.4.19
+release    : 44
 source     :
-    - https://github.com/OpenPrinting/cups/releases/download/v2.4.18/cups-2.4.18-source.tar.gz : 8fe23bf4905f8889f4bd5ebf375e81916e84754bfc59eccc88cfd7b1e97a741b
-homepage   : https://openprinting.github.io/cups/index.html
+    - https://github.com/OpenPrinting/cups/releases/download/v2.4.19/cups-2.4.19-source.tar.gz : 820984b12a67f98705785aae2dd1347fe0ac097828001d4583ff64574aed6389
+homepage   : https://openprinting.github.io/cups/
 license    :
     - Apache-2.0 WITH LLVM-exception
     - BSD-2-Clause
